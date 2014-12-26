@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="0" y="0">
+            <group eventID="1" id="-1">
+                <set-val-18-5 comment="false" x="11" y="25">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-18-5>
+                <set-game-val-11 comment="false" x="11" y="50">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-11>
+                <set-game-val-10 comment="false" x="11" y="75">
+                    <int id="0" val="100"/>
+                </set-game-val-10>
+                <set-game-val-9 comment="false" x="11" y="95">
+                    <int id="0" val="100"/>
+                </set-game-val-9>
+                <comment-short comment="false" x="11" y="115">
+                    <int id="0" val="Setting hidden lists to &amp;quot;create new list&amp;quot; is necessary for them to work properly."/>
+                </comment-short>
+                <set-val-18-1 comment="false" x="11" y="135">
+                    <create-list comment="false" id="0" x="0" y="0"/>
+                </set-val-18-1>
+                <repeat comment="false" x="11" y="160">
+                    <group eventID="1" id="-1">
+                        <comment-short comment="false" x="22" y="198">
+                            <int id="0" val="Fill the list so that the replace item block can work properly."/>
+                        </comment-short>
+                        <add-list comment="false" x="22" y="218">
+                            <get-val-18-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="None"/>
+                        </add-list>
+                    </group>
+                    <times comment="false" id="0" x="0" y="0">
+                        <scene-wh comment="false" id="0" x="0" y="0">
+                            <int id="0" val="2"/>
+                        </scene-wh>
+                        <scene-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="3"/>
+                        </scene-wh>
+                    </times>
+                </repeat>
+                <comment-short comment="false" x="11" y="255">
+                    <int id="0" val="Null Actor is returned by the getTheActor custom block to represent an empty space."/>
+                </comment-short>
+                <comment-short comment="false" x="11" y="275">
+                    <int id="0" val="This actor is not seen ingame, and you should not change or remove it."/>
+                </comment-short>
+                <create-actor3 comment="false" x="11" y="295">
+                    <ACTORTYPE eid="19" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="2"/>
+                </create-actor3>
+                <set-val-18-3 comment="false" x="11" y="322">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-18-3>
+                <comment-short comment="false" x="11" y="349">
+                    <int id="0" val="When no block is selected, the Selected Actor becomes Null Actor."/>
+                </comment-short>
+                <set-val-18-2 comment="false" x="11" y="369">
+                    <get-val-18-3 comment="false" id="0" x="0" y="0"/>
+                </set-val-18-2>
+                <dolater comment="false" x="11" y="401">
+                    <group eventID="1" id="-1">
+                        <comment-short comment="false" x="22" y="428">
+                            <int id="0" val="The blocks use this boolean to control how the animations are chosen."/>
+                        </comment-short>
+                        <set-game-val-11 comment="false" x="22" y="448">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-11>
+                    </group>
+                    <int id="0" val="0.1"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </dolater>
+                <periodic comment="false" x="11" y="485">
+                    <group eventID="1" id="-1">
+                        <comment-short comment="false" x="22" y="512">
+                            <int id="0" val="These attributes are integers to avoid accuracy problems related to decimal numbers."/>
+                        </comment-short>
+                        <set-game-val-10 comment="false" x="22" y="532">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-10 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-game-val-10>
+                        <set-game-val-9 comment="false" x="22" y="562">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </set-game-val-9>
+                    </group>
+                    <int id="0" val="0.1"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </periodic>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <receiver-1-16 comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <return comment="false" x="26" y="40">
+                    <get-val-18-1 comment="false" id="0" x="0" y="0"/>
+                </return>
+            </group>
+        </receiver-1-16>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <receiver-2-21 comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <return comment="false" x="26" y="40">
+                    <get-val-18-2 comment="false" id="0" x="0" y="0"/>
+                </return>
+            </group>
+        </receiver-2-21>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <receiver-3-22 comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <set-val-18-2 comment="false" x="26" y="45">
+                    <get-byobval-18-22-0 comment="false" id="0" x="0" y="0"/>
+                </set-val-18-2>
+            </group>
+            <get-byobval-18-22-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-3-22>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <receiver-4-25 comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="45">
+                    <group eventID="5" id="-1">
+                        <return comment="false" x="37" y="80">
+                            <get-val-18-3 comment="false" id="0" x="0" y="0"/>
+                        </return>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-item comment="false" id="0" x="0" y="0">
+                            <get-val-18-1 comment="false" id="0" x="0" y="0"/>
+                            <get-byobval-18-25-0 comment="false" id="1" x="0" y="0"/>
+                        </get-item>
+                        <int id="1" val="None"/>
+                    </eq>
+                </if>
+                <else comment="false" x="26" y="117">
+                    <group eventID="5" id="-1">
+                        <return comment="false" x="37" y="137">
+                            <get-item comment="false" id="0" x="0" y="0">
+                                <get-val-18-1 comment="false" id="0" x="0" y="0"/>
+                                <get-byobval-18-25-0 comment="false" id="1" x="0" y="0"/>
+                            </get-item>
+                        </return>
+                    </group>
+                </else>
+            </group>
+            <get-byobval-18-25-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-4-25>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <event-key-press-release comment="false" x="0" y="0">
+            <group eventID="6" id="-1">
+                <scene-reload-new comment="false" x="11" y="27">
+                    <int id="0" val="5"/>
+                    <get-game-val-8 comment="false" id="1" x="0" y="0"/>
+                    <int id="2" val="5"/>
+                    <get-game-val-8 comment="false" id="3" x="0" y="0"/>
+                </scene-reload-new>
+            </group>
+            <CONTROL eid="7" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="6" id="-1"/>
+    <group eventID="7" id="0">
+        <receiver-5-32 comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <return comment="false" x="26" y="40">
+                    <get-val-18-3 comment="false" id="0" x="0" y="0"/>
+                </return>
+            </group>
+        </receiver-5-32>
+    </group>
+    <group eventID="7" id="-1"/>
+    <group eventID="9" id="0">
+        <receiver-6-37 comment="false" x="15" y="15">
+            <group eventID="9" id="-1">
+                <comment-short comment="false" x="26" y="40">
+                    <int id="0" val="The boolean attribute and delay make sure that the match sound isn&amp;#039;t spammed too much.  Adjust the timer if you want."/>
+                </comment-short>
+                <if comment="false" x="26" y="60">
+                    <group eventID="9" id="-1">
+                        <play-sound4 comment="false" x="37" y="90">
+                            <int id="0" val="0"/>
+                            <get-val-18-4 comment="false" id="1" x="0" y="0"/>
+                        </play-sound4>
+                        <set-val-18-5 comment="false" x="37" y="122">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-18-5>
+                        <dolater comment="false" x="37" y="147">
+                            <group eventID="9" id="-1">
+                                <set-val-18-5 comment="false" x="48" y="174">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-18-5>
+                            </group>
+                            <int id="0" val="0.2"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-18-5 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+        </receiver-6-37>
+    </group>
+    <group eventID="9" id="-1"/>
+    <group eventID="10" id="0">
+        <receiver-7-38 comment="false" x="15" y="15">
+            <group eventID="10" id="-1">
+                <if comment="false" x="26" y="45">
+                    <group eventID="10" id="-1">
+                        <return comment="false" x="37" y="93">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </return>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <mod comment="false" id="0" x="0" y="0">
+                            <roundnew comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <get-byobval-18-38-0 comment="false" id="1" x="0" y="0"/>
+                            </roundnew>
+                            <int id="1" val="2"/>
+                        </mod>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="26" y="130">
+                    <group eventID="10" id="-1">
+                        <return comment="false" x="37" y="150">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </return>
+                    </group>
+                </else>
+            </group>
+            <get-byobval-18-38-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-7-38>
+    </group>
+    <group eventID="10" id="-1"/>
+</groups>

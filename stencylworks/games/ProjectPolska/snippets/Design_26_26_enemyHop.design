@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <setanim comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <string-to-anim comment="false" id="1" x="0" y="0">
+                        <get-val-26-1 comment="false" id="0" x="0" y="0"/>
+                    </string-to-anim>
+                </setanim>
+                <actor-set-prop comment="false" x="26" y="77">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="On Ground?"/>
+                    <true comment="false" id="2" x="0" y="0"/>
+                </actor-set-prop>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <set-dxy comment="false" x="37" y="78">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <neg comment="false" id="2" x="0" y="0">
+                                <get-val-26-6 comment="false" id="0" x="0" y="0"/>
+                            </neg>
+                        </set-dxy>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getanim comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </getanim>
+                        <get-val-26-1 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="127">
+                    <group eventID="2" id="-1">
+                        <set-dxy comment="false" x="37" y="165">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-val-26-6 comment="false" id="2" x="0" y="0"/>
+                        </set-dxy>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getanim comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </getanim>
+                        <get-val-26-2 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <periodic comment="false" x="26" y="209">
+                    <group eventID="2" id="-1">
+                        <if comment="false" x="37" y="236">
+                            <group eventID="2" id="-1">
+                                <set-dxy comment="false" x="48" y="274">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <neg comment="false" id="2" x="0" y="0">
+                                        <get-val-26-3 comment="false" id="0" x="0" y="0"/>
+                                    </neg>
+                                </set-dxy>
+                                <actor-set-prop comment="false" x="48" y="311">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="On Ground?"/>
+                                    <false comment="false" id="2" x="0" y="0"/>
+                                </actor-set-prop>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <actor-get-prop comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="On Ground?"/>
+                                </actor-get-prop>
+                                <true comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <int id="0" val="0.25"/>
+                    <ACTOR eid="this" id="2"/>
+                </periodic>
+                <dolater comment="false" x="26" y="367">
+                    <group eventID="2" id="-1">
+                        <if comment="false" x="37" y="394">
+                            <group eventID="2" id="-1">
+                                <set-dxy comment="false" x="48" y="432">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <get-val-26-3 comment="false" id="2" x="0" y="0"/>
+                                </set-dxy>
+                                <actor-set-prop comment="false" x="48" y="464">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="On Ground?"/>
+                                    <true comment="false" id="2" x="0" y="0"/>
+                                </actor-set-prop>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <actor-get-prop comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="On Ground?"/>
+                                </actor-get-prop>
+                                <false comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <int id="0" val="0.25"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

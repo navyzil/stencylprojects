@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="3" extheight="544" extwidth="704" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="0.0" height="480" id="0" name="Level One" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds>
+        <ref id="6"/>
+    </backgrounds>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="0" name="Ship 1" sx="1.0" sy="1.0" x="296" y="452" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="4" id="2" name="Enemy 2" sx="1.0" sy="1.0" x="64" y="32" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="4" id="2" name="Enemy 3" sx="1.0" sy="1.0" x="160" y="32" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="4" id="2" name="Enemy 4" sx="1.0" sy="1.0" x="256" y="32" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="4" id="2" name="Enemy 5" sx="1.0" sy="1.0" x="352" y="32" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="4" id="2" name="Enemy 6" sx="1.0" sy="1.0" x="448" y="32" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="4" id="2" name="Enemy 7" sx="1.0" sy="1.0" x="544" y="32" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+</scene>

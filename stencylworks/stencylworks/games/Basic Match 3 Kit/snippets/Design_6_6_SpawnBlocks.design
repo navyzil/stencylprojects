@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="0" y="0">
+            <group eventID="-1" id="-1">
+                <comment-short comment="false" x="11" y="25">
+                    <int id="0" val="&amp;quot;Top Row&amp;quot;, &amp;quot;Bottom Row&amp;quot;, and &amp;quot;Actor Type to Spawn&amp;quot; are attributes defined in the scene editor."/>
+                </comment-short>
+                <set-val-6-1 comment="false" x="11" y="45">
+                    <int id="0" val="0"/>
+                </set-val-6-1>
+                <periodic comment="false" x="11" y="65">
+                    <group eventID="-1" id="-1">
+                        <set-val-6-1 comment="false" x="22" y="92">
+                            <int id="0" val="0"/>
+                        </set-val-6-1>
+                        <comment-short comment="false" x="22" y="112">
+                            <int id="0" val="The following loop replaces any pieces that are matched and removed."/>
+                        </comment-short>
+                        <repeat comment="false" x="22" y="132">
+                            <group eventID="-1" id="-1">
+                                <if comment="false" x="33" y="170">
+                                    <group eventID="1" id="-1">
+                                        <comment-short comment="false" x="44" y="236">
+                                            <int id="0" val="If this column has moving game pieces..."/>
+                                        </comment-short>
+                                        <if comment="false" x="44" y="256">
+                                            <group eventID="1" id="-1">
+                                                <comment-short comment="false" x="55" y="314">
+                                                    <int id="0" val="If this column is empty on the top..."/>
+                                                </comment-short>
+                                                <create-actor3 comment="false" x="55" y="334">
+                                                    <get-val-6-5 comment="false" id="0" x="0" y="0"/>
+                                                    <times comment="false" id="1" x="0" y="0">
+                                                        <get-val-6-1 comment="false" id="0" x="0" y="0"/>
+                                                        <tile-wh comment="false" id="1" x="0" y="0">
+                                                            <int id="0" val="0"/>
+                                                        </tile-wh>
+                                                    </times>
+                                                    <times comment="false" id="2" x="0" y="0">
+                                                        <get-val-6-3 comment="false" id="0" x="0" y="0"/>
+                                                        <tile-wh comment="false" id="1" x="0" y="0">
+                                                            <int id="0" val="1"/>
+                                                        </tile-wh>
+                                                    </times>
+                                                    <int id="3" val="0"/>
+                                                </create-actor3>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <custom-25 comment="false" id="0" x="0" y="0">
+                                                    <plus comment="false" id="0" x="0" y="0">
+                                                        <get-val-6-1 comment="false" id="0" x="0" y="0"/>
+                                                        <times comment="false" id="1" x="0" y="0">
+                                                            <get-val-6-3 comment="false" id="0" x="0" y="0"/>
+                                                            <as-number comment="false" id="1" x="0" y="0">
+                                                                <scene-wh comment="false" id="0" x="0" y="0">
+                                                                    <int id="0" val="2"/>
+                                                                </scene-wh>
+                                                            </as-number>
+                                                        </times>
+                                                    </plus>
+                                                </custom-25>
+                                                <custom-32 comment="false" id="1" x="0" y="0"/>
+                                            </eq>
+                                        </if>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <getatype comment="false" id="0" x="0" y="0">
+                                            <custom-25 comment="false" id="0" x="0" y="0">
+                                                <plus comment="false" id="0" x="0" y="0">
+                                                    <get-val-6-1 comment="false" id="0" x="0" y="0"/>
+                                                    <times comment="false" id="1" x="0" y="0">
+                                                        <get-val-6-2 comment="false" id="0" x="0" y="0"/>
+                                                        <scene-wh comment="false" id="1" x="0" y="0">
+                                                            <int id="0" val="2"/>
+                                                        </scene-wh>
+                                                    </times>
+                                                </plus>
+                                            </custom-25>
+                                        </getatype>
+                                        <pick-type comment="false" id="1" x="0" y="0">
+                                            <get-val-6-5 comment="false" id="0" x="0" y="0"/>
+                                        </pick-type>
+                                    </eq>
+                                </if>
+                                <set-val-6-1 comment="false" x="33" y="403">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <get-val-6-1 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </plus>
+                                </set-val-6-1>
+                            </group>
+                            <as-number comment="false" id="0" x="0" y="0">
+                                <scene-wh comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="2"/>
+                                </scene-wh>
+                            </as-number>
+                        </repeat>
+                    </group>
+                    <int id="0" val="0.05"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </periodic>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

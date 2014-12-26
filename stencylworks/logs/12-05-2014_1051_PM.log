@@ -1,0 +1,53 @@
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] OS Name: Windows 7
+[LOG] OS Version: 6.1
+[LOG] Current Working Directory: D:\Program Files (x86)\Stencyl
+[LOG] Initializing Stencyl
+[LOG] Loading engine extensions...
+[LOG] Parsing engine extensions...
+[LOG] ads is a core engine extension. Skip.
+[LOG] gamecenter is a core engine extension. Skip.
+[LOG] gestures is a core engine extension. Skip.
+[LOG] hypertouch is a core engine extension. Skip.
+[LOG] joystick is a core engine extension. Skip.
+[LOG] label is an engine extension. Adding.
+[LOG] native is a core engine extension. Skip.
+[LOG] purchases is a core engine extension. Skip.
+[LOG] test is an engine extension. Adding.
+[LOG] test-flash is an engine extension. Adding.
+[LOG] test-native is an engine extension. Adding.
+[LOG] tileapi is an engine extension. Adding.
+[LOG] Using Stencyl b7305
+[LOG] Activated: Welcome Center
+[LOG] Checking workspace writability and location: temp
+[LOG] The Stencyl workspace is: 
+[LOG] The Stencyl workspace is being set to: C:\Users\dustin\AppData\Roaming\Stencyl\
+[LOG] Copy directory from: prefs to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\prefs
+[LOG] Copy Duration: 11
+[LOG] Copy directory from: games to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games
+[LOG] Copy Duration: 0
+[LOG] Copy directory from: logs to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\logs
+
+
+
+[LOG] Mirroring logs to the standard output...
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] Authentication to Stencyl.com is turned off.
+[LOG] Response: guest
+[LOG] Could not log in. Check your login credentials.
+[LOG] Authentication to Stencyl.com is turned off.
+[LOG] Response: guest
+[LOG] Could not log in. Check your login credentials.
+[LOG] Attempting to quit out of Stencyl.
+[LOG] Destroying extensions.
+[LOG] Destroying Temporary Sandbox.
+[LOG] Performing final close.
+[LOG] Exiting...
+[LOG] http://www.stencyl.com/features/whatsnew/
+[LOG] http://www.stencyl.com/developers/samples/

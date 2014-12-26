@@ -1,0 +1,180 @@
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] OS Name: Windows 7
+[LOG] OS Version: 6.1
+[LOG] Current Working Directory: D:\Program Files (x86)\Stencyl
+[LOG] Initializing Stencyl
+[LOG] Loading engine extensions...
+[LOG] Parsing engine extensions...
+[LOG] ads is a core engine extension. Skip.
+[LOG] gamecenter is a core engine extension. Skip.
+[LOG] gestures is a core engine extension. Skip.
+[LOG] hypertouch is a core engine extension. Skip.
+[LOG] joystick is a core engine extension. Skip.
+[LOG] label is an engine extension. Adding.
+[LOG] native is a core engine extension. Skip.
+[LOG] purchases is a core engine extension. Skip.
+[LOG] test is an engine extension. Adding.
+[LOG] test-flash is an engine extension. Adding.
+[LOG] test-native is an engine extension. Adding.
+[LOG] tileapi is an engine extension. Adding.
+[LOG] Using Stencyl b7305
+[LOG] Activated: Welcome Center
+[LOG] Checking workspace writability and location: temp
+[LOG] The Stencyl workspace is: 
+[LOG] The Stencyl workspace is being set to: C:\Users\dustin\AppData\Roaming\Stencyl\
+[LOG] Copy directory from: prefs to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\prefs
+[LOG] Copy Duration: 91
+[LOG] Copy directory from: games to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games
+[LOG] Copy Duration: 0
+[LOG] Copy directory from: logs to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\logs
+[LOG] Copy Duration: 26
+[LOG] Copy directory from: extensions to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\extensions
+[LOG] Copy Duration: 23
+[LOG] Copy directory from: engine-extensions to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions
+[LOG] Copy directory from: engine-extensions\ads to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\ads
+[LOG] Copy directory from: engine-extensions\ads\ndll to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\ads\ndll
+[LOG] Copy directory from: engine-extensions\ads\ndll\iPhone to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\ads\ndll\iPhone
+[LOG] Copy Duration: 38
+[LOG] Copy Duration: 39
+[LOG] Copy directory from: engine-extensions\ads\project to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\ads\project
+[LOG] Copy directory from: engine-extensions\ads\project\android to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\ads\project\android
+[LOG] Copy Duration: 3
+[LOG] Copy Duration: 23
+[LOG] Copy directory from: engine-extensions\ads\template to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\ads\template
+[LOG] Copy directory from: engine-extensions\ads\template\android to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\ads\template\android
+[LOG] Copy directory from: engine-extensions\ads\template\android\libs to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\ads\template\android\libs
+[LOG] Copy Duration: 7
+[LOG] Copy Duration: 8
+[LOG] Copy Duration: 44
+[LOG] Copy Duration: 116
+[LOG] Copy directory from: engine-extensions\gamecenter to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\gamecenter
+[LOG] Copy directory from: engine-extensions\gamecenter\ndll to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\gamecenter\ndll
+[LOG] Copy directory from: engine-extensions\gamecenter\ndll\iPhone to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\gamecenter\ndll\iPhone
+[LOG] Copy Duration: 162
+[LOG] Copy Duration: 163
+[LOG] Copy directory from: engine-extensions\gamecenter\project to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\gamecenter\project
+[LOG] Copy directory from: engine-extensions\gamecenter\project\android to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\gamecenter\project\android
+[LOG] Copy Duration: 3
+[LOG] Copy Duration: 15
+[LOG] Copy Duration: 202
+[LOG] Copy directory from: engine-extensions\gestures to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\gestures
+[LOG] Copy Duration: 90
+[LOG] Copy directory from: engine-extensions\hypertouch to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\hypertouch
+[LOG] Copy directory from: engine-extensions\hypertouch\fr to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\hypertouch\fr
+[LOG] Copy directory from: engine-extensions\hypertouch\fr\hyperfiction to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\hypertouch\fr\hyperfiction
+[LOG] Copy directory from: engine-extensions\hypertouch\fr\hyperfiction\events to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\hypertouch\fr\hyperfiction\events
+[LOG] Copy Duration: 359
+[LOG] Copy Duration: 385
+[LOG] Copy Duration: 392
+[LOG] Copy directory from: engine-extensions\hypertouch\ndll to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\hypertouch\ndll
+[LOG] Copy directory from: engine-extensions\hypertouch\ndll\Android to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\hypertouch\ndll\Android
+[LOG] Copy Duration: 181
+[LOG] Copy directory from: engine-extensions\hypertouch\ndll\iPhone to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\hypertouch\ndll\iPhone
+[LOG] Copy Duration: 580
+[LOG] Copy Duration: 817
+[LOG] Copy directory from: engine-extensions\hypertouch\project to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\hypertouch\project
+[LOG] Copy directory from: engine-extensions\hypertouch\project\android to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\hypertouch\project\android
+[LOG] Copy directory from: engine-extensions\hypertouch\project\android\fr to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\hypertouch\project\android\fr
+[LOG] Copy directory from: engine-extensions\hypertouch\project\android\fr\hyperfiction to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\hypertouch\project\android\fr\hyperfiction
+[LOG] Copy Duration: 159
+[LOG] Copy Duration: 207
+[LOG] Copy Duration: 208
+[LOG] Copy Duration: 209
+[LOG] Copy Duration: 1548
+[LOG] Copy directory from: engine-extensions\joystick to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\joystick
+[LOG] Copy Duration: 176
+[LOG] Copy directory from: engine-extensions\label to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\label
+[LOG] Copy Duration: 71
+[LOG] Copy directory from: engine-extensions\native to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\native
+[LOG] Copy directory from: engine-extensions\native\ndll to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\native\ndll
+[LOG] Copy directory from: engine-extensions\native\ndll\iPhone to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\native\ndll\iPhone
+[LOG] Copy Duration: 153
+[LOG] Copy Duration: 155
+[LOG] Copy directory from: engine-extensions\native\project to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\native\project
+[LOG] Copy directory from: engine-extensions\native\project\android to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\native\project\android
+[LOG] Copy Duration: 3
+[LOG] Copy Duration: 111
+[LOG] Copy Duration: 294
+[LOG] Copy directory from: engine-extensions\purchases to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\purchases
+[LOG] Copy directory from: engine-extensions\purchases\ndll to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\purchases\ndll
+[LOG] Copy directory from: engine-extensions\purchases\ndll\iPhone to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\purchases\ndll\iPhone
+[LOG] Copy Duration: 249
+[LOG] Copy Duration: 250
+[LOG] Copy directory from: engine-extensions\purchases\project to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\purchases\project
+[LOG] Copy directory from: engine-extensions\purchases\project\android to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\purchases\project\android
+[LOG] Copy directory from: engine-extensions\purchases\project\android\com to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\purchases\project\android\com
+[LOG] Copy directory from: engine-extensions\purchases\project\android\com\android to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\purchases\project\android\com\android
+[LOG] Copy directory from: engine-extensions\purchases\project\android\com\android\vending to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\purchases\project\android\com\android\vending
+[LOG] Copy directory from: engine-extensions\purchases\project\android\com\android\vending\billing to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\purchases\project\android\com\android\vending\billing
+[LOG] Copy Duration: 518
+[LOG] Copy Duration: 519
+[LOG] Copy Duration: 522
+[LOG] Copy directory from: engine-extensions\purchases\project\android\com\blundell to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\purchases\project\android\com\blundell
+[LOG] Copy directory from: engine-extensions\purchases\project\android\com\blundell\test to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\purchases\project\android\com\blundell\test
+[LOG] Copy directory from: engine-extensions\purchases\project\android\com\blundell\test\util to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\purchases\project\android\com\blundell\test\util
+[LOG] Copy Duration: 13
+[LOG] Copy Duration: 269
+[LOG] Copy Duration: 270
+[LOG] Copy Duration: 827
+[LOG] Copy Duration: 892
+[LOG] Copy Duration: 893
+[LOG] Copy Duration: 1554
+[LOG] Copy directory from: engine-extensions\test to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\test
+[LOG] Copy Duration: 119
+[LOG] Copy directory from: engine-extensions\test-flash to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\test-flash
+[LOG] Copy Duration: 386
+[LOG] Copy directory from: engine-extensions\test-native to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\test-native
+[LOG] Copy directory from: engine-extensions\test-native\ndll to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\test-native\ndll
+[LOG] Copy directory from: engine-extensions\test-native\ndll\iPhone to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\test-native\ndll\iPhone
+[LOG] Copy Duration: 127
+[LOG] Copy Duration: 128
+[LOG] Copy directory from: engine-extensions\test-native\project to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\test-native\project
+[LOG] Copy directory from: engine-extensions\test-native\project\android to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\test-native\project\android
+[LOG] Copy Duration: 3
+[LOG] Copy directory from: engine-extensions\test-native\project\common to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\test-native\project\common
+[LOG] Copy Duration: 49
+[LOG] Copy directory from: engine-extensions\test-native\project\include to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\test-native\project\include
+[LOG] Copy Duration: 38
+[LOG] Copy directory from: engine-extensions\test-native\project\iphone to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\test-native\project\iphone
+[LOG] Copy Duration: 48
+[LOG] Copy Duration: 183
+[LOG] Copy Duration: 761
+[LOG] Copy directory from: engine-extensions\tileapi to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\engine-extensions\tileapi
+[LOG] Copy Duration: 118
+[LOG] Copy Duration: 5601
+[LOG] Copy directory from: behaviors to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors
+[LOG] Copy directory from: behaviors\Controls to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Controls
+[LOG] Copy directory from: behaviors\Controls\Actor to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Controls\Actor
+[LOG] Copy Duration: 1430
+[LOG] Copy directory from: behaviors\Controls\Scene to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Controls\Scene
+[LOG] Copy Duration: 1
+[LOG] Copy Duration: 1436
+[LOG] Copy directory from: behaviors\Eye Candy to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Eye Candy
+[LOG] Copy directory from: behaviors\Eye Candy\Actor to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Eye Candy\Actor
+[LOG] Copy Duration: 581
+[LOG] Copy directory from: behaviors\Eye Candy\Scene to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Eye Candy\Scene
+[LOG] Copy Duration: 120
+[LOG] Copy Duration: 705
+[LOG] Copy directory from: behaviors\Game to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Game
+[LOG] Copy directory from: behaviors\Game\Actor to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Game\Actor
+[LOG] Copy Duration: 683
+[LOG] Copy directory from: behaviors\Game\Scene to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Game\Scene
+[LOG] Copy Duration: 424
+[LOG] Copy Duration: 1200
+[LOG] Copy directory from: behaviors\GUI to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\GUI
+[LOG] Copy directory from: behaviors\GUI\Actor to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\GUI\Actor
+[LOG] Copy Duration: 289
+[LOG] Copy directory from: behaviors\GUI\Scene to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\GUI\Scene
+[LOG] Copy Duration: 1
+[LOG] Copy Duration: 293
+[LOG] Copy directory from: behaviors\Mobile to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Mobile
+[LOG] Copy directory from: behaviors\Mobile\Actor to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Mobile\Actor
+[LOG] Copy Duration: 453
+[LOG] Copy directory from: behaviors\Mobile\Scene to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Mobile\Scene
+[LOG] Copy Duration: 0
+[LOG] Copy Duration: 949
+[LOG] Copy directory from: behaviors\Motion to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Motion
+[LOG] Copy directory from: behaviors\Motion\Actor to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\behaviors\Motion\Actor

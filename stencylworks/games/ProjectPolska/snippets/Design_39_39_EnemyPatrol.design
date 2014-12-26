@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="2" id="0">
+        <event-periodic comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="1" id="-1">
+                        <set-xy comment="false" x="37" y="67">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-xy>
+                                <get-val-39-1 comment="false" id="1" x="0" y="0"/>
+                            </plus>
+                        </set-xy>
+                        <setanim comment="false" x="37" y="112">
+                            <ACTOR eid="this" id="0"/>
+                            <string-to-anim comment="false" id="1" x="0" y="0">
+                                <get-val-39-6 comment="false" id="0" x="0" y="0"/>
+                            </string-to-anim>
+                        </setanim>
+                    </group>
+                    <get-val-39-2 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="161">
+                    <group eventID="1" id="-1">
+                        <set-xy comment="false" x="37" y="181">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <minus comment="false" id="2" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-xy>
+                                <get-val-39-1 comment="false" id="1" x="0" y="0"/>
+                            </minus>
+                        </set-xy>
+                        <setanim comment="false" x="37" y="226">
+                            <ACTOR eid="this" id="0"/>
+                            <string-to-anim comment="false" id="1" x="0" y="0">
+                                <get-val-39-7 comment="false" id="0" x="0" y="0"/>
+                            </string-to-anim>
+                        </setanim>
+                    </group>
+                </else>
+                <if comment="false" x="26" y="275">
+                    <group eventID="1" id="-1">
+                        <set-val-39-2 comment="false" x="37" y="313">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-39-2>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </get-xy>
+                        <get-val-39-4 comment="false" id="1" x="0" y="0"/>
+                    </moreeq>
+                </if>
+                <if comment="false" x="26" y="350">
+                    <group eventID="1" id="-1">
+                        <set-val-39-2 comment="false" x="37" y="388">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-39-2>
+                    </group>
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </get-xy>
+                        <get-val-39-3 comment="false" id="1" x="0" y="0"/>
+                    </lesseq>
+                </if>
+            </group>
+            <int id="0" val="0.01"/>
+            <ACTOR eid="this" id="2"/>
+        </event-periodic>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

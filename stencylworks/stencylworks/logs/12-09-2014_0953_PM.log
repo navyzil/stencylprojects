@@ -1,0 +1,50 @@
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] OS Name: Windows 7
+[LOG] OS Version: 6.1
+[LOG] Current Working Directory: D:\Program Files (x86)\Stencyl
+[LOG] Initializing Stencyl
+[LOG] Loading engine extensions...
+[LOG] Parsing engine extensions...
+[LOG] ads is a core engine extension. Skip.
+[LOG] gamecenter is a core engine extension. Skip.
+[LOG] gestures is a core engine extension. Skip.
+[LOG] hypertouch is a core engine extension. Skip.
+[LOG] joystick is a core engine extension. Skip.
+[LOG] label is an engine extension. Adding.
+[LOG] native is a core engine extension. Skip.
+[LOG] purchases is a core engine extension. Skip.
+[LOG] test is an engine extension. Adding.
+[LOG] test-flash is an engine extension. Adding.
+[LOG] test-native is an engine extension. Adding.
+[LOG] tileapi is an engine extension. Adding.
+[LOG] Using Stencyl b7305
+[LOG] Activated: Welcome Center
+[LOG] Checking workspace writability and location: C:\Users\dustin\AppData\Roaming\Stencyl\/temp
+[LOG] Authentication to Stencyl.com is turned off.
+[ERR] Could not sign in because of networking issues.
+[ERR] 1) You could connect to our servers, located at http://www.stencyl.com.
+[ERR] 2) Our servers are down.
+[ERR] 3) Our servers have moved, and your DNS cache has not been updated.
+java.lang.NullPointerException
+	at stencyl.sw.app.tasks.AuthenticateTask.doInBackground(AuthenticateTask.java:101)
+	at stencyl.sw.app.tasks.AuthenticateTask.doInBackground(AuthenticateTask.java:19)
+	at org.jdesktop.swingworker.SwingWorker$1.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.jdesktop.swingworker.SwingWorker.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[LOG] http://www.stencyl.com/developers/samples/
+[LOG] http://www.stencyl.com/developers/samples/
+[LOG] http://www.stencyl.com/developers/market/
+[LOG] Action: Game
+[LOG] http://www.stencyl.com/developers/samples/
+[LOG] Attempting to quit out of Stencyl.
+[LOG] Destroying extensions.
+[LOG] Destroying Temporary Sandbox.
+[LOG] Performing final close.
+[LOG] Exiting...

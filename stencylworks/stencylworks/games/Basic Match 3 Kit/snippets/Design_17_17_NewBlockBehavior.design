@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="0" y="0">
+            <group eventID="1" id="-1">
+                <set-val-17-4 comment="false" x="11" y="25">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-17-4>
+                <set-val-17-5 comment="false" x="11" y="50">
+                    <int id="0" val="0.35"/>
+                </set-val-17-5>
+                <if comment="false" x="11" y="70">
+                    <group eventID="1" id="-1">
+                        <set-val-17-10 comment="false" x="22" y="103">
+                            <int id="0" val="100"/>
+                        </set-val-17-10>
+                    </group>
+                    <value comment="false" id="0" x="0" y="0">
+                        <int id="0" val="10"/>
+                        <int id="1" val="1"/>
+                    </value>
+                </if>
+                <set-val-17-1 comment="false" x="11" y="135">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                            <tile-wh comment="false" id="1" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </tile-wh>
+                        </div>
+                        <times comment="false" id="1" x="0" y="0">
+                            <div comment="false" id="0" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-xy>
+                                <tile-wh comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </tile-wh>
+                            </div>
+                            <scene-wh comment="false" id="1" x="0" y="0">
+                                <int id="0" val="2"/>
+                            </scene-wh>
+                        </times>
+                    </plus>
+                </set-val-17-1>
+                <set-val-17-2 comment="false" x="11" y="183">
+                    <randint comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <minus comment="false" id="1" x="0" y="0">
+                            <get-val-17-9 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </minus>
+                    </randint>
+                </set-val-17-2>
+                <if comment="false" x="11" y="218">
+                    <group eventID="1" id="-1">
+                        <comment-short comment="false" x="22" y="243">
+                            <int id="0" val="Control animations at the start of the scene so matches are not possible."/>
+                        </comment-short>
+                        <comment-short comment="false" x="22" y="263">
+                            <int id="0" val="Animations are chosen based on the position of each block."/>
+                        </comment-short>
+                        <if comment="false" x="22" y="283">
+                            <group eventID="1" id="-1">
+                                <if comment="false" x="33" y="336">
+                                    <group eventID="1" id="-1">
+                                        <if comment="false" x="44" y="371">
+                                            <group eventID="1" id="-1">
+                                                <set-val-17-2 comment="false" x="55" y="406">
+                                                    <int id="0" val="0"/>
+                                                </set-val-17-2>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-val-17-2 comment="false" id="0" x="0" y="0"/>
+                                                <minus comment="false" id="1" x="0" y="0">
+                                                    <get-val-17-9 comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </minus>
+                                            </eq>
+                                        </if>
+                                        <else comment="false" x="44" y="438">
+                                            <group eventID="1" id="-1">
+                                                <set-val-17-2 comment="false" x="55" y="458">
+                                                    <plus comment="false" id="0" x="0" y="0">
+                                                        <get-val-17-2 comment="false" id="0" x="0" y="0"/>
+                                                        <int id="1" val="1"/>
+                                                    </plus>
+                                                </set-val-17-2>
+                                            </group>
+                                        </else>
+                                    </group>
+                                    <not comment="false" id="0" x="0" y="0">
+                                        <custom-38 comment="false" id="0" x="0" y="0">
+                                            <get-val-17-2 comment="false" id="0" x="0" y="0"/>
+                                        </custom-38>
+                                    </not>
+                                </if>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <mod comment="false" id="0" x="0" y="0">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <div comment="false" id="0" x="0" y="0">
+                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="0"/>
+                                            </get-xy>
+                                            <tile-wh comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                            </tile-wh>
+                                        </div>
+                                        <div comment="false" id="1" x="0" y="0">
+                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="1"/>
+                                            </get-xy>
+                                            <tile-wh comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="1"/>
+                                            </tile-wh>
+                                        </div>
+                                    </plus>
+                                    <int id="1" val="2"/>
+                                </mod>
+                                <int id="1" val="0"/>
+                            </eq>
+                        </if>
+                        <else comment="false" x="22" y="524">
+                            <group eventID="1" id="-1">
+                                <if comment="false" x="33" y="544">
+                                    <group eventID="1" id="-1">
+                                        <if comment="false" x="44" y="574">
+                                            <group eventID="1" id="-1">
+                                                <set-val-17-2 comment="false" x="55" y="609">
+                                                    <int id="0" val="1"/>
+                                                </set-val-17-2>
+                                            </group>
+                                            <eq comment="false" id="0" x="0" y="0">
+                                                <get-val-17-2 comment="false" id="0" x="0" y="0"/>
+                                                <minus comment="false" id="1" x="0" y="0">
+                                                    <get-val-17-9 comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="1"/>
+                                                </minus>
+                                            </eq>
+                                        </if>
+                                        <else comment="false" x="44" y="641">
+                                            <group eventID="1" id="-1">
+                                                <set-val-17-2 comment="false" x="55" y="661">
+                                                    <plus comment="false" id="0" x="0" y="0">
+                                                        <get-val-17-2 comment="false" id="0" x="0" y="0"/>
+                                                        <int id="1" val="1"/>
+                                                    </plus>
+                                                </set-val-17-2>
+                                            </group>
+                                        </else>
+                                    </group>
+                                    <custom-38 comment="false" id="0" x="0" y="0">
+                                        <get-val-17-2 comment="false" id="0" x="0" y="0"/>
+                                    </custom-38>
+                                </if>
+                            </group>
+                        </else>
+                    </group>
+                    <get-game-val-11 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <setanim comment="false" x="11" y="739">
+                    <ACTOR eid="this" id="0"/>
+                    <string-to-anim comment="false" id="1" x="0" y="0">
+                        <get-item comment="false" id="0" x="0" y="0">
+                            <get-val-17-7 comment="false" id="0" x="0" y="0"/>
+                            <get-val-17-2 comment="false" id="1" x="0" y="0"/>
+                        </get-item>
+                    </string-to-anim>
+                </setanim>
+                <set-val-17-3 comment="false" x="11" y="781">
+                    <getanim comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </getanim>
+                </set-val-17-3>
+                <dolater comment="false" x="11" y="814">
+                    <group eventID="1" id="-1">
+                        <comment-short comment="false" x="22" y="841">
+                            <int id="0" val="This delay ensures the scene list is created first."/>
+                        </comment-short>
+                        <replace-list comment="false" x="22" y="861">
+                            <custom-16 comment="false" id="0" x="0" y="0"/>
+                            <get-val-17-1 comment="false" id="1" x="0" y="0"/>
+                            <actor comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </actor>
+                        </replace-list>
+                        <comment-short comment="false" x="22" y="894">
+                            <int id="0" val="The Loading attribute makes sure the blocks under Always aren&amp;#039;t checked until the block adds itself to the Position List."/>
+                        </comment-short>
+                        <set-val-17-4 comment="false" x="22" y="914">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-17-4>
+                    </group>
+                    <int id="0" val="0.05"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="0" y="0">
+            <group eventID="3" id="-1">
+                <if comment="false" x="11" y="25">
+                    <group eventID="3" id="-1">
+                        <stop comment="false" x="22" y="50"/>
+                    </group>
+                    <get-val-17-4 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <if comment="false" x="11" y="82">
+                    <group eventID="3" id="-1">
+                        <say-this comment="false" x="22" y="115">
+                            <int id="0" val="mouseDown"/>
+                        </say-this>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </amousestate>
+                </if>
+                <if comment="false" x="11" y="147">
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="22" y="185">
+                            <group eventID="3" id="-1">
+                                <comment-short comment="false" x="33" y="225">
+                                    <int id="0" val="If self is selected, make sure the selected animation is used."/>
+                                </comment-short>
+                                <setanim comment="false" x="33" y="245">
+                                    <ACTOR eid="this" id="0"/>
+                                    <string-to-anim comment="false" id="1" x="0" y="0">
+                                        <get-item comment="false" id="0" x="0" y="0">
+                                            <get-val-17-8 comment="false" id="0" x="0" y="0"/>
+                                            <get-val-17-2 comment="false" id="1" x="0" y="0"/>
+                                        </get-item>
+                                    </string-to-anim>
+                                </setanim>
+                            </group>
+                            <noteq comment="false" id="0" x="0" y="0">
+                                <getanim comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </getanim>
+                                <string-to-anim comment="false" id="1" x="0" y="0">
+                                    <get-item comment="false" id="0" x="0" y="0">
+                                        <get-val-17-8 comment="false" id="0" x="0" y="0"/>
+                                        <get-val-17-2 comment="false" id="1" x="0" y="0"/>
+                                    </get-item>
+                                </string-to-anim>
+                            </noteq>
+                        </if>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <custom-21 comment="false" id="0" x="0" y="0"/>
+                        <actor comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </actor>
+                    </eq>
+                </if>
+                <else comment="false" x="11" y="311">
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="22" y="331">
+                            <group eventID="3" id="-1">
+                                <comment-short comment="false" x="33" y="369">
+                                    <int id="0" val="If self is no longer selected, revert to the original animation."/>
+                                </comment-short>
+                                <setanim comment="false" x="33" y="389">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-17-3 comment="false" id="1" x="0" y="0"/>
+                                </setanim>
+                            </group>
+                            <noteq comment="false" id="0" x="0" y="0">
+                                <getanim comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </getanim>
+                                <get-val-17-3 comment="false" id="1" x="0" y="0"/>
+                            </noteq>
+                        </if>
+                    </group>
+                </else>
+                <if comment="false" x="11" y="445">
+                    <group eventID="3" id="-1">
+                        <comment-short comment="false" x="22" y="506">
+                            <int id="0" val="The space under this block is empty, so move down."/>
+                        </comment-short>
+                        <replace-list comment="false" x="22" y="526">
+                            <custom-16 comment="false" id="0" x="0" y="0"/>
+                            <get-val-17-1 comment="false" id="1" x="0" y="0"/>
+                            <int id="2" val="None"/>
+                        </replace-list>
+                        <set-xy comment="false" x="22" y="551">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-xy>
+                                <tile-wh comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </tile-wh>
+                            </plus>
+                        </set-xy>
+                        <set-val-17-1 comment="false" x="22" y="596">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                <scene-wh comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="2"/>
+                                </scene-wh>
+                            </plus>
+                        </set-val-17-1>
+                        <replace-list comment="false" x="22" y="634">
+                            <custom-16 comment="false" id="0" x="0" y="0"/>
+                            <get-val-17-1 comment="false" id="1" x="0" y="0"/>
+                            <actor comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </actor>
+                        </replace-list>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getatype comment="false" id="0" x="0" y="0">
+                            <custom-25 comment="false" id="0" x="0" y="0">
+                                <plus comment="false" id="0" x="0" y="0">
+                                    <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                    <scene-wh comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="2"/>
+                                    </scene-wh>
+                                </plus>
+                            </custom-25>
+                        </getatype>
+                        <pick-type comment="false" id="1" x="0" y="0">
+                            <ACTORTYPE eid="19" id="0"/>
+                        </pick-type>
+                    </eq>
+                </if>
+                <say-this comment="false" x="11" y="679">
+                    <int id="0" val="checkMatches"/>
+                </say-this>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <receiver-1-26 comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <set-val-17-1 comment="false" x="26" y="45">
+                    <get-byobval-17-26-1 comment="false" id="0" x="0" y="0"/>
+                </set-val-17-1>
+            </group>
+            <get-byobval-17-26-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-17-26-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-1-26>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <receiver-2-27 comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <return comment="false" x="26" y="45">
+                    <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                </return>
+            </group>
+            <get-byobval-17-27-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-2-27>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <event-custom comment="false" x="0" y="0">
+            <group eventID="6" id="-1">
+                <if comment="false" x="11" y="25">
+                    <group eventID="6" id="-1">
+                        <stop comment="false" x="22" y="55"/>
+                    </group>
+                    <less comment="false" id="0" x="0" y="0">
+                        <get-game-val-10 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="3"/>
+                    </less>
+                </if>
+                <if comment="false" x="11" y="87">
+                    <group eventID="6" id="-1">
+                        <comment-short comment="false" x="22" y="145">
+                            <int id="0" val="Check left and right."/>
+                        </comment-short>
+                        <set-game-val-9 comment="false" x="22" y="165">
+                            <int id="0" val="0"/>
+                        </set-game-val-9>
+                        <custom-34 comment="false" x="22" y="185">
+                            <custom-25 comment="false" id="0" x="0" y="0">
+                                <minus comment="false" id="0" x="0" y="0">
+                                    <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                </minus>
+                            </custom-25>
+                            <int id="1" val="0.1"/>
+                        </custom-34>
+                        <custom-34 comment="false" x="22" y="227">
+                            <custom-25 comment="false" id="0" x="0" y="0">
+                                <plus comment="false" id="0" x="0" y="0">
+                                    <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                </plus>
+                            </custom-25>
+                            <int id="1" val="0.1"/>
+                        </custom-34>
+                        <custom-34 comment="false" x="22" y="269">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0.1"/>
+                        </custom-34>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <getanim comment="false" id="0" x="0" y="0">
+                                <custom-25 comment="false" id="0" x="0" y="0">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </minus>
+                                </custom-25>
+                            </getanim>
+                            <getanim comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </getanim>
+                        </eq>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <getanim comment="false" id="0" x="0" y="0">
+                                <custom-25 comment="false" id="0" x="0" y="0">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </plus>
+                                </custom-25>
+                            </getanim>
+                            <getanim comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </getanim>
+                        </eq>
+                    </and>
+                </if>
+                <else-if comment="false" x="11" y="308">
+                    <group eventID="6" id="-1">
+                        <comment-short comment="false" x="22" y="374">
+                            <int id="0" val="Check up and down."/>
+                        </comment-short>
+                        <set-game-val-9 comment="false" x="22" y="394">
+                            <int id="0" val="0"/>
+                        </set-game-val-9>
+                        <custom-34 comment="false" x="22" y="414">
+                            <custom-25 comment="false" id="0" x="0" y="0">
+                                <minus comment="false" id="0" x="0" y="0">
+                                    <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                    <scene-wh comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="2"/>
+                                    </scene-wh>
+                                </minus>
+                            </custom-25>
+                            <int id="1" val="0.1"/>
+                        </custom-34>
+                        <custom-34 comment="false" x="22" y="464">
+                            <custom-25 comment="false" id="0" x="0" y="0">
+                                <plus comment="false" id="0" x="0" y="0">
+                                    <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                    <scene-wh comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="2"/>
+                                    </scene-wh>
+                                </plus>
+                            </custom-25>
+                            <int id="1" val="0.1"/>
+                        </custom-34>
+                        <custom-34 comment="false" x="22" y="514">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0.1"/>
+                        </custom-34>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <getanim comment="false" id="0" x="0" y="0">
+                                <custom-25 comment="false" id="0" x="0" y="0">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                        <scene-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="2"/>
+                                        </scene-wh>
+                                    </minus>
+                                </custom-25>
+                            </getanim>
+                            <getanim comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </getanim>
+                        </eq>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <getanim comment="false" id="0" x="0" y="0">
+                                <custom-25 comment="false" id="0" x="0" y="0">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                        <scene-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="2"/>
+                                        </scene-wh>
+                                    </plus>
+                                </custom-25>
+                            </getanim>
+                            <getanim comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </getanim>
+                        </eq>
+                    </and>
+                </else-if>
+            </group>
+            <int id="0" val="checkMatches"/>
+        </event-custom>
+    </group>
+    <group eventID="6" id="-1"/>
+    <group eventID="7" id="0">
+        <receiver-3-34 comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <dolater comment="false" x="26" y="45">
+                    <group eventID="7" id="-1">
+                        <replace-list comment="false" x="37" y="77">
+                            <custom-16 comment="false" id="0" x="0" y="0"/>
+                            <get-val-17-1 comment="false" id="1" x="0" y="0"/>
+                            <int id="2" val="None"/>
+                        </replace-list>
+                        <custom-37 comment="false" x="37" y="102"/>
+                        <set-game-val-4 comment="false" x="37" y="122">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <get-val-17-10 comment="false" id="1" x="0" y="0"/>
+                            </plus>
+                        </set-game-val-4>
+                        <die comment="false" x="37" y="152">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <get-byobval-17-34-1 comment="false" id="0" x="0" y="0"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <get-byobval-17-34-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-17-34-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-3-34>
+    </group>
+    <group eventID="7" id="-1"/>
+    <group eventID="8" id="0">
+        <event-custom comment="false" x="0" y="0">
+            <group eventID="8" id="-1">
+                <if comment="false" x="11" y="25">
+                    <group eventID="2" id="-1">
+                        <comment-short comment="false" x="22" y="63">
+                            <int id="0" val="If self is already selected, there is nothing else to do."/>
+                        </comment-short>
+                        <stop comment="false" x="22" y="83"/>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <custom-21 comment="false" id="0" x="0" y="0"/>
+                        <actor comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </actor>
+                    </eq>
+                </if>
+                <if comment="false" x="11" y="115">
+                    <group eventID="8" id="-1">
+                        <comment-short comment="false" x="22" y="150">
+                            <int id="0" val="You can&amp;#039;t move pieces shortly after another movement or match.  Be careful not to set these numbers too low."/>
+                        </comment-short>
+                        <stop comment="false" x="22" y="170"/>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <lesseq comment="false" id="0" x="0" y="0">
+                            <get-game-val-10 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="8"/>
+                        </lesseq>
+                        <lesseq comment="false" id="1" x="0" y="0">
+                            <get-game-val-9 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="8"/>
+                        </lesseq>
+                    </or>
+                </if>
+                <if comment="false" x="11" y="202">
+                    <group eventID="2" id="-1">
+                        <set-game-val-10 comment="false" x="22" y="242">
+                            <int id="0" val="0"/>
+                        </set-game-val-10>
+                        <say-this comment="false" x="22" y="262">
+                            <int id="0" val="swapLeft"/>
+                        </say-this>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <custom-25 comment="false" id="0" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </custom-25>
+                        <custom-21 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="11" y="294">
+                    <group eventID="2" id="-1">
+                        <set-game-val-10 comment="false" x="22" y="334">
+                            <int id="0" val="0"/>
+                        </set-game-val-10>
+                        <say-this comment="false" x="22" y="354">
+                            <int id="0" val="swapRight"/>
+                        </say-this>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <custom-25 comment="false" id="0" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </plus>
+                        </custom-25>
+                        <custom-21 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="11" y="386">
+                    <group eventID="2" id="-1">
+                        <set-game-val-10 comment="false" x="22" y="434">
+                            <int id="0" val="0"/>
+                        </set-game-val-10>
+                        <say-this comment="false" x="22" y="454">
+                            <int id="0" val="swapUp"/>
+                        </say-this>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <custom-25 comment="false" id="0" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                <scene-wh comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="2"/>
+                                </scene-wh>
+                            </minus>
+                        </custom-25>
+                        <custom-21 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="11" y="486">
+                    <group eventID="2" id="-1">
+                        <set-game-val-10 comment="false" x="22" y="534">
+                            <int id="0" val="0"/>
+                        </set-game-val-10>
+                        <say-this comment="false" x="22" y="554">
+                            <int id="0" val="swapDown"/>
+                        </say-this>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <custom-25 comment="false" id="0" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                <scene-wh comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="2"/>
+                                </scene-wh>
+                            </plus>
+                        </custom-25>
+                        <custom-21 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </else-if>
+                <else comment="false" x="11" y="586">
+                    <group eventID="2" id="-1">
+                        <comment-short comment="false" x="22" y="606">
+                            <int id="0" val="If this block isn&amp;#039;t adjacent to the currently selected block, make this block the new selected block."/>
+                        </comment-short>
+                        <custom-22 comment="false" x="22" y="626">
+                            <ACTOR eid="this" id="0"/>
+                        </custom-22>
+                    </group>
+                </else>
+            </group>
+            <int id="0" val="mouseDown"/>
+        </event-custom>
+    </group>
+    <group eventID="8" id="-1"/>
+    <group eventID="9" id="0">
+        <event-custom comment="false" x="0" y="0">
+            <group eventID="9" id="-1">
+                <set-val-17-6 comment="false" x="11" y="25">
+                    <custom-21 comment="false" id="0" x="0" y="0"/>
+                </set-val-17-6>
+                <comment-short comment="false" x="11" y="57">
+                    <int id="0" val="When blocks move, the selected actor changes back to normal."/>
+                </comment-short>
+                <custom-22 comment="false" x="11" y="77">
+                    <custom-32 comment="false" id="0" x="0" y="0"/>
+                </custom-22>
+                <set-xy comment="false" x="11" y="109">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </get-xy>
+                        <tile-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </tile-wh>
+                    </minus>
+                </set-xy>
+                <set-xy comment="false" x="11" y="154">
+                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="0"/>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </get-xy>
+                        <tile-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </tile-wh>
+                    </plus>
+                </set-xy>
+                <set-val-17-1 comment="false" x="11" y="204">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </minus>
+                </set-val-17-1>
+                <custom-26 comment="false" x="11" y="234">
+                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                    <plus comment="false" id="1" x="0" y="0">
+                        <custom-27 comment="false" id="0" x="0" y="0">
+                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                        </custom-27>
+                        <int id="1" val="1"/>
+                    </plus>
+                </custom-26>
+                <replace-list comment="false" x="11" y="284">
+                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                    <get-val-17-1 comment="false" id="1" x="0" y="0"/>
+                    <actor comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </actor>
+                </replace-list>
+                <replace-list comment="false" x="11" y="317">
+                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                    <plus comment="false" id="1" x="0" y="0">
+                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </plus>
+                    <get-val-17-6 comment="false" id="2" x="0" y="0"/>
+                </replace-list>
+                <dolater comment="false" x="11" y="347">
+                    <group eventID="9" id="-1">
+                        <if comment="false" x="22" y="379">
+                            <group eventID="9" id="-1">
+                                <comment-short comment="false" x="33" y="409">
+                                    <int id="0" val="If no match is made, move the actors back to their previous positions."/>
+                                </comment-short>
+                                <set-xy comment="false" x="33" y="429">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <plus comment="false" id="2" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-xy>
+                                        <tile-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                        </tile-wh>
+                                    </plus>
+                                </set-xy>
+                                <set-xy comment="false" x="33" y="474">
+                                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <minus comment="false" id="2" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-xy>
+                                        <tile-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                        </tile-wh>
+                                    </minus>
+                                </set-xy>
+                                <set-val-17-1 comment="false" x="33" y="524">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </plus>
+                                </set-val-17-1>
+                                <custom-26 comment="false" x="33" y="554">
+                                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                    <minus comment="false" id="1" x="0" y="0">
+                                        <custom-27 comment="false" id="0" x="0" y="0">
+                                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                        </custom-27>
+                                        <int id="1" val="1"/>
+                                    </minus>
+                                </custom-26>
+                                <replace-list comment="false" x="33" y="604">
+                                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                                    <get-val-17-1 comment="false" id="1" x="0" y="0"/>
+                                    <actor comment="false" id="2" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </actor>
+                                </replace-list>
+                                <replace-list comment="false" x="33" y="637">
+                                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                                    <minus comment="false" id="1" x="0" y="0">
+                                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </minus>
+                                    <get-val-17-6 comment="false" id="2" x="0" y="0"/>
+                                </replace-list>
+                            </group>
+                            <moreeq comment="false" id="0" x="0" y="0">
+                                <get-game-val-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </moreeq>
+                        </if>
+                    </group>
+                    <get-val-17-5 comment="false" id="0" x="0" y="0"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="swapLeft"/>
+        </event-custom>
+    </group>
+    <group eventID="9" id="-1"/>
+    <group eventID="10" id="0">
+        <event-custom comment="false" x="0" y="0">
+            <group eventID="10" id="-1">
+                <set-val-17-6 comment="false" x="11" y="25">
+                    <custom-21 comment="false" id="0" x="0" y="0"/>
+                </set-val-17-6>
+                <comment-short comment="false" x="11" y="57">
+                    <int id="0" val="When blocks move, the selected actor changes back to normal."/>
+                </comment-short>
+                <custom-22 comment="false" x="11" y="77">
+                    <custom-32 comment="false" id="0" x="0" y="0"/>
+                </custom-22>
+                <set-xy comment="false" x="11" y="109">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </get-xy>
+                        <tile-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </tile-wh>
+                    </plus>
+                </set-xy>
+                <set-xy comment="false" x="11" y="154">
+                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="0"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </get-xy>
+                        <tile-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </tile-wh>
+                    </minus>
+                </set-xy>
+                <set-val-17-1 comment="false" x="11" y="204">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </plus>
+                </set-val-17-1>
+                <custom-26 comment="false" x="11" y="234">
+                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <custom-27 comment="false" id="0" x="0" y="0">
+                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                        </custom-27>
+                        <int id="1" val="1"/>
+                    </minus>
+                </custom-26>
+                <replace-list comment="false" x="11" y="284">
+                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                    <get-val-17-1 comment="false" id="1" x="0" y="0"/>
+                    <actor comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </actor>
+                </replace-list>
+                <replace-list comment="false" x="11" y="317">
+                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </minus>
+                    <get-val-17-6 comment="false" id="2" x="0" y="0"/>
+                </replace-list>
+                <dolater comment="false" x="11" y="347">
+                    <group eventID="9" id="-1">
+                        <if comment="false" x="22" y="379">
+                            <group eventID="9" id="-1">
+                                <comment-short comment="false" x="33" y="409">
+                                    <int id="0" val="If no match is made, move the actors back to their previous positions."/>
+                                </comment-short>
+                                <set-xy comment="false" x="33" y="429">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <minus comment="false" id="2" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-xy>
+                                        <tile-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                        </tile-wh>
+                                    </minus>
+                                </set-xy>
+                                <set-xy comment="false" x="33" y="474">
+                                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <plus comment="false" id="2" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-xy>
+                                        <tile-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="0"/>
+                                        </tile-wh>
+                                    </plus>
+                                </set-xy>
+                                <set-val-17-1 comment="false" x="33" y="524">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </minus>
+                                </set-val-17-1>
+                                <custom-26 comment="false" x="33" y="554">
+                                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                    <plus comment="false" id="1" x="0" y="0">
+                                        <custom-27 comment="false" id="0" x="0" y="0">
+                                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                        </custom-27>
+                                        <int id="1" val="1"/>
+                                    </plus>
+                                </custom-26>
+                                <replace-list comment="false" x="33" y="604">
+                                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                                    <get-val-17-1 comment="false" id="1" x="0" y="0"/>
+                                    <actor comment="false" id="2" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </actor>
+                                </replace-list>
+                                <replace-list comment="false" x="33" y="637">
+                                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                                    <plus comment="false" id="1" x="0" y="0">
+                                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </plus>
+                                    <get-val-17-6 comment="false" id="2" x="0" y="0"/>
+                                </replace-list>
+                            </group>
+                            <moreeq comment="false" id="0" x="0" y="0">
+                                <get-game-val-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </moreeq>
+                        </if>
+                    </group>
+                    <get-val-17-5 comment="false" id="0" x="0" y="0"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="swapRight"/>
+        </event-custom>
+    </group>
+    <group eventID="10" id="-1"/>
+    <group eventID="11" id="0">
+        <event-custom comment="false" x="0" y="0">
+            <group eventID="11" id="-1">
+                <set-val-17-6 comment="false" x="11" y="25">
+                    <custom-21 comment="false" id="0" x="0" y="0"/>
+                </set-val-17-6>
+                <comment-short comment="false" x="11" y="57">
+                    <int id="0" val="When blocks move, the selected actor changes back to normal."/>
+                </comment-short>
+                <custom-22 comment="false" x="11" y="77">
+                    <custom-32 comment="false" id="0" x="0" y="0"/>
+                </custom-22>
+                <set-xy comment="false" x="11" y="109">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </get-xy>
+                        <tile-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </tile-wh>
+                    </minus>
+                </set-xy>
+                <set-xy comment="false" x="11" y="154">
+                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="1"/>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </get-xy>
+                        <tile-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </tile-wh>
+                    </plus>
+                </set-xy>
+                <set-val-17-1 comment="false" x="11" y="204">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                        <scene-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="2"/>
+                        </scene-wh>
+                    </minus>
+                </set-val-17-1>
+                <custom-26 comment="false" x="11" y="242">
+                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                    <plus comment="false" id="1" x="0" y="0">
+                        <custom-27 comment="false" id="0" x="0" y="0">
+                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                        </custom-27>
+                        <scene-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="2"/>
+                        </scene-wh>
+                    </plus>
+                </custom-26>
+                <replace-list comment="false" x="11" y="292">
+                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                    <get-val-17-1 comment="false" id="1" x="0" y="0"/>
+                    <actor comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </actor>
+                </replace-list>
+                <replace-list comment="false" x="11" y="325">
+                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                    <plus comment="false" id="1" x="0" y="0">
+                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                        <scene-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="2"/>
+                        </scene-wh>
+                    </plus>
+                    <get-val-17-6 comment="false" id="2" x="0" y="0"/>
+                </replace-list>
+                <dolater comment="false" x="11" y="363">
+                    <group eventID="9" id="-1">
+                        <if comment="false" x="22" y="395">
+                            <group eventID="9" id="-1">
+                                <comment-short comment="false" x="33" y="425">
+                                    <int id="0" val="If no match is made, move the actors back to their previous positions."/>
+                                </comment-short>
+                                <set-xy comment="false" x="33" y="445">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <plus comment="false" id="2" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                        </get-xy>
+                                        <tile-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="1"/>
+                                        </tile-wh>
+                                    </plus>
+                                </set-xy>
+                                <set-xy comment="false" x="33" y="490">
+                                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <minus comment="false" id="2" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="1"/>
+                                        </get-xy>
+                                        <tile-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="1"/>
+                                        </tile-wh>
+                                    </minus>
+                                </set-xy>
+                                <set-val-17-1 comment="false" x="33" y="540">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                        <scene-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="2"/>
+                                        </scene-wh>
+                                    </plus>
+                                </set-val-17-1>
+                                <custom-26 comment="false" x="33" y="578">
+                                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                    <minus comment="false" id="1" x="0" y="0">
+                                        <custom-27 comment="false" id="0" x="0" y="0">
+                                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                        </custom-27>
+                                        <scene-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="2"/>
+                                        </scene-wh>
+                                    </minus>
+                                </custom-26>
+                                <replace-list comment="false" x="33" y="628">
+                                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                                    <get-val-17-1 comment="false" id="1" x="0" y="0"/>
+                                    <actor comment="false" id="2" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </actor>
+                                </replace-list>
+                                <replace-list comment="false" x="33" y="661">
+                                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                                    <minus comment="false" id="1" x="0" y="0">
+                                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                        <scene-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="2"/>
+                                        </scene-wh>
+                                    </minus>
+                                    <get-val-17-6 comment="false" id="2" x="0" y="0"/>
+                                </replace-list>
+                            </group>
+                            <moreeq comment="false" id="0" x="0" y="0">
+                                <get-game-val-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </moreeq>
+                        </if>
+                    </group>
+                    <get-val-17-5 comment="false" id="0" x="0" y="0"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="swapUp"/>
+        </event-custom>
+    </group>
+    <group eventID="11" id="-1"/>
+    <group eventID="12" id="0">
+        <event-custom comment="false" x="0" y="0">
+            <group eventID="12" id="-1">
+                <set-val-17-6 comment="false" x="11" y="25">
+                    <custom-21 comment="false" id="0" x="0" y="0"/>
+                </set-val-17-6>
+                <comment-short comment="false" x="11" y="57">
+                    <int id="0" val="When blocks move, the selected actor changes back to normal."/>
+                </comment-short>
+                <custom-22 comment="false" x="11" y="77">
+                    <custom-32 comment="false" id="0" x="0" y="0"/>
+                </custom-22>
+                <set-xy comment="false" x="11" y="109">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </get-xy>
+                        <tile-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </tile-wh>
+                    </plus>
+                </set-xy>
+                <set-xy comment="false" x="11" y="154">
+                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="1"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </get-xy>
+                        <tile-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </tile-wh>
+                    </minus>
+                </set-xy>
+                <set-val-17-1 comment="false" x="11" y="204">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                        <scene-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="2"/>
+                        </scene-wh>
+                    </plus>
+                </set-val-17-1>
+                <custom-26 comment="false" x="11" y="242">
+                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <custom-27 comment="false" id="0" x="0" y="0">
+                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                        </custom-27>
+                        <scene-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="2"/>
+                        </scene-wh>
+                    </minus>
+                </custom-26>
+                <replace-list comment="false" x="11" y="292">
+                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                    <get-val-17-1 comment="false" id="1" x="0" y="0"/>
+                    <actor comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </actor>
+                </replace-list>
+                <replace-list comment="false" x="11" y="325">
+                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                        <scene-wh comment="false" id="1" x="0" y="0">
+                            <int id="0" val="2"/>
+                        </scene-wh>
+                    </minus>
+                    <get-val-17-6 comment="false" id="2" x="0" y="0"/>
+                </replace-list>
+                <dolater comment="false" x="11" y="363">
+                    <group eventID="9" id="-1">
+                        <if comment="false" x="22" y="395">
+                            <group eventID="9" id="-1">
+                                <comment-short comment="false" x="33" y="425">
+                                    <int id="0" val="If no match is made, move the actors back to their previous positions."/>
+                                </comment-short>
+                                <set-xy comment="false" x="33" y="445">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <minus comment="false" id="2" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                        </get-xy>
+                                        <tile-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="1"/>
+                                        </tile-wh>
+                                    </minus>
+                                </set-xy>
+                                <set-xy comment="false" x="33" y="490">
+                                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <plus comment="false" id="2" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="1"/>
+                                        </get-xy>
+                                        <tile-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="1"/>
+                                        </tile-wh>
+                                    </plus>
+                                </set-xy>
+                                <set-val-17-1 comment="false" x="33" y="540">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                        <scene-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="2"/>
+                                        </scene-wh>
+                                    </minus>
+                                </set-val-17-1>
+                                <custom-26 comment="false" x="33" y="578">
+                                    <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                    <plus comment="false" id="1" x="0" y="0">
+                                        <custom-27 comment="false" id="0" x="0" y="0">
+                                            <get-val-17-6 comment="false" id="0" x="0" y="0"/>
+                                        </custom-27>
+                                        <scene-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="2"/>
+                                        </scene-wh>
+                                    </plus>
+                                </custom-26>
+                                <replace-list comment="false" x="33" y="628">
+                                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                                    <get-val-17-1 comment="false" id="1" x="0" y="0"/>
+                                    <actor comment="false" id="2" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </actor>
+                                </replace-list>
+                                <replace-list comment="false" x="33" y="661">
+                                    <custom-16 comment="false" id="0" x="0" y="0"/>
+                                    <plus comment="false" id="1" x="0" y="0">
+                                        <get-val-17-1 comment="false" id="0" x="0" y="0"/>
+                                        <scene-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="2"/>
+                                        </scene-wh>
+                                    </plus>
+                                    <get-val-17-6 comment="false" id="2" x="0" y="0"/>
+                                </replace-list>
+                            </group>
+                            <moreeq comment="false" id="0" x="0" y="0">
+                                <get-game-val-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </moreeq>
+                        </if>
+                    </group>
+                    <get-val-17-5 comment="false" id="0" x="0" y="0"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="swapDown"/>
+        </event-custom>
+    </group>
+    <group eventID="12" id="-1"/>
+</groups>

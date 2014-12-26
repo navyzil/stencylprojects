@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="10" extheight="544" extwidth="704" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="0.0" height="480" id="1" name="Game Scene" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds>
+        <ref id="8"/>
+    </backgrounds>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="275" c="false" group="2" id="30" name="WTF Bugs 275" sx="1.0" sy="1.0" x="288" y="384" z="0"/>
+        <actor a="0.0" aid="274" c="false" group="2" id="30" name="WTF Bugs 274" sx="1.0" sy="1.0" x="320" y="384" z="0"/>
+        <actor a="0.0" aid="273" c="false" group="2" id="30" name="WTF Bugs 273" sx="1.0" sy="1.0" x="352" y="384" z="0"/>
+        <actor a="0.0" aid="272" c="false" group="2" id="30" name="WTF Bugs 272" sx="1.0" sy="1.0" x="384" y="384" z="0"/>
+        <actor a="0.0" aid="279" c="false" group="2" id="30" name="WTF Bugs 279" sx="1.0" sy="1.0" x="160" y="384" z="0"/>
+        <actor a="0.0" aid="278" c="false" group="2" id="30" name="WTF Bugs 278" sx="1.0" sy="1.0" x="192" y="384" z="0"/>
+        <actor a="0.0" aid="277" c="false" group="2" id="30" name="WTF Bugs 277" sx="1.0" sy="1.0" x="224" y="384" z="0"/>
+        <actor a="0.0" aid="276" c="false" group="2" id="30" name="WTF Bugs 276" sx="1.0" sy="1.0" x="256" y="384" z="0"/>
+        <actor a="0.0" aid="283" c="false" group="2" id="30" name="WTF Bugs 283" sx="1.0" sy="1.0" x="160" y="256" z="0"/>
+        <actor a="0.0" aid="282" c="false" group="2" id="30" name="WTF Bugs 282" sx="1.0" sy="1.0" x="160" y="288" z="0"/>
+        <actor a="0.0" aid="281" c="false" group="2" id="30" name="WTF Bugs 281" sx="1.0" sy="1.0" x="160" y="320" z="0"/>
+        <actor a="0.0" aid="280" c="false" group="2" id="30" name="WTF Bugs 280" sx="1.0" sy="1.0" x="160" y="352" z="0"/>
+        <actor a="0.0" aid="287" c="false" group="2" id="30" name="WTF Bugs 287" sx="1.0" sy="1.0" x="160" y="128" z="0"/>
+        <actor a="0.0" aid="286" c="false" group="2" id="30" name="WTF Bugs 286" sx="1.0" sy="1.0" x="160" y="160" z="0"/>
+        <actor a="0.0" aid="285" c="false" group="2" id="30" name="WTF Bugs 285" sx="1.0" sy="1.0" x="160" y="192" z="0"/>
+        <actor a="0.0" aid="284" c="false" group="2" id="30" name="WTF Bugs 284" sx="1.0" sy="1.0" x="160" y="224" z="0"/>
+        <actor a="0.0" aid="258" c="false" group="2" id="30" name="WTF Bugs 258" sx="1.0" sy="1.0" x="384" y="64" z="0"/>
+        <actor a="0.0" aid="259" c="false" group="2" id="30" name="WTF Bugs 259" sx="1.0" sy="1.0" x="416" y="64" z="0"/>
+        <actor a="0.0" aid="256" c="false" group="2" id="30" name="WTF Bugs 256" sx="1.0" sy="1.0" x="320" y="64" z="0"/>
+        <actor a="0.0" aid="257" c="false" group="2" id="30" name="WTF Bugs 257" sx="1.0" sy="1.0" x="352" y="64" z="0"/>
+        <actor a="0.0" aid="262" c="false" group="2" id="30" name="WTF Bugs 262" sx="1.0" sy="1.0" x="448" y="128" z="0"/>
+        <actor a="0.0" aid="263" c="false" group="2" id="30" name="WTF Bugs 263" sx="1.0" sy="1.0" x="448" y="160" z="0"/>
+        <actor a="0.0" aid="260" c="false" group="2" id="30" name="WTF Bugs 260" sx="1.0" sy="1.0" x="448" y="64" z="0"/>
+        <actor a="0.0" aid="261" c="false" group="2" id="30" name="WTF Bugs 261" sx="1.0" sy="1.0" x="448" y="96" z="0"/>
+        <actor a="0.0" aid="266" c="false" group="2" id="30" name="WTF Bugs 266" sx="1.0" sy="1.0" x="448" y="256" z="0"/>
+        <actor a="0.0" aid="267" c="false" group="2" id="30" name="WTF Bugs 267" sx="1.0" sy="1.0" x="448" y="288" z="0"/>
+        <actor a="0.0" aid="264" c="false" group="2" id="30" name="WTF Bugs 264" sx="1.0" sy="1.0" x="448" y="192" z="0"/>
+        <actor a="0.0" aid="265" c="false" group="2" id="30" name="WTF Bugs 265" sx="1.0" sy="1.0" x="448" y="224" z="0"/>
+        <actor a="0.0" aid="270" c="false" group="2" id="30" name="WTF Bugs 270" sx="1.0" sy="1.0" x="448" y="384" z="0"/>
+        <actor a="0.0" aid="271" c="false" group="2" id="30" name="WTF Bugs 271" sx="1.0" sy="1.0" x="416" y="384" z="0"/>
+        <actor a="0.0" aid="268" c="false" group="2" id="30" name="WTF Bugs 268" sx="1.0" sy="1.0" x="448" y="320" z="0"/>
+        <actor a="0.0" aid="269" c="false" group="2" id="30" name="WTF Bugs 269" sx="1.0" sy="1.0" x="448" y="352" z="0"/>
+        <actor a="0.0" aid="288" c="false" group="2" id="30" name="WTF Bugs 288" sx="1.0" sy="1.0" x="160" y="96" z="0"/>
+        <actor a="0.0" aid="186" c="false" group="2" id="28" name="I Hate Bugs 186" sx="1.0" sy="1.0" x="416" y="352" z="0"/>
+        <actor a="0.0" aid="187" c="false" group="2" id="28" name="I Hate Bugs 187" sx="1.0" sy="1.0" x="416" y="320" z="0"/>
+        <actor a="0.0" aid="184" c="false" group="2" id="28" name="I Hate Bugs 184" sx="1.0" sy="1.0" x="352" y="352" z="0"/>
+        <actor a="0.0" aid="185" c="false" group="2" id="28" name="I Hate Bugs 185" sx="1.0" sy="1.0" x="384" y="352" z="0"/>
+        <actor a="0.0" aid="190" c="false" group="2" id="28" name="I Hate Bugs 190" sx="1.0" sy="1.0" x="320" y="320" z="0"/>
+        <actor a="0.0" aid="191" c="false" group="2" id="28" name="I Hate Bugs 191" sx="1.0" sy="1.0" x="288" y="320" z="0"/>
+        <actor a="0.0" aid="188" c="false" group="2" id="28" name="I Hate Bugs 188" sx="1.0" sy="1.0" x="384" y="320" z="0"/>
+        <actor a="0.0" aid="189" c="false" group="2" id="28" name="I Hate Bugs 189" sx="1.0" sy="1.0" x="352" y="320" z="0"/>
+        <actor a="0.0" aid="178" c="false" group="2" id="11" name="Score BG 178" sx="1.0" sy="1.0" x="19" y="66" z="0"/>
+        <actor a="0.0" aid="179" c="false" group="2" id="28" name="I Hate Bugs 179" sx="1.0" sy="1.0" x="192" y="352" z="0"/>
+        <actor a="0.0" aid="182" c="false" group="2" id="28" name="I Hate Bugs 182" sx="1.0" sy="1.0" x="288" y="352" z="0"/>
+        <actor a="0.0" aid="183" c="false" group="2" id="28" name="I Hate Bugs 183" sx="1.0" sy="1.0" x="320" y="352" z="0"/>
+        <actor a="0.0" aid="180" c="false" group="2" id="28" name="I Hate Bugs 180" sx="1.0" sy="1.0" x="224" y="352" z="0"/>
+        <actor a="0.0" aid="181" c="false" group="2" id="28" name="I Hate Bugs 181" sx="1.0" sy="1.0" x="256" y="352" z="0"/>
+        <actor a="0.0" aid="205" c="false" group="2" id="28" name="I Hate Bugs 205" sx="1.0" sy="1.0" x="352" y="256" z="0"/>
+        <actor a="0.0" aid="204" c="false" group="2" id="28" name="I Hate Bugs 204" sx="1.0" sy="1.0" x="384" y="256" z="0"/>
+        <actor a="0.0" aid="207" c="false" group="2" id="28" name="I Hate Bugs 207" sx="1.0" sy="1.0" x="288" y="256" z="0"/>
+        <actor a="0.0" aid="206" c="false" group="2" id="28" name="I Hate Bugs 206" sx="1.0" sy="1.0" x="320" y="256" z="0"/>
+        <actor a="0.0" aid="201" c="false" group="2" id="28" name="I Hate Bugs 201" sx="1.0" sy="1.0" x="384" y="288" z="0"/>
+        <actor a="0.0" aid="200" c="false" group="2" id="28" name="I Hate Bugs 200" sx="1.0" sy="1.0" x="352" y="288" z="0"/>
+        <actor a="0.0" aid="203" c="false" group="2" id="28" name="I Hate Bugs 203" sx="1.0" sy="1.0" x="416" y="256" z="0"/>
+        <actor a="0.0" aid="202" c="false" group="2" id="28" name="I Hate Bugs 202" sx="1.0" sy="1.0" x="416" y="288" z="0"/>
+        <actor a="0.0" aid="197" c="false" group="2" id="28" name="I Hate Bugs 197" sx="1.0" sy="1.0" x="256" y="288" z="0"/>
+        <actor a="0.0" aid="196" c="false" group="2" id="28" name="I Hate Bugs 196" sx="1.0" sy="1.0" x="224" y="288" z="0"/>
+        <actor a="0.0" aid="199" c="false" group="2" id="28" name="I Hate Bugs 199" sx="1.0" sy="1.0" x="320" y="288" z="0"/>
+        <actor a="0.0" aid="198" c="false" group="2" id="28" name="I Hate Bugs 198" sx="1.0" sy="1.0" x="288" y="288" z="0"/>
+        <actor a="0.0" aid="193" c="false" group="2" id="28" name="I Hate Bugs 193" sx="1.0" sy="1.0" x="224" y="320" z="0"/>
+        <actor a="0.0" aid="192" c="false" group="2" id="28" name="I Hate Bugs 192" sx="1.0" sy="1.0" x="256" y="320" z="0"/>
+        <actor a="0.0" aid="195" c="false" group="2" id="28" name="I Hate Bugs 195" sx="1.0" sy="1.0" x="192" y="288" z="0"/>
+        <actor a="0.0" aid="194" c="false" group="2" id="28" name="I Hate Bugs 194" sx="1.0" sy="1.0" x="192" y="320" z="0"/>
+        <actor a="0.0" aid="220" c="false" group="2" id="28" name="I Hate Bugs 220" sx="1.0" sy="1.0" x="384" y="192" z="0"/>
+        <actor a="0.0" aid="221" c="false" group="2" id="28" name="I Hate Bugs 221" sx="1.0" sy="1.0" x="352" y="192" z="0"/>
+        <actor a="0.0" aid="222" c="false" group="2" id="28" name="I Hate Bugs 222" sx="1.0" sy="1.0" x="320" y="192" z="0"/>
+        <actor a="0.0" aid="223" c="false" group="2" id="28" name="I Hate Bugs 223" sx="1.0" sy="1.0" x="288" y="192" z="0"/>
+        <actor a="0.0" aid="216" c="false" group="2" id="28" name="I Hate Bugs 216" sx="1.0" sy="1.0" x="352" y="224" z="0"/>
+        <actor a="0.0" aid="217" c="false" group="2" id="28" name="I Hate Bugs 217" sx="1.0" sy="1.0" x="384" y="224" z="0"/>
+        <actor a="0.0" aid="218" c="false" group="2" id="28" name="I Hate Bugs 218" sx="1.0" sy="1.0" x="416" y="224" z="0"/>
+        <actor a="0.0" aid="219" c="false" group="2" id="28" name="I Hate Bugs 219" sx="1.0" sy="1.0" x="416" y="192" z="0"/>
+        <actor a="0.0" aid="212" c="false" group="2" id="28" name="I Hate Bugs 212" sx="1.0" sy="1.0" x="224" y="224" z="0"/>
+        <actor a="0.0" aid="213" c="false" group="2" id="28" name="I Hate Bugs 213" sx="1.0" sy="1.0" x="256" y="224" z="0"/>
+        <actor a="0.0" aid="214" c="false" group="2" id="28" name="I Hate Bugs 214" sx="1.0" sy="1.0" x="288" y="224" z="0"/>
+        <actor a="0.0" aid="215" c="false" group="2" id="28" name="I Hate Bugs 215" sx="1.0" sy="1.0" x="320" y="224" z="0"/>
+        <actor a="0.0" aid="208" c="false" group="2" id="28" name="I Hate Bugs 208" sx="1.0" sy="1.0" x="256" y="256" z="0"/>
+        <actor a="0.0" aid="209" c="false" group="2" id="28" name="I Hate Bugs 209" sx="1.0" sy="1.0" x="224" y="256" z="0"/>
+        <actor a="0.0" aid="210" c="false" group="2" id="28" name="I Hate Bugs 210" sx="1.0" sy="1.0" x="192" y="256" z="0"/>
+        <actor a="0.0" aid="211" c="false" group="2" id="28" name="I Hate Bugs 211" sx="1.0" sy="1.0" x="192" y="224" z="0"/>
+        <actor a="0.0" aid="239" c="false" group="2" id="28" name="I Hate Bugs 239" sx="1.0" sy="1.0" x="288" y="128" z="0"/>
+        <actor a="0.0" aid="238" c="false" group="2" id="28" name="I Hate Bugs 238" sx="1.0" sy="1.0" x="320" y="128" z="0"/>
+        <actor a="0.0" aid="237" c="false" group="2" id="28" name="I Hate Bugs 237" sx="1.0" sy="1.0" x="352" y="128" z="0"/>
+        <actor a="0.0" aid="236" c="false" group="2" id="28" name="I Hate Bugs 236" sx="1.0" sy="1.0" x="384" y="128" z="0"/>
+        <actor a="0.0" aid="235" c="false" group="2" id="28" name="I Hate Bugs 235" sx="1.0" sy="1.0" x="416" y="128" z="0"/>
+        <actor a="0.0" aid="234" c="false" group="2" id="28" name="I Hate Bugs 234" sx="1.0" sy="1.0" x="416" y="160" z="0"/>
+        <actor a="0.0" aid="233" c="false" group="2" id="28" name="I Hate Bugs 233" sx="1.0" sy="1.0" x="384" y="160" z="0"/>
+        <actor a="0.0" aid="232" c="false" group="2" id="28" name="I Hate Bugs 232" sx="1.0" sy="1.0" x="352" y="160" z="0"/>
+        <actor a="0.0" aid="231" c="false" group="2" id="28" name="I Hate Bugs 231" sx="1.0" sy="1.0" x="320" y="160" z="0"/>
+        <actor a="0.0" aid="230" c="false" group="2" id="28" name="I Hate Bugs 230" sx="1.0" sy="1.0" x="288" y="160" z="0"/>
+        <actor a="0.0" aid="229" c="false" group="2" id="28" name="I Hate Bugs 229" sx="1.0" sy="1.0" x="256" y="160" z="0"/>
+        <actor a="0.0" aid="228" c="false" group="2" id="28" name="I Hate Bugs 228" sx="1.0" sy="1.0" x="224" y="160" z="0"/>
+        <actor a="0.0" aid="227" c="false" group="2" id="28" name="I Hate Bugs 227" sx="1.0" sy="1.0" x="192" y="160" z="0"/>
+        <actor a="0.0" aid="226" c="false" group="2" id="28" name="I Hate Bugs 226" sx="1.0" sy="1.0" x="192" y="192" z="0"/>
+        <actor a="0.0" aid="225" c="false" group="2" id="28" name="I Hate Bugs 225" sx="1.0" sy="1.0" x="224" y="192" z="0"/>
+        <actor a="0.0" aid="224" c="false" group="2" id="28" name="I Hate Bugs 224" sx="1.0" sy="1.0" x="256" y="192" z="0"/>
+        <actor a="0.0" aid="254" c="false" group="2" id="30" name="WTF Bugs 254" sx="1.0" sy="1.0" x="256" y="64" z="0"/>
+        <actor a="0.0" aid="255" c="false" group="2" id="30" name="WTF Bugs 255" sx="1.0" sy="1.0" x="288" y="64" z="0"/>
+        <actor a="0.0" aid="252" c="false" group="2" id="30" name="WTF Bugs 252" sx="1.0" sy="1.0" x="192" y="64" z="0"/>
+        <actor a="0.0" aid="253" c="false" group="2" id="30" name="WTF Bugs 253" sx="1.0" sy="1.0" x="224" y="64" z="0"/>
+        <actor a="0.0" aid="250" c="false" group="2" id="28" name="I Hate Bugs 250" sx="1.0" sy="1.0" x="416" y="96" z="0"/>
+        <actor a="0.0" aid="251" c="false" group="2" id="30" name="WTF Bugs 251" sx="1.0" sy="1.0" x="160" y="64" z="0"/>
+        <actor a="0.0" aid="248" c="false" group="2" id="28" name="I Hate Bugs 248" sx="1.0" sy="1.0" x="352" y="96" z="0"/>
+        <actor a="0.0" aid="249" c="false" group="2" id="28" name="I Hate Bugs 249" sx="1.0" sy="1.0" x="384" y="96" z="0"/>
+        <actor a="0.0" aid="246" c="false" group="2" id="28" name="I Hate Bugs 246" sx="1.0" sy="1.0" x="288" y="96" z="0"/>
+        <actor a="0.0" aid="247" c="false" group="2" id="28" name="I Hate Bugs 247" sx="1.0" sy="1.0" x="320" y="96" z="0"/>
+        <actor a="0.0" aid="244" c="false" group="2" id="28" name="I Hate Bugs 244" sx="1.0" sy="1.0" x="224" y="96" z="0"/>
+        <actor a="0.0" aid="245" c="false" group="2" id="28" name="I Hate Bugs 245" sx="1.0" sy="1.0" x="256" y="96" z="0"/>
+        <actor a="0.0" aid="242" c="false" group="2" id="28" name="I Hate Bugs 242" sx="1.0" sy="1.0" x="192" y="128" z="0"/>
+        <actor a="0.0" aid="243" c="false" group="2" id="28" name="I Hate Bugs 243" sx="1.0" sy="1.0" x="192" y="96" z="0"/>
+        <actor a="0.0" aid="240" c="false" group="2" id="28" name="I Hate Bugs 240" sx="1.0" sy="1.0" x="256" y="128" z="0"/>
+        <actor a="0.0" aid="241" c="false" group="2" id="28" name="I Hate Bugs 241" sx="1.0" sy="1.0" x="224" y="128" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="18">
+            <prop id="1" list="1" val=""/>
+            <prop id="2" list="0" val=""/>
+            <prop id="3" list="0" val=""/>
+            <prop id="4" list="0" val="13"/>
+            <prop id="5" list="0" val="false"/>
+        </s>
+        <s enabled="true" id="6">
+            <prop id="1" list="0" val="0.0"/>
+            <prop id="2" list="0" val="11"/>
+            <prop id="3" list="0" val="3"/>
+            <prop id="5" list="0" val="28"/>
+            <prop id="6" list="0" val="0.0"/>
+        </s>
+    </snippets>
+    <terrain/>
+</scene>

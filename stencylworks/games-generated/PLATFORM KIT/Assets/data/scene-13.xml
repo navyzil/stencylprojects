@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="272" extheight="384" extwidth="3264" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="100.0" height="320" id="13" name="l3" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="3200">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <grad-bg b1="0" b2="255" g1="51" g2="255" r1="0" r2="204"/>
+    <backgrounds/>
+    <foregrounds/>
+    <joints/>
+    <regions>
+        <region b="64" g="64" h="34" id="0" name="Region 0" pts="4,0.0,0.0,0.0,34.0,126.0,34.0,126.0,0.0" r="64" type="box" w="126" x="321" y="191"/>
+        <region b="64" g="64" h="190" id="1" name="Region 1" pts="4,0.0,0.0,0.0,190.0,36.0,190.0,36.0,0.0" r="64" type="box" w="36" x="3170" y="0"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="522" name="ammonite 1" sx="1.0" sy="1.0" x="53" y="226" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="552" name="Q BOSS 2" sx="1.0" sy="1.0" x="2947" y="164" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="262">
+            <prop id="2" list="0" val="p"/>
+            <prop id="6" list="0" val="true"/>
+            <prop id="7" list="0" val="50.0"/>
+            <prop id="8" list="0" val="0,0,0,255"/>
+            <prop id="9" list="0" val="false"/>
+            <prop id="10" list="0" val="Paused"/>
+            <prop id="11" list="0" val="-1"/>
+        </s>
+        <s enabled="true" id="263">
+            <prop id="1" list="0" val="1"/>
+            <prop id="2" list="0" val="8"/>
+            <prop id="4" list="0" val="1"/>
+            <prop id="7" list="0" val="false"/>
+            <prop id="8" list="0" val="false"/>
+            <prop id="9" list="0" val="No Control"/>
+            <prop id="10" list="0" val="0.5"/>
+            <prop id="11" list="0" val="0.5"/>
+            <prop id="12" list="0" val="Fade"/>
+        </s>
+        <s enabled="true" id="261">
+            <prop id="1" list="0" val="544"/>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="4,160.0,0.0,160.0,32.0,0.0,32.0,0.0,0.0" x="2368.0" y="192.0"/>
+        <p pts="4,128.0,0.0,128.0,32.0,0.0,32.0,0.0,0.0" x="1248.0" y="192.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,480.0,0.0,480.0,32.0" x="2720.0" y="192.0"/>
+        <p pts="10,0.0,128.0,0.0,96.0,32.0,96.0,32.0,64.0,96.0,64.0,96.0,32.0,128.0,32.0,128.0,0.0,672.0,0.0,672.0,128.0" x="0.0" y="192.0"/>
+        <p pts="4,160.0,0.0,160.0,32.0,0.0,32.0,0.0,0.0" x="736.0" y="192.0"/>
+        <p pts="4,160.0,0.0,160.0,32.0,0.0,32.0,0.0,0.0" x="992.0" y="192.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="2016.0" y="192.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,160.0,0.0,160.0,32.0" x="1504.0" y="192.0"/>
+    </terrain>
+</scene>

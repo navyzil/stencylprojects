@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="0" y="0">
+            <group eventID="1" id="-1">
+                <comment-short comment="false" x="11" y="25">
+                    <int id="0" val="While the tile properties of the scene are used, this actor is used to replace tiles."/>
+                </comment-short>
+                <dolater comment="false" x="11" y="45">
+                    <group eventID="1" id="-1">
+                        <comment-short comment="false" x="22" y="72">
+                            <int id="0" val="This delay ensures the scene list is created first."/>
+                        </comment-short>
+                        <set-val-15-1 comment="false" x="22" y="92">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <div comment="false" id="0" x="0" y="0">
+                                    <get-xy comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="0"/>
+                                    </get-xy>
+                                    <tile-wh comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                    </tile-wh>
+                                </div>
+                                <times comment="false" id="1" x="0" y="0">
+                                    <div comment="false" id="0" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                        </get-xy>
+                                        <tile-wh comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="1"/>
+                                        </tile-wh>
+                                    </div>
+                                    <scene-wh comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="2"/>
+                                    </scene-wh>
+                                </times>
+                            </plus>
+                        </set-val-15-1>
+                        <replace-list comment="false" x="22" y="140">
+                            <custom-16 comment="false" id="0" x="0" y="0"/>
+                            <get-val-15-1 comment="false" id="1" x="0" y="0"/>
+                            <actor comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </actor>
+                        </replace-list>
+                    </group>
+                    <int id="0" val="0.05"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

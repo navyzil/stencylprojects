@@ -1,0 +1,3260 @@
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] OS Name: Windows 7
+[LOG] OS Version: 6.1
+[LOG] Current Working Directory: D:\Program Files (x86)\Stencyl
+[LOG] Initializing Stencyl
+[LOG] Loading engine extensions...
+[LOG] Parsing engine extensions...
+[LOG] ads is a core engine extension. Skip.
+[LOG] gamecenter is a core engine extension. Skip.
+[LOG] gestures is a core engine extension. Skip.
+[LOG] hypertouch is a core engine extension. Skip.
+[LOG] joystick is a core engine extension. Skip.
+[LOG] label is an engine extension. Adding.
+[LOG] native is a core engine extension. Skip.
+[LOG] purchases is a core engine extension. Skip.
+[LOG] test is an engine extension. Adding.
+[LOG] test-flash is an engine extension. Adding.
+[LOG] test-native is an engine extension. Adding.
+[LOG] tileapi is an engine extension. Adding.
+[LOG] Using Stencyl b7305
+[LOG] Activated: Welcome Center
+[LOG] Checking workspace writability and location: D:\Zil Docs\projects\stencylprojects\stencylworks\/temp
+[LOG] Silent Authentication.
+[LOG] Response: user:::plans0
+[LOG] Logged in as: navyzil
+[LOG] Usergroup: Registered
+[LOG] 200
+[LOG] http://www.stencyl.com/sw/updater/getVersions/stencylworksBeta
+[LOG] HTTP/1.1 200 OK
+<r>
+<server status = '200' version = '1beta' time = '1299439687' />	<version required="true" build="502" name="2.2.0" month="06" day="22" year="12" />
+	<version required="true" build="501" name="2.1.0" month="05" day="25" year="12" />
+	<version required="true" build="500" name="2.0.0" month="04" day="20" year="12" />
+	<version required="false" build="415" name="1.4.1" month="01" day="23" year="12" />
+	<version required="false" build="414" name="1.4.0" month="01" day="22" year="12" />
+	<version required="false" build="413" name="1.3.4" month="12" day="19" year="11" />
+	<version required="false" build="412" name="1.3.3" month="12" day="14" year="11" />
+	<version required="false" build="411" name="1.3.2" month="12" day="12" year="11" />
+	<version required="false" build="410" name="1.3.1" month="12" day="10" year="11" />
+	<version required="false" build="409" name="1.3.0" month="12" day="09" year="11" />
+	<version required="false" build="408" name="1.2.1" month="10" day="27" year="11" />
+	<version required="false" build="407" name="1.2.0" month="10" day="26" year="11" />
+	<version required="false" build="406" name="1.1.1" month="09" day="13" year="11" />
+	<version required="false" build="405" name="1.1.0" month="09" day="08" year="11" />
+	<version required="false" build="404" name="1.0.4" month="07" day="23" year="11" />
+	<version required="false" build="403" name="1.0.3" month="07" day="21" year="11" />
+	<version required="false" build="402" name="1.0.2" month="06" day="30" year="11" />
+	<version required="false" build="401" name="1.0.1" month="05" day="31" year="11" />
+	<version required="false" build="400" name="1.0.0" month="05" day="18" year="11" />
+	<version required="false" build="399" name="0.9.9" month="05" day="18" year="11" />
+</r>
+[ERR] Could not delete file: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts
+[ERR] Could not delete file: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\game
+[LOG] Loading scene-specific snippet. SceneID: 0
+[LOG] Initializing... 34 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 28 : 6Ball1
+[LOG] Initializing... 27 : 6Ball1
+[LOG] Initializing... 30 : 6Ball2
+[LOG] Initializing... 29 : 6Ball2
+[LOG] Initializing... 31 : AddNode
+[LOG] Missing: add node ( x: %1 y: %2 ) to path for %0
+[LOG] Initializing... 32 : AddNodeWithCustomSpeed
+[LOG] Missing: add node ( x: %1 y: %2 ) with speed %3 to path for %0
+[LOG] Initializing... 26 : Bullet
+[LOG] Initializing... 25 : Bullet
+[LOG] Initializing... 33 : ClearPath
+[LOG] Missing: clear path for %0
+[LOG] Initializing... 21 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 11 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 19 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 9 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 24 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 14 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 22 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 12 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 23 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 13 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 4 : Grass Land Tileset
+[LOG] Initializing... 20 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 10 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 6 : Jump
+[LOG] Initializing... 1 : Mambo
+[LOG] Initializing... 0 : Mambo
+[LOG] Initializing... 16 : Polska
+[LOG] Initializing... 15 : Polska
+[LOG] Initializing... 3 : Pronger
+[LOG] Initializing... 2 : Pronger
+[LOG] Initializing... 18 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 8 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 17 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 7 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 5 : Stomp
+[LOG] Loading Sound 5
+[LOG] Loading Sound 6
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Activated: Dashboard
+[ERR] Could not delete file: C:\Users\dustin\AppData\Local\Temp\stencyl4202780524848445491\sandbox\build\code
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Took 1090ms
+[LOG] Missing: in.joystick.dir
+[LOG] Missing: in.joystick.mag
+[LOG] Missing: sactor.ispaused
+[LOG] Missing: adv.isiphoneipad
+[LOG] Missing: get %0 coordinate of %1 in scene
+[LOG] Missing: set tile at row: %0 col: %1 layerID: %2 using tileID: %4 from tilesetID: %3
+[LOG] Missing: tile exists at row: %0 col: %1 layerID: %2
+[LOG] Missing: ID for tile at row: %0 col: %1 layerID: %2
+[LOG] Missing: tile collision shape found at row: %0 col: %1 layerID: %2
+[LOG] Missing: collision ID for tile at row: %0 col: %1 layerID: %2
+[LOG] Missing: ID for tile's tileset at row: %0 col: %1 layerID: %2
+[LOG] Missing: remove tile at row: %0 col: %1 layerID: %2
+[LOG] Loading attribute into tree: Players
+[LOG] Loading attribute into tree: Tiles
+[LOG] Loading attribute into tree: Doodads
+[LOG] Loading attribute into tree: Actors
+[LOG] Loading attribute into tree: Enemies
+[LOG] Loading attribute into tree: enemyBullets
+[LOG] Loading attribute into tree: Regions
+[LOG] Device OS: 4.3
+[LOG] Simulator OS: 4.3
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\15@1.5x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\15@2x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\15@4x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@1.5x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@2x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@4x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml.bak
+[LOG] Loading Closed Resource: My First Scene
+[LOG] Reading header for Scene: 0 (My First Scene)
+[LOG] From: scenes\0.xml
+[LOG] Brush Changed
+[LOG] Action: Preferences...
+[LOG] Field Count: 3
+[ERR] Transition Style
+[ERR] We are looking for 
+[ERR] looking for: 21
+[ERR] {21=stencyl.core.engine.snippet.SnippetInstance@9e3065, 23=stencyl.core.engine.snippet.SnippetInstance@c540d0, 22=stencyl.core.engine.snippet.SnippetInstance@17b6249}
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[ERR] Name: _OutTime
+[ERR] Val: 0.5
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[ERR] looking for: 21
+[ERR] {21=stencyl.core.engine.snippet.SnippetInstance@9e3065, 23=stencyl.core.engine.snippet.SnippetInstance@c540d0, 22=stencyl.core.engine.snippet.SnippetInstance@17b6249}
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[ERR] Name: _InTime
+[ERR] Val: 0.5
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[LOG] Field Count: 8
+[ERR] looking for: 22
+[ERR] {21=stencyl.core.engine.snippet.SnippetInstance@9e3065, 23=stencyl.core.engine.snippet.SnippetInstance@c540d0, 22=stencyl.core.engine.snippet.SnippetInstance@17b6249}
+[ERR] {1=15, 2=false, 3=0, 4=0.5}
+[ERR] Name: _FadeTime
+[ERR] Val: 0.5
+[ERR] {1=15, 2=false, 3=0, 4=0.5}
+[LOG] Field Count: 3
+[LOG] Field Count: 3
+[ERR] Transition Style
+[ERR] We are looking for 
+[ERR] looking for: 21
+[ERR] {21=stencyl.core.engine.snippet.SnippetInstance@9e3065, 23=stencyl.core.engine.snippet.SnippetInstance@c540d0, 22=stencyl.core.engine.snippet.SnippetInstance@17b6249}
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[ERR] Name: _OutTime
+[ERR] Val: 0.5
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[ERR] looking for: 21
+[ERR] {21=stencyl.core.engine.snippet.SnippetInstance@9e3065, 23=stencyl.core.engine.snippet.SnippetInstance@c540d0, 22=stencyl.core.engine.snippet.SnippetInstance@17b6249}
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[ERR] Name: _InTime
+[ERR] Val: 0.5
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[LOG] Field Count: 8
+[ERR] looking for: 22
+[ERR] {21=stencyl.core.engine.snippet.SnippetInstance@9e3065, 23=stencyl.core.engine.snippet.SnippetInstance@c540d0, 22=stencyl.core.engine.snippet.SnippetInstance@17b6249}
+[ERR] {1=15, 2=false, 3=0, 4=0.5}
+[ERR] Name: _FadeTime
+[ERR] Val: 0.5
+[ERR] {1=15, 2=false, 3=0, 4=0.5}
+[LOG] Field Count: 3
+[LOG] Activated: My First Scene
+[LOG] Open Took 6347ms
+[LOG] Total Took 6670ms
+[LOG] Activated: Dashboard
+[LOG] Activated: My First Scene
+[LOG] Activated: Dashboard
+[LOG] Closed Document: My First Scene0
+[LOG] Warning: Unable to refresh document.
+[LOG] If you're opening up a code mode snippet, ignore this message unless you think something is wrong.
+[LOG] If you just closed a document, ignore this message.
+[LOG] Action: Preferences...
+[LOG] Action: Close Game
+[LOG] Resetting workspace.
+[LOG] Missing: in.joystick.dir
+[LOG] Missing: in.joystick.mag
+[LOG] Missing: sactor.ispaused
+[LOG] Missing: adv.isiphoneipad
+[LOG] Activated: Welcome Center
+[LOG] Action: Preferences...
+[LOG] Could not save proxy settings. Skipping.
+[LOG] Loading scene-specific snippet. SceneID: 0
+[LOG] Initializing... 34 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 28 : 6Ball1
+[LOG] Initializing... 27 : 6Ball1
+[LOG] Initializing... 30 : 6Ball2
+[LOG] Initializing... 29 : 6Ball2
+[LOG] Initializing... 31 : AddNode
+[LOG] Missing: add node ( x: %1 y: %2 ) to path for %0
+[LOG] Initializing... 32 : AddNodeWithCustomSpeed
+[LOG] Missing: add node ( x: %1 y: %2 ) with speed %3 to path for %0
+[LOG] Initializing... 26 : Bullet
+[LOG] Initializing... 25 : Bullet
+[LOG] Initializing... 33 : ClearPath
+[LOG] Missing: clear path for %0
+[LOG] Initializing... 21 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 11 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 19 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 9 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 24 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 14 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 22 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 12 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 23 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 13 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 4 : Grass Land Tileset
+[LOG] Initializing... 20 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 10 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 6 : Jump
+[LOG] Initializing... 1 : Mambo
+[LOG] Initializing... 0 : Mambo
+[LOG] Initializing... 16 : Polska
+[LOG] Initializing... 15 : Polska
+[LOG] Initializing... 3 : Pronger
+[LOG] Initializing... 2 : Pronger
+[LOG] Initializing... 18 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 8 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 17 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 7 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 5 : Stomp
+[LOG] Loading Sound 5
+[LOG] Loading Sound 6
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Activated: Dashboard
+[ERR] Could not delete file: C:\Users\dustin\AppData\Local\Temp\stencyl4202780524848445491\sandbox\build\code
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Took 472ms
+[LOG] Missing: get %0 coordinate of %1 in scene
+[LOG] Missing: set tile at row: %0 col: %1 layerID: %2 using tileID: %4 from tilesetID: %3
+[LOG] Missing: tile exists at row: %0 col: %1 layerID: %2
+[LOG] Missing: ID for tile at row: %0 col: %1 layerID: %2
+[LOG] Missing: tile collision shape found at row: %0 col: %1 layerID: %2
+[LOG] Missing: collision ID for tile at row: %0 col: %1 layerID: %2
+[LOG] Missing: ID for tile's tileset at row: %0 col: %1 layerID: %2
+[LOG] Missing: remove tile at row: %0 col: %1 layerID: %2
+[LOG] Loading attribute into tree: Players
+[LOG] Loading attribute into tree: Tiles
+[LOG] Loading attribute into tree: Doodads
+[LOG] Loading attribute into tree: Actors
+[LOG] Loading attribute into tree: Enemies
+[LOG] Loading attribute into tree: enemyBullets
+[LOG] Loading attribute into tree: Regions
+[LOG] Device OS: 4.3
+[LOG] Simulator OS: 4.3
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\15@1.5x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\15@2x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\15@4x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@1.5x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@2x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@4x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml.bak
+[LOG] Loading Closed Resource: My First Scene
+[LOG] Reading header for Scene: 0 (My First Scene)
+[LOG] From: scenes\0.xml
+[LOG] Brush Changed
+[LOG] Field Count: 3
+[ERR] Transition Style
+[ERR] We are looking for 
+[ERR] looking for: 21
+[ERR] {21=stencyl.core.engine.snippet.SnippetInstance@1df092e, 23=stencyl.core.engine.snippet.SnippetInstance@7c8e4c, 22=stencyl.core.engine.snippet.SnippetInstance@1d3dd34}
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[ERR] Name: _OutTime
+[ERR] Val: 0.5
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[ERR] looking for: 21
+[ERR] {21=stencyl.core.engine.snippet.SnippetInstance@1df092e, 23=stencyl.core.engine.snippet.SnippetInstance@7c8e4c, 22=stencyl.core.engine.snippet.SnippetInstance@1d3dd34}
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[ERR] Name: _InTime
+[ERR] Val: 0.5
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[LOG] Field Count: 8
+[ERR] looking for: 22
+[ERR] {21=stencyl.core.engine.snippet.SnippetInstance@1df092e, 23=stencyl.core.engine.snippet.SnippetInstance@7c8e4c, 22=stencyl.core.engine.snippet.SnippetInstance@1d3dd34}
+[ERR] {1=15, 2=false, 3=0, 4=0.5}
+[ERR] Name: _FadeTime
+[ERR] Val: 0.5
+[ERR] {1=15, 2=false, 3=0, 4=0.5}
+[LOG] Field Count: 3
+[LOG] Field Count: 3
+[ERR] Transition Style
+[ERR] We are looking for 
+[ERR] looking for: 21
+[ERR] {21=stencyl.core.engine.snippet.SnippetInstance@1df092e, 23=stencyl.core.engine.snippet.SnippetInstance@7c8e4c, 22=stencyl.core.engine.snippet.SnippetInstance@1d3dd34}
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[ERR] Name: _OutTime
+[ERR] Val: 0.5
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[ERR] looking for: 21
+[ERR] {21=stencyl.core.engine.snippet.SnippetInstance@1df092e, 23=stencyl.core.engine.snippet.SnippetInstance@7c8e4c, 22=stencyl.core.engine.snippet.SnippetInstance@1d3dd34}
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[ERR] Name: _InTime
+[ERR] Val: 0.5
+[ERR] {1=-1, 2=0, 4=-1, 7=false, 8=false, 9=No Control, 10=0.5, 11=0.5, 12=Fade}
+[LOG] Field Count: 8
+[ERR] looking for: 22
+[ERR] {21=stencyl.core.engine.snippet.SnippetInstance@1df092e, 23=stencyl.core.engine.snippet.SnippetInstance@7c8e4c, 22=stencyl.core.engine.snippet.SnippetInstance@1d3dd34}
+[ERR] {1=15, 2=false, 3=0, 4=0.5}
+[ERR] Name: _FadeTime
+[ERR] Val: 0.5
+[ERR] {1=15, 2=false, 3=0, 4=0.5}
+[LOG] Field Count: 3
+[LOG] Activated: My First Scene
+[LOG] Open Took 2265ms
+[LOG] Total Took 2503ms
+[LOG] Action: Test Game...
+[LOG] Save in place.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\game.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\game.xml.bak
+[LOG] Writing out local resources.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark tileset as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[ERR] Saving Snippet: Switch Scenes When Actors are Gone
+[ERR] Instance Value: 15
+[ERR] Instance Value: false
+[ERR] Instance Value: 0
+[ERR] Instance Value: 0.5
+[ERR] Saving Snippet: Switch Scene on Enter Region
+[ERR] Instance Value: -1
+[ERR] Instance Value: 0
+[ERR] Instance Value: -1
+[ERR] Instance Value: false
+[ERR] Instance Value: false
+[ERR] Value: No Control
+[ERR] Instance Value: No Control
+[ERR] Instance Value: 0.5
+[ERR] Instance Value: 0.5
+[ERR] Value: Fade
+[ERR] Instance Value: Fade
+[ERR] Saving Snippet: Move To Next Scene
+[ERR] Instance Value: -1
+[ERR] Instance Value: 0
+[ERR] Instance Value: 0
+[LOG] Saving thumbnail: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\scenes\0.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 81
+[LOG] Coverage: 14.111498%
+[LOG] Segments: (2,2)
+[LOG] Using Quad Space
+[LOG] Combine took: 28ms
+[LOG] Terrain processing took: 1ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out Scene My First Scene
+[LOG] Copying over snippets.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\list.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\list.xml.bak
+[LOG] Copy from opened to disk: SceneEvents_0
+[LOG] Copied to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\SceneEvents_0.design
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\SceneEvents_0.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_0_0_StomponEnemies.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_0_0_StomponEnemies.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_1_1_Stompable.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_1_1_Stompable.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_3_3_DieinPitandReload.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_3_3_DieinPitandReload.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_0.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_2.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\SceneEvents_0.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_15.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_15.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_9_9_SmoothCamera.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_9_9_SmoothCamera.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_10_10_DieOnCollisionWithActorType.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_10_10_DieOnCollisionWithActorType.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_11_11_FollowTarget.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_11_11_FollowTarget.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_12_12_FaceTarget.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_12_12_FaceTarget.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_13_13_EnemyWalkingAI.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_13_13_EnemyWalkingAI.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_14_14_ReloadSceneOnDeath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_14_14_ReloadSceneOnDeath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_15_15_HealthManager.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_15_15_HealthManager.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_17_17_Walking.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_17_17_Walking.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_16_16_drawlives.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_16_16_drawlives.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_19_19_Jump.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_19_19_Jump.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_18_18_Jumping.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_18_18_Jumping.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_21_21_SwitchSceneonEnterRegion.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_21_21_SwitchSceneonEnterRegion.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_20_20_JumpandRunMovement.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_20_20_JumpandRunMovement.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_23_23_MoveToNextScene.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_23_23_MoveToNextScene.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_22_22_SwitchScenesWhenActorsareGone.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_22_22_SwitchScenesWhenActorsareGone.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_25_25_AlwaysSimulate.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_25_25_AlwaysSimulate.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_24_24_RandomWalkingAI.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_24_24_RandomWalkingAI.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_25.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_25.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_26_26_enemyShoot.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_26_26_enemyShoot.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_29_29_DieOnCollision.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_29_29_DieOnCollision.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_28_28_FiringLoop.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_28_28_FiringLoop.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_31_31_DieOnLeavingScreen.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_31_31_DieOnLeavingScreen.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_30_30_FireBullet.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_30_30_FireBullet.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_34_34_FollowPath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_34_34_FollowPath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_35_35_BackandForthHorizontally.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_35_35_BackandForthHorizontally.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_27.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_27.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_29.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_29.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_38_38_BugFixedPatrol.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_38_38_BugFixedPatrol.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_40_40_EnemyPatrol.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_40_40_EnemyPatrol.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_37_37_PatrolRightLeft.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_37_37_PatrolRightLeft.design
+[LOG] Adding: get-val-1-5
+[LOG] Adding: set-val-1-5
+[LOG] Adding: get-val-1-6
+[LOG] Adding: set-val-1-6
+[LOG] Adding: get-val-1-7
+[LOG] Adding: set-val-1-7
+[LOG] Adding: get-val-1-8
+[LOG] Adding: set-val-1-8
+[LOG] Adding: get-val-1-9
+[LOG] Adding: set-val-1-9
+[LOG] Adding: get-val-0-1
+[LOG] Added: init
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_0.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_0.hx
+[LOG] Adding: set-val-0-1
+[LOG] Adding: get-val-0-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Adding: set-val-0-2
+[LOG] Took 20 ms.
+[LOG] Added: actor-set-prop
+[LOG] Added: scene-reload-new
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: lastcollided
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Select Last Collided
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 1
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: die
+[LOG] Added: actor-set-prop
+[LOG] Added: say
+[LOG] Added: init
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_2.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_2.hx
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Took 38 ms.
+[LOG] Added: if
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\SceneEvents_0.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\SceneEvents_0.hx
+[LOG] Took 10 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: SOUND
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 6
+[LOG] Added: if
+[LOG] Added: play-sound4
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: step
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: lastcollided
+[LOG] Select Last Collided
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 1
+[LOG] Added: collide
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: draw
+[LOG] Added: shout
+[LOG] Added: print
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_3_3_DieinPitandReload.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_3_3_DieinPitandReload.hx
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: die
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTORTYPE
+[ERR] Reading generic element ID: 25
+[LOG] Added: event-collide-actortotype
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Took 194 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_15.hx
+[LOG] Adding: get-val-9-1
+[LOG] Adding: set-val-9-1
+[LOG] Set Index to: 3
+[LOG] Added: die
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_15.hx
+[LOG] Adding: get-val-9-2
+[LOG] Adding: set-val-9-2
+[LOG] Adding: get-val-9-3
+[LOG] Adding: set-val-9-3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: dolater
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: lastcollided
+[LOG] Select Last Collided
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 1
+[LOG] Added: set-dxy
+[LOG] Added: else
+[LOG] Took 135 ms.
+[LOG] Adding: get-val-10-2
+[LOG] Adding: set-val-10-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: lastcollided
+[LOG] Select Last Collided
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 1
+[LOG] Added: if
+[LOG] Added: if
+[LOG] Added: receive-message
+[LOG] Added: if
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_1_1_Stompable.hx
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_1_1_Stompable.hx
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-9-1
+[LOG] Took 259 ms.
+[LOG] Adding: get-val-11-1
+[LOG] Adding: set-val-11-1
+[LOG] Adding: get-val-11-2
+[LOG] Adding: set-val-11-2
+[LOG] Adding: get-val-11-3
+[LOG] Adding: set-val-11-3
+[LOG] Adding: get-val-11-4
+[LOG] Adding: set-val-11-4
+[LOG] Adding: get-val-11-5
+[LOG] Adding: set-val-11-5
+[LOG] Adding: get-val-11-6
+[LOG] Adding: set-val-11-6
+[LOG] Adding: get-val-11-7
+[LOG] Adding: set-val-11-7
+[LOG] Adding: get-val-11-8
+[LOG] Adding: set-val-11-8
+[LOG] Added: if
+[LOG] Adding: get-val-11-9
+[LOG] Adding: set-val-11-9
+[LOG] Adding: get-val-11-10
+[LOG] Adding: set-val-11-10
+[LOG] Adding: get-val-11-11
+[LOG] Adding: set-val-11-11
+[LOG] Adding: get-val-11-12
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Adding: set-val-11-12
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-9-2
+[LOG] Added: set-val-9-3
+[LOG] Added: init
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Added: collide
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: die
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-collide-actortotype
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_0_0_StomponEnemies.hx
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_10_10_DieOnCollisionWithActorType.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_0_0_StomponEnemies.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_10_10_DieOnCollisionWithActorType.hx
+[ERR] Warning: This kind of block does not exist: ACTOR
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Reading element ID: var
+[LOG] Select this Actor
+[LOG] Reading variable ID: 1
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] variable text toDisplay: Target Actor
+[LOG] Added: set-val-9-1
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-11-2
+[LOG] Took 335 ms.
+[LOG] Adding: get-val-12-2
+[LOG] Adding: set-val-12-2
+[LOG] Adding: get-val-12-3
+[LOG] Adding: set-val-12-3
+[LOG] Adding: get-val-12-4
+[LOG] Adding: set-val-12-4
+[LOG] Adding: get-val-12-5
+[LOG] Adding: set-val-12-5
+[LOG] Took 122 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-9-2
+[LOG] Added: camera-move
+[LOG] Added: step
+[LOG] Adding: get-val-13-1
+[LOG] Adding: set-val-13-1
+[LOG] Adding: get-val-13-2
+[LOG] Adding: set-val-13-2
+[LOG] Adding: get-val-13-3
+[LOG] Adding: set-val-13-3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: var
+[LOG] Reading variable ID: 1
+[LOG] variable text toDisplay: Target Actor
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_9_9_SmoothCamera.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_9_9_SmoothCamera.hx
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: var
+[LOG] Reading variable ID: 5
+[LOG] variable text toDisplay: Target Actor
+[LOG] Took 175 ms.
+[LOG] Adding: get-val-14-1
+[LOG] Adding: set-val-14-1
+[LOG] Adding: get-val-14-2
+[LOG] Adding: set-val-14-2
+[LOG] Adding: get-val-14-3
+[LOG] Adding: set-val-14-3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-11-3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Added: set-val-11-4
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-12-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: say-this
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-11-5
+[LOG] Added: event-actor-create-kill
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: var
+[LOG] Reading variable ID: 5
+[LOG] variable text toDisplay: Target Actor
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Select this Actor
+[LOG] Reading element ID: this
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Added: scene-reload-new
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setvel
+[LOG] Added: if
+[LOG] Added: set-val-12-3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setvel
+[LOG] Added: else
+[LOG] Added: if
+[LOG] Added: setangle
+[LOG] Added: scene-reload-new
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Added: if
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setvel
+[LOG] Added: else
+[LOG] Added: set-val-11-12
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: var
+[LOG] Reading variable ID: 5
+[LOG] variable text toDisplay: Target Actor
+[LOG] Added: if
+[LOG] Added: step
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_12_12_FaceTarget.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_12_12_FaceTarget.hx
+[LOG] Added: scene-reload-new
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: var
+[LOG] Took 199 ms.
+[LOG] Reading variable ID: 1
+[LOG] Adding: get-val-15-1
+[LOG] variable text toDisplay: Target Actor
+[LOG] Adding: set-val-15-1
+[LOG] Adding: get-val-15-2
+[LOG] Added: if
+[LOG] Added: step
+[LOG] Adding: set-val-15-2
+[LOG] Adding: get-val-15-3
+[LOG] Adding: set-val-15-3
+[LOG] Adding: get-val-15-4
+[LOG] Adding: set-val-15-4
+[LOG] Adding: get-val-15-5
+[LOG] Adding: set-val-15-5
+[LOG] Adding: get-val-15-7
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Adding: set-val-15-7
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Adding: get-val-15-8
+[LOG] Adding: set-val-15-8
+[LOG] Adding: get-val-15-9
+[LOG] Adding: set-val-15-9
+[LOG] Adding: get-val-15-10
+[LOG] Adding: set-val-15-10
+[LOG] Adding: get-val-15-11
+[LOG] Adding: set-val-15-11
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Adding: get-val-15-12
+[LOG] Adding: set-val-15-12
+[LOG] Adding: get-val-15-13
+[LOG] Added: set-dxy
+[LOG] Adding: set-val-15-13
+[LOG] Adding: get-val-15-14
+[LOG] Adding: set-val-15-14
+[LOG] Adding: get-val-15-15
+[LOG] Adding: set-val-15-15
+[LOG] Adding: get-val-15-17
+[LOG] Adding: set-val-15-17
+[LOG] Adding: get-val-15-16
+[LOG] Adding: set-val-15-16
+[LOG] Adding: get-val-15-19
+[LOG] Adding: set-val-15-19
+[LOG] Adding: get-val-15-18
+[LOG] Adding: set-val-15-18
+[LOG] Adding: get-val-15-20
+[LOG] Adding: set-val-15-20
+[LOG] Adding: get-val-15-23
+[LOG] Adding: set-val-15-23
+[LOG] Adding: get-val-15-22
+[LOG] Adding: set-val-15-22
+[LOG] Adding: get-val-15-25
+[LOG] Adding: set-val-15-25
+[LOG] Adding: get-val-15-24
+[LOG] Adding: set-val-15-24
+[LOG] Adding: get-val-15-27
+[LOG] Adding: set-val-15-27
+[LOG] Adding: get-val-15-26
+[LOG] Adding: set-val-15-26
+[LOG] Adding: get-val-15-29
+[LOG] Adding: set-val-15-29
+[LOG] Adding: get-val-15-28
+[LOG] Adding: set-val-15-28
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Adding: get-val-15-31
+[LOG] Adding: set-val-15-31
+[LOG] Adding: get-val-15-30
+[LOG] Adding: set-val-15-30
+[LOG] Adding: get-val-15-32
+[LOG] Adding: set-val-15-32
+[LOG] Adding: get-val-15-39
+[LOG] Adding: set-val-15-39
+[LOG] Adding: get-val-15-42
+[LOG] Adding: set-val-15-42
+[LOG] Adding: get-val-15-43
+[LOG] Adding: set-val-15-43
+[LOG] Adding: get-val-15-41
+[LOG] Adding: set-val-15-41
+[LOG] Adding: get-val-15-46
+[LOG] Added: if
+[LOG] Adding: set-val-15-46
+[LOG] Adding: get-val-15-44
+[LOG] Adding: set-val-15-44
+[LOG] Adding: get-val-15-45
+[LOG] Adding: set-val-15-45
+[LOG] Added: step
+[LOG] Added: scene-reload-new
+[LOG] Added: else-if
+[LOG] Added: set-val-15-3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-11-10
+[LOG] Added: setanim
+[LOG] Added: init
+[LOG] Added: init
+[LOG] Added: set-val-15-13
+[LOG] Added: set-game-att
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Added: set-val-11-12
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: var
+[LOG] Reading variable ID: 1
+[LOG] variable text toDisplay: Target Actor
+[LOG] Added: scene-reload-new
+[LOG] Added: event-collide-actor
+[LOG] Added: else-if
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Added: if
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_11_11_FollowTarget.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_11_11_FollowTarget.hx
+[LOG] Added: set-val-15-3
+[LOG] Added: else
+[LOG] Added: if
+[LOG] Took 370 ms.
+[LOG] Added: comment-short
+[LOG] Adding: get-val-17-1
+[LOG] Adding: set-val-17-1
+[LOG] Adding: get-val-17-2
+[LOG] Adding: set-val-17-2
+[LOG] Adding: get-val-17-3
+[LOG] Adding: set-val-17-3
+[LOG] Adding: get-val-17-4
+[LOG] Adding: set-val-17-4
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: die
+[LOG] Added: scene-reload-new
+[LOG] Added: if
+[LOG] Added: else-if
+[LOG] Added: if
+[LOG] Added: init
+[LOG] Added: if
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: scene-reload-new
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: push-shove2
+[LOG] Added: set-val-15-3
+[LOG] Added: else-if
+[LOG] Added: setanim
+[LOG] Added: say-this
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: if
+[LOG] Added: scene-reload-through
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: shout
+[LOG] Added: else-if
+[LOG] Added: scene-reload-through
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: push-shove2
+[LOG] Added: else-if
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: if
+[LOG] Added: scene-reload-through
+[LOG] Added: else-if
+[LOG] Added: if
+[LOG] Added: collide
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_13_13_EnemyWalkingAI.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_13_13_EnemyWalkingAI.hx
+[ERR] Warning: This kind of block does not exist: SOUND
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 16
+[LOG] Added: play-sound4
+[ERR] Warning: This kind of block does not exist: CONTROL
+[ERR] Reading generic element ID: 2
+[LOG] Added: if
+[LOG] Added: scene-reload-through
+[LOG] Added: if
+[LOG] Added: receiver-1-20
+[LOG] Added: else-if
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: push-shove2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: if
+[LOG] Added: scene-reload-through
+[LOG] Added: stop
+[LOG] Added: else-if
+[LOG] Added: if
+[LOG] Added: event-custom
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_14_14_ReloadSceneOnDeath.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_14_14_ReloadSceneOnDeath.hx
+[LOG] Took 931 ms.
+[LOG] Adding: get-val-16-1
+[LOG] Adding: set-val-16-1
+[LOG] Added: set-val-15-3
+[LOG] Added: say-this
+[LOG] Added: comment-short
+[LOG] Added: say-this
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: FONT
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 1
+[LOG] Added: set-font-new
+[ERR] Warning: This kind of block does not exist: SOUND
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 15
+[LOG] Added: play-sound4
+[LOG] Added: draw-text
+[LOG] Added: draw
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_16_16_drawlives.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_16_16_drawlives.hx
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: push-shove2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: if
+[LOG] Added: if
+[LOG] Took 996 ms.
+[LOG] Adding: get-val-19-1
+[LOG] Adding: set-val-19-1
+[LOG] Adding: get-val-19-3
+[LOG] Adding: set-val-19-3
+[LOG] Adding: get-val-19-6
+[LOG] Adding: set-val-19-6
+[LOG] Adding: get-val-19-7
+[LOG] Adding: set-val-19-7
+[LOG] Adding: get-val-19-8
+[LOG] Adding: set-val-19-8
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: CONTROL
+[ERR] Reading generic element ID: 3
+[LOG] Took 44 ms.
+[LOG] Added: else-if
+[LOG] Added: step
+[LOG] Adding: get-val-18-1
+[LOG] Adding: set-val-18-1
+[LOG] Adding: get-val-18-2
+[LOG] Adding: set-val-18-2
+[LOG] Adding: get-val-18-3
+[LOG] Adding: set-val-18-3
+[LOG] Adding: get-val-18-4
+[LOG] Adding: set-val-18-4
+[LOG] Adding: get-val-18-5
+[LOG] Adding: set-val-18-5
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: die
+[LOG] Added: if
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[LOG] Added: init
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: shout
+[LOG] Added: actor-set-prop
+[LOG] Added: init
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_17_17_Walking.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_17_17_Walking.hx
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: print
+[LOG] Added: comment-short
+[LOG] Took 759 ms.
+[LOG] Adding: get-val-21-1
+[LOG] Adding: set-val-21-1
+[LOG] Adding: get-val-21-2
+[LOG] Adding: set-val-21-2
+[LOG] Adding: get-val-21-4
+[LOG] Adding: set-val-21-4
+[LOG] Adding: get-val-21-7
+[LOG] Adding: set-val-21-7
+[LOG] Adding: get-val-21-8
+[LOG] Adding: set-val-21-8
+[LOG] Adding: get-val-21-9
+[LOG] Adding: set-val-21-9
+[LOG] Adding: get-val-21-10
+[LOG] Adding: set-val-21-10
+[LOG] Adding: get-val-21-11
+[LOG] Adding: set-val-21-11
+[LOG] Adding: get-val-21-12
+[LOG] Adding: set-val-21-12
+[LOG] Added: if
+[LOG] Added: eq
+[LOG] Added: set-val-21-7
+[LOG] Added: set-val-21-7
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: print
+[LOG] Added: comment-short
+[LOG] Added: say-this
+[LOG] Added: else
+[ERR] Warning: This kind of block does not exist: SOUND
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 3
+[LOG] Added: play-sound4
+[ERR] Warning: This kind of block does not exist: SOUND
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 14
+[LOG] Added: play-sound4
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: var
+[LOG] Reading variable ID: 4
+[LOG] variable text toDisplay: Actor
+[ERR] Warning: This kind of block does not exist: SOUND
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 3
+[LOG] Added: play-sound4
+[ERR] Warning: This kind of block does not exist: REGION
+[LOG] Reading element ID: var
+[LOG] Reading variable ID: 1
+[LOG] variable text toDisplay: Region
+[LOG] Added: if
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: comment-short
+[LOG] Added: set-dxy
+[LOG] Added: comment-short
+[LOG] Added: set-val-15-10
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: push-shove
+[LOG] Added: set-val-15-10
+[LOG] Added: comment-short
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: var
+[LOG] Reading variable ID: 4
+[LOG] variable text toDisplay: Actor
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: dolater
+[LOG] Added: if
+[LOG] Added: else
+[LOG] Added: receiver-2-21
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[LOG] Added: set-val-15-3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: say-this
+[LOG] Added: receiver-3-19
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: return
+[LOG] Added: dolater
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: dolater
+[LOG] Added: receiver-4-24
+[LOG] Added: return
+[LOG] Added: receiver-5-23
+[LOG] Added: if
+[LOG] Added: step
+[LOG] Added: set-val-15-8
+[LOG] Added: receiver-6-17
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: step
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_19_19_Jump.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_19_19_Jump.hx
+[LOG] Added: say-this
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: CONTROL
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 9
+[LOG] Added: event-key-press-release
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-15-3
+[LOG] Added: if
+[LOG] Added: comment-short
+[LOG] Added: set-val-15-3
+[LOG] Added: say-this
+[LOG] Added: receiver-7-18
+[LOG] Added: return
+[LOG] Added: receiver-8-22
+[LOG] Took 219 ms.
+[LOG] Adding: get-val-20-34
+[LOG] Adding: set-val-20-34
+[LOG] Adding: get-val-20-33
+[LOG] Adding: set-val-20-33
+[LOG] Adding: get-val-20-38
+[LOG] Adding: set-val-20-38
+[LOG] Adding: get-val-20-37
+[LOG] Adding: set-val-20-37
+[LOG] Adding: get-val-20-42
+[LOG] Adding: set-val-20-42
+[LOG] Adding: get-val-20-43
+[LOG] Adding: set-val-20-43
+[LOG] Adding: get-val-20-11
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Adding: set-val-20-11
+[LOG] Adding: get-val-20-41
+[LOG] Adding: set-val-20-41
+[LOG] Adding: get-val-20-47
+[LOG] Adding: set-val-20-47
+[LOG] Adding: get-val-20-45
+[LOG] Adding: set-val-20-45
+[LOG] Adding: get-val-20-50
+[LOG] Adding: set-val-20-50
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-game-att
+[LOG] Adding: get-val-20-49
+[LOG] Adding: set-val-20-49
+[LOG] Adding: get-val-20-48
+[LOG] Adding: set-val-20-48
+[LOG] Adding: get-val-20-55
+[LOG] Adding: set-val-20-55
+[LOG] Adding: get-val-20-54
+[LOG] Adding: set-val-20-54
+[LOG] Adding: get-val-20-53
+[LOG] Adding: set-val-20-53
+[LOG] Adding: get-val-20-52
+[LOG] Added: setanim
+[LOG] Added: if
+[LOG] Added: receive-message
+[ERR] Warning: This kind of block does not exist: SCENE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 2
+[LOG] Added: scene-change-new
+[LOG] Added: set-val-15-25
+[LOG] Added: step
+[LOG] Added: if
+[LOG] Adding: set-val-20-52
+[LOG] Adding: get-val-20-58
+[LOG] Adding: set-val-20-58
+[LOG] Adding: get-val-20-57
+[LOG] Adding: set-val-20-57
+[LOG] Adding: get-val-20-56
+[LOG] Adding: set-val-20-56
+[LOG] Adding: get-val-20-63
+[LOG] Adding: set-val-20-63
+[LOG] Adding: get-val-20-62
+[LOG] Adding: set-val-20-62
+[LOG] Adding: get-val-20-60
+[LOG] Added: to-screen-space
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: set-frame
+[LOG] Added: comment-short
+[LOG] Adding: set-val-20-60
+[ERR] Warning: This kind of block does not exist: color
+[LOG] Added: set-color
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: SCENE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: scene-change-new
+[LOG] Added: setanim
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: CONTROL
+[LOG] Added: drawfill-rect
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 34
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Added: if
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-frame
+[LOG] Added: else
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[ERR] Warning: This kind of block does not exist: color
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-color
+[LOG] Added: if
+[LOG] Added: step
+[LOG] Added: eq
+[ERR] Warning: This kind of block does not exist: CONTROL
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 33
+[LOG] Added: set-val-20-37
+[LOG] Added: comment-short
+[LOG] Added: drawfill-rect
+[ERR] Warning: This kind of block does not exist: SCENE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 2
+[LOG] Added: scene-change-new
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[ERR] Warning: This kind of block does not exist: color
+[LOG] Added: set-color
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: CONTROL
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 41
+[LOG] Added: set-val-20-42
+[LOG] Added: if
+[LOG] Added: if
+[LOG] Added: collision-foreach
+[ERR] Warning: This kind of block does not exist: color
+[LOG] Added: set-color
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: SCENE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Added: scene-change-new
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: push-shove
+[LOG] Added: else-if
+[LOG] Added: if
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: color
+[LOG] Added: set-color
+[LOG] Added: collide
+[LOG] Added: else-if
+[LOG] Added: eq
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_18_18_Jumping.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_18_18_Jumping.hx
+[ERR] Warning: This kind of block does not exist: color
+[LOG] Added: set-color
+[LOG] Added: else
+[LOG] Added: comment-short
+[LOG] Took 355 ms.
+[LOG] Adding: get-val-23-1
+[LOG] Adding: set-val-23-1
+[LOG] Adding: get-val-23-3
+[LOG] Adding: set-val-23-3
+[LOG] Adding: get-val-23-4
+[LOG] Adding: set-val-23-4
+[ERR] Warning: This kind of block does not exist: SCENE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 2
+[LOG] Added: scene-change-new
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: else-if
+[LOG] Added: drawfill-rect
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Added: if
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: SCENE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 4
+[LOG] Added: scene-change-new
+[ERR] Warning: This kind of block does not exist: SCENE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 2
+[LOG] Added: scene-change-new
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: var
+[LOG] Reading variable ID: 1
+[LOG] variable text toDisplay: Actor that you want to be in the region.
+[ERR] Warning: This kind of block does not exist: REGION
+[LOG] Reading element ID: var
+[LOG] Reading variable ID: 3
+[LOG] variable text toDisplay: The region that you want the actor to be in.
+[LOG] Added: else-if
+[LOG] Added: if
+[LOG] Added: step
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_23_23_MoveToNextScene.hx
+[LOG] Added: set-dxy
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_23_23_MoveToNextScene.hx
+[LOG] Took 70 ms.
+[LOG] Adding: get-val-22-1
+[LOG] Adding: set-val-22-1
+[LOG] Adding: get-val-22-2
+[LOG] Adding: set-val-22-2
+[LOG] Adding: get-val-22-3
+[LOG] Adding: set-val-22-3
+[LOG] Adding: get-val-22-4
+[LOG] Adding: set-val-22-4
+[LOG] Added: set-val-22-2
+[ERR] Warning: This kind of block does not exist: SCENE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 2
+[LOG] Added: scene-change-through
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: drawfill-rect
+[LOG] Added: else
+[LOG] Added: if
+[LOG] Added: draw
+[LOG] Added: set-val-22-2
+[ERR] Warning: This kind of block does not exist: GROUP
+[ERR] Reading generic element ID: 4
+[LOG] Added: actors-in-group
+[LOG] Added: stop
+[LOG] Added: if
+[LOG] Added: set-val-15-17
+[ERR] Warning: This kind of block does not exist: SCENE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 2
+[LOG] Added: scene-change-through
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: SOUND
+[ERR] Reading generic element ID: 6
+[LOG] Missing: sound.choose
+[LOG] Added: play-sound4
+[LOG] Added: set-val-20-52
+[ERR] Warning: This kind of block does not exist: ACTORTYPE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 24
+[LOG] Added: set-val-20-57
+[ERR] Warning: This kind of block does not exist: SCENE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 3
+[LOG] Added: set-val-20-57
+[LOG] Added: scene-change-new
+[ERR] Warning: This kind of block does not exist: SCENE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 2
+[LOG] Added: if
+[LOG] Added: scene-change-through
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Added: set-val-20-57
+[LOG] Added: if
+[LOG] Reading element ID: this
+[LOG] Added: else-if
+[LOG] Added: cancel
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: step
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: dolater
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_22_22_SwitchScenesWhenActorsareGone.hx
+[LOG] Added: if
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_22_22_SwitchScenesWhenActorsareGone.hx
+[LOG] Took 74 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: create-actor3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: ignore-screen-tolerance
+[ERR] Warning: This kind of block does not exist: SCENE
+[LOG] Added: init
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 2
+[LOG] Added: scene-change-through
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_25_25_AlwaysSimulate.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_25_25_AlwaysSimulate.hx
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Took 18 ms.
+[LOG] Added: push-shove
+[LOG] Reading element ID: lastcreated
+[LOG] Adding: get-val-24-1
+[LOG] Added: else
+[LOG] Select Last Created
+[LOG] Adding: set-val-24-1
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] Added: set-val-15-20
+[LOG] Adding: get-val-24-2
+[LOG] Adding: set-val-24-2
+[LOG] Adding: get-val-24-3
+[LOG] Adding: set-val-24-3
+[LOG] Added: else-if
+[LOG] Adding: get-val-24-4
+[LOG] Adding: set-val-24-4
+[LOG] Adding: get-val-24-5
+[LOG] Adding: set-val-24-5
+[LOG] Added: if
+[LOG] Adding: get-val-24-6
+[LOG] Adding: set-val-24-6
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: var
+[LOG] Reading variable ID: 20
+[LOG] variable text toDisplay: Spawned Actor
+[LOG] Added: die
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: SCENE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 2
+[LOG] Added: scene-change-through
+[LOG] Added: push-shove
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: var
+[LOG] Reading variable ID: 20
+[LOG] variable text toDisplay: Spawned Actor
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Added: setanim
+[ERR] Warning: This kind of block does not exist: CONTROL
+[LOG] Select this Actor
+[LOG] Added: event-custom
+[ERR] Reading generic element ID: var
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Reading variable ID: 41
+[LOG] Added: dolater
+[LOG] Added: if
+[LOG] Added: if
+[LOG] Added: event-custom
+[LOG] Added: set-val-20-55
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_21_21_SwitchSceneonEnterRegion.hx
+[LOG] Added: if
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_21_21_SwitchSceneonEnterRegion.hx
+[LOG] Took 595 ms.
+[LOG] Added: set-val-20-55
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: else-if
+[LOG] Added: else
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_25.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_25.hx
+[LOG] Took 5 ms.
+[LOG] Adding: get-val-26-1
+[LOG] Adding: set-val-26-1
+[LOG] Added: cancel
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_15_15_HealthManager.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_15_15_HealthManager.hx
+[LOG] Added: setanim
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Took 1476 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: else
+[ERR] Warning: This kind of block does not exist: ACTORTYPE
+[ERR] Warning: This kind of block does not exist: ACTOR
+[ERR] Reading generic element ID: 25
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: die
+[LOG] Added: collide
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_29_29_DieOnCollision.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_29_29_DieOnCollision.hx
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Took 23 ms.
+[LOG] Adding: get-val-28-1
+[LOG] Adding: set-val-28-1
+[LOG] Adding: get-val-28-2
+[LOG] Adding: set-val-28-2
+[LOG] Adding: get-val-28-3
+[LOG] Adding: set-val-28-3
+[LOG] Adding: get-val-28-4
+[LOG] Adding: set-val-28-4
+[LOG] Adding: get-val-28-5
+[LOG] Adding: set-val-28-5
+[LOG] Adding: get-val-28-6
+[LOG] Adding: set-val-28-6
+[LOG] Adding: get-val-28-7
+[LOG] Adding: set-val-28-7
+[LOG] Adding: get-val-28-8
+[LOG] Adding: set-val-28-8
+[LOG] Adding: get-val-28-9
+[LOG] Adding: set-val-28-9
+[LOG] Adding: get-val-28-10
+[LOG] Adding: set-val-28-10
+[LOG] Adding: get-val-28-11
+[LOG] Adding: set-val-28-11
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Added: setanim
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: else
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Added: cancel
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTORTYPE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 5
+[LOG] Added: setanim
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: else
+[LOG] Added: create-actor3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: lastcreated
+[LOG] Select Last Created
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: create-actor3
+[LOG] Added: push-shove
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: dolater
+[LOG] Added: step
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_26_26_enemyShoot.hx
+[LOG] Added: setanim
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Added: else
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: else
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_26_26_enemyShoot.hx
+[LOG] Added: setanim
+[LOG] Added: set-val-20-37
+[LOG] Took 123 ms.
+[LOG] Added: set-val-20-58
+[LOG] Added: set-val-20-42
+[LOG] Added: set-val-20-43
+[LOG] Added: step
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: lastcreated
+[LOG] Select Last Created
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] Added: set-dxy
+[LOG] Added: set-val-20-37
+[LOG] Added: event-custom
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: ignore-screen-tolerance
+[LOG] Added: init
+[LOG] Added: set-val-20-37
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-custom
+[LOG] Added: set-dxy
+[LOG] Added: else
+[LOG] Added: set-val-20-42
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: dolater
+[LOG] Added: set-val-20-57
+[LOG] Added: event-custom
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: periodic
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: lastcreated
+[LOG] Select Last Created
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Added: set-dxy
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Added: set-val-20-43
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: dolater
+[LOG] Added: init
+[LOG] Added: if
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: die
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-actor-screen
+[LOG] Added: incdec
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_31_31_DieOnLeavingScreen.hx
+[LOG] Added: set-val-28-1
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_31_31_DieOnLeavingScreen.hx
+[LOG] Added: if
+[LOG] Added: step
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: set-val-28-7
+[LOG] Added: set-val-28-3
+[LOG] Took 86 ms.
+[LOG] Added: if
+[LOG] Adding: get-val-30-32
+[LOG] Adding: set-val-30-32
+[LOG] Adding: get-val-30-2
+[LOG] Adding: set-val-30-2
+[LOG] Adding: get-val-30-4
+[LOG] Adding: set-val-30-4
+[LOG] Adding: get-val-30-5
+[LOG] Adding: set-val-30-5
+[LOG] Adding: get-val-30-9
+[LOG] Adding: set-val-30-9
+[LOG] Added: if
+[LOG] Adding: get-val-30-13
+[LOG] Adding: set-val-30-13
+[LOG] Adding: get-val-30-15
+[LOG] Adding: set-val-30-15
+[LOG] Adding: get-val-30-17
+[LOG] Adding: set-val-30-17
+[LOG] Adding: get-val-30-16
+[LOG] Adding: set-val-30-16
+[LOG] Adding: get-val-30-19
+[LOG] Adding: set-val-30-19
+[LOG] Adding: get-val-30-18
+[LOG] Adding: set-val-30-18
+[LOG] Adding: get-val-30-21
+[LOG] Adding: set-val-30-21
+[LOG] Adding: get-val-30-20
+[LOG] Adding: set-val-30-20
+[LOG] Adding: get-val-30-23
+[LOG] Adding: set-val-30-23
+[LOG] Adding: get-val-30-22
+[LOG] Added: set-val-20-52
+[LOG] Adding: set-val-30-22
+[LOG] Adding: get-val-30-25
+[LOG] Adding: set-val-30-25
+[LOG] Added: set-val-28-2
+[LOG] Adding: get-val-30-24
+[LOG] Adding: set-val-30-24
+[LOG] Adding: get-val-30-26
+[LOG] Adding: set-val-30-26
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Adding: get-val-30-29
+[LOG] Select this Actor
+[LOG] Adding: set-val-30-29
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Adding: get-val-30-28
+[LOG] Adding: set-val-30-28
+[LOG] Adding: get-val-30-31
+[LOG] Added: setanim
+[LOG] Adding: set-val-30-31
+[LOG] Adding: get-val-30-30
+[LOG] Adding: set-val-30-30
+[LOG] Added: set-val-28-1
+[LOG] Added: if
+[LOG] Added: if
+[LOG] Added: set-val-28-1
+[LOG] Added: else
+[LOG] Added: init
+[LOG] Added: set-val-30-21
+[LOG] Added: event-custom
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_28_28_FiringLoop.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_28_28_FiringLoop.hx
+[LOG] Took 195 ms.
+[LOG] Adding: get-val-34-1
+[LOG] Adding: set-val-34-1
+[LOG] Adding: get-val-34-2
+[LOG] Adding: set-val-34-2
+[LOG] Adding: get-val-34-3
+[LOG] Adding: set-val-34-3
+[LOG] Adding: get-val-34-4
+[LOG] Adding: set-val-34-4
+[LOG] Adding: get-val-34-5
+[LOG] Adding: set-val-34-5
+[LOG] Adding: get-val-34-6
+[LOG] Adding: set-val-34-6
+[LOG] Adding: get-val-34-7
+[LOG] Adding: set-val-34-7
+[LOG] Adding: get-val-34-8
+[LOG] Adding: set-val-34-8
+[LOG] Adding: get-val-34-9
+[LOG] Adding: set-val-34-9
+[LOG] Adding: get-val-34-10
+[LOG] Adding: set-val-34-10
+[LOG] Adding: get-val-34-12
+[LOG] Adding: set-val-34-12
+[LOG] Adding: get-val-34-13
+[LOG] Adding: set-val-34-13
+[LOG] Adding: get-val-34-14
+[LOG] Adding: set-val-34-14
+[LOG] Adding: get-val-34-15
+[LOG] Adding: set-val-34-15
+[LOG] Adding: get-val-34-17
+[LOG] Adding: set-val-34-17
+[LOG] Adding: get-val-34-19
+[LOG] Adding: set-val-34-19
+[LOG] Adding: get-val-34-18
+[LOG] Adding: set-val-34-18
+[LOG] Adding: get-val-34-23
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Adding: set-val-34-23
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: set-val-30-21
+[LOG] Added: if
+[LOG] Added: collide
+[LOG] Added: add-list
+[LOG] Added: receiver-6-31
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_20_20_JumpandRunMovement.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_20_20_JumpandRunMovement.hx
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: CONTROL
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 13
+[LOG] Added: collide
+[LOG] Took 698 ms.
+[LOG] Added: set-val-30-21
+[LOG] Adding: get-val-35-17
+[LOG] Adding: set-val-35-17
+[LOG] Adding: get-val-35-16
+[LOG] Adding: set-val-35-16
+[LOG] Adding: get-val-35-19
+[LOG] Adding: set-val-35-19
+[LOG] Adding: get-val-35-18
+[LOG] Adding: set-val-35-18
+[LOG] Added: if
+[LOG] Added: set-stroke-color
+[LOG] Adding: get-val-35-20
+[LOG] Adding: set-val-35-20
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_24_24_RandomWalkingAI.hx
+[LOG] Adding: get-val-35-13
+[LOG] Adding: set-val-35-13
+[LOG] Adding: get-val-35-15
+[LOG] Adding: set-val-35-15
+[LOG] Added: set-thickness
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_24_24_RandomWalkingAI.hx
+[LOG] Added: set-val-30-21
+[LOG] Added: to-screen-space
+[LOG] Added: set-val-34-7
+[LOG] Added: set-val-30-20
+[LOG] Added: set-val-34-4
+[LOG] Added: set-val-34-7
+[LOG] Took 398 ms.
+[LOG] Added: set-val-34-9
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_27.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_27.hx
+[LOG] Took 7 ms.
+[LOG] Added: set-val-34-10
+[LOG] Added: set-val-34-5
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_29.hx
+[LOG] Added: set-val-34-6
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_29.hx
+[LOG] Added: if
+[LOG] Took 7 ms.
+[LOG] Adding: get-val-38-1
+[LOG] Adding: set-val-38-1
+[LOG] Adding: get-val-38-2
+[LOG] Adding: set-val-38-2
+[LOG] Adding: get-val-38-3
+[LOG] Adding: set-val-38-3
+[LOG] Adding: get-val-38-4
+[LOG] Added: set-val-34-2
+[LOG] Adding: set-val-38-4
+[LOG] Added: set-val-34-3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: incdec
+[LOG] Added: stop
+[LOG] Added: if
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Added: setanim
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: receive-message
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTORTYPE
+[ERR] Reading generic element ID: var
+[LOG] Reading variable ID: 4
+[LOG] Added: actors-of-type3
+[LOG] Added: if
+[LOG] Added: say-this
+[LOG] Added: set-val-30-22
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: say-this
+[LOG] Added: else
+[LOG] Added: if
+[LOG] Added: init
+[LOG] Added: draw-line
+[LOG] Added: set-val-34-5
+[LOG] Added: set-val-34-6
+[LOG] Added: set-val-30-22
+[LOG] Added: else
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Reading element ID: this
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: set-dxy
+[LOG] Added: dolater
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: receive-message
+[LOG] Added: say-this
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTORTYPE
+[ERR] Reading generic element ID: var
+[LOG] Added: step
+[LOG] Reading variable ID: 4
+[LOG] Added: create-actor3
+[LOG] Added: drawfill-circle
+[LOG] Added: set-val-30-15
+[LOG] Added: for-each
+[LOG] Added: set-stroke-color
+[LOG] Added: if
+[LOG] Added: set-thickness
+[LOG] Added: to-screen-space
+[LOG] Added: say-this
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: set-val-30-15
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: else-if
+[LOG] Added: collide
+[LOG] Added: set-val-30-15
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: draw-line
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: else-if
+[LOG] Added: set-dxy
+[LOG] Added: if
+[LOG] Added: set-val-30-15
+[LOG] Added: draw
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: add-list
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Added: else-if
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: receiver-5-32
+[LOG] Added: if
+[LOG] Added: if
+[LOG] Added: set-val-30-15
+[LOG] Added: else-if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setvel
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: else
+[LOG] Added: step
+[LOG] Added: set-val-30-15
+[LOG] Added: set-val-34-18
+[LOG] Added: else-if
+[LOG] Added: say-this
+[LOG] Added: draw-line
+[LOG] Added: if
+[LOG] Added: if
+[LOG] Added: draw
+[LOG] Added: set-val-34-4
+[LOG] Added: set-val-34-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Select this Actor
+[LOG] Added: set-val-34-3
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: ignore-screen-tolerance
+[LOG] Added: incdec
+[LOG] Added: if
+[LOG] Added: say-this
+[LOG] Added: set-val-34-19
+[LOG] Added: if
+[LOG] Added: set-val-34-19
+[LOG] Added: else
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: lastcreated
+[LOG] Select Last Created
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] Added: set-val-35-13
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: step
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_38_38_BugFixedPatrol.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_38_38_BugFixedPatrol.hx
+[LOG] Added: set-val-34-12
+[LOG] Took 263 ms.
+[LOG] Adding: get-val-39-1
+[LOG] Adding: set-val-39-1
+[LOG] Adding: get-val-39-2
+[LOG] Adding: set-val-39-2
+[LOG] Adding: get-val-39-3
+[LOG] Adding: set-val-39-3
+[LOG] Adding: get-val-39-4
+[LOG] Adding: set-val-39-4
+[LOG] Adding: get-val-39-6
+[LOG] Adding: set-val-39-6
+[LOG] Adding: get-val-39-7
+[LOG] Adding: set-val-39-7
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-34-13
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: lastcreated
+[LOG] Select Last Created
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] Added: set-val-34-14
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-34-15
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-val-35-15
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] trig-master
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setvel
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[LOG] Added: if
+[LOG] Added: init
+[LOG] Added: setanim
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setvel
+[LOG] Added: set-val-34-18
+[LOG] Added: else
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: else
+[LOG] Added: step
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: lastcreated
+[LOG] Select Last Created
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: ignore-screen-tolerance
+[LOG] Added: set-val-34-18
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Added: set-val-34-4
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: else
+[LOG] Added: set-val-39-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: lastcreated
+[LOG] Select Last Created
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-dxy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: set-val-39-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[LOG] Added: if
+[LOG] Added: if
+[LOG] Added: collide
+[LOG] trig-master
+[LOG] Language Pack is out of sync with SW. Ignoring parameter index: 2
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-periodic
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_35_35_BackandForthHorizontally.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_35_35_BackandForthHorizontally.hx
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_40_40_EnemyPatrol.hx
+[LOG] Took 444 ms.
+[LOG] Reading element ID: lastcreated
+[LOG] Select Last Created
+[LOG] Adding: get-val-37-1
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_40_40_EnemyPatrol.hx
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[LOG] Adding: set-val-37-1
+[LOG] Adding: get-val-37-2
+[LOG] Adding: set-val-37-2
+[LOG] Adding: get-val-37-3
+[LOG] Adding: set-val-37-3
+[LOG] Adding: get-val-37-4
+[LOG] Adding: set-val-37-4
+[LOG] Adding: get-val-37-5
+[LOG] Added: setvel
+[LOG] Adding: set-val-37-5
+[LOG] Adding: get-val-37-6
+[LOG] Adding: set-val-37-6
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: lastcreated
+[LOG] Select Last Created
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 0
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Added: if
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: actor-set-prop
+[LOG] Added: if
+[LOG] Added: init
+[LOG] Took 171 ms.
+[LOG] Added: clear-list
+[LOG] Added: if
+[LOG] Added: set-val-34-18
+[LOG] Added: receiver-7-33
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: print
+[LOG] Added: if
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_34_34_FollowPath.hx
+[LOG] Added: step
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_34_34_FollowPath.hx
+[LOG] Added: set-val-30-25
+[LOG] Added: event-custom
+[LOG] Took 523 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_30_30_FireBullet.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_30_30_FireBullet.hx
+[LOG] Took 561 ms.
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: if
+[LOG] Added: set-val-37-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: else
+[LOG] Added: set-val-37-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-periodic
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_37_37_PatrolRightLeft.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_37_37_PatrolRightLeft.hx
+[LOG] Took 111 ms.
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\favorites.xml
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\prefs\favorites.xml
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\prefs\picker-favorites.xml
+[LOG] Done writing game.
+[LOG] Write String out as file to: C:\Users\dustin\AppData\Roaming\Macromedia\Flash Player\Logs\flashlog.txt
+[LOG] [D:\Program Files (x86)\Stencyl\plaf\haxe\haxelib.exe, setup, D:\Program Files (x86)\Stencyl\plaf\haxe\lib]
+[LOG] 
+[ERR] Could not delete file: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics
+[ERR] Could not delete file: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Export\iPhone\build
+[ERR] Could not delete file: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Export\cpp\windows\bin
+[LOG] Copy file from: plaf\haxe\mochi.swf to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\mochi.swf
+[LOG] Copy file from: plaf\haxe\newgrounds.swf to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\newgrounds.swf
+[LOG] Copy file from: plaf\haxe\cpmstar.swf to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\cpmstar.swf
+[LOG] Skipping... Mambo
+[LOG] Copying graphics for scale: 1.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-0.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-1-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-1.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-1-1.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-4.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-1-4.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-6.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-1-6.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-8.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-1-8.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-10.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-1-10.png
+[LOG] Copying graphics for scale: 1.5
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-0@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-1-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-1@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-1-1.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-4@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-1-4.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-6@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-1-6.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-8@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-1-8.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-10@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-1-10.png
+[LOG] Copying graphics for scale: 2.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-0@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-1-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-1@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-1-1.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-4@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-1-4.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-6@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-1-6.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-8@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-1-8.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-10@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-1-10.png
+[LOG] Copying graphics for scale: 4.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-0@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-1-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-1@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-1-1.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-4@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-1-4.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-6@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-1-6.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-8@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-1-8.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\1-10@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-1-10.png
+[LOG] Skipping... Pronger
+[LOG] Copying graphics for scale: 1.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-0.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-3-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-1.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-3-1.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-2.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-3-2.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-3.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-3-3.png
+[LOG] Copying graphics for scale: 1.5
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-0@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-3-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-1@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-3-1.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-2@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-3-2.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-3@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-3-3.png
+[LOG] Copying graphics for scale: 2.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-0@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-3-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-1@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-3-1.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-2@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-3-2.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-3@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-3-3.png
+[LOG] Copying graphics for scale: 4.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-0@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-3-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-1@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-3-1.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-2@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-3-2.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\3-3@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-3-3.png
+[LOG] Copying graphics for scale: 1.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\tileset-4.png
+[LOG] Copying graphics for scale: 1.5
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\tileset-4.png
+[LOG] Copying graphics for scale: 2.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\tileset-4.png
+[LOG] Copying graphics for scale: 4.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\tileset-4.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\5.mp3 to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\sfx\sound-5.mp3
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\6.mp3 to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\sfx\sound-6.mp3
+[LOG] Skipping... SetInvincibility
+[LOG] Skipping... SetHealth
+[LOG] Skipping... FullRestore
+[LOG] Skipping... Heal
+[LOG] Skipping... Damage
+[LOG] Skipping... GetInvincibility
+[LOG] Skipping... GetMaxHealth
+[LOG] Skipping... GetCurrentHealth
+[LOG] Skipping... Polska
+[LOG] Skipping... SetInvincibility
+[LOG] Copying graphics for scale: 1.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-0.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-16-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-1.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-16-1.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-2.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-16-2.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-3.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-16-3.png
+[LOG] Copying graphics for scale: 1.5
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-0@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-16-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-1@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-16-1.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-2@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-16-2.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-3@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-16-3.png
+[LOG] Copying graphics for scale: 2.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-0@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-16-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-1@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-16-1.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-2@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-16-2.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-3@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-16-3.png
+[LOG] Copying graphics for scale: 4.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-0@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-16-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-1@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-16-1.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-2@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-16-2.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\16-3@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-16-3.png
+[LOG] Skipping... FullRestore
+[LOG] Skipping... SetHealth
+[LOG] Skipping... Damage
+[LOG] Skipping... Heal
+[LOG] Skipping... GetMaxHealth
+[LOG] Skipping... GetInvincibility
+[LOG] Skipping... Bullet
+[LOG] Skipping... GetCurrentHealth
+[LOG] Skipping... 6Ball1
+[LOG] Copying graphics for scale: 1.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\26-0.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-26-0.png
+[LOG] Copying graphics for scale: 1.5
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\26-0@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-26-0.png
+[LOG] Copying graphics for scale: 2.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\26-0@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-26-0.png
+[LOG] Copying graphics for scale: 4.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\26-0@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-26-0.png
+[LOG] Skipping... 6Ball2
+[LOG] Copying graphics for scale: 1.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\28-0.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-28-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\28-1.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-28-1.png
+[LOG] Copying graphics for scale: 1.5
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\28-0@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-28-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\28-1@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-28-1.png
+[LOG] Copying graphics for scale: 2.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\28-0@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-28-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\28-1@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-28-1.png
+[LOG] Copying graphics for scale: 4.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\28-0@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-28-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\28-1@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-28-1.png
+[LOG] Skipping... AddNode
+[LOG] Copying graphics for scale: 1.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\30-0.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-30-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\30-1.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1x\sprite-30-1.png
+[LOG] Copying graphics for scale: 1.5
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\30-0@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-30-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\30-1@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\1.5x\sprite-30-1.png
+[LOG] Copying graphics for scale: 2.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\30-0@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-30-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\30-1@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\2x\sprite-30-1.png
+[LOG] Copying graphics for scale: 4.0
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\30-0@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-30-0.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\30-1@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\4x\sprite-30-1.png
+[LOG] Skipping... 
+[LOG] Skipping... AddNodeWithCustomSpeed
+[LOG] Skipping... ClearPath
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\game.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\data\game.xml
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\data\resources.xml
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\scenes\scenes.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\data\scenes.xml
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\list.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\data\behaviors.xml
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\game.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\game.xml.bak
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\scenes\0.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\data\scene-0.xml
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\scenes\0.scn to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\data\scene-0.scn
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\/MyScripts.hx
+[LOG] Skipping... Mambo
+[LOG] Skipping... Pronger
+[LOG] Skipping... SetInvincibility
+[LOG] Skipping... SetHealth
+[LOG] Skipping... FullRestore
+[LOG] Skipping... Heal
+[LOG] Skipping... Damage
+[LOG] Skipping... GetInvincibility
+[LOG] Skipping... GetMaxHealth
+[LOG] Skipping... GetCurrentHealth
+[LOG] Skipping... Polska
+[LOG] Skipping... SetInvincibility
+[LOG] Skipping... FullRestore
+[LOG] Skipping... SetHealth
+[LOG] Skipping... Damage
+[LOG] Skipping... Heal
+[LOG] Skipping... GetMaxHealth
+[LOG] Skipping... GetInvincibility
+[LOG] Skipping... Bullet
+[LOG] Skipping... GetCurrentHealth
+[LOG] Skipping... 6Ball1
+[LOG] Skipping... 6Ball2
+[LOG] Skipping... AddNode
+[LOG] Skipping... 
+[LOG] Skipping... AddNodeWithCustomSpeed
+[LOG] Skipping... ClearPath
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\MyAssets.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\StencylPreloader.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_3_3_DieinPitandReload.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_3_3_DieinPitandReload.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_0_0_StomponEnemies.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_0_0_StomponEnemies.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\ActorEvents_0.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\ActorEvents_0.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_1_1_Stompable.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_1_1_Stompable.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\ActorEvents_2.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\ActorEvents_2.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\ActorEvents_15.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\ActorEvents_15.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_9_9_SmoothCamera.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_9_9_SmoothCamera.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_10_10_DieOnCollisionWithActorType.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_10_10_DieOnCollisionWithActorType.hx
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\SceneEvents_0.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\SceneEvents_0.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_11_11_FollowTarget.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_11_11_FollowTarget.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_12_12_FaceTarget.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_12_12_FaceTarget.hx
+[LOG] Took 4 ms.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\SceneEvents_0.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\SceneEvents_0.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\SceneEvents_0.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\SceneEvents_0.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_13_13_EnemyWalkingAI.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_13_13_EnemyWalkingAI.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_15_15_HealthManager.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_15_15_HealthManager.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_14_14_ReloadSceneOnDeath.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_14_14_ReloadSceneOnDeath.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_17_17_Walking.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_17_17_Walking.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_16_16_drawlives.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_16_16_drawlives.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_19_19_Jump.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_19_19_Jump.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_18_18_Jumping.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_18_18_Jumping.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_21_21_SwitchSceneonEnterRegion.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_21_21_SwitchSceneonEnterRegion.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_20_20_JumpandRunMovement.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_20_20_JumpandRunMovement.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_23_23_MoveToNextScene.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_23_23_MoveToNextScene.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_22_22_SwitchScenesWhenActorsareGone.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_22_22_SwitchScenesWhenActorsareGone.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_25_25_AlwaysSimulate.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_25_25_AlwaysSimulate.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_24_24_RandomWalkingAI.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_24_24_RandomWalkingAI.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\ActorEvents_25.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\ActorEvents_25.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_26_26_enemyShoot.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_26_26_enemyShoot.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_29_29_DieOnCollision.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_29_29_DieOnCollision.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_28_28_FiringLoop.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_28_28_FiringLoop.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_31_31_DieOnLeavingScreen.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_31_31_DieOnLeavingScreen.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_30_30_FireBullet.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_30_30_FireBullet.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_34_34_FollowPath.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_34_34_FollowPath.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_35_35_BackandForthHorizontally.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_35_35_BackandForthHorizontally.hx
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_27.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_27.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\ActorEvents_29.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\ActorEvents_29.hx
+[LOG] Took 3 ms.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_27.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\ActorEvents_27.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_38_38_BugFixedPatrol.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_38_38_BugFixedPatrol.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\ActorEvents_27.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\ActorEvents_27.hx
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: print
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Added: if
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: if
+[LOG] Added: set-val-37-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: else
+[LOG] Added: set-val-39-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[LOG] Added: set-val-39-2
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: set-xy
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: setanim
+[LOG] Added: else
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] Added: set-val-37-2
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-periodic
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_40_40_EnemyPatrol.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_40_40_EnemyPatrol.hx
+[LOG] Took 90 ms.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_40_40_EnemyPatrol.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_40_40_EnemyPatrol.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_40_40_EnemyPatrol.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_40_40_EnemyPatrol.hx
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: if
+[ERR] Warning: This kind of block does not exist: ACTOR
+[LOG] Reading element ID: this
+[LOG] Select this Actor
+[LOG] DEFAULT ACTION
+[LOG] Set Index to: 3
+[LOG] Added: event-periodic
+[LOG] Writing Design Snippet to D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_37_37_PatrolRightLeft.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_37_37_PatrolRightLeft.hx
+[LOG] Took 99 ms.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_37_37_PatrolRightLeft.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_37_37_PatrolRightLeft.hx
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Source\scripts\Design_37_37_PatrolRightLeft.hx to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\behavior-hx\Design_37_37_PatrolRightLeft.hx
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\project.xml
+[LOG] Write String out as file to: C:\Users\dustin/.hxcpp_config.xml
+[LOG] Copy file from: data\fonts\default-font.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\default-font.png
+[LOG] Copy file from: data\fonts\default-font.fnt to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\default-font.fnt
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\preloader.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\preloader-bg.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\preloader@1.5x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\preloader-bg@1.5x.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\preloader@2x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\preloader-bg@2x.png
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\preloader@4x.png to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska\Assets\graphics\preloader-bg@4x.png
+[LOG] D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska>set PLATPATH=D:\Program Files (x86)\Stencyl\plaf\ 
+[LOG] D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska>set HAXEPATH=D:\Program Files (x86)\Stencyl\plaf\haxe 
+[LOG] D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska>set HAXE_LIBRARY=D:\Program Files (x86)\Stencyl\plaf\haxe\lib 
+[LOG] D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska>set HAXE_LIB=D:\Program Files (x86)\Stencyl\plaf\haxe\lib 
+[LOG] D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska>set PATH=D:\Program Files (x86)\Stencyl\plaf\haxe;D:\Program Files (x86)\Stencyl\plaf\neko-win;C:\Program Files\Java\jdk1.7.0_40\bin;D:\apache-maven-3.1.1\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Java\jre6\bin;D:\Program Files (x86)\Stencyl\runtimes\jre-win\bin; 
+[LOG] D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska>haxelib setup "D:\Program Files (x86)\Stencyl\plaf\haxe\lib" 
+[LOG] haxelib repository is now D:\Program Files (x86)\Stencyl\plaf\haxe\lib/
+[LOG] D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games-generated\ProjectPolska>haxelib run openfl -verbose build -debug project.xml flash 
+[LOG]    ____                   ______ _ 
+[LOG]   / __ \____  ___  ____  / ____/ / 
+[LOG] / /_/ / /_/ /  __/ / / / ___// /___
+[LOG] \____/  ___/\___/_/ /_/_/   /_____/
+[LOG]     /_/
+[LOG] OpenFL Command-Line Tools (1.1.6)
+[LOG] Initializing project...
+[LOG] Using project file: project.xml
+[LOG] Reading HXCPP config: C:\Users\dustin\.hxcpp_config.xml
+[LOG] Using target platform: FLASH
+[LOG] Running command: UPDATE
+[LOG]  - Creating directory: Export
+[LOG]  - Creating directory: Export/flash
+[LOG]  - Creating directory: Export/flash/bin
+[LOG]  - Creating directory: Export/flash/haxe
+[LOG]  - Copying template file: D:\Program Files (x86)\Stencyl\plaf\haxe\lib/hxtools/1,1,6/templates/haxe/DefaultAssetLibrary.hx -> Export/flash/haxe/DefaultAssetLibrary.hx
+[LOG]  - Copying template file: D:\Program Files (x86)\Stencyl\plaf\haxe\lib/openfl/1,1,1/templates/haxe/NMEPreloader.hx -> Export/flash/haxe/NMEPreloader.hx
+[LOG]  - Copying template file: D:\Program Files (x86)\Stencyl\plaf\haxe\lib/openfl/1,1,1/templates/flash/hxml/debug.hxml -> Export/flash/haxe/debug.hxml
+[LOG]  - Copying template file: D:\Program Files (x86)\Stencyl\plaf\haxe\lib/openfl/1,1,1/templates/flash/hxml/release.hxml -> Export/flash/haxe/release.hxml
+[LOG]  - Copying template file: D:\Program Files (x86)\Stencyl\plaf\haxe\lib/openfl/1,1,1/templates/flash/haxe/ApplicationMain.hx -> Export/flash/haxe/ApplicationMain.hx
+[LOG] Running command: BUILD
+[LOG]  - Running command: haxe Export/flash/haxe/debug.hxml
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-1-0.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-1-1.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-1-10.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-1-4.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-1-6.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-1-8.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-16-0.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-16-1.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-16-2.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-16-3.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-26-0.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-28-0.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-28-1.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-3-0.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-3-1.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-3-2.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-3-3.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-30-0.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/sprite-30-1.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/1x/tileset-4.png
+[LOG]  - Embedding asset: [BINARY] Assets/graphics/default-font.fnt
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/default-font.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/preloader-badge.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/preloader-bg.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/preloader-bg@1.5x.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/preloader-bg@2x.png
+[LOG]  - Embedding asset: [IMAGE] Assets/graphics/preloader-bg@4x.png
+[LOG]  - Embedding asset: [SOUND] Assets/sfx/sound-5.mp3
+[LOG]  - Embedding asset: [SOUND] Assets/sfx/sound-6.mp3
+[LOG]  - Embedding asset: [TEXT] Assets/data/behaviors.xml
+[LOG]  - Embedding asset: [TEXT] Assets/data/game.xml
+[LOG]  - Embedding asset: [TEXT] Assets/data/resources.xml
+[LOG]  - Embedding asset: [BINARY] Assets/data/scene-0.scn
+[LOG]  - Embedding asset: [TEXT] Assets/data/scene-0.xml
+[LOG]  - Embedding asset: [TEXT] Assets/data/scenes.xml
+[LOG] Finished building for Flash (or errored out): 0
+[LOG] [Flash] Universal#initScreen(162): Stage Width: 640
+[LOG] [Flash] Universal#initScreen(163): Stage Height: 384
+[LOG] [Flash] Universal#initScreen(164): Screen Width: 640
+[LOG] [Flash] Universal#initScreen(165): Screen Height: 384
+[LOG] [Flash] Universal#initScreen(166): Screen DPI: 72
+[LOG] [Flash] Universal#initScreen(314): Max Scale: 1
+[LOG] [Flash] Universal#initScreen(315): Engine Scale: 1x
+[LOG] [Flash] Universal#initScreen(669): Scale X: 1
+[LOG] [Flash] Universal#initScreen(670): Scale Y: 1
+[LOG] [Flash] com.stencyl.models.Sound#loadGraphics(54): Loading sound: 6
+[LOG] [Flash] com.stencyl.models.Sound#loadGraphics(54): Loading sound: 5
+[LOG] Attempting to quit out of Stencyl.
+[LOG] Save in place.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\game.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\game.xml.bak
+[LOG] Writing out local resources.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark tileset as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[ERR] Saving Snippet: Switch Scenes When Actors are Gone
+[ERR] Instance Value: 15
+[ERR] Instance Value: false
+[ERR] Instance Value: 0
+[ERR] Instance Value: 0.5
+[ERR] Saving Snippet: Switch Scene on Enter Region
+[ERR] Instance Value: -1
+[ERR] Instance Value: 0
+[ERR] Instance Value: -1
+[ERR] Instance Value: false
+[ERR] Instance Value: false
+[ERR] Value: No Control
+[ERR] Instance Value: No Control
+[ERR] Instance Value: 0.5
+[ERR] Instance Value: 0.5
+[ERR] Value: Fade
+[ERR] Instance Value: Fade
+[ERR] Saving Snippet: Move To Next Scene
+[ERR] Instance Value: -1
+[ERR] Instance Value: 0
+[ERR] Instance Value: 0
+[LOG] Saving thumbnail: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\scenes\0.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 81
+[LOG] Coverage: 14.111498%
+[LOG] Segments: (2,2)
+[LOG] Using Quad Space
+[LOG] Combine took: 10ms
+[LOG] Terrain processing took: 1ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out Scene My First Scene
+[LOG] Copying over snippets.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\list.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\list.xml.bak
+[LOG] Copy from opened to disk: SceneEvents_0
+[LOG] Copied to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\SceneEvents_0.design
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\SceneEvents_0.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_0_0_StomponEnemies.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_0_0_StomponEnemies.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_1_1_Stompable.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_1_1_Stompable.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_3_3_DieinPitandReload.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_3_3_DieinPitandReload.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_0.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_2.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\SceneEvents_0.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_15.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_15.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_9_9_SmoothCamera.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_9_9_SmoothCamera.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_10_10_DieOnCollisionWithActorType.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_10_10_DieOnCollisionWithActorType.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_11_11_FollowTarget.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_11_11_FollowTarget.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_12_12_FaceTarget.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_12_12_FaceTarget.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_13_13_EnemyWalkingAI.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_13_13_EnemyWalkingAI.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_14_14_ReloadSceneOnDeath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_14_14_ReloadSceneOnDeath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_15_15_HealthManager.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_15_15_HealthManager.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_17_17_Walking.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_17_17_Walking.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_16_16_drawlives.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_16_16_drawlives.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_19_19_Jump.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_19_19_Jump.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_18_18_Jumping.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_18_18_Jumping.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_21_21_SwitchSceneonEnterRegion.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_21_21_SwitchSceneonEnterRegion.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_20_20_JumpandRunMovement.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_20_20_JumpandRunMovement.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_23_23_MoveToNextScene.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_23_23_MoveToNextScene.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_22_22_SwitchScenesWhenActorsareGone.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_22_22_SwitchScenesWhenActorsareGone.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_25_25_AlwaysSimulate.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_25_25_AlwaysSimulate.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_24_24_RandomWalkingAI.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_24_24_RandomWalkingAI.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_25.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_25.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_26_26_enemyShoot.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_26_26_enemyShoot.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_29_29_DieOnCollision.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_29_29_DieOnCollision.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_28_28_FiringLoop.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_28_28_FiringLoop.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_31_31_DieOnLeavingScreen.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_31_31_DieOnLeavingScreen.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_30_30_FireBullet.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_30_30_FireBullet.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_34_34_FollowPath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_34_34_FollowPath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_35_35_BackandForthHorizontally.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_35_35_BackandForthHorizontally.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_27.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_27.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_29.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_29.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_38_38_BugFixedPatrol.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_38_38_BugFixedPatrol.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_40_40_EnemyPatrol.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_40_40_EnemyPatrol.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_37_37_PatrolRightLeft.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_37_37_PatrolRightLeft.design
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\favorites.xml
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\prefs\favorites.xml
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\prefs\picker-favorites.xml
+[LOG] Done writing game.
+[LOG] Destroying extensions.
+[LOG] Destroying Temporary Sandbox.
+[LOG] Performing final close.
+[LOG] Exiting...

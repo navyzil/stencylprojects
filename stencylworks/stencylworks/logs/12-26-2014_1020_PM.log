@@ -1,0 +1,218 @@
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] OS Name: Windows 7
+[LOG] OS Version: 6.1
+[LOG] Current Working Directory: D:\Program Files (x86)\Stencyl
+[LOG] Initializing Stencyl
+[LOG] Loading engine extensions...
+[LOG] Parsing engine extensions...
+[LOG] ads is a core engine extension. Skip.
+[LOG] gamecenter is a core engine extension. Skip.
+[LOG] gestures is a core engine extension. Skip.
+[LOG] hypertouch is a core engine extension. Skip.
+[LOG] joystick is a core engine extension. Skip.
+[LOG] label is an engine extension. Adding.
+[LOG] native is a core engine extension. Skip.
+[LOG] purchases is a core engine extension. Skip.
+[LOG] test is an engine extension. Adding.
+[LOG] test-flash is an engine extension. Adding.
+[LOG] test-native is an engine extension. Adding.
+[LOG] tileapi is an engine extension. Adding.
+[LOG] Using Stencyl b7305
+[LOG] Activated: Welcome Center
+[LOG] Checking workspace writability and location: C:\Users\dustin\AppData\Roaming\Stencyl\/temp
+[LOG] Silent Authentication.
+[LOG] Response: user:::plans0
+[LOG] Logged in as: navyzil
+[LOG] Usergroup: Registered
+[LOG] 200
+[LOG] http://www.stencyl.com/sw/updater/getVersions/stencylworksBeta
+[LOG] HTTP/1.1 200 OK
+<r>
+<server status = '200' version = '1beta' time = '1299439687' />	<version required="true" build="502" name="2.2.0" month="06" day="22" year="12" />
+	<version required="true" build="501" name="2.1.0" month="05" day="25" year="12" />
+	<version required="true" build="500" name="2.0.0" month="04" day="20" year="12" />
+	<version required="false" build="415" name="1.4.1" month="01" day="23" year="12" />
+	<version required="false" build="414" name="1.4.0" month="01" day="22" year="12" />
+	<version required="false" build="413" name="1.3.4" month="12" day="19" year="11" />
+	<version required="false" build="412" name="1.3.3" month="12" day="14" year="11" />
+	<version required="false" build="411" name="1.3.2" month="12" day="12" year="11" />
+	<version required="false" build="410" name="1.3.1" month="12" day="10" year="11" />
+	<version required="false" build="409" name="1.3.0" month="12" day="09" year="11" />
+	<version required="false" build="408" name="1.2.1" month="10" day="27" year="11" />
+	<version required="false" build="407" name="1.2.0" month="10" day="26" year="11" />
+	<version required="false" build="406" name="1.1.1" month="09" day="13" year="11" />
+	<version required="false" build="405" name="1.1.0" month="09" day="08" year="11" />
+	<version required="false" build="404" name="1.0.4" month="07" day="23" year="11" />
+	<version required="false" build="403" name="1.0.3" month="07" day="21" year="11" />
+	<version required="false" build="402" name="1.0.2" month="06" day="30" year="11" />
+	<version required="false" build="401" name="1.0.1" month="05" day="31" year="11" />
+	<version required="false" build="400" name="1.0.0" month="05" day="18" year="11" />
+	<version required="false" build="399" name="0.9.9" month="05" day="18" year="11" />
+</r>
+[LOG] Loading scene-specific snippet. SceneID: 0
+[LOG] Initializing... 34 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 28 : 6Ball1
+[LOG] Initializing... 27 : 6Ball1
+[LOG] Initializing... 30 : 6Ball2
+[LOG] Initializing... 29 : 6Ball2
+[LOG] Initializing... 31 : AddNode
+[LOG] Missing: add node ( x: %1 y: %2 ) to path for %0
+[LOG] Initializing... 32 : AddNodeWithCustomSpeed
+[LOG] Missing: add node ( x: %1 y: %2 ) with speed %3 to path for %0
+[LOG] Initializing... 26 : Bullet
+[LOG] Initializing... 25 : Bullet
+[LOG] Initializing... 33 : ClearPath
+[LOG] Missing: clear path for %0
+[LOG] Initializing... 21 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 11 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 19 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 9 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 24 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 14 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 22 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 12 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 23 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 13 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 4 : Grass Land Tileset
+[LOG] Initializing... 20 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 10 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 6 : Jump
+[LOG] Initializing... 1 : Mambo
+[LOG] Initializing... 0 : Mambo
+[LOG] Initializing... 16 : Polska
+[LOG] Initializing... 15 : Polska
+[LOG] Initializing... 3 : Pronger
+[LOG] Initializing... 2 : Pronger
+[LOG] Initializing... 18 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 8 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 17 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 7 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 5 : Stomp
+[LOG] Loading Sound 5
+[LOG] Loading Sound 6
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Activated: Dashboard
+[ERR] Could not delete file: C:\Users\dustin\AppData\Local\Temp\stencyl9062717145856042256\sandbox\build\code
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Took 1707ms
+[LOG] Missing: in.joystick.dir
+[LOG] Missing: in.joystick.mag
+[LOG] Missing: sactor.ispaused
+[LOG] Missing: adv.isiphoneipad
+[LOG] Missing: get %0 coordinate of %1 in scene
+[LOG] Missing: set tile at row: %0 col: %1 layerID: %2 using tileID: %4 from tilesetID: %3
+[LOG] Missing: tile exists at row: %0 col: %1 layerID: %2
+[LOG] Missing: ID for tile at row: %0 col: %1 layerID: %2
+[LOG] Missing: tile collision shape found at row: %0 col: %1 layerID: %2
+[LOG] Missing: collision ID for tile at row: %0 col: %1 layerID: %2
+[LOG] Missing: ID for tile's tileset at row: %0 col: %1 layerID: %2
+[LOG] Missing: remove tile at row: %0 col: %1 layerID: %2
+[LOG] Loading attribute into tree: Players
+[LOG] Loading attribute into tree: Tiles
+[LOG] Loading attribute into tree: Doodads
+[LOG] Loading attribute into tree: Actors
+[LOG] Loading attribute into tree: Enemies
+[LOG] Loading attribute into tree: enemyBullets
+[LOG] Loading attribute into tree: Regions
+[LOG] Device OS: 4.3
+[LOG] Simulator OS: 4.3
+[LOG] Could not parse: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\resources\15@1.5x.png
+[LOG] Could not parse: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\resources\15@2x.png
+[LOG] Could not parse: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\resources\15@4x.png
+[LOG] Could not parse: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\resources\4@1.5x.png
+[LOG] Could not parse: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\resources\4@2x.png
+[LOG] Could not parse: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\resources\4@4x.png
+[LOG] Could not parse: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\resources\data.xml.bak
+[LOG] Action: Save Game As...
+[LOG] Action: Close Game
+[LOG] Save in place.
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\game.xml to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\game.xml.bak
+[LOG] Writing out local resources.
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\resources\data.xml to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark tileset as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[LOG] Copying over snippets.
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\list.xml to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\list.xml.bak
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_0_0_StomponEnemies.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_0_0_StomponEnemies.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_1_1_Stompable.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_1_1_Stompable.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_3_3_DieinPitandReload.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_3_3_DieinPitandReload.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\ActorEvents_0.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\ActorEvents_2.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\SceneEvents_0.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\ActorEvents_15.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\ActorEvents_15.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_9_9_SmoothCamera.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_9_9_SmoothCamera.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_10_10_DieOnCollisionWithActorType.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_10_10_DieOnCollisionWithActorType.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_11_11_FollowTarget.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_11_11_FollowTarget.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_12_12_FaceTarget.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_12_12_FaceTarget.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_13_13_EnemyWalkingAI.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_13_13_EnemyWalkingAI.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_14_14_ReloadSceneOnDeath.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_14_14_ReloadSceneOnDeath.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_15_15_HealthManager.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_15_15_HealthManager.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_17_17_Walking.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_17_17_Walking.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_16_16_drawlives.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_16_16_drawlives.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_19_19_Jump.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_19_19_Jump.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_18_18_Jumping.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_18_18_Jumping.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_21_21_SwitchSceneonEnterRegion.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_21_21_SwitchSceneonEnterRegion.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_20_20_JumpandRunMovement.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_20_20_JumpandRunMovement.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_23_23_MoveToNextScene.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_23_23_MoveToNextScene.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_22_22_SwitchScenesWhenActorsareGone.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_22_22_SwitchScenesWhenActorsareGone.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_25_25_AlwaysSimulate.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_25_25_AlwaysSimulate.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_24_24_RandomWalkingAI.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_24_24_RandomWalkingAI.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\ActorEvents_25.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\ActorEvents_25.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_26_26_enemyShoot.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_26_26_enemyShoot.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_29_29_DieOnCollision.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_29_29_DieOnCollision.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_28_28_FiringLoop.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_28_28_FiringLoop.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_31_31_DieOnLeavingScreen.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_31_31_DieOnLeavingScreen.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_30_30_FireBullet.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_30_30_FireBullet.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_34_34_FollowPath.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_34_34_FollowPath.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_35_35_BackandForthHorizontally.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_35_35_BackandForthHorizontally.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\ActorEvents_27.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\ActorEvents_27.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\ActorEvents_29.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\ActorEvents_29.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_38_38_BugFixedPatrol.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_38_38_BugFixedPatrol.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_40_40_EnemyPatrol.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_40_40_EnemyPatrol.design
+[LOG] Copy file from: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\snippets\Design_37_37_PatrolRightLeft.design to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\preview\scripts\Design_37_37_PatrolRightLeft.design
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\games\ProjectPolska\favorites.xml
+[LOG] Write String out as file to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\prefs\favorites.xml
+[LOG] Write String out as file to: C:\Users\dustin\AppData\Roaming\Stencyl\stencylworks\prefs\picker-favorites.xml
+[LOG] Done writing game.
+[LOG] Resetting workspace.
+[LOG] Missing: in.joystick.dir
+[LOG] Missing: in.joystick.mag
+[LOG] Missing: sactor.ispaused
+[LOG] Missing: adv.isiphoneipad
+[LOG] Activated: Welcome Center
+[LOG] Attempting to quit out of Stencyl.
+[LOG] Destroying extensions.
+[LOG] Destroying Temporary Sandbox.
+[LOG] Performing final close.
+[LOG] Exiting...

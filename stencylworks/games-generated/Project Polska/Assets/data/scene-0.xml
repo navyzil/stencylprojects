@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="2" desc="" eventsnippetid="2" extheight="544" extwidth="384" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="85.0" height="480" id="0" name="beach" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="320">
+    <layers>
+        <layer color="0,0,255" id="1" name="Layer 1" order="0"/>
+        <layer color="100,168,234" id="0" name="Layer 0" order="1"/>
+    </layers>
+    <grad-bg b1="255" b2="255" g1="255" g2="204" r1="0" r2="0"/>
+    <backgrounds/>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="0" name="Polska 1" sx="1.0" sy="1.0" x="6" y="388" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,320.0,64.0,0.0,64.0,0.0,0.0,320.0,0.0" x="0.0" y="416.0"/>
+    </terrain>
+</scene>

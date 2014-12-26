@@ -1,0 +1,33 @@
+-main ApplicationMain 
+-lib openfl
+-lib openfl-nme-compatibility
+-lib openfl
+-lib actuate
+-lib console
+-lib polygonal-ds
+-lib box2d
+-lib stencyl
+-cp Source
+-cp D:\Program Files (x86)\Stencyl\plaf\haxe\extensions/gestures
+-D tools=1.1.6
+-D nme
+-D openfl=1.1
+-D nme_install_tool
+-D web
+--remap browser:nme
+--remap native:nme
+-D network-sandbox
+-D as3_native
+-D swf-directblit
+-swf-lib mochi.swf
+-swf-lib newgrounds.swf
+-swf-lib cpmstar.swf
+-resource Assets/graphics/preloader-bg.png@preloader-bg
+-resource Assets/graphics/preloader-badge.png@preloader-badge
+-swf-version 10.1
+-swf Export/flash/bin/Basic Match 3 Kit.swf
+-swf-header 640:480:65:000000
+-cp Export/flash/haxe
+#--remap nme:flash
+--no-inline
+-debug

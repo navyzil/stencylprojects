@@ -1,0 +1,2 @@
+global.user=navyzil
+global.password=16b8f3f55043fb05faefb872a749fc648dac5d7e
