@@ -411,8 +411,8 @@
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance X" hidden="true" id="12" name="_DistanceX" order="9"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance Y" hidden="true" id="13" name="_DistanceY" order="10"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance" hidden="true" id="14" name="_Distance" order="11"/>
-        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Direction" hidden="true" id="15" name="_Direction" order="12"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <number default="10.0" defaultValue="10.0" desc="The default speed to reach any node." dropdown="" fullname="Default Speed" hidden="false" id="17" name="_DefaultSpeed" order="21"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Current Speed" hidden="true" id="19" name="_CurrentSpeed" order="14"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Current Node" hidden="true" id="18" name="_CurrentNode" order="13"/>
@@ -428,11 +428,11 @@
         </blocks>
         <events>
             <event displayName="Custom Block" enabled="true" id="17" name="event-custom-block" order="16" repeats="true"/>
-            <event displayName="Drawing" enabled="true" id="1" name="draw" order="18" repeats="true"/>
             <event displayName="Custom Block" enabled="true" id="16" name="event-custom-block" order="3" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="1" name="draw" order="18" repeats="true"/>
             <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
-            <event displayName="Created" enabled="true" id="3" name="init" order="1" repeats="true"/>
             <event displayName="Custom Block" enabled="true" id="18" name="event-custom-block" order="17" repeats="true"/>
+            <event displayName="Created" enabled="true" id="3" name="init" order="1" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_35_35_BackandForthHorizontally" classname="scripts.Design_35_35_BackandForthHorizontally" desc="Makes the actor move back and forth horizontally." description="Makes the actor move back and forth horizontally." design="true" drawOrder="0" id="35" language="" name="Back and Forth Horizontally" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
@@ -442,8 +442,8 @@
         <number default="100.0" defaultValue="100.0" desc="The distance the actor will be moving to the right." dropdown="" fullname="Distance Right" hidden="false" id="18" name="_DistanceRight" order="6"/>
         <boolean default="true" defaultValue="true" desc="If selected, the actor will change the movement direction when colliding.&lt;br /&gt;&#10;If unselected, the actor will try to keep on moving in the current direction." dropdown="" fullname="Change Direction on Collision" hidden="false" id="20" name="_ChangeDirectiononCollision" order="7"/>
         <number default="0" defaultValue="0" desc="" dropdown="" fullname="Start" hidden="true" id="13" name="_Start" order="1"/>
-        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <number default="0" defaultValue="0" desc="" dropdown="" fullname="End" hidden="true" id="15" name="_End" order="2"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events>
             <event displayName="Updated" enabled="true" id="1" name="step" order="2" repeats="true"/>
@@ -500,6 +500,28 @@
         <blocks/>
         <events>
             <event displayName="Every N secs" enabled="true" id="1" name="event-periodic" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_40_40_DetectPlayer" classname="scripts.Design_40_40_DetectPlayer" desc="" description="" design="true" drawOrder="0" id="40" language="" name="Detect Player" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="targetActor" hidden="false" id="3" name="_targetActor" order="1"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="maxRange" hidden="false" id="4" name="_maxRange" order="7"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="minRange" hidden="false" id="5" name="_minRange" order="4"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="animationLeft" hidden="false" id="6" name="_animationLeft" order="5"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="animationRight" hidden="false" id="7" name="_animationRight" order="6"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="animationIdle" hidden="false" id="8" name="_animationIdle" order="2"/>
+        <boolean default="true" defaultValue="true" desc="" dropdown="" fullname="isIdle" hidden="false" id="9" name="_isIdle" order="3"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks>
+            <receiver blockID="35" id="1"/>
+            <receiver blockID="37" id="2"/>
+            <receiver blockID="38" id="3"/>
+            <receiver blockID="39" id="4"/>
+        </blocks>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Custom Block" enabled="true" id="2" name="event-custom-block" order="4" repeats="true"/>
+            <event displayName="Custom Block" enabled="true" id="3" name="event-custom-block" order="5" repeats="true"/>
+            <event displayName="Created" enabled="true" id="4" name="init" order="3" repeats="true"/>
         </events>
     </snippet>
 </pack>

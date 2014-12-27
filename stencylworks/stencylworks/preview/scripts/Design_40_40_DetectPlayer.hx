@@ -62,23 +62,57 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class Design_13_13_EnemyWalkingAI extends ActorScript
+class Design_40_40_DetectPlayer extends ActorScript
 {          	
 	
-public var _WalkLeftAnimation:String;
+public var _targetActor:Actor;
 
-public var _WalkRightAnimation:String;
+public var _maxRange:Float;
 
-public var _WalkingSpeed:Float;
+public var _minRange:Float;
+
+public var _animationLeft:String;
+
+public var _animationRight:String;
+
+public var _animationIdle:String;
+
+public var _isIdle:Bool;
+    
+/* ========================= Custom Block ========================= */
+
+
+/* Params are: */
+public function _customBlock_isWithinRange():Bool
+{
+var __Self:Actor = actor;
+        return ((cast((actor.say("Detect Player", "_customBlock_eucledianDistance")), Float) >= _minRange) && (cast((actor.say("Detect Player", "_customBlock_eucledianDistance")), Float) <= _maxRange));
+}
+    
+/* ========================= Custom Block ========================= */
+
+
+/* Params are: */
+public function _customBlock_eucledianDistance():Float
+{
+var __Self:Actor = actor;
+        return Math.abs(Math.sqrt((Math.pow((_targetActor.getX() - actor.getX()), 2) + Math.pow((_targetActor.getY() - actor.getY()), 2))));
+}
 
  
  	public function new(dummy:Int, actor:Actor, engine:Engine)
 	{
 		super(actor, engine);	
-		nameMap.set("Walk Left Animation", "_WalkLeftAnimation");
-nameMap.set("Walk Right Animation", "_WalkRightAnimation");
-nameMap.set("Walking Speed", "_WalkingSpeed");
-_WalkingSpeed = 0.0;
+		nameMap.set("targetActor", "_targetActor");
+nameMap.set("maxRange", "_maxRange");
+_maxRange = 0;
+nameMap.set("minRange", "_minRange");
+_minRange = 0;
+nameMap.set("animationLeft", "_animationLeft");
+nameMap.set("animationRight", "_animationRight");
+nameMap.set("animationIdle", "_animationIdle");
+nameMap.set("isIdle", "_isIdle");
+_isIdle = true;
 nameMap.set("Actor", "actor");
 
 	}
@@ -87,35 +121,40 @@ nameMap.set("Actor", "actor");
 	{
 		    
 /* ======================== When Creating ========================= */
-        actor.setAnimation("" + ("" + _WalkLeftAnimation));
+        actor.setAnimation("" + _animationIdle);
+        _isIdle = true;
+propertyChanged("_isIdle", _isIdle);
+        actor.disableBehavior("Enemy Walking AI");
     
 /* ======================== When Updating ========================= */
 addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void {
 if(wrapper.enabled){
-        if((actor.getAnimation() == _WalkLeftAnimation))
+        if(cast((actor.say("Detect Player", "_customBlock_isWithinRange")), Bool))
 {
-            actor.setXVelocity(-(_WalkingSpeed));
+            if(_isIdle)
+{
+                _isIdle = false;
+propertyChanged("_isIdle", _isIdle);
+                actor.enableBehavior("Enemy Walking AI");
 }
 
-        if((actor.getAnimation() == _WalkRightAnimation))
+            else
 {
-            actor.setXVelocity(_WalkingSpeed);
+                _isIdle = true;
+propertyChanged("_isIdle", _isIdle);
+                actor.disableBehavior("Enemy Walking AI");
 }
 
-}
-});
-    
-/* ======================== Something Else ======================== */
-addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
-if(wrapper.enabled){
-        if(event.thisFromRight)
+            if((_targetActor.getX() > actor.getX()))
 {
-            actor.setAnimation("" + _WalkLeftAnimation);
+                actor.setAnimation("" + _animationRight);
 }
 
-        if(event.thisFromLeft)
+            else
 {
-            actor.setAnimation("" + _WalkRightAnimation);
+                actor.setAnimation("" + _animationLeft);
+}
+
 }
 
 }
