@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="18" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="29" y="40">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="40" y="70">
+                            <group eventID="1" id="-1">
+                                <if comment="false" x="51" y="105">
+                                    <group eventID="1" id="-1">
+                                        <if comment="false" x="62" y="143">
+                                            <group eventID="1" id="-1">
+                                                <create-actor3 comment="false" x="73" y="191">
+                                                    <ACTORTYPE eid="var" id="0" vid="5"/>
+                                                    <plus comment="false" id="1" x="0" y="0">
+                                                        <get-xy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                            <int id="1" val="2"/>
+                                                        </get-xy>
+                                                        <get-val-41-10 comment="false" id="1" x="0" y="0"/>
+                                                    </plus>
+                                                    <plus comment="false" id="2" x="0" y="0">
+                                                        <get-xy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                            <int id="1" val="3"/>
+                                                        </get-xy>
+                                                        <get-val-41-11 comment="false" id="1" x="0" y="0"/>
+                                                    </plus>
+                                                    <int id="3" val="0"/>
+                                                </create-actor3>
+                                            </group>
+                                            <or comment="false" id="0" x="0" y="0">
+                                                <or comment="false" id="0" x="0" y="0">
+                                                    <eq comment="false" id="0" x="0" y="0">
+                                                        <getanim comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                        </getanim>
+                                                        <get-val-41-13 comment="false" id="1" x="0" y="0"/>
+                                                    </eq>
+                                                    <eq comment="false" id="1" x="0" y="0">
+                                                        <getanim comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                        </getanim>
+                                                        <get-val-41-12 comment="false" id="1" x="0" y="0"/>
+                                                    </eq>
+                                                </or>
+                                                <or comment="false" id="1" x="0" y="0">
+                                                    <eq comment="false" id="0" x="0" y="0">
+                                                        <getanim comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                        </getanim>
+                                                        <get-val-41-16 comment="false" id="1" x="0" y="0"/>
+                                                    </eq>
+                                                    <eq comment="false" id="1" x="0" y="0">
+                                                        <getanim comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                        </getanim>
+                                                        <get-val-41-15 comment="false" id="1" x="0" y="0"/>
+                                                    </eq>
+                                                </or>
+                                            </or>
+                                        </if>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <is-anim comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                        </is-anim>
+                                        <true comment="false" id="1" x="0" y="0"/>
+                                    </eq>
+                                </if>
+                                <if comment="false" x="51" y="260">
+                                    <group eventID="1" id="-1">
+                                        <set-dxy comment="false" x="62" y="303">
+                                            <ACTOR eid="lastcreated" id="0"/>
+                                            <int id="1" val="0"/>
+                                            <get-val-41-9 comment="false" id="2" x="0" y="0"/>
+                                        </set-dxy>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <getanim comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                        </getanim>
+                                        <get-val-41-13 comment="false" id="1" x="0" y="0"/>
+                                    </eq>
+                                </if>
+                                <if comment="false" x="51" y="347">
+                                    <group eventID="1" id="-1">
+                                        <set-dxy comment="false" x="62" y="385">
+                                            <ACTOR eid="lastcreated" id="0"/>
+                                            <int id="1" val="0"/>
+                                            <neg comment="false" id="2" x="0" y="0">
+                                                <get-val-41-9 comment="false" id="0" x="0" y="0"/>
+                                            </neg>
+                                        </set-dxy>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <getanim comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                        </getanim>
+                                        <get-val-41-12 comment="false" id="1" x="0" y="0"/>
+                                    </eq>
+                                </if>
+                                <if comment="false" x="51" y="434">
+                                    <group eventID="1" id="-1">
+                                        <set-dxy comment="false" x="62" y="472">
+                                            <ACTOR eid="lastcreated" id="0"/>
+                                            <int id="1" val="1"/>
+                                            <get-val-41-8 comment="false" id="2" x="0" y="0"/>
+                                        </set-dxy>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <getanim comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                        </getanim>
+                                        <get-val-41-16 comment="false" id="1" x="0" y="0"/>
+                                    </eq>
+                                </if>
+                                <if comment="false" x="51" y="516">
+                                    <group eventID="1" id="-1">
+                                        <set-dxy comment="false" x="62" y="554">
+                                            <ACTOR eid="lastcreated" id="0"/>
+                                            <int id="1" val="1"/>
+                                            <neg comment="false" id="2" x="0" y="0">
+                                                <get-val-41-8 comment="false" id="0" x="0" y="0"/>
+                                            </neg>
+                                        </set-dxy>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <getanim comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                        </getanim>
+                                        <get-val-41-15 comment="false" id="1" x="0" y="0"/>
+                                    </eq>
+                                </if>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <mod comment="false" id="0" x="0" y="0">
+                                    <get-val-41-1 comment="false" id="0" x="0" y="0"/>
+                                    <get-val-41-7 comment="false" id="1" x="0" y="0"/>
+                                </mod>
+                                <int id="1" val="0"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <less comment="false" id="0" x="0" y="0">
+                        <get-val-41-1 comment="false" id="0" x="0" y="0"/>
+                        <get-val-41-3 comment="false" id="1" x="0" y="0"/>
+                    </less>
+                </if>
+                <incdec comment="false" x="29" y="627">
+                    <int id="0" val="1"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="1"/>
+                </incdec>
+                <if comment="false" x="29" y="654">
+                    <group eventID="1" id="-1">
+                        <set-val-41-1 comment="false" x="40" y="684">
+                            <int id="0" val="0"/>
+                        </set-val-41-1>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-val-41-1 comment="false" id="0" x="0" y="0"/>
+                        <get-val-41-2 comment="false" id="1" x="0" y="0"/>
+                    </moreeq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-41-7 comment="false" x="26" y="40">
+                    <roundnew comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <div comment="false" id="1" x="0" y="0">
+                            <get-val-41-4 comment="false" id="0" x="0" y="0"/>
+                            <get-val-41-7 comment="false" id="1" x="0" y="0"/>
+                        </div>
+                    </roundnew>
+                </set-val-41-7>
+                <set-val-41-3 comment="false" x="26" y="83">
+                    <roundnew comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <times comment="false" id="1" x="0" y="0">
+                            <get-val-41-3 comment="false" id="0" x="0" y="0"/>
+                            <get-val-41-4 comment="false" id="1" x="0" y="0"/>
+                        </times>
+                    </roundnew>
+                </set-val-41-3>
+                <set-val-41-2 comment="false" x="26" y="126">
+                    <roundnew comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <plus comment="false" id="1" x="0" y="0">
+                            <times comment="false" id="0" x="0" y="0">
+                                <get-val-41-2 comment="false" id="0" x="0" y="0"/>
+                                <get-val-41-4 comment="false" id="1" x="0" y="0"/>
+                            </times>
+                            <get-val-41-3 comment="false" id="1" x="0" y="0"/>
+                        </plus>
+                    </roundnew>
+                </set-val-41-2>
+                <if comment="false" x="26" y="174">
+                    <group eventID="2" id="-1">
+                        <set-val-41-1 comment="false" x="37" y="199">
+                            <int id="0" val="0"/>
+                        </set-val-41-1>
+                    </group>
+                    <get-val-41-6 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="231">
+                    <group eventID="2" id="-1">
+                        <set-val-41-1 comment="false" x="37" y="251">
+                            <get-val-41-3 comment="false" id="0" x="0" y="0"/>
+                        </set-val-41-1>
+                    </group>
+                </else>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

@@ -62,38 +62,19 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_25 extends ActorScript
+class SceneEvents_0 extends SceneScript
 {          	
 	
  
- 	public function new(dummy:Int, actor:Actor, engine:Engine)
+ 	public function new(dummy:Int, engine:Engine)
 	{
-		super(actor, engine);	
+		super(engine);
 		
 	}
 	
 	override public function init()
 	{
-		    
-/* ======================== Actor of Type ========================= */
-addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
-if(wrapper.enabled && sameAsAny(getActorType(15), event.otherActor.getType(),event.otherActor.getGroup())){
-        recycleActor(actor);
-        recycleActor(actor);
-}
-});
-    
-/* ======================== Something Else ======================== */
-addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
-if(wrapper.enabled){
-        if(!(actor.getLastCollidedActor().getType() == getActorType(15)))
-{
-            recycleActor(actor);
-}
-
-}
-});
-
+		
 	}	      	
 	
 	override public function forwardMessage(msg:String)

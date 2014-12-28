@@ -78,6 +78,8 @@ public var _animationRight:String;
 public var _animationIdle:String;
 
 public var _isIdle:Bool;
+
+public var _isShooting:Bool;
     
 /* ========================= Custom Block ========================= */
 
@@ -105,14 +107,16 @@ var __Self:Actor = actor;
 		super(actor, engine);	
 		nameMap.set("targetActor", "_targetActor");
 nameMap.set("maxRange", "_maxRange");
-_maxRange = 0;
+_maxRange = 0.0;
 nameMap.set("minRange", "_minRange");
-_minRange = 0;
+_minRange = 0.0;
 nameMap.set("animationLeft", "_animationLeft");
 nameMap.set("animationRight", "_animationRight");
 nameMap.set("animationIdle", "_animationIdle");
 nameMap.set("isIdle", "_isIdle");
 _isIdle = true;
+nameMap.set("isShooting", "_isShooting");
+_isShooting = false;
 nameMap.set("Actor", "actor");
 
 	}
@@ -125,6 +129,11 @@ nameMap.set("Actor", "actor");
         _isIdle = true;
 propertyChanged("_isIdle", _isIdle);
         actor.disableBehavior("Enemy Walking AI");
+        if(_isShooting)
+{
+            actor.disableBehavior("Enhanced FiringLoop");
+}
+
     
 /* ======================== When Updating ========================= */
 addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void {
@@ -136,6 +145,11 @@ if(wrapper.enabled){
                 _isIdle = false;
 propertyChanged("_isIdle", _isIdle);
                 actor.enableBehavior("Enemy Walking AI");
+                if(_isShooting)
+{
+                    actor.enableBehavior("Enhanced FiringLoop");
+}
+
 }
 
             else
@@ -143,6 +157,11 @@ propertyChanged("_isIdle", _isIdle);
                 _isIdle = true;
 propertyChanged("_isIdle", _isIdle);
                 actor.disableBehavior("Enemy Walking AI");
+                if(_isShooting)
+{
+                    actor.disableBehavior("Enhanced FiringLoop");
+}
+
 }
 
             if((_targetActor.getX() > actor.getX()))

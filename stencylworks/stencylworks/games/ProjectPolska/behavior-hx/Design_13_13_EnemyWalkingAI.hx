@@ -62,33 +62,60 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_25 extends ActorScript
+class Design_13_13_EnemyWalkingAI extends ActorScript
 {          	
 	
+public var _WalkLeftAnimation:String;
+
+public var _WalkRightAnimation:String;
+
+public var _WalkingSpeed:Float;
+
  
  	public function new(dummy:Int, actor:Actor, engine:Engine)
 	{
 		super(actor, engine);	
-		
+		nameMap.set("Walk Left Animation", "_WalkLeftAnimation");
+nameMap.set("Walk Right Animation", "_WalkRightAnimation");
+nameMap.set("Walking Speed", "_WalkingSpeed");
+_WalkingSpeed = 0.0;
+nameMap.set("Actor", "actor");
+
 	}
 	
 	override public function init()
 	{
 		    
-/* ======================== Actor of Type ========================= */
-addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
-if(wrapper.enabled && sameAsAny(getActorType(15), event.otherActor.getType(),event.otherActor.getGroup())){
-        recycleActor(actor);
-        recycleActor(actor);
+/* ======================== When Creating ========================= */
+        actor.setAnimation("" + ("" + _WalkLeftAnimation));
+    
+/* ======================== When Updating ========================= */
+addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void {
+if(wrapper.enabled){
+        if((actor.getAnimation() == _WalkLeftAnimation))
+{
+            actor.setXVelocity(-(_WalkingSpeed));
+}
+
+        if((actor.getAnimation() == _WalkRightAnimation))
+{
+            actor.setXVelocity(_WalkingSpeed);
+}
+
 }
 });
     
 /* ======================== Something Else ======================== */
 addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
 if(wrapper.enabled){
-        if(!(actor.getLastCollidedActor().getType() == getActorType(15)))
+        if(event.thisFromRight)
 {
-            recycleActor(actor);
+            actor.setAnimation("" + _WalkLeftAnimation);
+}
+
+        if(event.thisFromLeft)
+{
+            actor.setAnimation("" + _WalkRightAnimation);
 }
 
 }

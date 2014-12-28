@@ -95,9 +95,9 @@ nameMap.set("Change Direction on Collision", "_ChangeDirectiononCollision");
 _ChangeDirectiononCollision = true;
 nameMap.set("Start", "_Start");
 _Start = 0.0;
+nameMap.set("Actor", "actor");
 nameMap.set("End", "_End");
 _End = 0.0;
-nameMap.set("Actor", "actor");
 
 	}
 	

@@ -322,7 +322,10 @@
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_25" classname="scripts.ActorEvents_25" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="27" language="" name="ActorEvents_25" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
+            <event displayName="Actor - Any" enabled="true" id="2" name="collide" order="2" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_26_26_enemyShoot" classname="scripts.Design_26_26_enemyShoot" desc="" description="" design="true" drawOrder="0" id="26" language="" name="enemyShoot" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
         <number default="0" defaultValue="0" desc="" dropdown="" fullname="intervals" hidden="false" id="1" name="_intervals" order="1"/>
@@ -411,8 +414,8 @@
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance X" hidden="true" id="12" name="_DistanceX" order="9"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance Y" hidden="true" id="13" name="_DistanceY" order="10"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance" hidden="true" id="14" name="_Distance" order="11"/>
-        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Direction" hidden="true" id="15" name="_Direction" order="12"/>
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Direction" hidden="true" id="15" name="_Direction" order="12"/>
         <number default="10.0" defaultValue="10.0" desc="The default speed to reach any node." dropdown="" fullname="Default Speed" hidden="false" id="17" name="_DefaultSpeed" order="21"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Current Speed" hidden="true" id="19" name="_CurrentSpeed" order="14"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Current Node" hidden="true" id="18" name="_CurrentNode" order="13"/>
@@ -428,11 +431,11 @@
         </blocks>
         <events>
             <event displayName="Custom Block" enabled="true" id="17" name="event-custom-block" order="16" repeats="true"/>
-            <event displayName="Custom Block" enabled="true" id="16" name="event-custom-block" order="3" repeats="true"/>
             <event displayName="Drawing" enabled="true" id="1" name="draw" order="18" repeats="true"/>
+            <event displayName="Custom Block" enabled="true" id="16" name="event-custom-block" order="3" repeats="true"/>
             <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
-            <event displayName="Custom Block" enabled="true" id="18" name="event-custom-block" order="17" repeats="true"/>
             <event displayName="Created" enabled="true" id="3" name="init" order="1" repeats="true"/>
+            <event displayName="Custom Block" enabled="true" id="18" name="event-custom-block" order="17" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_35_35_BackandForthHorizontally" classname="scripts.Design_35_35_BackandForthHorizontally" desc="Makes the actor move back and forth horizontally." description="Makes the actor move back and forth horizontally." design="true" drawOrder="0" id="35" language="" name="Back and Forth Horizontally" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
@@ -442,8 +445,8 @@
         <number default="100.0" defaultValue="100.0" desc="The distance the actor will be moving to the right." dropdown="" fullname="Distance Right" hidden="false" id="18" name="_DistanceRight" order="6"/>
         <boolean default="true" defaultValue="true" desc="If selected, the actor will change the movement direction when colliding.&lt;br /&gt;&#10;If unselected, the actor will try to keep on moving in the current direction." dropdown="" fullname="Change Direction on Collision" hidden="false" id="20" name="_ChangeDirectiononCollision" order="7"/>
         <number default="0" defaultValue="0" desc="" dropdown="" fullname="Start" hidden="true" id="13" name="_Start" order="1"/>
-        <number default="0" defaultValue="0" desc="" dropdown="" fullname="End" hidden="true" id="15" name="_End" order="2"/>
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="End" hidden="true" id="15" name="_End" order="2"/>
         <blocks/>
         <events>
             <event displayName="Updated" enabled="true" id="1" name="step" order="2" repeats="true"/>
@@ -504,12 +507,13 @@
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_40_40_DetectPlayer" classname="scripts.Design_40_40_DetectPlayer" desc="" description="" design="true" drawOrder="0" id="40" language="" name="Detect Player" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
         <actor default="" defaultValue="" desc="" dropdown="" fullname="targetActor" hidden="false" id="3" name="_targetActor" order="1"/>
-        <number default="0" defaultValue="0" desc="" dropdown="" fullname="maxRange" hidden="false" id="4" name="_maxRange" order="7"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="maxRange" hidden="false" id="4" name="_maxRange" order="7"/>
         <number default="0" defaultValue="0" desc="" dropdown="" fullname="minRange" hidden="false" id="5" name="_minRange" order="4"/>
         <animation default="" defaultValue="" desc="" dropdown="" fullname="animationLeft" hidden="false" id="6" name="_animationLeft" order="5"/>
         <animation default="" defaultValue="" desc="" dropdown="" fullname="animationRight" hidden="false" id="7" name="_animationRight" order="6"/>
         <animation default="" defaultValue="" desc="" dropdown="" fullname="animationIdle" hidden="false" id="8" name="_animationIdle" order="2"/>
         <boolean default="true" defaultValue="true" desc="" dropdown="" fullname="isIdle" hidden="false" id="9" name="_isIdle" order="3"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="isShooting" hidden="false" id="10" name="_isShooting" order="8"/>
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks>
             <receiver blockID="35" id="1"/>
@@ -522,6 +526,29 @@
             <event displayName="Custom Block" enabled="true" id="2" name="event-custom-block" order="4" repeats="true"/>
             <event displayName="Custom Block" enabled="true" id="3" name="event-custom-block" order="5" repeats="true"/>
             <event displayName="Created" enabled="true" id="4" name="init" order="3" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_41_41" classname="scripts.Design_41_41" desc="The Actor will fire a burst of bullets for &quot;X&quot; seconds, at a &quot;Y&quot; rate, and then rest for &quot;Z&quot; seconds (to cooldown his weapon, I guess) before start firing again. This behavior doesn't use time blocks (do after/ do every X seconds)" description="The Actor will fire a burst of bullets for &quot;X&quot; seconds, at a &quot;Y&quot; rate, and then rest for &quot;Z&quot; seconds (to cooldown his weapon, I guess) before start firing again. This behavior doesn't use time blocks (do after/ do every X seconds)" design="true" drawOrder="0" id="41" language="" name="Enhanced FiringLoop" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Counter" hidden="true" id="1" name="_Counter" order="1"/>
+        <number default="2" defaultValue="2" desc="How many seconds the Actor will rest between each burst." dropdown="" fullname="RestingTime" hidden="false" id="2" name="_RestingTime" order="4"/>
+        <number default="2" defaultValue="2" desc="How many seconds each burst will last." dropdown="" fullname="FiringTime" hidden="false" id="3" name="_FiringTime" order="3"/>
+        <number default="60.0" defaultValue="60.0" desc="Frames per second of your game (usually 60FPS). Do not change if you are not sure what is this." dropdown="" fullname="FrameRate" hidden="false" id="4" name="_FrameRate" order="11"/>
+        <actortype default="" defaultValue="" desc="Choose an Actor Type for your Bullets" dropdown="" fullname="Bullet" hidden="false" id="5" name="_Bullet" order="6"/>
+        <boolean default="true" defaultValue="true" desc="Does your actor will start firing when created (or resting)?." dropdown="" fullname="StartFiring" hidden="false" id="6" name="_StartFiring" order="5"/>
+        <number default="3" defaultValue="3" desc="How many Bullets Per Second your actor will fire." dropdown="" fullname="FiringRate" hidden="false" id="7" name="_FiringRate" order="2"/>
+        <number default="0" defaultValue="0" desc="Bullet Y speed." dropdown="" fullname="YSpeed" hidden="false" id="8" name="_YSpeed" order="8"/>
+        <number default="25" defaultValue="25" desc="Bullet X speed." dropdown="" fullname="XSpeed" hidden="false" id="9" name="_XSpeed" order="7"/>
+        <number default="-16" defaultValue="-16" desc="From the center of the actor, where do you want to create the bullet? Positive numbers for right, negative numbers for left.&#10;&#10;If you want to create bullets centered, write the negative number of the bullet's width/2 (i.e: if the bullet has a width of 32 pixel, write down -16)." dropdown="" fullname="OffsetX" hidden="false" id="10" name="_OffsetX" order="9"/>
+        <number default="-16" defaultValue="-16" desc="From the center of the actor, where do you want to create the bullet? Positive numbers for down, negative numbers for up.&#10;&#10;If you want to create bullets centered, write the negative number of the bullet's height/2 (i.e: if the bullet has a height of 32 pixel, write down -16)." dropdown="" fullname="OffsetY" hidden="false" id="11" name="_OffsetY" order="10"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="firingAnimationLeft" hidden="false" id="12" name="_firingAnimationLeft" order="12"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="firingAnimationRight" hidden="false" id="13" name="_firingAnimationRight" order="13"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="firingAnimationDown" hidden="false" id="15" name="_firingAnimationDown" order="14"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="firingAnimationUp" hidden="false" id="16" name="_firingAnimationUp" order="15"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="2" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
         </events>
     </snippet>
 </pack>
