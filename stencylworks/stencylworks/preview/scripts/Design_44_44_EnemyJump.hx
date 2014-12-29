@@ -62,19 +62,97 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_2 extends ActorScript
+class Design_44_44_EnemyJump extends ActorScript
 {          	
 	
+public var _jumpRight:String;
+
+public var _jumpLeft:String;
+
+public var _isJumping:Bool;
+
+public var _speed:Float;
+
+public var _animationRight:String;
+
+public var _animationLeft:String;
+
+public var _seconds:Float;
+
+public var _JumpingForce:Float;
+
  
  	public function new(dummy:Int, actor:Actor, engine:Engine)
 	{
 		super(actor, engine);	
-		
+		nameMap.set("jumpRight", "_jumpRight");
+nameMap.set("jumpLeft", "_jumpLeft");
+nameMap.set("isOnGround", "_isJumping");
+_isJumping = true;
+nameMap.set("speed", "_speed");
+_speed = 0.0;
+nameMap.set("animationRight", "_animationRight");
+nameMap.set("animationLeft", "_animationLeft");
+nameMap.set("seconds", "_seconds");
+_seconds = 0;
+nameMap.set("Jumping Force", "_JumpingForce");
+_JumpingForce = 25.0;
+nameMap.set("Actor", "actor");
+
 	}
 	
 	override public function init()
 	{
-		
+		    
+/* ======================== When Creating ========================= */
+        _isJumping = true;
+propertyChanged("_isJumping", _isJumping);
+    
+/* ======================= Every N seconds ======================== */
+runPeriodically(1000 * _seconds, function(timeTask:TimedTask):Void {
+if(wrapper.enabled){
+        if(_isJumping)
+{
+            if((actor.getAnimation() == _animationLeft))
+{
+                actor.setAnimation("" + _jumpLeft);
+}
+
+            if((actor.getAnimation() == _animationRight))
+{
+                actor.setAnimation("" + _jumpRight);
+}
+
+            actor.applyImpulse(0, -1, _JumpingForce);
+            _isJumping = false;
+propertyChanged("_isJumping", _isJumping);
+}
+
+}
+}, actor);
+    
+/* ======================== Something Else ======================== */
+addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
+if(wrapper.enabled){
+        if((event.thisFromLeft && !(event.thisCollidedWithSensor)))
+{
+            actor.setAnimation("" + _animationRight);
+}
+
+        if((event.thisFromRight && !(event.thisCollidedWithSensor)))
+{
+            actor.setAnimation("" + _animationLeft);
+}
+
+        if((event.thisFromBottom && !(event.thisCollidedWithSensor)))
+{
+            _isJumping = true;
+propertyChanged("_isJumping", _isJumping);
+}
+
+}
+});
+
 	}	      	
 	
 	override public function forwardMessage(msg:String)

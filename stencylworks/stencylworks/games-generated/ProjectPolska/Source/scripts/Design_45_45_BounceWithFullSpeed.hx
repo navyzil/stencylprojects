@@ -62,39 +62,21 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class Design_38_38_BugFixedPatrol extends ActorScript
+class Design_45_45_BounceWithFullSpeed extends ActorScript
 {          	
 	
-public var speed:Float;
+public var _Speed:Float;
 
-public var leftanim:String;
-
-public var rightanim:String;
-
-public var dir:Float;
-    public function _customEvent_left_to_right():Void
-{
-        actor.setXVelocity(speed);
-        actor.setAnimation("" + rightanim);
-}
-
-    public function _customEvent_right_to_left():Void
-{
-        actor.setXVelocity(-(speed));
-        actor.setAnimation("" + leftanim);
-}
-
+public var _Collided:Bool;
 
  
  	public function new(dummy:Int, actor:Actor, engine:Engine)
 	{
 		super(actor, engine);	
-		nameMap.set("Walking Speed", "speed");
-speed = 1.0;
-nameMap.set("Left Animation", "leftanim");
-nameMap.set("Right Animation", "rightanim");
-nameMap.set("Initial Direction", "dir");
-dir = -1.0;
+		nameMap.set("Speed", "_Speed");
+_Speed = 0.0;
+nameMap.set("Collided", "_Collided");
+_Collided = false;
 nameMap.set("Actor", "actor");
 
 	}
@@ -102,63 +84,26 @@ nameMap.set("Actor", "actor");
 	override public function init()
 	{
 		    
-/* ======================== When Creating ========================= */
-        if((dir == 1))
+/* ======================== When Updating ========================= */
+addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void {
+if(wrapper.enabled){
+        if(!(_Collided))
 {
-            _customEvent_left_to_right();
+            _Speed = asNumber(Math.sqrt((Math.pow(actor.getXVelocity(), 2) + Math.pow(actor.getYVelocity(), 2))));
+propertyChanged("_Speed", _Speed);
 }
 
-        else
-{
-            _customEvent_right_to_left();
+        _Collided = false;
+propertyChanged("_Collided", _Collided);
 }
-
+});
     
 /* ======================== Something Else ======================== */
 addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
 if(wrapper.enabled){
-        if(event.thisFromLeft)
-{
-            _customEvent_left_to_right();
-}
-
-        if(event.thisFromRight)
-{
-            _customEvent_right_to_left();
-}
-
-}
-});
-    
-/* ======================== When Updating ========================= */
-addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void {
-if(wrapper.enabled){
-        if((actor.getXVelocity() >= 0))
-{
-            actor.setXVelocity(speed);
-}
-
-        else
-{
-            actor.setXVelocity(-(speed));
-}
-
-}
-});
-    
-/* ======================== When Updating ========================= */
-addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void {
-if(wrapper.enabled){
-        if((actor.getXVelocity() >= 0))
-{
-            _customEvent_left_to_right();
-}
-
-        if((actor.getXVelocity() < 0))
-{
-            _customEvent_right_to_left();
-}
-
+        _Collided = true;
+propertyChanged("_Collided", _Collided);
+        actor.setVelocity(Utils.DEG * (Math.atan2(actor.getYVelocity(), actor.getXVelocity())), _Speed);
 }
 });
 

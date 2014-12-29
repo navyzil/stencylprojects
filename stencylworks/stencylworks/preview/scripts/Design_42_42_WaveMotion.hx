@@ -62,35 +62,41 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class Design_40_40_EnemyPatrol extends ActorScript
+class Design_42_42_WaveMotion extends ActorScript
 {          	
 	
-public var _speed:Float;
+public var _StartX:Float;
 
-public var _isGoingRight:Bool;
+public var _Wavelength:Float;
 
-public var _startPoint:Float;
+public var _Amplitude:Float;
 
-public var _endPoint:Float;
+public var _Direction:String;
 
-public var _animationRight:String;
+public var _StartY:Float;
 
-public var _animationLeft:String;
+public var _StartingSpeed:Float;
+
+public var _Wavenumber:Float;
 
  
  	public function new(dummy:Int, actor:Actor, engine:Engine)
 	{
 		super(actor, engine);	
-		nameMap.set("speed", "_speed");
-_speed = 0.0;
-nameMap.set("isGoingRight", "_isGoingRight");
-_isGoingRight = false;
-nameMap.set("startPoint", "_startPoint");
-_startPoint = 0.0;
-nameMap.set("endPoint", "_endPoint");
-_endPoint = 0.0;
-nameMap.set("animationRight", "_animationRight");
-nameMap.set("animationLeft", "_animationLeft");
+		nameMap.set("Start X", "_StartX");
+_StartX = 0.0;
+nameMap.set("Wavelength", "_Wavelength");
+_Wavelength = 128.0;
+nameMap.set("Amplitude", "_Amplitude");
+_Amplitude = 64.0;
+nameMap.set("Direction", "_Direction");
+_Direction = "Horizontal";
+nameMap.set("Start Y", "_StartY");
+_StartY = 0.0;
+nameMap.set("Starting Speed", "_StartingSpeed");
+_StartingSpeed = 5.0;
+nameMap.set("Wavenumber", "_Wavenumber");
+_Wavenumber = 0.0;
 nameMap.set("Actor", "actor");
 
 	}
@@ -98,35 +104,40 @@ nameMap.set("Actor", "actor");
 	override public function init()
 	{
 		    
-/* ======================= Every N seconds ======================== */
-runPeriodically(1000 * 0.01, function(timeTask:TimedTask):Void {
-if(wrapper.enabled){
-        if(_isGoingRight)
+/* ======================== When Creating ========================= */
+        actor.makeAlwaysSimulate();
+        _Wavenumber = asNumber(((2 * Math.PI) / _Wavelength));
+propertyChanged("_Wavenumber", _Wavenumber);
+        _StartX = asNumber(actor.getXCenter());
+propertyChanged("_StartX", _StartX);
+        _StartY = asNumber(actor.getYCenter());
+propertyChanged("_StartY", _StartY);
+        if((_Direction == "Horizontal"))
 {
-            actor.setX((actor.getX() + _speed));
-            actor.setAnimation("" + ("" + _animationRight));
+            actor.setXVelocity(_StartingSpeed);
 }
 
         else
 {
-            actor.setX((actor.getX() - _speed));
-            actor.setAnimation("" + ("" + _animationLeft));
+            actor.setYVelocity(_StartingSpeed);
 }
 
-        if((actor.getX() >= _endPoint))
+    
+/* ======================== When Updating ========================= */
+addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void {
+if(wrapper.enabled){
+        if((_Direction == "Horizontal"))
 {
-            _isGoingRight = false;
-propertyChanged("_isGoingRight", _isGoingRight);
+            actor.setY((_StartY + ((_Amplitude * Math.sin((_Wavenumber * (_StartX - actor.getXCenter())) * Utils.RAD)) - (actor.getHeight()/2))));
 }
 
-        if((actor.getX() <= _startPoint))
+        else if((_Direction == "Vertical"))
 {
-            _isGoingRight = true;
-propertyChanged("_isGoingRight", _isGoingRight);
+            actor.setX((_StartX + ((_Amplitude * Math.sin((_Wavenumber * (_StartY - actor.getYCenter())) * Utils.RAD)) - (actor.getWidth()/2))));
 }
 
 }
-}, actor);
+});
 
 	}	      	
 	

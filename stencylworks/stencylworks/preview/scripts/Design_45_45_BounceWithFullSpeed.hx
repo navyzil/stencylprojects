@@ -62,19 +62,51 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_0 extends SceneScript
+class Design_45_45_BounceWithFullSpeed extends ActorScript
 {          	
 	
+public var _Speed:Float;
+
+public var _Collided:Bool;
+
  
- 	public function new(dummy:Int, engine:Engine)
+ 	public function new(dummy:Int, actor:Actor, engine:Engine)
 	{
-		super(engine);
-		
+		super(actor, engine);	
+		nameMap.set("Speed", "_Speed");
+_Speed = 0.0;
+nameMap.set("Collided", "_Collided");
+_Collided = false;
+nameMap.set("Actor", "actor");
+
 	}
 	
 	override public function init()
 	{
-		
+		    
+/* ======================== When Updating ========================= */
+addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void {
+if(wrapper.enabled){
+        if(!(_Collided))
+{
+            _Speed = asNumber(Math.sqrt((Math.pow(actor.getXVelocity(), 2) + Math.pow(actor.getYVelocity(), 2))));
+propertyChanged("_Speed", _Speed);
+}
+
+        _Collided = false;
+propertyChanged("_Collided", _Collided);
+}
+});
+    
+/* ======================== Something Else ======================== */
+addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
+if(wrapper.enabled){
+        _Collided = true;
+propertyChanged("_Collided", _Collided);
+        actor.setVelocity(Utils.DEG * (Math.atan2(actor.getYVelocity(), actor.getXVelocity())), _Speed);
+}
+});
+
 	}	      	
 	
 	override public function forwardMessage(msg:String)
