@@ -48891,3 +48891,509 @@ java.lang.ArrayIndexOutOfBoundsException: 3 >= 0
 [LOG] [Flash] com.stencyl.Engine#switchScene(1760): Switching to scene 0
 [LOG] [Flash] com.stencyl.Engine#switchScene(1760): Switching to scene 0
 [LOG] [Flash] com.stencyl.Engine#switchScene(1760): Switching to scene 0
+[LOG] Attempting to quit out of Stencyl.
+[LOG] Save in place.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\game.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\game.xml.bak
+[LOG] Writing out local resources.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Saving Snippet: Enhanced FiringLoop
+[ERR] Instance Value: 0
+[ERR] Instance Value: 2
+[ERR] Instance Value: 1
+[ERR] Instance Value: 60.0
+[ERR] Instance Value: 25
+[ERR] Instance Value: true
+[ERR] Instance Value: 2
+[ERR] Instance Value: 0
+[ERR] Instance Value: 25
+[ERR] Instance Value: -16
+[ERR] Instance Value: -16
+[ERR] Instance Value: idleL
+[ERR] Instance Value: idleR
+[ERR] Instance Value: 
+[ERR] Instance Value: thisactor
+[ERR] Instance Value: 
+[ERR] Saving Snippet: Detect Player
+[ERR] Instance Value: 50
+[ERR] Instance Value: 30
+[ERR] Instance Value: idleL
+[ERR] Instance Value: idleR
+[ERR] Instance Value: idleL
+[ERR] Instance Value: true
+[ERR] Instance Value: false
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Enemy Walking AI
+[ERR] Instance Value: idleL
+[ERR] Instance Value: idleR
+[ERR] Instance Value: 3
+[ERR] Instance Value: thisactor
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out generic element ID: 15
+[LOG] Write out thisActor
+[LOG] Write out Last Collided
+[LOG] Write out generic element ID: 15
+[ERR] Saving Snippet: Die On Collision
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Die On Leaving Screen
+[ERR] Instance Value: thisactor
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Mark tileset as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Saving Snippet: Die in Pit and Reload
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Smooth Camera
+[ERR] Instance Value: 0.0
+[ERR] Instance Value: 0
+[ERR] Instance Value: 15.0
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Random Walking AI
+[ERR] Instance Value: Walk (R)
+[ERR] Instance Value: Walk (L)
+[ERR] Instance Value: Idle (R)
+[ERR] Instance Value: Idle (L)
+[ERR] Instance Value: 3
+[ERR] Instance Value: 3
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Enemy Walking AI
+[ERR] Instance Value: Walk (L)
+[ERR] Instance Value: Walk (R)
+[ERR] Instance Value: 5
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: enemyShoot
+[ERR] Instance Value: 1
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Stompable
+[ERR] Instance Value: Jump (L)
+[ERR] Value: Stomp
+[ERR] Instance Value: 5
+[ERR] Instance Value: 0
+[ERR] Instance Value: 35
+[ERR] Instance Value: 15
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Stomp on Enemies
+[ERR] Value: Players
+[ERR] Instance Value: 0
+[ERR] Value: No Control
+[ERR] Instance Value: No Control
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Enhanced FiringLoop
+[ERR] Instance Value: 0
+[ERR] Instance Value: 2
+[ERR] Instance Value: 2
+[ERR] Instance Value: 60.0
+[ERR] Instance Value: 25
+[ERR] Instance Value: true
+[ERR] Instance Value: 3
+[ERR] Instance Value: 0
+[ERR] Instance Value: 25
+[ERR] Instance Value: -16
+[ERR] Instance Value: -5
+[ERR] Instance Value: Walk (L)
+[ERR] Instance Value: Walk (R)
+[ERR] Instance Value: 
+[ERR] Instance Value: thisactor
+[ERR] Instance Value: 
+[ERR] Saving Snippet: FiringLoop
+[ERR] Instance Value: 0
+[ERR] Instance Value: 2
+[ERR] Instance Value: 2
+[ERR] Instance Value: 60.0
+[ERR] Instance Value: 25
+[ERR] Instance Value: true
+[ERR] Instance Value: 1
+[ERR] Instance Value: 0
+[ERR] Instance Value: -25
+[ERR] Instance Value: -16
+[ERR] Instance Value: -5
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Fire Bullet
+[ERR] Instance Value: 50.0
+[ERR] Value: Based on Animations
+[ERR] Instance Value: Based on Animations
+[ERR] Instance Value: 25
+[ERR] Value: North
+[ERR] Instance Value: -90
+[ERR] Instance Value: 1.0
+[ERR] Value: No Control
+[ERR] Instance Value: No Control
+[ERR] Instance Value: thisactor
+[ERR] Instance Value: 0.0
+[ERR] Instance Value: false
+[ERR] Instance Value: false
+[ERR] Instance Value: 1.0
+[ERR] Instance Value: false
+[ERR] Instance Value: false
+[ERR] Instance Value: 0.0
+[ERR] Instance Value: 3.0
+[ERR] Instance Value: false
+[ERR] Instance Value: 5.0
+[ERR] Instance Value: 5.0
+[ERR] Instance Value: false
+[ERR] Instance Value: 
+[ERR] Instance Value: 
+[ERR] Instance Value: Walk (R)
+[ERR] Instance Value: Walk (L)
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out generic element ID: 25
+[ERR] Saving Snippet: Stomp on Enemies
+[ERR] Value: Enemies
+[ERR] Instance Value: 4
+[ERR] Value: Jump
+[ERR] Instance Value: Jump
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Stompable
+[ERR] Instance Value: 
+[ERR] Value: Stomp
+[ERR] Instance Value: 5
+[ERR] Instance Value: 0
+[ERR] Instance Value: 35
+[ERR] Instance Value: 15
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Walking
+[ERR] Instance Value: 5
+[ERR] Instance Value: walkLeft
+[ERR] Instance Value: walkRight
+[ERR] Instance Value: idleRight
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Die On Collision With Actor Type
+[ERR] Instance Value: 25
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Smooth Camera
+[ERR] Instance Value: 0.0
+[ERR] Instance Value: 0
+[ERR] Instance Value: 15.0
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Jump and Run Movement
+[ERR] Value: right
+[ERR] Instance Value: right
+[ERR] Value: left
+[ERR] Instance Value: left
+[ERR] Instance Value: true
+[ERR] Instance Value: 0.0
+[ERR] Instance Value: false
+[ERR] Instance Value: false
+[ERR] Instance Value: 15.0
+[ERR] Value: Jump
+[ERR] Instance Value: Jump
+[ERR] Instance Value: walkRight
+[ERR] Instance Value: 25
+[ERR] Instance Value: thisactor
+[ERR] Instance Value: idleLeft
+[ERR] Instance Value: idleRight
+[ERR] Instance Value: walkLeft
+[ERR] Instance Value: false
+[ERR] Instance Value: walkLeft
+[ERR] Instance Value: walkRight
+[ERR] Instance Value: false
+[ERR] Instance Value: false
+[ERR] Instance Value: false
+[ERR] Instance Value: false
+[ERR] Instance Value: 50
+[ERR] Instance Value: 0.2
+[ERR] Instance Value: true
+[ERR] Saving Snippet: Always Simulate
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Die in Pit and Reload
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Health Manager
+[ERR] Instance Value: 3.0
+[ERR] Instance Value: 3.0
+[ERR] Instance Value: 3.0
+[ERR] Instance Value: Healed
+[ERR] Instance Value: Damaged
+[ERR] Value: Kill Actor
+[ERR] Instance Value: Kill
+[ERR] Instance Value: false
+[ERR] Instance Value: 0.5
+[ERR] Instance Value: true
+[ERR] Instance Value: false
+[ERR] Value: null
+[ERR] Instance Value: -1
+[ERR] Instance Value: 
+[ERR] Value: null
+[ERR] Instance Value: -1
+[ERR] Instance Value: thisactor
+[ERR] Value: null
+[ERR] Instance Value: -1
+[ERR] Instance Value: false
+[ERR] Value: null
+[ERR] Instance Value: -1
+[ERR] Instance Value: 0.0
+[ERR] Instance Value: 0.0
+[ERR] Instance Value: 
+[ERR] Instance Value: false
+[ERR] Instance Value: 0.0
+[ERR] Instance Value: 0.0
+[ERR] Instance Value: 15
+[ERR] Instance Value: 0.0
+[ERR] Value: Actor Space
+[ERR] Instance Value: Actor
+[ERR] Instance Value: 0.0
+[ERR] Instance Value: 1.0
+[ERR] Instance Value: 5.0
+[ERR] Instance Value: 100.0
+[ERR] Value: Horizontal
+[ERR] Instance Value: Horizontal
+[ERR] Instance Value: java.awt.Color[r=0,g=0,b=0]
+[ERR] Instance Value: java.awt.Color[r=255,g=255,b=0]
+[ERR] Instance Value: java.awt.Color[r=255,g=153,b=0]
+[ERR] Instance Value: java.awt.Color[r=0,g=255,b=0]
+[ERR] Instance Value: true
+[ERR] Instance Value: java.awt.Color[r=255,g=0,b=0]
+[ERR] Instance Value: java.awt.Color[r=0,g=0,b=0]
+[ERR] Saving Snippet: Jump
+[ERR] Value: Jump
+[ERR] Instance Value: Jump
+[ERR] Value: Jump
+[ERR] Instance Value: 6
+[ERR] Instance Value: -25
+[ERR] Instance Value: +25
+[ERR] Instance Value: 025
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Reload Scene On Death
+[ERR] Instance Value: 0.5
+[ERR] Instance Value: 0.5
+[ERR] Value: Fade
+[ERR] Instance Value: Fade
+[ERR] Instance Value: thisactor
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[ERR] Saving Snippet: Switch Scenes When Actors are Gone
+[ERR] Instance Value: 15
+[ERR] Instance Value: false
+[ERR] Instance Value: 0
+[ERR] Instance Value: 0.5
+[ERR] Saving Snippet: Move To Next Scene
+[ERR] Instance Value: -1
+[ERR] Instance Value: 0
+[ERR] Instance Value: 0
+[ERR] Saving Snippet: Switch Scene on Enter Region
+[ERR] Instance Value: -1
+[ERR] Instance Value: 0
+[ERR] Instance Value: -1
+[ERR] Instance Value: false
+[ERR] Instance Value: false
+[ERR] Value: No Control
+[ERR] Instance Value: No Control
+[ERR] Instance Value: 0.5
+[ERR] Instance Value: 0.5
+[ERR] Value: Fade
+[ERR] Instance Value: Fade
+[ERR] Saving Snippet: Enemy Walking AI
+[ERR] Instance Value: idleL
+[ERR] Instance Value: idleR
+[ERR] Instance Value: 3
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Detect Player
+[ERR] Instance Value: 34
+[ERR] Instance Value: 50
+[ERR] Instance Value: 30
+[ERR] Instance Value: idleL
+[ERR] Instance Value: idleR
+[ERR] Instance Value: idleL
+[ERR] Instance Value: true
+[ERR] Instance Value: true
+[ERR] Instance Value: thisactor
+[ERR] Saving Snippet: Enhanced FiringLoop
+[ERR] Instance Value: 0
+[ERR] Instance Value: 2
+[ERR] Instance Value: 1
+[ERR] Instance Value: 60.0
+[ERR] Instance Value: 25
+[ERR] Instance Value: true
+[ERR] Instance Value: 2
+[ERR] Instance Value: 0
+[ERR] Instance Value: 25
+[ERR] Instance Value: -16
+[ERR] Instance Value: -5
+[ERR] Instance Value: idleL
+[ERR] Instance Value: idleR
+[ERR] Instance Value: 
+[ERR] Instance Value: thisactor
+[ERR] Instance Value: 
+[LOG] Saving thumbnail: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\scenes\0.png
+[LOG] Writing terrain.
+[LOG] Num Tiles: 81
+[LOG] Coverage: 14.111498%
+[LOG] Segments: (2,2)
+[LOG] Using Quad Space
+[LOG] Combine took: 7ms
+[LOG] Terrain processing took: 0ms
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Writing out Scene My First Scene
+[LOG] Copying over snippets.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\list.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\list.xml.bak
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out generic element ID: 25
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out actor variable: 3
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out actor variable: 3
+[LOG] Write out thisActor
+[LOG] Write out actor variable: 3
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out generic element ID: 15
+[LOG] Write out thisActor
+[LOG] Write out Last Collided
+[LOG] Write out generic element ID: 15
+[LOG] Write out generic attribute: 5
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out Last Created
+[LOG] Write out thisActor
+[LOG] Write out Last Created
+[LOG] Write out thisActor
+[LOG] Write out Last Created
+[LOG] Write out thisActor
+[LOG] Write out Last Created
+[LOG] Write out thisActor
+[ERR] Scene object dropdown either has invalid value or no chosen value.
+[ERR] Scene object dropdown either has invalid value or no chosen value.
+[LOG] Copy from opened to disk: ActorEvents_15
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out generic element ID: 25
+[LOG] Copied to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_15.design
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_15.design
+[LOG] Copy from opened to disk: Detect Player
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out actor variable: 3
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out actor variable: 3
+[LOG] Write out thisActor
+[LOG] Write out actor variable: 3
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Copied to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_40_40_DetectPlayer.design
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_40_40_DetectPlayer.design
+[LOG] Copy from opened to disk: ActorEvents_0
+[LOG] Copied to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_0.design
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_0.design
+[LOG] Copy from opened to disk: ActorEvents_25
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out generic element ID: 15
+[LOG] Write out thisActor
+[LOG] Write out Last Collided
+[LOG] Write out generic element ID: 15
+[LOG] Copied to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_25.design
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_25.design
+[LOG] Copy from opened to disk: SceneEvents_0
+[LOG] Copied to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\SceneEvents_0.design
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\SceneEvents_0.design
+[LOG] Copy from opened to disk: ActorEvents_29
+[LOG] Copied to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_29.design
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_29.design
+[LOG] Copy from opened to disk: Enhanced FiringLoop
+[LOG] Write out generic attribute: 5
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out thisActor
+[LOG] Write out Last Created
+[LOG] Write out thisActor
+[LOG] Write out Last Created
+[LOG] Write out thisActor
+[LOG] Write out Last Created
+[LOG] Write out thisActor
+[LOG] Write out Last Created
+[LOG] Write out thisActor
+[LOG] Copied to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_41_41.design
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_41_41.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_0_0_StomponEnemies.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_0_0_StomponEnemies.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_1_1_Stompable.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_1_1_Stompable.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_3_3_DieinPitandReload.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_3_3_DieinPitandReload.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_0.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_2.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\SceneEvents_0.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_15.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_15.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_9_9_SmoothCamera.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_9_9_SmoothCamera.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_10_10_DieOnCollisionWithActorType.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_10_10_DieOnCollisionWithActorType.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_11_11_FollowTarget.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_11_11_FollowTarget.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_12_12_FaceTarget.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_12_12_FaceTarget.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_13_13_EnemyWalkingAI.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_13_13_EnemyWalkingAI.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_14_14_ReloadSceneOnDeath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_14_14_ReloadSceneOnDeath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_15_15_HealthManager.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_15_15_HealthManager.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_17_17_Walking.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_17_17_Walking.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_16_16_drawlives.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_16_16_drawlives.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_19_19_Jump.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_19_19_Jump.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_18_18_Jumping.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_18_18_Jumping.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_21_21_SwitchSceneonEnterRegion.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_21_21_SwitchSceneonEnterRegion.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_20_20_JumpandRunMovement.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_20_20_JumpandRunMovement.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_23_23_MoveToNextScene.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_23_23_MoveToNextScene.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_22_22_SwitchScenesWhenActorsareGone.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_22_22_SwitchScenesWhenActorsareGone.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_25_25_AlwaysSimulate.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_25_25_AlwaysSimulate.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_24_24_RandomWalkingAI.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_24_24_RandomWalkingAI.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_25.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_25.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_26_26_enemyShoot.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_26_26_enemyShoot.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_29_29_DieOnCollision.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_29_29_DieOnCollision.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_28_28_FiringLoop.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_28_28_FiringLoop.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_31_31_DieOnLeavingScreen.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_31_31_DieOnLeavingScreen.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_30_30_FireBullet.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_30_30_FireBullet.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_34_34_FollowPath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_34_34_FollowPath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_35_35_BackandForthHorizontally.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_35_35_BackandForthHorizontally.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_27.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_27.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_29.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_29.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_38_38_BugFixedPatrol.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_38_38_BugFixedPatrol.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_40_40_EnemyPatrol.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_40_40_EnemyPatrol.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_37_37_PatrolRightLeft.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_37_37_PatrolRightLeft.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_40_40_DetectPlayer.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_40_40_DetectPlayer.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_41_41.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_41_41.design
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\favorites.xml
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\prefs\favorites.xml
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\prefs\picker-favorites.xml
+[LOG] Done writing game.
+[LOG] Destroying extensions.
+[LOG] Destroying Temporary Sandbox.
+[LOG] Performing final close.
+[LOG] Exiting...

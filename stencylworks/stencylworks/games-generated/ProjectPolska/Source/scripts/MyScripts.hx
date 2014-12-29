@@ -35,11 +35,14 @@ import scripts.Design_34_34_FollowPath;
 import scripts.Design_35_35_BackandForthHorizontally;
 import scripts.ActorEvents_27;
 import scripts.ActorEvents_29;
-import scripts.Design_38_38_BugFixedPatrol;
 import scripts.Design_40_40_EnemyPatrol;
 import scripts.Design_37_37_PatrolRightLeft;
+import scripts.Design_42_42_WaveMotion;
+import scripts.Design_43_43_2WayVerticalMovement;
 import scripts.Design_40_40_DetectPlayer;
 import scripts.Design_41_41;
+import scripts.Design_44_44_EnemyJump;
+import scripts.Design_45_45_BounceWithFullSpeed;
 
 
 //Force all classes to compile since they aren't statically used.
