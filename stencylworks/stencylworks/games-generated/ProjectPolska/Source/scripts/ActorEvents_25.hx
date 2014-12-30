@@ -79,7 +79,6 @@ class ActorEvents_25 extends ActorScript
 addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
 if(wrapper.enabled && sameAsAny(getActorType(15), event.otherActor.getType(),event.otherActor.getGroup())){
         recycleActor(actor);
-        recycleActor(actor);
 }
 });
     

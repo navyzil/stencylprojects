@@ -75,11 +75,14 @@ class ActorEvents_15 extends ActorScript
 	override public function init()
 	{
 		    
-/* ======================== Actor of Type ========================= */
+/* ======================== Specific Actor ======================== */
 addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
-if(wrapper.enabled && sameAsAny(getActorType(25), event.otherActor.getType(),event.otherActor.getGroup())){
-        trace("" + "should kill self");
-        recycleActor(actor);
+if(wrapper.enabled && (actor.getLastCollidedActor() == event.otherActor)){
+        if(event.thisCollidedWithActor)
+{
+            actor.say("Health Manager", "_customBlock_Damage", [1]);
+}
+
 }
 });
 
