@@ -92,7 +92,7 @@
 	<setenv name="ANDROID_NDK_ROOT" value="D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\android-sdk/android-ndk-r7b/" if="android" />
 	<setenv name="ANT_HOME" value="D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\android-sdk/apache-ant/" if="android" />
 	<setenv name="PRERENDERED_ICON" value="true" />
-	<setenv name="IPHONE_STDOUT" value="C:\Users\dustin\AppData\Local\Temp\stencyl7137638663332819361\scratch\ios-sim.log"/>
+	<setenv name="IPHONE_STDOUT" value="C:\Users\dustin\AppData\Local\Temp\stencyl6554702256135724996\scratch\ios-sim.log"/>
 	<setenv name="APK_EXPORTING" value="true" if="android"/>
 	
 	<setenv name="AIR_SDK" value="D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\AdobeAIRSDK\\"/>

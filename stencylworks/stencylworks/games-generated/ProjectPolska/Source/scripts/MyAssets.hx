@@ -60,7 +60,7 @@ class MyAssets implements AssetLoader
 	public function loadResources(resourceMap:Map<String,Dynamic>):Void
 	{
 		var i = 0;
-		var increment = 50.0 / Math.max(1, 39);
+		var increment = 50.0 / Math.max(1, 74);
 		
 		
 		resourceMap.set("1-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-1-0.png", false));

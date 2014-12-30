@@ -3,8 +3,8 @@
     <exts>
         <e enabled="false" id="test-native"/>
         <e enabled="false" id="test"/>
-        <e enabled="false" id="test-flash"/>
         <e enabled="false" id="label"/>
+        <e enabled="false" id="test-flash"/>
         <e enabled="true" id="tileapi"/>
     </exts>
     <scales>
@@ -14,17 +14,19 @@
         <scale detailed="Highest (4x)" id="3" name="4x" size="4.0"/>
     </scales>
     <folders/>
-    <packs/>
+    <packs>
+        <pack desc="Provides simple health functionality for action games.&#10;&lt;br&gt;&lt;br&gt;&#10;Attach Health to any actor that wishes to take part in the health system. Inflicts Damage adds the ability for one actor to harm another." id="0" name="Health Pack" oid="-1" resources="" snippets="50,49,48,46,47"/>
+    </packs>
     <groups>
         <group desc="" id="4" name="Enemies"/>
         <group desc="" id="5" name="enemyBullets"/>
     </groups>
     <cgroups>
-        <cgroup g1="5" g2="0"/>
-        <cgroup g1="5" g2="1"/>
-        <cgroup g1="0" g2="4"/>
-        <cgroup g1="1" g2="4"/>
         <cgroup g1="4" g2="4"/>
+        <cgroup g1="4" g2="1"/>
+        <cgroup g1="4" g2="0"/>
+        <cgroup g1="1" g2="5"/>
+        <cgroup g1="0" g2="5"/>
         <cgroup g1="3" g2="3"/>
     </cgroups>
     <input>

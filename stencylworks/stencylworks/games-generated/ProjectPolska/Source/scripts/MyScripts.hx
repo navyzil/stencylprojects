@@ -41,8 +41,13 @@ import scripts.Design_42_42_WaveMotion;
 import scripts.Design_43_43_2WayVerticalMovement;
 import scripts.Design_40_40_DetectPlayer;
 import scripts.Design_41_41;
+import scripts.Design_46_46_ShowHealthBar;
+import scripts.Design_47_47_InflictsDamage;
 import scripts.Design_44_44_EnemyJump;
 import scripts.Design_45_45_BounceWithFullSpeed;
+import scripts.Design_50_50_SpawnActoruponDeath;
+import scripts.Design_49_49_FlickerwhenHit;
+import scripts.Design_48_48_Health;
 
 
 //Force all classes to compile since they aren't statically used.

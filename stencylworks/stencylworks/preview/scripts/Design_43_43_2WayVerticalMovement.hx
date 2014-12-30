@@ -129,9 +129,9 @@ nameMap.set("Up Animation (Idle)", "_UpAnimationIdle");
 nameMap.set("Stop Turning", "_StopTurning");
 _StopTurning = true;
 nameMap.set("Down Animation", "_DownAnimation");
+nameMap.set("Actor", "actor");
 nameMap.set("Use Animations", "_UseAnimations");
 _UseAnimations = true;
-nameMap.set("Actor", "actor");
 
 	}
 	
