@@ -56,28 +56,37 @@
         <collide comment="false" x="15" y="15">
             <group eventID="-1" id="-1">
                 <if comment="false" x="26" y="45">
-                    <group eventID="-1" id="-1">
-                        <setanim comment="false" x="37" y="78">
-                            <ACTOR eid="this" id="0"/>
-                            <get-val-13-1 comment="false" id="1" x="0" y="0"/>
-                        </setanim>
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="37" y="78">
+                            <group eventID="-1" id="-1">
+                                <setanim comment="false" x="48" y="111">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-13-1 comment="false" id="1" x="0" y="0"/>
+                                </setanim>
+                            </group>
+                            <collision-right comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <int id="1" val="0"/>
+                            </collision-right>
+                        </if>
+                        <if comment="false" x="37" y="155">
+                            <group eventID="-1" id="-1">
+                                <setanim comment="false" x="48" y="188">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-13-2 comment="false" id="1" x="0" y="0"/>
+                                </setanim>
+                            </group>
+                            <collision-left comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <int id="1" val="0"/>
+                            </collision-left>
+                        </if>
                     </group>
-                    <collision-right comment="false" id="0" x="0" y="0">
+                    <collision-type2 comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
                         <int id="1" val="0"/>
-                    </collision-right>
-                </if>
-                <if comment="false" x="26" y="122">
-                    <group eventID="-1" id="-1">
-                        <setanim comment="false" x="37" y="155">
-                            <ACTOR eid="this" id="0"/>
-                            <get-val-13-2 comment="false" id="1" x="0" y="0"/>
-                        </setanim>
-                    </group>
-                    <collision-left comment="false" id="0" x="0" y="0">
-                        <int id="0" val="0"/>
-                        <int id="1" val="0"/>
-                    </collision-left>
+                        <int id="2" val="2"/>
+                    </collision-type2>
                 </if>
             </group>
         </collide>

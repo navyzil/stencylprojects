@@ -122,8 +122,8 @@ nameMap.set("OffsetY", "_OffsetY");
 _OffsetY = -16.0;
 nameMap.set("firingAnimationLeft", "_firingAnimationLeft");
 nameMap.set("firingAnimationRight", "_firingAnimationRight");
-nameMap.set("Actor", "actor");
 nameMap.set("firingAnimationDown", "_firingAnimationDown");
+nameMap.set("Actor", "actor");
 nameMap.set("firingAnimationUp", "_firingAnimationUp");
 
 	}

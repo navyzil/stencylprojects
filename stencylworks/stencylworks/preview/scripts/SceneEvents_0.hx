@@ -74,7 +74,14 @@ class SceneEvents_0 extends SceneScript
 	
 	override public function init()
 	{
-		
+		    
+/* ========================= Type & Type ========================== */
+addSceneCollisionListener(getActorType(15).ID, getActorType(80).ID, function(event:Collision, list:Array<Dynamic>):Void {
+if(wrapper.enabled){
+        sayToScene("draw lives", "_customBlock_PlayerLives", [getActorType(15)]);
+}
+});
+
 	}	      	
 	
 	override public function forwardMessage(msg:String)

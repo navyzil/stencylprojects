@@ -108,14 +108,18 @@ if(wrapper.enabled){
 /* ======================== Something Else ======================== */
 addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
 if(wrapper.enabled){
-        if(event.thisFromRight)
+        if(event.thisCollidedWithTile)
 {
-            actor.setAnimation("" + _WalkLeftAnimation);
+            if(event.thisFromRight)
+{
+                actor.setAnimation("" + _WalkLeftAnimation);
 }
 
-        if(event.thisFromLeft)
+            if(event.thisFromLeft)
 {
-            actor.setAnimation("" + _WalkRightAnimation);
+                actor.setAnimation("" + _WalkRightAnimation);
+}
+
 }
 
 }

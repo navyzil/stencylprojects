@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<groups/>
+<groups>
+    <group eventID="1" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <custom-108 comment="false" x="26" y="47">
+                    <ACTORTYPE eid="15" id="0"/>
+                </custom-108>
+            </group>
+            <ACTORTYPE eid="15" id="0"/>
+            <ACTORTYPE eid="80" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

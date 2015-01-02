@@ -37,12 +37,18 @@
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="7" language="" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" scenespecific="true" shared="false" type="scene">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Type - Type" enabled="true" id="1" name="event-collide-typetotype" order="1" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_15" classname="scripts.ActorEvents_15" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="8" language="" name="ActorEvents_15" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
-        <blocks/>
+        <blocks>
+            <receiver blockID="82" id="1"/>
+        </blocks>
         <events>
-            <event displayName="Actor - Actor" enabled="true" id="1" name="event-collide-actortoactor" order="1" repeats="true"/>
+            <event displayName="Actor - Actor" enabled="false" id="1" name="event-collide-actortoactor" order="1" repeats="true"/>
+            <event displayName=" Actor - Group" enabled="true" id="3" name="event-collide-actortogroup" order="3" repeats="true"/>
+            <event displayName=" Actor - Group" enabled="true" id="4" name="event-collide-actortogroup" order="4" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_9_9_SmoothCamera" classname="scripts.Design_9_9_SmoothCamera" desc="Add this behavior to your main character to make the camera follow it with smoother motion. Originally uploaded by osvaldososa." description="Add this behavior to your main character to make the camera follow it with smoother motion. Originally uploaded by osvaldososa." design="true" drawOrder="0" id="9" language="" name="Smooth Camera" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
@@ -193,13 +199,6 @@
         <blocks/>
         <events>
             <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
-        </events>
-    </snippet>
-    <snippet attachedevent="false" class="scripts.Design_16_16_drawlives" classname="scripts.Design_16_16_drawlives" desc="" description="" design="true" drawOrder="0" id="16" language="" name="draw lives" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
-        <font default="" defaultValue="" desc="" dropdown="" fullname="type of font" hidden="false" id="1" name="_typeoffont" order="0"/>
-        <blocks/>
-        <events>
-            <event displayName="Drawing" enabled="true" id="1" name="draw" order="1" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_19_19_Jump" classname="scripts.Design_19_19_Jump" desc="Jump" description="Jump" design="true" drawOrder="0" id="19" language="" name="Jump" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
@@ -630,6 +629,21 @@
             <event displayName="Updated" enabled="true" id="3" name="step" order="2" repeats="true"/>
         </events>
     </snippet>
+    <snippet attachedevent="false" class="scripts.Design_51_51_ExplodeOnDeath" classname="scripts.Design_51_51_ExplodeOnDeath" desc="Spawn an explosion and fragments when the actor dies." description="Spawn an explosion and fragments when the actor dies." design="true" drawOrder="0" id="51" language="" name="Explode On Death" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="10.0" defaultValue="10.0" desc="The maximum speed at which the fragments fly away." dropdown="" fullname="Maximum Speed" hidden="false" id="17" name="_MaximumSpeed" order="6"/>
+        <number default="5.0" defaultValue="5.0" desc="The number of fragments to create." dropdown="" fullname="Number of Fragments" hidden="false" id="23" name="_NumberofFragments" order="4"/>
+        <actortype default="" defaultValue="" desc="The actor type of the fragments to create.&lt;br/&gt;&#10;Make sure the actor type of the fragments doesn't collide with this actor." dropdown="" fullname="Fragment Actor Type" hidden="false" id="22" name="_FragmentActorType" order="3"/>
+        <number default="5.0" defaultValue="5.0" desc="The minimum speed at which the fragments fly away." dropdown="" fullname="Minimum Speed" hidden="false" id="25" name="_MinimumSpeed" order="5"/>
+        <number default="360.0" defaultValue="360.0" desc="The maximum turning speed for the fragments." dropdown="" fullname="Maximum Turning Speed" hidden="false" id="24" name="_MaximumTurningSpeed" order="7"/>
+        <number default="0.0" defaultValue="0.0" desc="An offset in the direction of movement at which the fragments will be created." dropdown="" fullname="Offset" hidden="false" id="27" name="_Offset" order="8"/>
+        <actortype default="" defaultValue="" desc="The actor type of the explosion to create.&lt;br/&gt;&#10;Make sure the actor type of the explosion doesn't collide with this actor." dropdown="" fullname="Explosion Actor Type" hidden="false" id="29" name="_ExplosionActorType" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Direction" hidden="true" id="28" name="_Direction" order="1"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Actor Created" enabled="true" id="2" name="event-actor-create-kill" order="2" repeats="true"/>
+        </events>
+    </snippet>
     <snippet attachedevent="false" class="scripts.Design_50_50_SpawnActoruponDeath" classname="scripts.Design_50_50_SpawnActoruponDeath" desc="Spawns the actor type of your choice when this actor dies. You can specify the X and Y offset relative to the main actor and the lifetime of the spawned actor before it dies. Useful for death animations." description="Spawns the actor type of your choice when this actor dies. You can specify the X and Y offset relative to the main actor and the lifetime of the spawned actor before it dies. Useful for death animations." design="true" drawOrder="0" id="50" language="" name="Spawn Actor upon Death" oid="-1" package="" scenespecific="false" shared="false" type="actor">
         <actortype default="" defaultValue="" desc="" dropdown="" fullname="Actor Type to Spawn" hidden="false" id="1" name="actTypeToSpawn" order="1"/>
         <number default="0" defaultValue="0" desc="Horizontal offset from the original actor" dropdown="" fullname="X Offset" hidden="false" id="2" name="xOffset" order="3"/>
@@ -685,6 +699,36 @@
             <event displayName="Created" enabled="true" id="8" name="init" order="8" repeats="true"/>
             <event displayName="makeVulnerable" enabled="true" id="9" name="event-custom-block" order="9" repeats="true"/>
             <event displayName="tookDamage" enabled="true" id="10" name="event-custom" order="10" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_80" classname="scripts.ActorEvents_80" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="53" language="" name="ActorEvents_80" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_52_52_drawlives" classname="scripts.Design_52_52_drawlives" desc="" description="" design="true" drawOrder="0" id="52" language="" name="draw lives" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <font default="" defaultValue="" desc="" dropdown="" fullname="type of font" hidden="false" id="1" name="_typeoffont" order="0"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="player" hidden="false" id="3" name="_player" order="3"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="oneUp" hidden="false" id="4" name="_oneUp" order="2"/>
+        <blocks>
+            <receiver blockID="76" id="1"/>
+            <receiver blockID="77" id="2"/>
+            <receiver blockID="78" id="3"/>
+            <receiver blockID="79" id="4"/>
+            <receiver blockID="101" id="5"/>
+            <receiver blockID="102" id="6"/>
+            <receiver blockID="103" id="7"/>
+            <receiver blockID="104" id="8"/>
+            <receiver blockID="105" id="9"/>
+            <receiver blockID="106" id="10"/>
+            <receiver blockID="107" id="11"/>
+            <receiver blockID="108" id="12"/>
+        </blocks>
+        <events>
+            <event displayName="Drawing" enabled="true" id="1" name="draw" order="1" repeats="true"/>
+            <event displayName="Actor Created" enabled="true" id="4" name="event-actor-create-kill" order="5" repeats="true"/>
+            <event displayName="PlayerLives" enabled="true" id="5" name="event-custom-block" order="8" repeats="true"/>
         </events>
     </snippet>
 </pack>
