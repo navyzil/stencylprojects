@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="5" desc="" eventsnippetid="7" extheight="480" extwidth="1344" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="85.0" height="416" id="0" name="My First Scene" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1280">
+<scene depth="6" desc="" eventsnippetid="7" extheight="480" extwidth="1344" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="85.0" height="416" id="0" name="My First Scene" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1280">
     <layers>
         <layer color="0,0,255" id="1" name="Player" order="2"/>
         <layer color="255,200,0" id="3" name="Enemies" order="3"/>
-        <layer color="100,168,234" id="0" name="Platform" order="4"/>
-        <layer color="64,64,64" id="4" name="Foregrounds" order="5"/>
-        <layer color="0,255,0" id="2" name="Backgrounds" order="6"/>
+        <layer color="255,255,0" id="5" name="PowerUps" order="4"/>
+        <layer color="100,168,234" id="0" name="Platform" order="5"/>
+        <layer color="64,64,64" id="4" name="Foregrounds" order="6"/>
+        <layer color="0,255,0" id="2" name="Backgrounds" order="7"/>
     </layers>
     <grad-bg b1="204" b2="255" g1="204" g2="204" r1="51" r2="153"/>
     <backgrounds/>
@@ -16,47 +17,6 @@
     </regions>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="34" c="false" group="0" id="15" name="Polska 34" sx="1.0" sy="1.0" x="42" y="363" z="1"/>
-        <actor a="0.0" aid="35" c="true" group="4" id="29" name="6Ball2 35" sx="1.0" sy="1.0" x="257" y="250" z="1">
-            <snippets>
-                <s enabled="true" id="33"/>
-                <s enabled="false" id="40">
-                    <prop id="3" list="0" val="34"/>
-                    <prop id="4" list="0" val="50"/>
-                    <prop id="5" list="0" val="30"/>
-                    <prop id="6" list="0" val="idleL"/>
-                    <prop id="7" list="0" val="idleR"/>
-                    <prop id="8" list="0" val="idleL"/>
-                    <prop id="9" list="0" val="true"/>
-                    <prop id="10" list="0" val="true"/>
-                    <prop id="2147483647" list="0" val="thisactor"/>
-                </s>
-                <s enabled="false" id="41">
-                    <prop id="1" list="0" val="0"/>
-                    <prop id="2" list="0" val="2"/>
-                    <prop id="3" list="0" val="1"/>
-                    <prop id="4" list="0" val="60.0"/>
-                    <prop id="5" list="0" val="25"/>
-                    <prop id="6" list="0" val="true"/>
-                    <prop id="7" list="0" val="2"/>
-                    <prop id="8" list="0" val="0"/>
-                    <prop id="9" list="0" val="25"/>
-                    <prop id="10" list="0" val="-16"/>
-                    <prop id="11" list="0" val="-5"/>
-                    <prop id="12" list="0" val="idleL"/>
-                    <prop id="13" list="0" val="idleR"/>
-                    <prop id="15" list="0" val=""/>
-                    <prop id="2147483647" list="0" val="thisactor"/>
-                    <prop id="16" list="0" val=""/>
-                </s>
-                <s enabled="false" id="13">
-                    <prop id="1" list="0" val="idleL"/>
-                    <prop id="2" list="0" val="idleR"/>
-                    <prop id="3" list="0" val="3"/>
-                    <prop id="2147483647" list="0" val="thisactor"/>
-                </s>
-            </snippets>
-        </actor>
         <actor a="0.0" aid="32" c="true" group="4" id="2" name="Pronger 32" sx="1.0" sy="1.0" x="372" y="345" z="3">
             <snippets>
                 <s enabled="false" id="0">
@@ -88,15 +48,15 @@
                     <prop id="3" list="0" val="5"/>
                     <prop id="2147483647" list="0" val="thisactor"/>
                 </s>
-                <s enabled="true" id="44">
+                <s enabled="false" id="44">
                     <prop id="1" list="0" val="idle-r"/>
                     <prop id="2" list="0" val="idle-l"/>
                     <prop id="3" list="0" val="true"/>
                     <prop id="4" list="0" val="15"/>
                     <prop id="5" list="0" val="idle-r"/>
                     <prop id="6" list="0" val="idle-l"/>
-                    <prop id="7" list="0" val="1"/>
-                    <prop id="8" list="0" val="5"/>
+                    <prop id="7" list="0" val="5"/>
+                    <prop id="8" list="0" val="15"/>
                     <prop id="2147483647" list="0" val="thisactor"/>
                 </s>
                 <s enabled="false" id="45">
@@ -106,10 +66,10 @@
                 </s>
             </snippets>
         </actor>
-        <actor a="0.0" aid="33" c="true" group="4" id="27" name="6Ball1 33" sx="1.0" sy="1.0" x="811" y="75" z="3">
+        <actor a="0.0" aid="33" c="true" group="4" id="27" name="6Ball1 33" sx="1.0" sy="1.0" x="810" y="75" z="3">
             <snippets>
                 <s enabled="true" id="32"/>
-                <s enabled="false" id="39">
+                <s enabled="true" id="39">
                     <prop id="1" list="0" val="1"/>
                     <prop id="2" list="0" val="false"/>
                     <prop id="3" list="0" val="490"/>
@@ -135,7 +95,7 @@
                 </s>
             </snippets>
         </actor>
-        <actor a="0.0" aid="31" c="true" group="4" id="0" name="Mambo 31" sx="1.0" sy="1.0" x="559" y="66" z="3">
+        <actor a="0.0" aid="37" c="true" group="4" id="0" name="Mambo 37" sx="1.0" sy="1.0" x="486" y="63" z="3">
             <snippets>
                 <s enabled="false" id="0">
                     <prop id="1" list="0" val="0"/>
@@ -160,7 +120,7 @@
                     <prop id="3" list="0" val="15.0"/>
                     <prop id="2147483647" list="0" val="thisactor"/>
                 </s>
-                <s enabled="false" id="24">
+                <s enabled="true" id="24">
                     <prop id="1" list="0" val="Walk (R)"/>
                     <prop id="2" list="0" val="Walk (L)"/>
                     <prop id="3" list="0" val="Idle (R)"/>
@@ -169,11 +129,7 @@
                     <prop id="6" list="0" val="3"/>
                     <prop id="2147483647" list="0" val="thisactor"/>
                 </s>
-                <s enabled="false" id="26">
-                    <prop id="1" list="0" val="1"/>
-                    <prop id="2147483647" list="0" val="thisactor"/>
-                </s>
-                <s enabled="false" id="41">
+                <s enabled="true" id="41">
                     <prop id="1" list="0" val="0"/>
                     <prop id="2" list="0" val="2"/>
                     <prop id="3" list="0" val="2"/>
@@ -190,6 +146,10 @@
                     <prop id="2147483647" list="0" val="thisactor"/>
                     <prop id="15" list="0" val=""/>
                     <prop id="16" list="0" val=""/>
+                </s>
+                <s enabled="false" id="26">
+                    <prop id="1" list="0" val="1"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
                 </s>
                 <s enabled="false" id="28">
                     <prop id="1" list="0" val="0"/>
@@ -238,6 +198,186 @@
                 </s>
             </snippets>
         </actor>
+        <actor a="0.0" aid="42" c="true" group="0" id="15" name="Polska 42" sx="1.0" sy="1.0" x="102" y="362" z="1">
+            <snippets>
+                <s enabled="false" id="0">
+                    <prop id="1" list="0" val="4"/>
+                    <prop id="2" list="0" val="Jump"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="false" id="1">
+                    <prop id="5" list="0" val=""/>
+                    <prop id="6" list="0" val="5"/>
+                    <prop id="7" list="0" val="0"/>
+                    <prop id="8" list="0" val="35"/>
+                    <prop id="9" list="0" val="15"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="8"/>
+                <s enabled="true" id="9">
+                    <prop id="1" list="0" val="0.0"/>
+                    <prop id="2" list="0" val="0"/>
+                    <prop id="3" list="0" val="15.0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="false" id="10">
+                    <prop id="2" list="0" val="25"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="false" id="46">
+                    <prop id="1" list="0" val="33.0"/>
+                    <prop id="2" list="0" val="66.0"/>
+                    <prop id="3" list="0" val="40.0"/>
+                    <prop id="4" list="0" val="5.0"/>
+                    <prop id="5" list="0" val="3.0"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val="0.0"/>
+                    <prop id="8" list="0" val="0"/>
+                    <prop id="9" list="0" val="0"/>
+                    <prop id="10" list="0" val="false"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="14">
+                    <prop id="1" list="0" val="0.5"/>
+                    <prop id="2" list="0" val="0.5"/>
+                    <prop id="3" list="0" val="Fade"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="15">
+                    <prop id="1" list="0" val="5"/>
+                    <prop id="2" list="0" val="5"/>
+                    <prop id="3" list="0" val="3.0"/>
+                    <prop id="4" list="0" val="Healed"/>
+                    <prop id="5" list="0" val="Damaged"/>
+                    <prop id="7" list="0" val="Kill"/>
+                    <prop id="8" list="0" val="false"/>
+                    <prop id="9" list="0" val="0.5"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="-1"/>
+                    <prop id="13" list="0" val=""/>
+                    <prop id="14" list="0" val="5"/>
+                    <prop id="15" list="0" val="-1"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="17" list="0" val="false"/>
+                    <prop id="16" list="0" val="-1"/>
+                    <prop id="19" list="0" val="0.0"/>
+                    <prop id="18" list="0" val="0.0"/>
+                    <prop id="20" list="0" val=""/>
+                    <prop id="23" list="0" val="false"/>
+                    <prop id="22" list="0" val="0.0"/>
+                    <prop id="25" list="0" val="0.0"/>
+                    <prop id="24" list="0" val="15"/>
+                    <prop id="27" list="0" val="0.0"/>
+                    <prop id="26" list="0" val="Screen"/>
+                    <prop id="29" list="0" val="0.0"/>
+                    <prop id="28" list="0" val="1.0"/>
+                    <prop id="31" list="0" val="5.0"/>
+                    <prop id="30" list="0" val="100.0"/>
+                    <prop id="32" list="0" val="Horizontal"/>
+                    <prop id="39" list="0" val="0,0,0,255"/>
+                    <prop id="42" list="0" val="255,255,0,255"/>
+                    <prop id="43" list="0" val="255,153,0,255"/>
+                    <prop id="41" list="0" val="0,255,0,255"/>
+                    <prop id="46" list="0" val="true"/>
+                    <prop id="44" list="0" val="255,0,0,255"/>
+                    <prop id="45" list="0" val="0,0,0,255"/>
+                </s>
+                <s enabled="true" id="49">
+                    <prop id="1" list="0" val="0.12"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val=""/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="false" id="48">
+                    <prop id="1" list="0" val="0.0"/>
+                    <prop id="2" list="0" val="0"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="5"/>
+                    <prop id="6" list="0" val="5"/>
+                    <prop id="7" list="0" val=""/>
+                    <prop id="8" list="0" val="true"/>
+                    <prop id="9" list="0" val="false"/>
+                    <prop id="10" list="0" val="false"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val="0"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="20">
+                    <prop id="34" list="0" val="right"/>
+                    <prop id="33" list="0" val="left"/>
+                    <prop id="38" list="0" val="true"/>
+                    <prop id="37" list="0" val="0.0"/>
+                    <prop id="42" list="0" val="false"/>
+                    <prop id="43" list="0" val="false"/>
+                    <prop id="11" list="0" val="15.0"/>
+                    <prop id="41" list="0" val="Jump"/>
+                    <prop id="47" list="0" val="walkRight"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="45" list="0" val="25"/>
+                    <prop id="50" list="0" val="idleLeft"/>
+                    <prop id="49" list="0" val="idleRight"/>
+                    <prop id="48" list="0" val="walkLeft"/>
+                    <prop id="55" list="0" val="false"/>
+                    <prop id="54" list="0" val="walkLeft"/>
+                    <prop id="53" list="0" val="walkRight"/>
+                    <prop id="52" list="0" val="false"/>
+                    <prop id="58" list="0" val="false"/>
+                    <prop id="57" list="0" val="false"/>
+                    <prop id="56" list="0" val="false"/>
+                    <prop id="63" list="0" val="50"/>
+                    <prop id="62" list="0" val="0.2"/>
+                    <prop id="60" list="0" val="true"/>
+                </s>
+                <s enabled="true" id="25">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="40" c="false" group="6" id="80" name="oneUp 40" sx="1.0" sy="1.0" x="781" y="371" z="0"/>
+        <actor a="0.0" aid="41" c="true" group="4" id="29" name="6Ball2 41" sx="1.0" sy="1.0" x="232" y="290" z="3">
+            <snippets>
+                <s enabled="true" id="33"/>
+                <s enabled="true" id="40">
+                    <prop id="3" list="0" val="42"/>
+                    <prop id="4" list="0" val="50"/>
+                    <prop id="5" list="0" val="30"/>
+                    <prop id="6" list="0" val="idleL"/>
+                    <prop id="7" list="0" val="idleR"/>
+                    <prop id="8" list="0" val="idleL"/>
+                    <prop id="9" list="0" val="true"/>
+                    <prop id="10" list="0" val="true"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="41">
+                    <prop id="1" list="0" val="0"/>
+                    <prop id="2" list="0" val="2"/>
+                    <prop id="3" list="0" val="1"/>
+                    <prop id="4" list="0" val="60.0"/>
+                    <prop id="5" list="0" val="25"/>
+                    <prop id="6" list="0" val="true"/>
+                    <prop id="7" list="0" val="1"/>
+                    <prop id="8" list="0" val="0"/>
+                    <prop id="9" list="0" val="25"/>
+                    <prop id="10" list="0" val="-16"/>
+                    <prop id="11" list="0" val="-16"/>
+                    <prop id="12" list="0" val="idleL"/>
+                    <prop id="13" list="0" val="idleR"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="15" list="0" val=""/>
+                    <prop id="16" list="0" val=""/>
+                </s>
+                <s enabled="true" id="13">
+                    <prop id="1" list="0" val="idleL"/>
+                    <prop id="2" list="0" val="idleR"/>
+                    <prop id="3" list="0" val="3"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
     </actors>
     <snippets>
         <s enabled="false" id="21">
@@ -252,9 +392,14 @@
             <prop id="12" list="0" val="Fade"/>
         </s>
         <s enabled="true" id="23">
-            <prop id="1" list="0" val="-1"/>
+            <prop id="1" list="0" val="42"/>
             <prop id="3" list="0" val="0"/>
             <prop id="4" list="0" val="0"/>
+        </s>
+        <s enabled="true" id="52">
+            <prop id="1" list="0" val="Default Font"/>
+            <prop id="3" list="0" val="42"/>
+            <prop id="4" list="0" val="40"/>
         </s>
         <s enabled="false" id="22">
             <prop id="1" list="0" val="15"/>
@@ -264,14 +409,13 @@
         </s>
     </snippets>
     <terrain>
+        <p pts="4,0.0,32.0,0.0,0.0,64.0,0.0,64.0,32.0" x="448.0" y="192.0"/>
         <p pts="4,0.0,32.0,0.0,0.0,64.0,0.0,64.0,32.0" x="384.0" y="128.0"/>
         <p pts="4,96.0,0.0,96.0,32.0,0.0,32.0,0.0,0.0" x="736.0" y="384.0"/>
         <p pts="4,0.0,32.0,0.0,0.0,576.0,0.0,576.0,32.0" x="480.0" y="96.0"/>
-        <p pts="4,96.0,0.0,96.0,32.0,0.0,32.0,0.0,0.0" x="1184.0" y="384.0"/>
-        <p pts="4,0.0,0.0,32.0,0.0,32.0,96.0,0.0,96.0" x="0.0" y="0.0"/>
-        <p pts="26,224.0,224.0,224.0,192.0,256.0,192.0,256.0,160.0,288.0,160.0,288.0,192.0,320.0,192.0,320.0,224.0,352.0,224.0,352.0,256.0,448.0,256.0,448.0,224.0,480.0,224.0,480.0,192.0,512.0,192.0,512.0,160.0,544.0,160.0,544.0,256.0,640.0,256.0,640.0,288.0,0.0,288.0,0.0,0.0,32.0,0.0,32.0,256.0,192.0,256.0,192.0,224.0" x="0.0" y="128.0"/>
-        <p pts="4,0.0,32.0,0.0,0.0,160.0,0.0,160.0,32.0" x="928.0" y="384.0"/>
-        <p pts="4,0.0,32.0,0.0,0.0,64.0,0.0,64.0,32.0" x="448.0" y="192.0"/>
         <p pts="4,64.0,0.0,64.0,32.0,0.0,32.0,0.0,0.0" x="544.0" y="224.0"/>
+        <p pts="4,96.0,0.0,96.0,32.0,0.0,32.0,0.0,0.0" x="1184.0" y="384.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,160.0,0.0,160.0,32.0" x="928.0" y="384.0"/>
+        <p pts="26,224.0,352.0,224.0,320.0,256.0,320.0,256.0,288.0,288.0,288.0,288.0,320.0,320.0,320.0,320.0,352.0,352.0,352.0,352.0,384.0,448.0,384.0,448.0,352.0,480.0,352.0,480.0,320.0,512.0,320.0,512.0,288.0,544.0,288.0,544.0,384.0,640.0,384.0,640.0,416.0,0.0,416.0,0.0,0.0,32.0,0.0,32.0,384.0,192.0,384.0,192.0,352.0" x="0.0" y="0.0"/>
     </terrain>
 </scene>

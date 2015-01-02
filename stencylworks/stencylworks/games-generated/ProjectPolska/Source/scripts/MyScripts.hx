@@ -16,7 +16,6 @@ import scripts.Design_13_13_EnemyWalkingAI;
 import scripts.Design_14_14_ReloadSceneOnDeath;
 import scripts.Design_15_15_HealthManager;
 import scripts.Design_17_17_Walking;
-import scripts.Design_16_16_drawlives;
 import scripts.Design_19_19_Jump;
 import scripts.Design_18_18_Jumping;
 import scripts.Design_21_21_SwitchSceneonEnterRegion;
@@ -41,8 +40,16 @@ import scripts.Design_42_42_WaveMotion;
 import scripts.Design_43_43_2WayVerticalMovement;
 import scripts.Design_40_40_DetectPlayer;
 import scripts.Design_41_41;
+import scripts.Design_46_46_ShowHealthBar;
+import scripts.Design_47_47_InflictsDamage;
 import scripts.Design_44_44_EnemyJump;
 import scripts.Design_45_45_BounceWithFullSpeed;
+import scripts.Design_51_51_ExplodeOnDeath;
+import scripts.Design_50_50_SpawnActoruponDeath;
+import scripts.Design_49_49_FlickerwhenHit;
+import scripts.Design_48_48_Health;
+import scripts.ActorEvents_80;
+import scripts.Design_52_52_drawlives;
 
 
 //Force all classes to compile since they aren't statically used.

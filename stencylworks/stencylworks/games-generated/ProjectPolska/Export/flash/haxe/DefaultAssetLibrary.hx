@@ -74,6 +74,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/graphics/1x/sprite-30-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/graphics/1x/sprite-30-1.png", __ASSET__assets_graphics_1x_sprite_30_1_png);
 		type.set ("assets/graphics/1x/sprite-30-1.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("assets/graphics/1x/sprite-81-0.png", __ASSET__assets_graphics_1x_sprite_81_0_png);
+		type.set ("assets/graphics/1x/sprite-81-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/graphics/1x/tileset-4.png", __ASSET__assets_graphics_1x_tileset_4_png);
 		type.set ("assets/graphics/1x/tileset-4.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/graphics/default-font.fnt", __ASSET__assets_graphics_default_font_fnt);
@@ -148,6 +150,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/graphics/1x/sprite-30-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/graphics/1x/sprite-30-1.png", "assets/graphics/1x/sprite-30-1.png");
 		type.set ("assets/graphics/1x/sprite-30-1.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		path.set ("assets/graphics/1x/sprite-81-0.png", "assets/graphics/1x/sprite-81-0.png");
+		type.set ("assets/graphics/1x/sprite-81-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/graphics/1x/tileset-4.png", "assets/graphics/1x/tileset-4.png");
 		type.set ("assets/graphics/1x/tileset-4.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/graphics/default-font.fnt", "assets/graphics/default-font.fnt");
@@ -573,6 +577,7 @@ class __ASSET__assets_graphics_1x_sprite_3_2_png extends flash.display.BitmapDat
 class __ASSET__assets_graphics_1x_sprite_3_3_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_30_0_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_30_1_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__assets_graphics_1x_sprite_81_0_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_tileset_4_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_default_font_fnt extends flash.utils.ByteArray { }
 class __ASSET__assets_graphics_default_font_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
@@ -592,6 +597,7 @@ class __ASSET__assets_data_scenes_xml extends flash.utils.ByteArray { }
 
 
 #elseif html5
+
 
 
 

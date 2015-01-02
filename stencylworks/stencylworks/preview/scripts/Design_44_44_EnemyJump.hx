@@ -94,7 +94,7 @@ _speed = 0.0;
 nameMap.set("animationRight", "_animationRight");
 nameMap.set("animationLeft", "_animationLeft");
 nameMap.set("seconds", "_seconds");
-_seconds = 0;
+_seconds = 0.0;
 nameMap.set("Jumping Force", "_JumpingForce");
 _JumpingForce = 25.0;
 nameMap.set("Actor", "actor");

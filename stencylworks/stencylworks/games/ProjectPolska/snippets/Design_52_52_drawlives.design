@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="20" y="42">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="31" y="67">
+                    <FONT eid="var" id="0" vid="1"/>
+                </set-font-new>
+                <draw-text comment="false" x="31" y="94">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <int id="0" val="LIVES "/>
+                        <get-game-val-0 comment="false" id="1" x="0" y="0"/>
+                    </str-combine>
+                    <int id="1" val="390"/>
+                    <int id="2" val="0"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="4" id="0">
+        <event-actor-create-kill comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="3" id="-1">
+                        <set-game-val-0 comment="false" x="37" y="72">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-game-val-0>
+                    </group>
+                    <more comment="false" id="0" x="0" y="0">
+                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </more>
+                </if>
+                <else comment="false" x="26" y="114">
+                    <group eventID="4" id="-1">
+                        <actor-enabledisable-snippet comment="false" x="37" y="134">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="Reload Scene On Death"/>
+                        </actor-enabledisable-snippet>
+                        <print comment="false" x="37" y="161">
+                            <int id="0" val="Go to Game Over Scene"/>
+                        </print>
+                    </group>
+                </else>
+            </group>
+            <int id="0" val="1"/>
+            <ACTOR eid="var" id="1" vid="3"/>
+        </event-actor-create-kill>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <receiver-12-108 comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <set-game-val-0 comment="false" x="26" y="45">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </plus>
+                </set-game-val-0>
+            </group>
+            <get-byobval-52-108-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-12-108>
+    </group>
+    <group eventID="5" id="-1">
+        <get-byobval-52-108-0 comment="false" x="0" y="0"/>
+    </group>
+</groups>

@@ -14,7 +14,7 @@
         <sound default="" defaultValue="" desc="" dropdown="" fullname="Stomped Sound" hidden="false" id="6" name="_StompedSound" order="2"/>
         <number default="0" defaultValue="0" desc="" dropdown="" fullname="opacity" hidden="true" id="7" name="_opacity" order="3"/>
         <number default="35" defaultValue="35" desc="" dropdown="" fullname="Push Player Jump Force" hidden="false" id="8" name="_PushPlayerJumpForce" order="4"/>
-        <number default="15" defaultValue="15" desc="" dropdown="" fullname="Push Player Force" hidden="false" id="9" name="_PushPlayerForce" order="5"/>
+        <number default="15.0" defaultValue="15.0" desc="" dropdown="" fullname="Push Player Force" hidden="false" id="9" name="_PushPlayerForce" order="5"/>
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events>
@@ -37,12 +37,18 @@
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="7" language="" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" scenespecific="true" shared="false" type="scene">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Type - Type" enabled="true" id="1" name="event-collide-typetotype" order="1" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_15" classname="scripts.ActorEvents_15" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="8" language="" name="ActorEvents_15" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
-        <blocks/>
+        <blocks>
+            <receiver blockID="82" id="1"/>
+        </blocks>
         <events>
-            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
+            <event displayName="Actor - Actor" enabled="false" id="1" name="event-collide-actortoactor" order="1" repeats="true"/>
+            <event displayName=" Actor - Group" enabled="true" id="3" name="event-collide-actortogroup" order="3" repeats="true"/>
+            <event displayName=" Actor - Group" enabled="true" id="4" name="event-collide-actortogroup" order="4" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_9_9_SmoothCamera" classname="scripts.Design_9_9_SmoothCamera" desc="Add this behavior to your main character to make the camera follow it with smoother motion. Originally uploaded by osvaldososa." description="Add this behavior to your main character to make the camera follow it with smoother motion. Originally uploaded by osvaldososa." design="true" drawOrder="0" id="9" language="" name="Smooth Camera" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
@@ -193,13 +199,6 @@
         <blocks/>
         <events>
             <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
-        </events>
-    </snippet>
-    <snippet attachedevent="false" class="scripts.Design_16_16_drawlives" classname="scripts.Design_16_16_drawlives" desc="" description="" design="true" drawOrder="0" id="16" language="" name="draw lives" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
-        <font default="" defaultValue="" desc="" dropdown="" fullname="type of font" hidden="false" id="1" name="_typeoffont" order="0"/>
-        <blocks/>
-        <events>
-            <event displayName="Drawing" enabled="true" id="1" name="draw" order="1" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_19_19_Jump" classname="scripts.Design_19_19_Jump" desc="Jump" description="Jump" design="true" drawOrder="0" id="19" language="" name="Jump" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
@@ -414,8 +413,8 @@
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance X" hidden="true" id="12" name="_DistanceX" order="9"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance Y" hidden="true" id="13" name="_DistanceY" order="10"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Distance" hidden="true" id="14" name="_Distance" order="11"/>
-        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Direction" hidden="true" id="15" name="_Direction" order="12"/>
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Direction" hidden="true" id="15" name="_Direction" order="12"/>
         <number default="10.0" defaultValue="10.0" desc="The default speed to reach any node." dropdown="" fullname="Default Speed" hidden="false" id="17" name="_DefaultSpeed" order="21"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Current Speed" hidden="true" id="19" name="_CurrentSpeed" order="14"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Current Node" hidden="true" id="18" name="_CurrentNode" order="13"/>
@@ -431,11 +430,11 @@
         </blocks>
         <events>
             <event displayName="Custom Block" enabled="true" id="17" name="event-custom-block" order="16" repeats="true"/>
-            <event displayName="Custom Block" enabled="true" id="16" name="event-custom-block" order="3" repeats="true"/>
             <event displayName="Drawing" enabled="true" id="1" name="draw" order="18" repeats="true"/>
+            <event displayName="Custom Block" enabled="true" id="16" name="event-custom-block" order="3" repeats="true"/>
             <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
-            <event displayName="Custom Block" enabled="true" id="18" name="event-custom-block" order="17" repeats="true"/>
             <event displayName="Created" enabled="true" id="3" name="init" order="1" repeats="true"/>
+            <event displayName="Custom Block" enabled="true" id="18" name="event-custom-block" order="17" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_35_35_BackandForthHorizontally" classname="scripts.Design_35_35_BackandForthHorizontally" desc="Makes the actor move back and forth horizontally." description="Makes the actor move back and forth horizontally." design="true" drawOrder="0" id="35" language="" name="Back and Forth Horizontally" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
@@ -445,8 +444,8 @@
         <number default="100.0" defaultValue="100.0" desc="The distance the actor will be moving to the right." dropdown="" fullname="Distance Right" hidden="false" id="18" name="_DistanceRight" order="6"/>
         <boolean default="true" defaultValue="true" desc="If selected, the actor will change the movement direction when colliding.&lt;br /&gt;&#10;If unselected, the actor will try to keep on moving in the current direction." dropdown="" fullname="Change Direction on Collision" hidden="false" id="20" name="_ChangeDirectiononCollision" order="7"/>
         <number default="0" defaultValue="0" desc="" dropdown="" fullname="Start" hidden="true" id="13" name="_Start" order="1"/>
-        <number default="0" defaultValue="0" desc="" dropdown="" fullname="End" hidden="true" id="15" name="_End" order="2"/>
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="End" hidden="true" id="15" name="_End" order="2"/>
         <blocks/>
         <events>
             <event displayName="Updated" enabled="true" id="1" name="step" order="2" repeats="true"/>
@@ -517,8 +516,8 @@
         <animation default="" defaultValue="" desc="" dropdown="" fullname="Up Animation (Idle)" hidden="false" id="41" name="_UpAnimationIdle" order="10"/>
         <boolean default="true" defaultValue="true" desc="If selected, the actor will not be able to turn while moving." dropdown="" fullname="Stop Turning" hidden="false" id="46" name="_StopTurning" order="8"/>
         <animation default="" defaultValue="" desc="" dropdown="" fullname="Down Animation" hidden="false" id="44" name="_DownAnimation" order="13"/>
-        <boolean default="true" defaultValue="true" desc="If selected, the animation attributes will be used, otherwise they will be ignored." dropdown="" fullname="Use Animations" hidden="false" id="45" name="_UseAnimations" order="9"/>
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <boolean default="true" defaultValue="true" desc="If selected, the animation attributes will be used, otherwise they will be ignored." dropdown="" fullname="Use Animations" hidden="false" id="45" name="_UseAnimations" order="9"/>
         <blocks/>
         <events>
             <event displayName="Updated" enabled="true" id="3" name="step" order="4" repeats="true"/>
@@ -527,7 +526,7 @@
             <event displayName="Created" enabled="true" id="6" name="init" order="3" repeats="true"/>
         </events>
     </snippet>
-    <snippet attachedevent="false" class="scripts.Design_40_40_DetectPlayer" classname="scripts.Design_40_40_DetectPlayer" desc="" description="" design="true" drawOrder="0" id="40" language="" name="Detect Player" oid="142291" package="scripts" scenespecific="false" shared="true" type="actor">
+    <snippet attachedevent="false" class="scripts.Design_40_40_DetectPlayer" classname="scripts.Design_40_40_DetectPlayer" desc="" description="" design="true" drawOrder="0" id="40" language="" name="Detect Player" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
         <actor default="" defaultValue="" desc="" dropdown="" fullname="targetActor" hidden="false" id="3" name="_targetActor" order="1"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="maxRange" hidden="false" id="4" name="_maxRange" order="7"/>
         <number default="0" defaultValue="0" desc="" dropdown="" fullname="minRange" hidden="false" id="5" name="_minRange" order="4"/>
@@ -550,7 +549,7 @@
             <event displayName="Created" enabled="true" id="4" name="init" order="3" repeats="true"/>
         </events>
     </snippet>
-    <snippet attachedevent="false" class="scripts.Design_41_41" classname="scripts.Design_41_41" desc="The Actor will fire a burst of bullets for &quot;X&quot; seconds, at a &quot;Y&quot; rate, and then rest for &quot;Z&quot; seconds (to cooldown his weapon, I guess) before start firing again. This behavior doesn't use time blocks (do after/ do every X seconds)" description="The Actor will fire a burst of bullets for &quot;X&quot; seconds, at a &quot;Y&quot; rate, and then rest for &quot;Z&quot; seconds (to cooldown his weapon, I guess) before start firing again. This behavior doesn't use time blocks (do after/ do every X seconds)" design="true" drawOrder="0" id="41" language="" name="Enhanced FiringLoop" oid="142290" package="scripts" scenespecific="false" shared="true" type="actor">
+    <snippet attachedevent="false" class="scripts.Design_41_41" classname="scripts.Design_41_41" desc="The Actor will fire a burst of bullets for &quot;X&quot; seconds, at a &quot;Y&quot; rate, and then rest for &quot;Z&quot; seconds (to cooldown his weapon, I guess) before start firing again. This behavior doesn't use time blocks (do after/ do every X seconds)" description="The Actor will fire a burst of bullets for &quot;X&quot; seconds, at a &quot;Y&quot; rate, and then rest for &quot;Z&quot; seconds (to cooldown his weapon, I guess) before start firing again. This behavior doesn't use time blocks (do after/ do every X seconds)" design="true" drawOrder="0" id="41" language="" name="Enhanced FiringLoop" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
         <number default="0" defaultValue="0" desc="" dropdown="" fullname="Counter" hidden="true" id="1" name="_Counter" order="1"/>
         <number default="2" defaultValue="2" desc="How many seconds the Actor will rest between each burst." dropdown="" fullname="RestingTime" hidden="false" id="2" name="_RestingTime" order="4"/>
         <number default="2" defaultValue="2" desc="How many seconds each burst will last." dropdown="" fullname="FiringTime" hidden="false" id="3" name="_FiringTime" order="3"/>
@@ -564,13 +563,43 @@
         <number default="-16" defaultValue="-16" desc="From the center of the actor, where do you want to create the bullet? Positive numbers for down, negative numbers for up.&#10;&#10;If you want to create bullets centered, write the negative number of the bullet's height/2 (i.e: if the bullet has a height of 32 pixel, write down -16)." dropdown="" fullname="OffsetY" hidden="false" id="11" name="_OffsetY" order="10"/>
         <animation default="" defaultValue="" desc="" dropdown="" fullname="firingAnimationLeft" hidden="false" id="12" name="_firingAnimationLeft" order="12"/>
         <animation default="" defaultValue="" desc="" dropdown="" fullname="firingAnimationRight" hidden="false" id="13" name="_firingAnimationRight" order="13"/>
-        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <animation default="" defaultValue="" desc="" dropdown="" fullname="firingAnimationDown" hidden="false" id="15" name="_firingAnimationDown" order="14"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <animation default="" defaultValue="" desc="" dropdown="" fullname="firingAnimationUp" hidden="false" id="16" name="_firingAnimationUp" order="15"/>
         <blocks/>
         <events>
             <event displayName="Updated" enabled="true" id="1" name="step" order="2" repeats="true"/>
             <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_46_46_ShowHealthBar" classname="scripts.Design_46_46_ShowHealthBar" desc="Displays a simple health bar above the actor." description="Displays a simple health bar above the actor." design="true" drawOrder="0" id="46" language="" name="Show Health Bar" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <number default="33.0" defaultValue="33.0" desc="Percent above which to show 'yellow'" dropdown="" fullname="Show yellow if health above (%)" hidden="false" id="1" name="percentYellow" order="3"/>
+        <number default="66.0" defaultValue="66.0" desc="Percent above which to show 'green'" dropdown="" fullname="Show green if health above (%)" hidden="false" id="2" name="percentGreen" order="2"/>
+        <number default="40.0" defaultValue="40.0" desc="How long the bar is." dropdown="" fullname="Width" hidden="false" id="3" name="width" order="0"/>
+        <number default="5.0" defaultValue="5.0" desc="How thick the bar is." dropdown="" fullname="Height" hidden="false" id="4" name="height" order="1"/>
+        <number default="3.0" defaultValue="3.0" desc="Distance between top of actor and bar." dropdown="" fullname="Distance" hidden="false" id="5" name="offset" order="4"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="cachedHealth" hidden="true" id="6" name="cachedHealth" order="0"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="maxHealth" hidden="true" id="7" name="maxHealth" order="0"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="remainingPercent" hidden="true" id="8" name="remainingPercent" order="0"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="healthBarLeft" hidden="true" id="9" name="healthBarLeft" order="0"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="loadedHealth" hidden="true" id="10" name="loadedHealth" order="0"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="tookDamage" enabled="true" id="1" name="event-custom" order="1" repeats="true"/>
+            <event displayName="restore" enabled="true" id="2" name="event-custom" order="2" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="3" name="step" order="3" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="4" name="draw" order="4" repeats="true"/>
+            <event displayName="heal" enabled="true" id="5" name="event-custom" order="5" repeats="true"/>
+            <event displayName="Created" enabled="true" id="6" name="init" order="6" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_47_47_InflictsDamage" classname="scripts.Design_47_47_InflictsDamage" desc="Allows this actor to damage another actor through a collision." description="Allows this actor to damage another actor through a collision." design="true" drawOrder="0" id="47" language="" name="Inflicts Damage" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <number default="0.0" defaultValue="0.0" desc="Amount of damage to inflct." dropdown="" fullname="Damage Given" hidden="false" id="1" name="damage" order="0"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_44_44_EnemyJump" classname="scripts.Design_44_44_EnemyJump" desc="" description="" design="true" drawOrder="0" id="44" language="" name="EnemyJump" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
@@ -598,6 +627,108 @@
         <events>
             <event displayName="Actor - Any" enabled="true" id="2" name="collide" order="3" repeats="true"/>
             <event displayName="Updated" enabled="true" id="3" name="step" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_51_51_ExplodeOnDeath" classname="scripts.Design_51_51_ExplodeOnDeath" desc="Spawn an explosion and fragments when the actor dies." description="Spawn an explosion and fragments when the actor dies." design="true" drawOrder="0" id="51" language="" name="Explode On Death" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="10.0" defaultValue="10.0" desc="The maximum speed at which the fragments fly away." dropdown="" fullname="Maximum Speed" hidden="false" id="17" name="_MaximumSpeed" order="6"/>
+        <number default="5.0" defaultValue="5.0" desc="The number of fragments to create." dropdown="" fullname="Number of Fragments" hidden="false" id="23" name="_NumberofFragments" order="4"/>
+        <actortype default="" defaultValue="" desc="The actor type of the fragments to create.&lt;br/&gt;&#10;Make sure the actor type of the fragments doesn't collide with this actor." dropdown="" fullname="Fragment Actor Type" hidden="false" id="22" name="_FragmentActorType" order="3"/>
+        <number default="5.0" defaultValue="5.0" desc="The minimum speed at which the fragments fly away." dropdown="" fullname="Minimum Speed" hidden="false" id="25" name="_MinimumSpeed" order="5"/>
+        <number default="360.0" defaultValue="360.0" desc="The maximum turning speed for the fragments." dropdown="" fullname="Maximum Turning Speed" hidden="false" id="24" name="_MaximumTurningSpeed" order="7"/>
+        <number default="0.0" defaultValue="0.0" desc="An offset in the direction of movement at which the fragments will be created." dropdown="" fullname="Offset" hidden="false" id="27" name="_Offset" order="8"/>
+        <actortype default="" defaultValue="" desc="The actor type of the explosion to create.&lt;br/&gt;&#10;Make sure the actor type of the explosion doesn't collide with this actor." dropdown="" fullname="Explosion Actor Type" hidden="false" id="29" name="_ExplosionActorType" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Direction" hidden="true" id="28" name="_Direction" order="1"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Actor Created" enabled="true" id="2" name="event-actor-create-kill" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_50_50_SpawnActoruponDeath" classname="scripts.Design_50_50_SpawnActoruponDeath" desc="Spawns the actor type of your choice when this actor dies. You can specify the X and Y offset relative to the main actor and the lifetime of the spawned actor before it dies. Useful for death animations." description="Spawns the actor type of your choice when this actor dies. You can specify the X and Y offset relative to the main actor and the lifetime of the spawned actor before it dies. Useful for death animations." design="true" drawOrder="0" id="50" language="" name="Spawn Actor upon Death" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <actortype default="" defaultValue="" desc="" dropdown="" fullname="Actor Type to Spawn" hidden="false" id="1" name="actTypeToSpawn" order="1"/>
+        <number default="0" defaultValue="0" desc="Horizontal offset from the original actor" dropdown="" fullname="X Offset" hidden="false" id="2" name="xOffset" order="3"/>
+        <number default="0" defaultValue="0" desc="Vertical offset from the original actor" dropdown="" fullname="Y Offset" hidden="false" id="3" name="yOffset" order="4"/>
+        <number default="0" defaultValue="0" desc="How long should the actor stay alive before disappearing?" dropdown="" fullname="Lifespan" hidden="false" id="4" name="lifespan" order="2"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="healthDepleted" enabled="true" id="1" name="event-custom" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_49_49_FlickerwhenHit" classname="scripts.Design_49_49_FlickerwhenHit" desc="Show a little flicker effect when this actor takes damage. Must be used with Health to happen." description="Show a little flicker effect when this actor takes damage. Must be used with Health to happen." design="true" drawOrder="0" id="49" language="" name="Flicker when Hit" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <number default="0.12" defaultValue="0.12" desc="How long the effect should last." dropdown="" fullname="Duration" hidden="false" id="1" name="duration" order="0"/>
+        <boolean default="true" defaultValue="true" desc="" dropdown="" fullname="Can Add?" hidden="true" id="3" name="_CanAdd" order="2"/>
+        <filter default="" defaultValue="" desc="" dropdown="" fullname="Filter To Add" hidden="true" id="4" name="_FilterToAdd" order="3"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="tookDamage" enabled="true" id="1" name="event-custom" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_48_48_Health" classname="scripts.Design_48_48_Health" desc="Gives actor the notion of Health." description="Gives actor the notion of Health." design="true" drawOrder="0" id="48" language="" name="Health" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <number default="0.0" defaultValue="0.0" desc="Decrements by this amount if the colliding actor did not specify a damage amount." dropdown="" fullname="Default Damage" hidden="false" id="1" name="defaultDmg" order="3"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="cacheDmg" hidden="true" id="2" name="cacheDmg" order="0"/>
+        <number default="0" defaultValue="0" desc="Current health of this actor." dropdown="" fullname="currHealth" hidden="true" id="4" name="currHealth" order="0"/>
+        <number default="0.0" defaultValue="0.0" desc="Upper bound for health." dropdown="" fullname="Max Health" hidden="false" id="5" name="maxHealth" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="Starting amount of health. Can't exceed max health." dropdown="" fullname="Initial Health" hidden="false" id="6" name="initHealth" order="1"/>
+        <actor default="" defaultValue="" desc="Don't let the same actor cause multiple damages to happen." dropdown="" fullname="actorCache" hidden="true" id="7" name="actorCache" order="0"/>
+        <boolean default="true" defaultValue="true" desc="Make this actor die when its health reaches or falls below 0." dropdown="" fullname="Die When Health is Depleted?" hidden="false" id="8" name="dieOnDepletedHealth" order="4"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Is Invincible?" hidden="false" id="9" name="isInvincible" order="0"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Temporarily Invulnerable?" hidden="true" id="10" name="isTempInvulnerable" order="0"/>
+        <number default="0" defaultValue="0" desc="The amount of time the Actor will be invulnerable after being hit.&#10;&lt;br&gt;&lt;br&gt;&#10;Value of 0 (zero) means that the Actor will never become invulnerable.&#10;&lt;br&gt;&#10;Value &gt; 0 means that the Actor will be invulernable for that many seconds." dropdown="" fullname="Temporary Invulnerability Time" hidden="false" id="11" name="tempInvulnerabilityTime" order="5"/>
+        <number default="0" defaultValue="0" desc="The amount of time to wait before the Actor can be hit by the same Actor it just collided with. &lt;br&gt;&lt;br&gt;&#10;Value of 0 (zero) means that the Actor can't collide with the same actor twice, unless it collides with another actor first.&#10;&lt;br&gt;&#10;Value &gt; 0 means that a collision with the same Actor can not occur for that many seconds." dropdown="" fullname="Collide With Same Actor After" hidden="false" id="12" name="sameActorCollideAfter" order="6"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks>
+            <receiver blockID="73" id="1"/>
+            <receiver blockID="71" id="2"/>
+            <receiver blockID="74" id="3"/>
+            <receiver blockID="72" id="4"/>
+            <receiver blockID="75" id="5"/>
+            <receiver blockID="70" id="6"/>
+            <receiver blockID="69" id="7"/>
+        </blocks>
+        <events>
+            <event displayName="Actor - Any" enabled="true" id="1" name="collide" order="1" repeats="true"/>
+            <event displayName="damage" enabled="true" id="2" name="event-custom-block" order="2" repeats="true"/>
+            <event displayName="restore" enabled="true" id="3" name="event-custom-block" order="3" repeats="true"/>
+            <event displayName="heal" enabled="true" id="4" name="event-custom-block" order="4" repeats="true"/>
+            <event displayName="makeInvincible" enabled="true" id="5" name="event-custom-block" order="5" repeats="true"/>
+            <event displayName="setHealth" enabled="true" id="6" name="event-custom-block" order="6" repeats="true"/>
+            <event displayName="getHealth" enabled="true" id="7" name="event-custom-block" order="7" repeats="true"/>
+            <event displayName="Created" enabled="true" id="8" name="init" order="8" repeats="true"/>
+            <event displayName="makeVulnerable" enabled="true" id="9" name="event-custom-block" order="9" repeats="true"/>
+            <event displayName="tookDamage" enabled="true" id="10" name="event-custom" order="10" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_80" classname="scripts.ActorEvents_80" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="53" language="" name="ActorEvents_80" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_52_52_drawlives" classname="scripts.Design_52_52_drawlives" desc="" description="" design="true" drawOrder="0" id="52" language="" name="draw lives" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <font default="" defaultValue="" desc="" dropdown="" fullname="type of font" hidden="false" id="1" name="_typeoffont" order="0"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="player" hidden="false" id="3" name="_player" order="3"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="oneUp" hidden="false" id="4" name="_oneUp" order="2"/>
+        <blocks>
+            <receiver blockID="76" id="1"/>
+            <receiver blockID="77" id="2"/>
+            <receiver blockID="78" id="3"/>
+            <receiver blockID="79" id="4"/>
+            <receiver blockID="101" id="5"/>
+            <receiver blockID="102" id="6"/>
+            <receiver blockID="103" id="7"/>
+            <receiver blockID="104" id="8"/>
+            <receiver blockID="105" id="9"/>
+            <receiver blockID="106" id="10"/>
+            <receiver blockID="107" id="11"/>
+            <receiver blockID="108" id="12"/>
+        </blocks>
+        <events>
+            <event displayName="Drawing" enabled="true" id="1" name="draw" order="1" repeats="true"/>
+            <event displayName="Actor Created" enabled="true" id="4" name="event-actor-create-kill" order="5" repeats="true"/>
+            <event displayName="PlayerLives" enabled="true" id="5" name="event-custom-block" order="8" repeats="true"/>
         </events>
     </snippet>
 </pack>

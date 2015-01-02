@@ -3,8 +3,8 @@
     <exts>
         <e enabled="false" id="test-native"/>
         <e enabled="false" id="test"/>
-        <e enabled="false" id="test-flash"/>
         <e enabled="false" id="label"/>
+        <e enabled="false" id="test-flash"/>
         <e enabled="true" id="tileapi"/>
     </exts>
     <scales>
@@ -14,18 +14,26 @@
         <scale detailed="Highest (4x)" id="3" name="4x" size="4.0"/>
     </scales>
     <folders/>
-    <packs/>
+    <packs>
+        <pack desc="Provides simple health functionality for action games.&#10;&lt;br&gt;&lt;br&gt;&#10;Attach Health to any actor that wishes to take part in the health system. Inflicts Damage adds the ability for one actor to harm another." id="0" name="Health Pack" oid="-1" resources="" snippets="50,49,48,46,47"/>
+    </packs>
     <groups>
         <group desc="" id="4" name="Enemies"/>
         <group desc="" id="5" name="enemyBullets"/>
+        <group desc="powerUps for player" id="6" name="powerUps"/>
+        <group desc="" id="7" name="enemyBullet"/>
     </groups>
     <cgroups>
-        <cgroup g1="5" g2="0"/>
-        <cgroup g1="5" g2="1"/>
+        <cgroup g1="0" g2="6"/>
+        <cgroup g1="0" g2="7"/>
+        <cgroup g1="0" g2="5"/>
         <cgroup g1="0" g2="4"/>
+        <cgroup g1="3" g2="3"/>
+        <cgroup g1="7" g2="1"/>
+        <cgroup g1="5" g2="1"/>
+        <cgroup g1="5" g2="4"/>
         <cgroup g1="1" g2="4"/>
         <cgroup g1="4" g2="4"/>
-        <cgroup g1="3" g2="3"/>
     </cgroups>
     <input>
         <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
@@ -42,7 +50,9 @@
         <p name="phys.gravx" value=""/>
         <p name="phys.gravy" value=""/>
     </props>
-    <attributes/>
+    <attributes>
+        <number cid="-1" id="0" name="PlayerLives" save="true" value="3"/>
+    </attributes>
     <collisions>
         <poly id="1" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
         <poly id="2" name="Tri 45R" pts="0.0,0.0#0.0,1.0#1.0,1.0"/>
@@ -67,7 +77,7 @@
         <poly id="20" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
     </collisions>
     <atlases>
-        <atlas dirty="true" id="0" members="0,2,15,25,27,29,4,5,6," name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="0" members="0,2,15,25,27,29,80,4,5,6," name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" start="true" target="0"/>
