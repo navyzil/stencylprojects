@@ -88,14 +88,15 @@ nameMap.set("Run Right Animation", "_RunRightAnimation");
 /* ======================= Member of Group ======================== */
 addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
 if(wrapper.enabled && sameAsAny(getActorGroup(4),event.otherActor.getType(),event.otherActor.getGroup())){
-        if((cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool) == true))
+        actor.say("Health Manager", "_customBlock_Damage", [1]);
+        if((cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool) == false))
 {
-            recycleActor(actor.getLastCollidedActor());
-}
-
-        else
-{
-            actor.say("Health Manager", "_customBlock_Damage", [1]);
+            actor.say("Health Manager", "_customBlock_SetInvincibility", [true]);
+            actor.setFilter([createSepiaFilter()]);
+            runLater(1000 * 2, function(timeTask:TimedTask):Void {
+                        actor.say("Health Manager", "_customBlock_SetInvincibility", [false]);
+                        actor.clearFilters();
+}, actor);
 }
 
 }
@@ -105,6 +106,16 @@ if(wrapper.enabled && sameAsAny(getActorGroup(4),event.otherActor.getType(),even
 addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
 if(wrapper.enabled && sameAsAny(getActorGroup(7),event.otherActor.getType(),event.otherActor.getGroup())){
         actor.say("Health Manager", "_customBlock_Damage", [1]);
+        if((cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool) == false))
+{
+            actor.say("Health Manager", "_customBlock_SetInvincibility", [true]);
+            actor.setFilter([createSepiaFilter()]);
+            runLater(1000 * 2, function(timeTask:TimedTask):Void {
+                        actor.say("Health Manager", "_customBlock_SetInvincibility", [false]);
+                        actor.clearFilters();
+}, actor);
+}
+
 }
 });
 

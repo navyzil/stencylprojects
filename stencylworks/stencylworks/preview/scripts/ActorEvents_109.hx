@@ -78,8 +78,7 @@ class ActorEvents_109 extends ActorScript
 /* ======================== Actor of Type ========================= */
 addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
 if(wrapper.enabled && sameAsAny(getActorType(15), event.otherActor.getType(),event.otherActor.getGroup())){
-        trace("" + "activate hussar wings");
-        actor.getLastCollidedActor().enableBehavior("Invincibility Manager");
+        actor.getLastCollidedActor().say("Health Manager", "_customBlock_FullRestore");
         recycleActor(actor);
 }
 });

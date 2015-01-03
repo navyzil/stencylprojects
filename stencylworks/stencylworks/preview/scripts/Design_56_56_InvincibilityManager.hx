@@ -65,30 +65,23 @@ import com.stencyl.graphics.shaders.BloomShader;
 class Design_56_56_InvincibilityManager extends ActorScript
 {          	
 	
+public var _timeLimit:Float;
+
  
  	public function new(dummy:Int, actor:Actor, engine:Engine)
 	{
 		super(actor, engine);	
-		nameMap.set("Actor", "actor");
+		nameMap.set("timeLimit", "_timeLimit");
+_timeLimit = 0.0;
+nameMap.set("Actor", "actor");
 
 	}
 	
 	override public function init()
 	{
 		    
-/* ======================== Actor of Type ========================= */
-addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
-if(wrapper.enabled && sameAsAny(getActorType(109), event.otherActor.getType(),event.otherActor.getGroup())){
-        if((cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool) == false))
-{
-            actor.say("Health Manager", "_customBlock_SetInvincibility", [true]);
-}
-
-}
-});
-    
 /* ======================= After N seconds ======================== */
-runLater(1000 * 10, function(timeTask:TimedTask):Void {
+runLater(1000 * _timeLimit, function(timeTask:TimedTask):Void {
 if(wrapper.enabled){
         if((cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool) == true))
 {

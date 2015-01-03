@@ -394,14 +394,6 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Amount" order="1" type="NUMBER"/>
     </custom-block>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="gives invincibility and kills anything for 5 secs" eventsnippetid="54" fixedrot="true" fric="0.2" gid="6" id="109" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="HussarWings" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="110" static="true">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="27" id="110" name="HussarWings" shared="false" width="49">
-        <anim across="1" down="1" durations="100" height="27" id="0" loop="true" name="idlePowerUp" numframes="1" originx="24" originy="13" sync="false" version="2" width="49">
-            <poly data="4,0,0,49,0,49,27,0,27" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
     <custom-block blocktag="custom-94" blocktype="ACTION" code="" desc="" global="false" gui="Add %1 Lives to %0" id="94" message="IncrementLives" name="IncrementLives" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Lives" order="1" type="NUMBER"/>
@@ -573,12 +565,6 @@
         <anim across="1" down="1" durations="100" height="20" id="3" loop="true" name="walkLeft" numframes="1" originx="10" originy="10" sync="false" version="2" width="21">
             <poly data="4,0,0,21,0,21,20,0,20" density="0.1" fric="0.2" gid="-1000" id="0" name="walkLeft" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="41" id="4" loop="true" name="hussarLeft" numframes="1" originx="19" originy="41" sync="false" version="2" width="39">
-            <poly data="4,0,0,39,0,39,41,0,41" density="0.1" fric="0.2" gid="-1000" id="0" name="HussarLeft" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" down="1" durations="100" height="40" id="5" loop="true" name="hussarRight" numframes="1" originx="19" originy="40" sync="false" version="2" width="39">
-            <poly data="4,0,0,39,0,39,40,0,40" density="0.1" fric="0.2" gid="-1000" id="0" name="hussarRight" rest="0.0" sensor="false"/>
-        </anim>
     </sprite>
     <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="8" fixedrot="true" fric="0.05" gid="0" id="15" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Polska" oid="-1" pausable="true" physicsMode="0" rest="0.02" shared="false" sprite="16" static="false">
         <snippets>
@@ -687,7 +673,8 @@
                 <prop id="12" list="0" val="0"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
-            <s enabled="true" id="55">
+            <s enabled="false" id="55">
+                <prop id="1" list="0" val="5"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
             <s enabled="true" id="20">
@@ -789,6 +776,14 @@
             </s>
         </snippets>
     </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="heals player" eventsnippetid="56" fixedrot="true" fric="0.2" gid="6" id="109" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="recover" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="110" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="33" id="110" name="recover" shared="false" width="59">
+        <anim across="1" down="1" durations="100" height="33" id="0" loop="true" name="idleHealth" numframes="1" originx="16" originy="16" sync="false" version="2" width="59">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <custom-block blocktag="custom-74" blocktype="ACTION" code="~.say(&quot;Health&quot;, &quot;restore&quot;);" desc="Restores to maximum health." global="false" gui="restore %0 to max health" id="74" message="restore" name="restore" oid="-1" return="VOID" shared="false" snippetID="48">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>

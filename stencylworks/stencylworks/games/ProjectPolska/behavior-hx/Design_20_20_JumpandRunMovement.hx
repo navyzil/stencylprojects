@@ -65,18 +65,6 @@ import com.stencyl.graphics.shaders.BloomShader;
 class Design_20_20_JumpandRunMovement extends ActorScript
 {          	
 	
-public var _InvincibleIdleLeft:String;
-
-public var _InvincibleIdleRight:String;
-
-public var _InvincibleLeftRun:String;
-
-public var _InvincibleRightRun:String;
-
-public var _InvincibleJumpLeft:String;
-
-public var _InvincibleJumpRight:String;
-
 public var _MaximumRunningSpeed:Float;
 
 public var _RightControl:String;
@@ -153,13 +141,7 @@ propertyChanged("_JumpHigher", _JumpHigher);
  	public function new(dummy:Int, actor:Actor, engine:Engine)
 	{
 		super(actor, engine);	
-		nameMap.set("Invincible Idle Left", "_InvincibleIdleLeft");
-nameMap.set("Invincible Idle Right", "_InvincibleIdleRight");
-nameMap.set("Invincible Left Run", "_InvincibleLeftRun");
-nameMap.set("Invincible Right Run", "_InvincibleRightRun");
-nameMap.set("Invincible Jump Left", "_InvincibleJumpLeft");
-nameMap.set("Invincible Jump Right", "_InvincibleJumpRight");
-nameMap.set("Maximum Running Speed", "_MaximumRunningSpeed");
+		nameMap.set("Maximum Running Speed", "_MaximumRunningSpeed");
 _MaximumRunningSpeed = 15.0;
 nameMap.set("Actor", "actor");
 nameMap.set("Right Control", "_RightControl");
@@ -275,30 +257,12 @@ propertyChanged("_FacingLeft", _FacingLeft);
 {
             if(_FacingLeft)
 {
-                if(cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool))
-{
-                    actor.setAnimation("" + _InvincibleJumpLeft);
-}
-
-                else
-{
-                    actor.setAnimation("" + _JumpLeftAnimation);
-}
-
+                actor.setAnimation("" + _JumpLeftAnimation);
 }
 
             else
 {
-                if(cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool))
-{
-                    actor.setAnimation("" + _InvincibleJumpRight);
-}
-
-                else
-{
-                    actor.setAnimation("" + _JumpRightAnimation);
-}
-
+                actor.setAnimation("" + _JumpRightAnimation);
 }
 
 }
@@ -307,30 +271,12 @@ propertyChanged("_FacingLeft", _FacingLeft);
 {
             if(_FacingLeft)
 {
-                if(cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool))
-{
-                    actor.setAnimation("" + _InvincibleLeftRun);
-}
-
-                else
-{
-                    actor.setAnimation("" + _RunLeftAnimation);
-}
-
+                actor.setAnimation("" + _RunLeftAnimation);
 }
 
             else
 {
-                if(cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool))
-{
-                    actor.setAnimation("" + _InvincibleRightRun);
-}
-
-                else
-{
-                    actor.setAnimation("" + _RunRightAnimation);
-}
-
+                actor.setAnimation("" + _RunRightAnimation);
 }
 
 }
@@ -339,30 +285,12 @@ propertyChanged("_FacingLeft", _FacingLeft);
 {
             if(_FacingLeft)
 {
-                if(cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool))
-{
-                    actor.setAnimation("" + _InvincibleIdleLeft);
-}
-
-                else
-{
-                    actor.setAnimation("" + _IdleLeftAnimation);
-}
-
+                actor.setAnimation("" + _IdleLeftAnimation);
 }
 
             else
 {
-                if(cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool))
-{
-                    actor.setAnimation("" + _InvincibleIdleRight);
-}
-
-                else
-{
-                    actor.setAnimation("" + _IdleRightAnimation);
-}
-
+                actor.setAnimation("" + _IdleRightAnimation);
 }
 
 }

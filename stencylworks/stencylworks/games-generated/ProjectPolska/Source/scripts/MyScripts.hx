@@ -49,9 +49,9 @@ import scripts.Design_50_50_SpawnActoruponDeath;
 import scripts.Design_49_49_FlickerwhenHit;
 import scripts.Design_48_48_Health;
 import scripts.Design_56_56_InvincibilityManager;
-import scripts.ActorEvents_109;
 import scripts.ActorEvents_80;
 import scripts.Design_52_52_drawlives;
+import scripts.ActorEvents_109;
 
 
 //Force all classes to compile since they aren't statically used.
