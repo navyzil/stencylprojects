@@ -65,11 +65,21 @@ import com.stencyl.graphics.shaders.BloomShader;
 class ActorEvents_15 extends ActorScript
 {          	
 	
+public var _RunLeftAnimation:String;
+
+public var _FacingLeft:Bool;
+
+public var _RunRightAnimation:String;
+
  
  	public function new(dummy:Int, actor:Actor, engine:Engine)
 	{
 		super(actor, engine);	
-		
+		nameMap.set("Run Left Animation", "_RunLeftAnimation");
+nameMap.set("Facing Left", "_FacingLeft");
+_FacingLeft = false;
+nameMap.set("Run Right Animation", "_RunRightAnimation");
+
 	}
 	
 	override public function init()
@@ -78,7 +88,16 @@ class ActorEvents_15 extends ActorScript
 /* ======================= Member of Group ======================== */
 addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void {
 if(wrapper.enabled && sameAsAny(getActorGroup(4),event.otherActor.getType(),event.otherActor.getGroup())){
-        actor.say("Health Manager", "_customBlock_Damage", [1]);
+        if((cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool) == true))
+{
+            recycleActor(actor.getLastCollidedActor());
+}
+
+        else
+{
+            actor.say("Health Manager", "_customBlock_Damage", [1]);
+}
+
 }
 });
     
