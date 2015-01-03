@@ -48,6 +48,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/graphics/1x/sprite-1-6.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/graphics/1x/sprite-1-8.png", __ASSET__assets_graphics_1x_sprite_1_8_png);
 		type.set ("assets/graphics/1x/sprite-1-8.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("assets/graphics/1x/sprite-110-0.png", __ASSET__assets_graphics_1x_sprite_110_0_png);
+		type.set ("assets/graphics/1x/sprite-110-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/graphics/1x/sprite-16-0.png", __ASSET__assets_graphics_1x_sprite_16_0_png);
 		type.set ("assets/graphics/1x/sprite-16-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/graphics/1x/sprite-16-1.png", __ASSET__assets_graphics_1x_sprite_16_1_png);
@@ -56,6 +58,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/graphics/1x/sprite-16-2.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/graphics/1x/sprite-16-3.png", __ASSET__assets_graphics_1x_sprite_16_3_png);
 		type.set ("assets/graphics/1x/sprite-16-3.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("assets/graphics/1x/sprite-16-4.png", __ASSET__assets_graphics_1x_sprite_16_4_png);
+		type.set ("assets/graphics/1x/sprite-16-4.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("assets/graphics/1x/sprite-16-5.png", __ASSET__assets_graphics_1x_sprite_16_5_png);
+		type.set ("assets/graphics/1x/sprite-16-5.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/graphics/1x/sprite-26-0.png", __ASSET__assets_graphics_1x_sprite_26_0_png);
 		type.set ("assets/graphics/1x/sprite-26-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/graphics/1x/sprite-28-0.png", __ASSET__assets_graphics_1x_sprite_28_0_png);
@@ -124,6 +130,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/graphics/1x/sprite-1-6.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/graphics/1x/sprite-1-8.png", "assets/graphics/1x/sprite-1-8.png");
 		type.set ("assets/graphics/1x/sprite-1-8.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		path.set ("assets/graphics/1x/sprite-110-0.png", "assets/graphics/1x/sprite-110-0.png");
+		type.set ("assets/graphics/1x/sprite-110-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/graphics/1x/sprite-16-0.png", "assets/graphics/1x/sprite-16-0.png");
 		type.set ("assets/graphics/1x/sprite-16-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/graphics/1x/sprite-16-1.png", "assets/graphics/1x/sprite-16-1.png");
@@ -132,6 +140,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/graphics/1x/sprite-16-2.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/graphics/1x/sprite-16-3.png", "assets/graphics/1x/sprite-16-3.png");
 		type.set ("assets/graphics/1x/sprite-16-3.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		path.set ("assets/graphics/1x/sprite-16-4.png", "assets/graphics/1x/sprite-16-4.png");
+		type.set ("assets/graphics/1x/sprite-16-4.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		path.set ("assets/graphics/1x/sprite-16-5.png", "assets/graphics/1x/sprite-16-5.png");
+		type.set ("assets/graphics/1x/sprite-16-5.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/graphics/1x/sprite-26-0.png", "assets/graphics/1x/sprite-26-0.png");
 		type.set ("assets/graphics/1x/sprite-26-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/graphics/1x/sprite-28-0.png", "assets/graphics/1x/sprite-28-0.png");
@@ -564,10 +576,13 @@ class __ASSET__assets_graphics_1x_sprite_1_10_png extends flash.display.BitmapDa
 class __ASSET__assets_graphics_1x_sprite_1_4_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_1_6_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_1_8_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__assets_graphics_1x_sprite_110_0_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_16_0_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_16_1_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_16_2_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_16_3_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__assets_graphics_1x_sprite_16_4_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__assets_graphics_1x_sprite_16_5_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_26_0_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_28_0_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_28_1_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
@@ -597,6 +612,9 @@ class __ASSET__assets_data_scenes_xml extends flash.utils.ByteArray { }
 
 
 #elseif html5
+
+
+
 
 
 

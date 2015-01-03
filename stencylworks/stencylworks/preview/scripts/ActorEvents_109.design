@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <print comment="false" x="26" y="47">
+                    <int id="0" val="activate hussar wings"/>
+                </print>
+                <actor-enabledisable-snippet comment="false" x="26" y="67">
+                    <ACTOR eid="lastcollided" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="Invincibility Manager"/>
+                </actor-enabledisable-snippet>
+                <die comment="false" x="26" y="94">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <ACTORTYPE eid="15" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>
