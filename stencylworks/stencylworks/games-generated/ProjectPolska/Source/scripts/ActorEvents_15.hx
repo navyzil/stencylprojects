@@ -71,6 +71,10 @@ public var _FacingLeft:Bool;
 
 public var _RunRightAnimation:String;
 
+public var _AttackLeftAnimation:String;
+
+public var _AttackRightAnimation:String;
+
  
  	public function new(dummy:Int, actor:Actor, engine:Engine)
 	{
@@ -79,6 +83,8 @@ public var _RunRightAnimation:String;
 nameMap.set("Facing Left", "_FacingLeft");
 _FacingLeft = false;
 nameMap.set("Run Right Animation", "_RunRightAnimation");
+nameMap.set("Attack Left Animation", "_AttackLeftAnimation");
+nameMap.set("Attack Right Animation", "_AttackRightAnimation");
 
 	}
 	

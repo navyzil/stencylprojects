@@ -1,0 +1,440 @@
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] OS Name: Windows 7
+[LOG] OS Version: 6.1
+[LOG] Current Working Directory: D:\Program Files (x86)\Stencyl
+[LOG] Initializing Stencyl
+[LOG] Loading engine extensions...
+[LOG] Parsing engine extensions...
+[LOG] ads is a core engine extension. Skip.
+[LOG] gamecenter is a core engine extension. Skip.
+[LOG] gestures is a core engine extension. Skip.
+[LOG] hypertouch is a core engine extension. Skip.
+[LOG] joystick is a core engine extension. Skip.
+[LOG] label is an engine extension. Adding.
+[LOG] native is a core engine extension. Skip.
+[LOG] purchases is a core engine extension. Skip.
+[LOG] test is an engine extension. Adding.
+[LOG] test-flash is an engine extension. Adding.
+[LOG] test-native is an engine extension. Adding.
+[LOG] tileapi is an engine extension. Adding.
+[LOG] Using Stencyl b7305
+[LOG] Activated: Welcome Center
+[LOG] Checking workspace writability and location: D:\Zil Docs\projects\stencylprojects\stencylworks\/temp
+[LOG] Silent Authentication.
+[ERR] Could not sign in because of networking issues.
+[ERR] 1) You could connect to our servers, located at http://www.stencyl.com.
+[ERR] 2) Our servers are down.
+[ERR] 3) Our servers have moved, and your DNS cache has not been updated.
+java.lang.NullPointerException
+	at stencyl.sw.app.tasks.AuthenticateTask.doInBackground(AuthenticateTask.java:101)
+	at stencyl.sw.app.tasks.AuthenticateTask.doInBackground(AuthenticateTask.java:19)
+	at org.jdesktop.swingworker.SwingWorker$1.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.jdesktop.swingworker.SwingWorker.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[LOG] Loading scene-specific snippet. SceneID: 0
+[LOG] Initializing... 98 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 100 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 40 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 36 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 34 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 28 : 6Ball1
+[LOG] Initializing... 27 : 6Ball1
+[LOG] Initializing... 30 : 6Ball2
+[LOG] Initializing... 29 : 6Ball2
+[LOG] Initializing... 31 : AddNode
+[LOG] Missing: add node ( x: %1 y: %2 ) to path for %0
+[LOG] Initializing... 32 : AddNodeWithCustomSpeed
+[LOG] Missing: add node ( x: %1 y: %2 ) with speed %3 to path for %0
+[LOG] Initializing... 96 : ApplyDamage
+[LOG] Missing: Apply %1 Damage to Actor %2
+[LOG] Initializing... 68 : ApplyDamage
+[LOG] Missing: Apply %1 Damage to Actor %2
+[LOG] Initializing... 54 : ApplyDamage
+[LOG] Missing: Apply %1 Damage to Actor %2
+[LOG] Initializing... 26 : Bullet
+[LOG] Initializing... 33 : ClearPath
+[LOG] Missing: clear path for %0
+[LOG] Initializing... 83 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 75 : damage
+[LOG] Missing: inflict %1 damage on %0
+[LOG] Initializing... 55 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 41 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 21 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 11 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 93 : DecrementLives
+[LOG] Missing: Remove %1 Lives from %0
+[LOG] Initializing... 65 : DecrementLives
+[LOG] Missing: Remove %1 Lives from %0
+[LOG] Initializing... 51 : DecrementLives
+[LOG] Missing: Remove %1 Lives from %0
+[LOG] Initializing... 25 : Enemy Bullet
+[LOG] Initializing... 39 : eucledianDistance
+[LOG] Missing: eucledianDistance
+[LOG] Initializing... 95 : Flicker
+[LOG] Missing: Flicker Image for %0
+[LOG] Initializing... 67 : Flicker
+[LOG] Missing: Flicker Image for %0
+[LOG] Initializing... 53 : Flicker
+[LOG] Missing: Flicker Image for %0
+[LOG] Initializing... 84 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 56 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 42 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 19 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 9 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 91 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 63 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 49 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 24 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 14 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 70 : getHealth
+[LOG] Missing: get health for %0
+[LOG] Initializing... 87 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 59 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 45 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 22 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 12 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 90 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 62 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 48 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 23 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 13 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 92 : GetRemainingLives
+[LOG] Missing: Remaining Lives for %0
+[LOG] Initializing... 64 : GetRemainingLives
+[LOG] Missing: Remaining Lives for %0
+[LOG] Initializing... 50 : GetRemainingLives
+[LOG] Missing: Remaining Lives for %0
+[LOG] Initializing... 4 : Grass Land Tileset
+[LOG] Initializing... 85 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 72 : heal
+[LOG] Missing: heal %0 by %1 health
+[LOG] Initializing... 57 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 43 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 20 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 10 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 94 : IncrementLives
+[LOG] Missing: Add %1 Lives to %0
+[LOG] Initializing... 66 : IncrementLives
+[LOG] Missing: Add %1 Lives to %0
+[LOG] Initializing... 52 : IncrementLives
+[LOG] Missing: Add %1 Lives to %0
+[LOG] Initializing... 37 : isWithinRange
+[LOG] Missing: withinRange
+[LOG] Initializing... 6 : Jump
+[LOG] Initializing... 71 : makeInvincible
+[LOG] Missing: make %0 invincible
+[LOG] Initializing... 73 : makeVulnerable
+[LOG] Missing: make %0 not invincible
+[LOG] Initializing... 1 : Mambo
+[LOG] Initializing... 0 : Mambo
+[LOG] Initializing... 80 : oneUp
+[LOG] Initializing... 81 : oneUp
+[LOG] Initializing... 108 : PlayerLives
+[LOG] Missing: increment life of %0
+[LOG] Initializing... 97 : PlayerLives
+[LOG] Missing: playerLives
+[LOG] Initializing... 16 : Polska
+[LOG] Initializing... 15 : Polska
+[LOG] Initializing... 3 : Pronger
+[LOG] Initializing... 2 : Pronger
+[LOG] Initializing... 109 : recover
+[LOG] Initializing... 110 : recover
+[LOG] Initializing... 74 : restore
+[LOG] Missing: restore %0 to max health
+[LOG] Initializing... 88 : SetCanDamage
+[LOG] Missing: Set %0 Can Be Damaged to %1
+[LOG] Initializing... 60 : SetCanDamage
+[LOG] Missing: Set %0 Can Be Damaged to %1
+[LOG] Initializing... 46 : SetCanDamage
+[LOG] Missing: Set %0 Can Be Damaged to %1
+[LOG] Initializing... 89 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 69 : setHealth
+[LOG] Missing: set health for %0 to %1
+[LOG] Initializing... 61 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 47 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 18 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 8 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 86 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 58 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 44 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 17 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 7 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 5 : Stomp
+[LOG] Loading Sound 5
+[LOG] Loading Sound 6
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Activated: Dashboard
+[ERR] Could not delete file: C:\Users\dustin\AppData\Local\Temp\stencyl685158608462455057\sandbox\build\code
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Took 3466ms
+[LOG] Missing: in.joystick.dir
+[LOG] Missing: in.joystick.mag
+[LOG] Missing: sactor.ispaused
+[LOG] Missing: adv.isiphoneipad
+[LOG] Missing: get %0 coordinate of %1 in scene
+[LOG] Missing: set tile at row: %0 col: %1 layerID: %2 using tileID: %4 from tilesetID: %3
+[LOG] Missing: tile exists at row: %0 col: %1 layerID: %2
+[LOG] Missing: ID for tile at row: %0 col: %1 layerID: %2
+[LOG] Missing: tile collision shape found at row: %0 col: %1 layerID: %2
+[LOG] Missing: collision ID for tile at row: %0 col: %1 layerID: %2
+[LOG] Missing: ID for tile's tileset at row: %0 col: %1 layerID: %2
+[LOG] Missing: remove tile at row: %0 col: %1 layerID: %2
+[LOG] Loading attribute into tree: PlayerLives
+[LOG] Loading attribute into tree: Players
+[LOG] Loading attribute into tree: Tiles
+[LOG] Loading attribute into tree: Doodads
+[LOG] Loading attribute into tree: Actors
+[LOG] Loading attribute into tree: Enemies
+[LOG] Loading attribute into tree: enemyBullets
+[LOG] Loading attribute into tree: powerUps
+[LOG] Loading attribute into tree: enemyBullet
+[LOG] Loading attribute into tree: Regions
+[LOG] Device OS: 4.3
+[LOG] Simulator OS: 4.3
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\15@1.5x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\15@2x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\15@4x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@1.5x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@2x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@4x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml.bak
+[LOG] Frame was maximized
+[LOG] Action: Sign In
+[LOG] Response: user:::plans0
+[LOG] Logged in as: navyzil
+[LOG] Usergroup: Registered
+[LOG] 200
+[LOG] http://www.stencyl.com/sw/updater/getVersions/stencylworksBeta
+[LOG] HTTP/1.1 200 OK
+<r>
+<server status = '200' version = '1beta' time = '1299439687' />	<version required="true" build="502" name="2.2.0" month="06" day="22" year="12" />
+	<version required="true" build="501" name="2.1.0" month="05" day="25" year="12" />
+	<version required="true" build="500" name="2.0.0" month="04" day="20" year="12" />
+	<version required="false" build="415" name="1.4.1" month="01" day="23" year="12" />
+	<version required="false" build="414" name="1.4.0" month="01" day="22" year="12" />
+	<version required="false" build="413" name="1.3.4" month="12" day="19" year="11" />
+	<version required="false" build="412" name="1.3.3" month="12" day="14" year="11" />
+	<version required="false" build="411" name="1.3.2" month="12" day="12" year="11" />
+	<version required="false" build="410" name="1.3.1" month="12" day="10" year="11" />
+	<version required="false" build="409" name="1.3.0" month="12" day="09" year="11" />
+	<version required="false" build="408" name="1.2.1" month="10" day="27" year="11" />
+	<version required="false" build="407" name="1.2.0" month="10" day="26" year="11" />
+	<version required="false" build="406" name="1.1.1" month="09" day="13" year="11" />
+	<version required="false" build="405" name="1.1.0" month="09" day="08" year="11" />
+	<version required="false" build="404" name="1.0.4" month="07" day="23" year="11" />
+	<version required="false" build="403" name="1.0.3" month="07" day="21" year="11" />
+	<version required="false" build="402" name="1.0.2" month="06" day="30" year="11" />
+	<version required="false" build="401" name="1.0.1" month="05" day="31" year="11" />
+	<version required="false" build="400" name="1.0.0" month="05" day="18" year="11" />
+	<version required="false" build="399" name="0.9.9" month="05" day="18" year="11" />
+</r>
+[LOG] Action: StencylForge
+[LOG] Visiting: forge://landing/home/
+[LOG] Activated: StencylForge
+[LOG] Download Took 189ms
+[LOG] Total Took 230ms
+[LOG] Visiting: forge://listing/my/home/
+[LOG] <resources>
+	<resource id="142453" title="Invincibility Manager" name="navyzil" description="Similar to Sonic or Mario, once your actor collided with an actorType it will trigger invincibility. Please do take note that you need the Health Manager to make this work and also please replace the hussarWings with any actorType that you want" downloads="4" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2015-01-03" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142292" title="EnemyJump" name="navyzil" description="" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142291" title="Detect Player" name="navyzil" description="" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142290" title="Enhanced FiringLoop" name="navyzil" description="The Actor will fire a burst of bullets for &quot;X&quot; seconds, at a &quot;Y&quot; rate, and then rest for &quot;Z&quot; seconds (to cooldown his weapon, I guess) before start firing again. This behavior doesn't use time blocks (do after/ do every X seconds)" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142166" title="EnemyPatrol" name="navyzil" description="An Improved version of Patrol Right Left. Use this if you want your AI's behavior moved back and forth in certain points along the x-axis" downloads="32" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-26" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+</resources>
+[LOG] Download Took 1060ms
+[LOG] Total Took 1117ms
+[LOG] Download Took 1012ms
+[LOG] Download Took 672ms
+[LOG] Download Took 689ms
+[LOG] Download Took 693ms
+[LOG] Download Took 1385ms
+[LOG] Action: View Details
+[LOG] Visiting: forge://resource/142453/
+[LOG] Your Rating: 0
+[LOG] Action: View Details
+[LOG] Visiting: forge://resource/142453/
+[LOG] Total Took 5981ms
+[LOG] Your Rating: 0
+[LOG] Total Took 5301ms
+[LOG] Visiting: forge://listing/my/actor/
+[LOG] <resources>
+</resources>
+[LOG] Download Took 1018ms
+[LOG] Total Took 1054ms
+[LOG] Visiting: forge://listing/my/snippet/
+[LOG] <resources>
+	<resource id="142453" title="Invincibility Manager" name="navyzil" description="Similar to Sonic or Mario, once your actor collided with an actorType it will trigger invincibility. Please do take note that you need the Health Manager to make this work and also please replace the hussarWings with any actorType that you want" downloads="4" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2015-01-03" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142292" title="EnemyJump" name="navyzil" description="" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142291" title="Detect Player" name="navyzil" description="" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142290" title="Enhanced FiringLoop" name="navyzil" description="The Actor will fire a burst of bullets for &quot;X&quot; seconds, at a &quot;Y&quot; rate, and then rest for &quot;Z&quot; seconds (to cooldown his weapon, I guess) before start firing again. This behavior doesn't use time blocks (do after/ do every X seconds)" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142166" title="EnemyPatrol" name="navyzil" description="An Improved version of Patrol Right Left. Use this if you want your AI's behavior moved back and forth in certain points along the x-axis" downloads="32" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-26" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+</resources>
+[LOG] Download Took 1040ms
+[LOG] Total Took 1082ms
+[LOG] Download Took 3ms
+[LOG] Download Took 1ms
+[LOG] Download Took 0ms
+[LOG] Download Took 0ms
+[LOG] Download Took 1ms
+[LOG] Action: View Details
+[LOG] Visiting: forge://resource/142166/
+[LOG] Your Rating: 0
+[LOG] Total Took 2561ms
+[LOG] Visiting: forge://listing/my/snippet/
+[LOG] <resources>
+	<resource id="142453" title="Invincibility Manager" name="navyzil" description="Similar to Sonic or Mario, once your actor collided with an actorType it will trigger invincibility. Please do take note that you need the Health Manager to make this work and also please replace the hussarWings with any actorType that you want" downloads="4" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2015-01-03" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142292" title="EnemyJump" name="navyzil" description="" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142291" title="Detect Player" name="navyzil" description="" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142290" title="Enhanced FiringLoop" name="navyzil" description="The Actor will fire a burst of bullets for &quot;X&quot; seconds, at a &quot;Y&quot; rate, and then rest for &quot;Z&quot; seconds (to cooldown his weapon, I guess) before start firing again. This behavior doesn't use time blocks (do after/ do every X seconds)" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142166" title="EnemyPatrol" name="navyzil" description="An Improved version of Patrol Right Left. Use this if you want your AI's behavior moved back and forth in certain points along the x-axis" downloads="32" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-26" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+</resources>
+[LOG] Download Took 469ms
+[LOG] Total Took 554ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 8ms
+[LOG] Download Took 2ms
+[LOG] Download Took 1ms
+[LOG] Action: View Details
+[LOG] Visiting: forge://resource/142453/
+[LOG] Your Rating: 0
+[LOG] Total Took 2541ms
+[LOG] Attempting to quit out of Stencyl.
+[LOG] Save in place.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\game.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\game.xml.bak
+[LOG] Writing out local resources.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark tileset as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[LOG] Copying over snippets.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\list.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\list.xml.bak
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_0_0_StomponEnemies.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_0_0_StomponEnemies.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_1_1_Stompable.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_1_1_Stompable.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_3_3_DieinPitandReload.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_3_3_DieinPitandReload.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_0.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_2.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\SceneEvents_0.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_15.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_15.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_9_9_SmoothCamera.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_9_9_SmoothCamera.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_10_10_DieOnCollisionWithActorType.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_10_10_DieOnCollisionWithActorType.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_11_11_FollowTarget.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_11_11_FollowTarget.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_12_12_FaceTarget.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_12_12_FaceTarget.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_13_13_EnemyWalkingAI.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_13_13_EnemyWalkingAI.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_14_14_ReloadSceneOnDeath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_14_14_ReloadSceneOnDeath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_15_15_HealthManager.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_15_15_HealthManager.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_17_17_Walking.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_17_17_Walking.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_19_19_Jump.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_19_19_Jump.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_18_18_Jumping.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_18_18_Jumping.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_21_21_SwitchSceneonEnterRegion.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_21_21_SwitchSceneonEnterRegion.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_20_20_JumpandRunMovement.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_20_20_JumpandRunMovement.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_23_23_MoveToNextScene.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_23_23_MoveToNextScene.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_22_22_SwitchScenesWhenActorsareGone.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_22_22_SwitchScenesWhenActorsareGone.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_25_25_AlwaysSimulate.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_25_25_AlwaysSimulate.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_24_24_RandomWalkingAI.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_24_24_RandomWalkingAI.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_25.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_25.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_26_26_enemyShoot.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_26_26_enemyShoot.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_29_29_DieOnCollision.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_29_29_DieOnCollision.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_28_28_FiringLoop.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_28_28_FiringLoop.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_31_31_DieOnLeavingScreen.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_31_31_DieOnLeavingScreen.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_30_30_FireBullet.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_30_30_FireBullet.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_34_34_FollowPath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_34_34_FollowPath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_35_35_BackandForthHorizontally.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_35_35_BackandForthHorizontally.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_27.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_27.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_29.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_29.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_40_40_EnemyPatrol.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_40_40_EnemyPatrol.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_37_37_PatrolRightLeft.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_37_37_PatrolRightLeft.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_42_42_WaveMotion.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_42_42_WaveMotion.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_43_43_2WayVerticalMovement.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_43_43_2WayVerticalMovement.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_40_40_DetectPlayer.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_40_40_DetectPlayer.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_41_41.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_41_41.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_46_46_ShowHealthBar.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_46_46_ShowHealthBar.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_47_47_InflictsDamage.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_47_47_InflictsDamage.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_44_44_EnemyJump.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_44_44_EnemyJump.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_45_45_BounceWithFullSpeed.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_45_45_BounceWithFullSpeed.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_51_51_ExplodeOnDeath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_51_51_ExplodeOnDeath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_50_50_SpawnActoruponDeath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_50_50_SpawnActoruponDeath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_49_49_FlickerwhenHit.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_49_49_FlickerwhenHit.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_48_48_Health.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_48_48_Health.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_56_56_InvincibilityManager.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_56_56_InvincibilityManager.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_80.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_80.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_52_52_drawlives.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_52_52_drawlives.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_109.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_109.design
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\favorites.xml
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\prefs\favorites.xml
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\prefs\picker-favorites.xml
+[LOG] Done writing game.
+[LOG] Destroying extensions.
+[LOG] Destroying Temporary Sandbox.
+[LOG] Performing final close.
+[LOG] Exiting...

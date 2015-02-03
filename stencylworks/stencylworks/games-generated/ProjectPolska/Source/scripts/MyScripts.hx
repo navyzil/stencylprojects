@@ -51,7 +51,10 @@ import scripts.Design_48_48_Health;
 import scripts.Design_56_56_InvincibilityManager;
 import scripts.ActorEvents_80;
 import scripts.Design_52_52_drawlives;
+import scripts.Design_58_58_ShootAroundtheClock;
+import scripts.ActorEvents_111;
 import scripts.ActorEvents_109;
+import scripts.Design_60_60_FireBulletV2;
 
 
 //Force all classes to compile since they aren't statically used.

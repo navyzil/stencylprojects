@@ -65,8 +65,6 @@ import com.stencyl.graphics.shaders.BloomShader;
 class Design_20_20_JumpandRunMovement extends ActorScript
 {          	
 	
-public var _MaximumRunningSpeed:Float;
-
 public var _RightControl:String;
 
 public var _LeftControl:String;
@@ -78,6 +76,8 @@ public var _Move:Float;
 public var _Jump:Bool;
 
 public var _OnGround:Bool;
+
+public var _MaximumRunningSpeed:Float;
 
 public var _JumpControl:String;
 
@@ -141,10 +141,7 @@ propertyChanged("_JumpHigher", _JumpHigher);
  	public function new(dummy:Int, actor:Actor, engine:Engine)
 	{
 		super(actor, engine);	
-		nameMap.set("Maximum Running Speed", "_MaximumRunningSpeed");
-_MaximumRunningSpeed = 15.0;
-nameMap.set("Actor", "actor");
-nameMap.set("Right Control", "_RightControl");
+		nameMap.set("Right Control", "_RightControl");
 nameMap.set("Left Control", "_LeftControl");
 nameMap.set("Use Controls", "_UseControls");
 _UseControls = true;
@@ -154,8 +151,11 @@ nameMap.set("Jump", "_Jump");
 _Jump = false;
 nameMap.set("On Ground", "_OnGround");
 _OnGround = false;
+nameMap.set("Maximum Running Speed", "_MaximumRunningSpeed");
+_MaximumRunningSpeed = 15.0;
 nameMap.set("Jump Control", "_JumpControl");
 nameMap.set("Run Right Animation", "_RunRightAnimation");
+nameMap.set("Actor", "actor");
 nameMap.set("Jumping Force", "_JumpingForce");
 _JumpingForce = 25.0;
 nameMap.set("Idle Left Animation", "_IdleLeftAnimation");
