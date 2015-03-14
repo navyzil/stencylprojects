@@ -60,7 +60,7 @@ class MyAssets implements AssetLoader
 	public function loadResources(resourceMap:Map<String,Dynamic>):Void
 	{
 		var i = 0;
-		var increment = 50.0 / Math.max(1, 99);
+		var increment = 50.0 / Math.max(1, 101);
 		
 		
 		resourceMap.set("1-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-1-0.png", false));
@@ -103,6 +103,9 @@ i++;
 com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i));
 i++;
 		resourceMap.set("110-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-110-0.png", false));
+com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i));
+i++;
+		resourceMap.set("115-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-115-0.png", false));
 com.stencyl.Data.instance.updatePreloader(15 + Std.int(increment * i));
 i++;
 		resourceMap.set("112-0.png", Assets.getBitmapData("assets/graphics/" + Engine.IMG_BASE + "/sprite-112-0.png", false));

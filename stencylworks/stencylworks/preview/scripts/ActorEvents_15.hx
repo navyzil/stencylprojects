@@ -98,13 +98,11 @@ if(wrapper.enabled && sameAsAny(getActorGroup(4),event.otherActor.getType(),even
         if((cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool) == false))
 {
             actor.say("Health Manager", "_customBlock_SetInvincibility", [true]);
-            actor.setFilter([createSepiaFilter()]);
-            runLater(1000 * 2, function(timeTask:TimedTask):Void {
-                        actor.say("Health Manager", "_customBlock_SetInvincibility", [false]);
-                        actor.clearFilters();
-}, actor);
 }
 
+        runLater(1000 * 3, function(timeTask:TimedTask):Void {
+                    actor.say("Health Manager", "_customBlock_SetInvincibility", [false]);
+}, actor);
 }
 });
     
@@ -115,13 +113,11 @@ if(wrapper.enabled && sameAsAny(getActorGroup(7),event.otherActor.getType(),even
         if((cast((actor.say("Health Manager", "_customBlock_GetInvincibility")), Bool) == false))
 {
             actor.say("Health Manager", "_customBlock_SetInvincibility", [true]);
-            actor.setFilter([createSepiaFilter()]);
-            runLater(1000 * 2, function(timeTask:TimedTask):Void {
-                        actor.say("Health Manager", "_customBlock_SetInvincibility", [false]);
-                        actor.clearFilters();
-}, actor);
 }
 
+        runLater(1000 * 3, function(timeTask:TimedTask):Void {
+                    actor.say("Health Manager", "_customBlock_SetInvincibility", [false]);
+}, actor);
 }
 });
 

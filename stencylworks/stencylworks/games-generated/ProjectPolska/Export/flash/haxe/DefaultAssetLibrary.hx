@@ -52,6 +52,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/graphics/1x/sprite-110-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/graphics/1x/sprite-112-0.png", __ASSET__assets_graphics_1x_sprite_112_0_png);
 		type.set ("assets/graphics/1x/sprite-112-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		className.set ("assets/graphics/1x/sprite-115-0.png", __ASSET__assets_graphics_1x_sprite_115_0_png);
+		type.set ("assets/graphics/1x/sprite-115-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/graphics/1x/sprite-16-0.png", __ASSET__assets_graphics_1x_sprite_16_0_png);
 		type.set ("assets/graphics/1x/sprite-16-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		className.set ("assets/graphics/1x/sprite-16-1.png", __ASSET__assets_graphics_1x_sprite_16_1_png);
@@ -136,6 +138,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/graphics/1x/sprite-110-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/graphics/1x/sprite-112-0.png", "assets/graphics/1x/sprite-112-0.png");
 		type.set ("assets/graphics/1x/sprite-112-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
+		path.set ("assets/graphics/1x/sprite-115-0.png", "assets/graphics/1x/sprite-115-0.png");
+		type.set ("assets/graphics/1x/sprite-115-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/graphics/1x/sprite-16-0.png", "assets/graphics/1x/sprite-16-0.png");
 		type.set ("assets/graphics/1x/sprite-16-0.png", Reflect.field (AssetType, "image".toUpperCase ()));
 		path.set ("assets/graphics/1x/sprite-16-1.png", "assets/graphics/1x/sprite-16-1.png");
@@ -582,6 +586,7 @@ class __ASSET__assets_graphics_1x_sprite_1_6_png extends flash.display.BitmapDat
 class __ASSET__assets_graphics_1x_sprite_1_8_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_110_0_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_112_0_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
+class __ASSET__assets_graphics_1x_sprite_115_0_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_16_0_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_16_1_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class __ASSET__assets_graphics_1x_sprite_16_2_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
@@ -617,6 +622,7 @@ class __ASSET__assets_data_scenes_xml extends flash.utils.ByteArray { }
 
 
 #elseif html5
+
 
 
 

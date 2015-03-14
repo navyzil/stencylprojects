@@ -13,23 +13,6 @@
                             <ACTOR eid="this" id="0"/>
                             <true comment="false" id="1" x="0" y="0"/>
                         </custom-17>
-                        <apply-filter comment="false" x="37" y="144">
-                            <ACTOR eid="this" id="0"/>
-                            <filter-sepia comment="false" id="1" x="0" y="0"/>
-                        </apply-filter>
-                        <dolater comment="false" x="37" y="176">
-                            <group eventID="3" id="-1">
-                                <custom-17 comment="false" x="48" y="203">
-                                    <ACTOR eid="this" id="0"/>
-                                    <false comment="false" id="1" x="0" y="0"/>
-                                </custom-17>
-                                <clear-filter comment="false" x="48" y="235">
-                                    <ACTOR eid="this" id="0"/>
-                                </clear-filter>
-                            </group>
-                            <int id="0" val="2"/>
-                            <ACTOR eid="this" id="2"/>
-                        </dolater>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <custom-22 comment="false" id="0" x="0" y="0">
@@ -38,6 +21,16 @@
                         <false comment="false" id="1" x="0" y="0"/>
                     </eq>
                 </if>
+                <dolater comment="false" x="26" y="156">
+                    <group eventID="3" id="-1">
+                        <custom-17 comment="false" x="37" y="183">
+                            <ACTOR eid="this" id="0"/>
+                            <false comment="false" id="1" x="0" y="0"/>
+                        </custom-17>
+                    </group>
+                    <int id="0" val="3"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
             </group>
             <ACTOR eid="this" id="0"/>
             <GROUP eid="4" id="1"/>
@@ -57,23 +50,6 @@
                             <ACTOR eid="this" id="0"/>
                             <true comment="false" id="1" x="0" y="0"/>
                         </custom-17>
-                        <apply-filter comment="false" x="37" y="144">
-                            <ACTOR eid="this" id="0"/>
-                            <filter-sepia comment="false" id="1" x="0" y="0"/>
-                        </apply-filter>
-                        <dolater comment="false" x="37" y="176">
-                            <group eventID="3" id="-1">
-                                <custom-17 comment="false" x="48" y="203">
-                                    <ACTOR eid="this" id="0"/>
-                                    <false comment="false" id="1" x="0" y="0"/>
-                                </custom-17>
-                                <clear-filter comment="false" x="48" y="235">
-                                    <ACTOR eid="this" id="0"/>
-                                </clear-filter>
-                            </group>
-                            <int id="0" val="2"/>
-                            <ACTOR eid="this" id="2"/>
-                        </dolater>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <custom-22 comment="false" id="0" x="0" y="0">
@@ -82,6 +58,16 @@
                         <false comment="false" id="1" x="0" y="0"/>
                     </eq>
                 </if>
+                <dolater comment="false" x="26" y="156">
+                    <group eventID="3" id="-1">
+                        <custom-17 comment="false" x="37" y="183">
+                            <ACTOR eid="this" id="0"/>
+                            <false comment="false" id="1" x="0" y="0"/>
+                        </custom-17>
+                    </group>
+                    <int id="0" val="3"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
             </group>
             <ACTOR eid="this" id="0"/>
             <GROUP eid="7" id="1"/>

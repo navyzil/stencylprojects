@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-custom comment="false" x="15" y="21">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="46">
+                    <group eventID="1" id="-1">
+                        <set-val-61-3 comment="false" x="37" y="76">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-61-3>
+                        <dolater comment="false" x="37" y="101">
+                            <group eventID="1" id="-1">
+                                <set-val-61-7 comment="false" x="48" y="133">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-61-7>
+                            </group>
+                            <get-val-61-1 comment="false" id="0" x="0" y="0"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                        <periodic comment="false" x="37" y="170">
+                            <group eventID="1" id="-1">
+                                <if comment="false" x="48" y="202">
+                                    <group eventID="1" id="-1">
+                                        <set-val-61-7 comment="false" x="59" y="227">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-val-61-7>
+                                        <set-val-61-3 comment="false" x="59" y="252">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-val-61-3>
+                                        <cancel comment="false" x="59" y="277"/>
+                                    </group>
+                                    <get-val-61-7 comment="false" id="0" x="0" y="0"/>
+                                </if>
+                                <if comment="false" x="48" y="309">
+                                    <group eventID="1" id="-1">
+                                        <fadeTo comment="false" x="59" y="334">
+                                            <ACTOR eid="this" id="0"/>
+                                            <get-val-61-4 comment="false" id="1" x="0" y="0"/>
+                                            <div comment="false" id="2" x="0" y="0">
+                                                <get-val-61-6 comment="false" id="0" x="0" y="0"/>
+                                                <int id="1" val="2"/>
+                                            </div>
+                                            <int id="3" val="0"/>
+                                        </fadeTo>
+                                    </group>
+                                    <get-val-61-5 comment="false" id="0" x="0" y="0"/>
+                                </if>
+                                <else comment="false" x="48" y="383">
+                                    <group eventID="1" id="-1">
+                                        <fadeTo comment="false" x="59" y="403">
+                                            <ACTOR eid="this" id="0"/>
+                                            <get-val-61-4 comment="false" id="1" x="0" y="0"/>
+                                            <int id="2" val="0"/>
+                                            <int id="3" val="0"/>
+                                        </fadeTo>
+                                    </group>
+                                </else>
+                                <dolater comment="false" x="48" y="447">
+                                    <group eventID="1" id="-1">
+                                        <if comment="false" x="59" y="484">
+                                            <group eventID="1" id="-1">
+                                                <fadeTo comment="false" x="70" y="509">
+                                                    <ACTOR eid="this" id="0"/>
+                                                    <int id="1" val="100"/>
+                                                    <div comment="false" id="2" x="0" y="0">
+                                                        <get-val-61-6 comment="false" id="0" x="0" y="0"/>
+                                                        <int id="1" val="2"/>
+                                                    </div>
+                                                    <int id="3" val="0"/>
+                                                </fadeTo>
+                                            </group>
+                                            <get-val-61-5 comment="false" id="0" x="0" y="0"/>
+                                        </if>
+                                        <else comment="false" x="59" y="558">
+                                            <group eventID="1" id="-1">
+                                                <fadeTo comment="false" x="70" y="578">
+                                                    <ACTOR eid="this" id="0"/>
+                                                    <int id="1" val="100"/>
+                                                    <int id="2" val="0"/>
+                                                    <int id="3" val="0"/>
+                                                </fadeTo>
+                                            </group>
+                                        </else>
+                                    </group>
+                                    <div comment="false" id="0" x="0" y="0">
+                                        <get-val-61-6 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="2"/>
+                                    </div>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
+                            </group>
+                            <get-val-61-6 comment="false" id="0" x="0" y="0"/>
+                            <ACTOR eid="this" id="2"/>
+                        </periodic>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-61-3 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+            <int id="0" val="Flicker"/>
+        </event-custom>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="3" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-val-61-6 comment="false" x="26" y="40">
+                    <div comment="false" id="0" x="0" y="0">
+                        <get-val-61-1 comment="false" id="0" x="0" y="0"/>
+                        <plus comment="false" id="1" x="0" y="0">
+                            <get-val-61-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </plus>
+                    </div>
+                </set-val-61-6>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <say-this comment="false" x="26" y="47">
+                    <int id="0" val="Flicker"/>
+                </say-this>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <GROUP eid="4" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <say-this comment="false" x="26" y="47">
+                    <int id="0" val="Flicker"/>
+                </say-this>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <GROUP eid="7" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="5" id="-1"/>
+</groups>

@@ -21,5 +21,9 @@
             </group>
         </step>
     </group>
-    <group eventID="1" id="-1"/>
+    <group eventID="1" id="-1">
+        <pick-type comment="false" x="159" y="49">
+            <ACTORTYPE eid="15" id="0"/>
+        </pick-type>
+    </group>
 </groups>
