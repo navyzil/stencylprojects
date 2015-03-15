@@ -120,6 +120,13 @@ if(wrapper.enabled && sameAsAny(getActorGroup(7),event.otherActor.getType(),even
 }, actor);
 }
 });
+    
+/* ======================== Specific Actor ======================== */
+addWhenKilledListener(actor, function(list:Array<Dynamic>):Void {
+if(wrapper.enabled){
+        actor.disableBehavior("Reload Scene On Death");
+}
+});
 
 	}	      	
 	

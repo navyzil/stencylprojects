@@ -1,211 +1,116 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
-    <group id="0">
+    <group eventID="2" id="0">
         <init comment="false" x="15" y="15">
-            <group id="-1"/>
+            <group eventID="1" id="-1">
+                <code-long comment="false" x="26" y="40">
+                    <int id="0" val="context = new LoaderContext(false, ApplicationDomain.currentDomain);&#10;loader = new Loader ();&#10;loader.contentLoaderInfo.addEventListener(Event.COMPLETE, onSwfLoaded);&#10;loader.loadBytes(new LoadingAnimation(), context);"/>
+                </code-long>
+            </group>
         </init>
     </group>
-    <group id="1">
-        <step comment="false" x="15" y="88">
-            <group id="-1">
-                <set-val-64-11 comment="false" x="26" y="113">
-                    <div comment="false" id="0" x="0" y="0">
-                        <custom-45 comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                        </custom-45>
-                        <custom-44 comment="false" id="1" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                        </custom-44>
-                    </div>
-                </set-val-64-11>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-custom-code comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <code-long comment="false" x="26" y="40">
+                    <int id="0" val="var context:LoaderContext = null;&#10;var loader:Loader = null;"/>
+                </code-long>
             </group>
-        </step>
+        </event-custom-code>
     </group>
-    <group id="2">
-        <collide comment="false" x="15" y="179">
-            <group id="-1"/>
-        </collide>
-    </group>
-    <group id="3">
-        <draw comment="false" x="15" y="252">
-            <group id="-1">
-                <if comment="false" x="26" y="277">
-                    <group id="-1">
-                        <to-screen-space comment="false" x="37" y="307"/>
-                    </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-val-64-6 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="Screen"/>
-                    </eq>
-                </if>
-                <comment-short comment="false" x="26" y="339">
-                    <int id="0" val="Draw the health bar background and outline"/>
-                </comment-short>
-                <if comment="false" x="26" y="359">
-                    <group id="-1">
-                        <set-color comment="false" x="37" y="389">
-                            <color id="0" vid="13"/>
-                        </set-color>
-                        <drawfill-rect comment="false" x="37" y="416">
-                            <int id="0" val="1"/>
-                            <minus comment="false" id="1" x="0" y="0">
-                                <get-val-64-4 comment="false" id="0" x="0" y="0"/>
-                                <get-val-64-14 comment="false" id="1" x="0" y="0"/>
-                            </minus>
-                            <minus comment="false" id="2" x="0" y="0">
-                                <get-val-64-5 comment="false" id="0" x="0" y="0"/>
-                                <get-val-64-14 comment="false" id="1" x="0" y="0"/>
-                            </minus>
-                            <plus comment="false" id="3" x="0" y="0">
-                                <get-val-64-2 comment="false" id="0" x="0" y="0"/>
-                                <times comment="false" id="1" x="0" y="0">
-                                    <get-val-64-14 comment="false" id="0" x="0" y="0"/>
-                                    <int id="1" val="2"/>
-                                </times>
-                            </plus>
-                            <plus comment="false" id="4" x="0" y="0">
-                                <get-val-64-3 comment="false" id="0" x="0" y="0"/>
-                                <times comment="false" id="1" x="0" y="0">
-                                    <get-val-64-14 comment="false" id="0" x="0" y="0"/>
-                                    <int id="1" val="2"/>
-                                </times>
-                            </plus>
-                        </drawfill-rect>
-                    </group>
-                    <more comment="false" id="0" x="0" y="0">
-                        <get-val-64-14 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="0"/>
-                    </more>
-                </if>
-                <set-color comment="false" x="26" y="470">
-                    <color id="0" vid="12"/>
-                </set-color>
-                <drawfill-rect comment="false" x="26" y="497">
-                    <int id="0" val="1"/>
-                    <get-val-64-4 comment="false" id="1" x="0" y="0"/>
-                    <get-val-64-5 comment="false" id="2" x="0" y="0"/>
-                    <get-val-64-2 comment="false" id="3" x="0" y="0"/>
-                    <get-val-64-3 comment="false" id="4" x="0" y="0"/>
-                </drawfill-rect>
-                <if comment="false" x="26" y="529">
-                    <group id="-1">
-                        <set-color comment="false" x="37" y="559">
-                            <color id="0" vid="7"/>
-                        </set-color>
-                    </group>
-                    <more comment="false" id="0" x="0" y="0">
-                        <get-val-64-11 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="0.75"/>
-                    </more>
-                </if>
-                <else-if comment="false" x="26" y="598">
-                    <group id="-1">
-                        <set-color comment="false" x="37" y="628">
-                            <color id="0" vid="8"/>
-                        </set-color>
-                    </group>
-                    <more comment="false" id="0" x="0" y="0">
-                        <get-val-64-11 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="0.50"/>
-                    </more>
-                </else-if>
-                <else-if comment="false" x="26" y="667">
-                    <group id="-1">
-                        <set-color comment="false" x="37" y="697">
-                            <color id="0" vid="9"/>
-                        </set-color>
-                    </group>
-                    <more comment="false" id="0" x="0" y="0">
-                        <get-val-64-11 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="0.25"/>
-                    </more>
-                </else-if>
-                <else comment="false" x="26" y="736">
-                    <group id="-1">
-                        <set-color comment="false" x="37" y="756">
-                            <color id="0" vid="10"/>
-                        </set-color>
-                    </group>
-                </else>
-                <comment-short comment="false" x="26" y="795">
-                    <int id="0" val="Draw the current amount of health"/>
-                </comment-short>
-                <if comment="false" x="26" y="815">
-                    <group id="-1">
-                        <drawfill-rect comment="false" x="37" y="845">
-                            <int id="0" val="1"/>
-                            <plus comment="false" id="1" x="0" y="0">
-                                <get-val-64-4 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="1"/>
-                            </plus>
-                            <plus comment="false" id="2" x="0" y="0">
-                                <get-val-64-5 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="1"/>
-                            </plus>
-                            <minus comment="false" id="3" x="0" y="0">
-                                <roundnew comment="false" id="0" x="0" y="0">
-                                    <int id="0" val="0"/>
-                                    <times comment="false" id="1" x="0" y="0">
-                                        <get-val-64-2 comment="false" id="0" x="0" y="0"/>
-                                        <get-val-64-11 comment="false" id="1" x="0" y="0"/>
-                                    </times>
-                                </roundnew>
-                                <int id="1" val="2"/>
-                            </minus>
-                            <minus comment="false" id="4" x="0" y="0">
-                                <get-val-64-3 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="2"/>
-                            </minus>
-                        </drawfill-rect>
-                    </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-val-64-1 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="Horizontal"/>
-                    </eq>
-                </if>
-                <else comment="false" x="26" y="912">
-                    <group id="-1">
-                        <drawfill-rect comment="false" x="37" y="932">
-                            <int id="0" val="1"/>
-                            <plus comment="false" id="1" x="0" y="0">
-                                <get-val-64-4 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="1"/>
-                            </plus>
-                            <plus comment="false" id="2" x="0" y="0">
-                                <plus comment="false" id="0" x="0" y="0">
-                                    <get-val-64-5 comment="false" id="0" x="0" y="0"/>
-                                    <roundnew comment="false" id="1" x="0" y="0">
-                                        <int id="0" val="0"/>
-                                        <times comment="false" id="1" x="0" y="0">
-                                            <get-val-64-3 comment="false" id="0" x="0" y="0"/>
-                                            <minus comment="false" id="1" x="0" y="0">
-                                                <int id="0" val="1"/>
-                                                <get-val-64-11 comment="false" id="1" x="0" y="0"/>
-                                            </minus>
-                                        </times>
-                                    </roundnew>
-                                </plus>
-                                <int id="1" val="1"/>
-                            </plus>
-                            <minus comment="false" id="3" x="0" y="0">
-                                <get-val-64-2 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="2"/>
-                            </minus>
-                            <minus comment="false" id="4" x="0" y="0">
-                                <roundnew comment="false" id="0" x="0" y="0">
-                                    <int id="0" val="0"/>
-                                    <times comment="false" id="1" x="0" y="0">
-                                        <get-val-64-3 comment="false" id="0" x="0" y="0"/>
-                                        <get-val-64-11 comment="false" id="1" x="0" y="0"/>
-                                    </times>
-                                </roundnew>
-                                <int id="1" val="2"/>
-                            </minus>
-                        </drawfill-rect>
-                    </group>
-                </else>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-custom-import comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <code-long comment="false" x="26" y="40">
+                    <int id="0" val="#if flash&#10;import flash.system.ApplicationDomain;&#10;import flash.system.LoaderContext;&#10;#end&#10;import nme.display.Loader;&#10;import nme.display.MovieClip;&#10;import nme.display.DisplayObjectContainer;&#10;import nme.display.LoaderInfo;&#10;import nme.events.MouseEvent;&#10;&#10;#if flash&#10;import flash.Lib;&#10;#end&#10;import nme.net.URLRequest;&#10;&#10;@:file(&amp;quot;C:/Users/Justin/Desktop/CA Intro properr font.swf&amp;quot;)&#10;class LoadingAnimation extends flash.utils.ByteArray{}"/>
+                </code-long>
             </group>
-        </draw>
+        </event-custom-import>
     </group>
-    <group id="-1"/>
+    <group eventID="4" id="-1"/>
+    <group eventID="7" id="0">
+        <event-custom-code comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <code-long comment="false" x="26" y="40">
+                    <int id="0" val="function loadSite(e:MouseEvent):Void&#10;{&#10;&#9;var myLink:URLRequest = new URLRequest(&amp;quot;http://www.cosmoarcade.com/&amp;quot;);&#10;&#9;flash.Lib.getURL(myLink, &amp;quot;_blank&amp;quot;);&#10;}"/>
+                </code-long>
+            </group>
+        </event-custom-code>
+    </group>
+    <group eventID="7" id="-1"/>
+    <group eventID="8" id="0">
+        <event-custom-code comment="false" x="15" y="15">
+            <group eventID="8" id="-1">
+                <code-long comment="false" x="26" y="40">
+                    <int id="0" val="function onSwfLoaded(event:Event):Void&#10;{&#10;&#9;Engine.engine.master.addChild(loader);&#10;&#9;Engine.engine.master.addEventListener(MouseEvent.CLICK, loadSite);&#10;&#10;&#9;var doc:DisplayObjectContainer = cast(cast(event.target, LoaderInfo).content, DisplayObjectContainer);&#10;&#9;//doc.addEventListener(Event.ENTER_FRAME, onENTER_FRAME);&#10;&#9;startLater(doc);&#10;}"/>
+                </code-long>
+            </group>
+        </event-custom-code>
+    </group>
+    <group eventID="8" id="-1"/>
+    <group eventID="10" id="0">
+        <event-custom-code comment="false" x="15" y="15">
+            <group eventID="10" id="-1">
+                <code-long comment="false" x="26" y="40">
+                    <int id="0" val="function onENTER_FRAME(evt:Event):Void&#10;{&#10;&#9;var playermc:MovieClip = cast(evt.target, MovieClip);&#10;&#9;if(playermc.currentFrame == playermc.totalFrames)&#10;&#9;{&#10;&#9;&#9;onSwfCompleted();&#10;&#9;}&#10;}"/>
+                </code-long>
+            </group>
+        </event-custom-code>
+    </group>
+    <group eventID="10" id="-1"/>
+    <group eventID="11" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="11" id="-1">
+                <custom-code comment="false" x="26" y="40">
+                    <int id="0" val="Engine.engine.master.removeChild(loader);"/>
+                </custom-code>
+                <custom-code comment="false" x="26" y="60">
+                    <int id="0" val="Engine.engine.master.removeEventListener(MouseEvent.CLICK, loadSite);"/>
+                </custom-code>
+                <custom-code comment="false" x="26" y="80">
+                    <int id="0" val="loader.unloadAndStop();"/>
+                </custom-code>
+                <dolater comment="false" x="26" y="100">
+                    <group eventID="11" id="-1">
+                        <scene-change-through comment="false" x="37" y="127">
+                            <SCENE eid="1" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="1.5"/>
+                        </scene-change-through>
+                    </group>
+                    <int id="0" val=".5"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="onSwfCompleted"/>
+        </event-custom>
+    </group>
+    <group eventID="11" id="-1"/>
+    <group eventID="12" id="0">
+        <event-custom-code comment="false" x="15" y="15">
+            <group eventID="12" id="-1">
+                <custom-code comment="false" x="26" y="40">
+                    <int id="0" val="function startLater(doc:DisplayObjectContainer):Void{"/>
+                </custom-code>
+                <code-long comment="false" x="26" y="60">
+                    <int id="0" val="if(Std.is(doc, MovieClip))&#10;{&#10;&#9;cast(doc, MovieClip).stop();&#10;}"/>
+                </code-long>
+                <dolater comment="false" x="26" y="250">
+                    <group eventID="12" id="-1">
+                        <code-long comment="false" x="37" y="277">
+                            <int id="0" val="if(Std.is(doc, MovieClip))&#10;{&#10;&#9;var mc:MovieClip = cast(doc, MovieClip);&#10;&#9;mc.play();&#10;&#9;mc.addFrameScript(mc.totalFrames-1, onSwfCompleted);&#10;}"/>
+                        </code-long>
+                    </group>
+                    <int id="0" val=".5"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </dolater>
+                <custom-code comment="false" x="26" y="479">
+                    <int id="0" val="}"/>
+                </custom-code>
+            </group>
+        </event-custom-code>
+    </group>
+    <group eventID="12" id="-1"/>
 </groups>

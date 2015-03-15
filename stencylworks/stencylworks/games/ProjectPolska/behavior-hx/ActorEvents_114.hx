@@ -65,16 +65,44 @@ import com.stencyl.graphics.shaders.BloomShader;
 class ActorEvents_114 extends ActorScript
 {          	
 	
+public var _jumpLeft:String;
+
+public var _animationLeft:String;
+
+public var _jumpRight:String;
+
+public var _animationRight:String;
+
+public var _JumpingForce:Float;
+
+public var _isJumping:Bool;
+
  
  	public function new(dummy:Int, actor:Actor, engine:Engine)
 	{
 		super(actor, engine);	
-		
+		nameMap.set("jumpLeft", "_jumpLeft");
+nameMap.set("animationLeft", "_animationLeft");
+nameMap.set("jumpRight", "_jumpRight");
+nameMap.set("animationRight", "_animationRight");
+nameMap.set("Jumping Force", "_JumpingForce");
+_JumpingForce = 25.0;
+nameMap.set("isOnGround", "_isJumping");
+_isJumping = true;
+
 	}
 	
 	override public function init()
 	{
-		
+		    
+/* ======================== When Creating ========================= */
+        actor.applyImpulse(0, -1, 10);
+        runPeriodically(1000 * .25, function(timeTask:TimedTask):Void {
+                    actor.applyImpulse(0, 1, 10);
+                    return;
+}, actor);
+        actor.killSelfAfterLeavingScreen();
+
 	}	      	
 	
 	override public function forwardMessage(msg:String)
