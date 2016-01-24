@@ -1,0 +1,79 @@
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] OS Name: Windows 7
+[LOG] OS Version: 6.1
+[LOG] Current Working Directory: D:\Program Files (x86)\Stencyl
+[LOG] Initializing Stencyl
+[LOG] Loading engine extensions...
+[LOG] Parsing engine extensions...
+[LOG] ads is a core engine extension. Skip.
+[LOG] gamecenter is a core engine extension. Skip.
+[LOG] gestures is a core engine extension. Skip.
+[LOG] hypertouch is a core engine extension. Skip.
+[LOG] joystick is a core engine extension. Skip.
+[LOG] label is an engine extension. Adding.
+[LOG] native is a core engine extension. Skip.
+[LOG] purchases is a core engine extension. Skip.
+[LOG] test is an engine extension. Adding.
+[LOG] test-flash is an engine extension. Adding.
+[LOG] test-native is an engine extension. Adding.
+[LOG] tileapi is an engine extension. Adding.
+[LOG] Using Stencyl b7305
+[LOG] Activated: Welcome Center
+[LOG] Checking workspace writability and location: D:\Zil Docs\projects\stencylprojects\stencylworks\/temp
+[LOG] Silent Authentication.
+[LOG] Response: user:::plans0
+[LOG] Logged in as: navyzil
+[LOG] Usergroup: Registered
+[LOG] 200
+[LOG] http://www.stencyl.com/sw/updater/getVersions/stencylworksBeta
+[LOG] HTTP/1.1 200 OK
+<r>
+<server status = '200' version = '1beta' time = '1299439687' />	<version required="true" build="502" name="2.2.0" month="06" day="22" year="12" />
+	<version required="true" build="501" name="2.1.0" month="05" day="25" year="12" />
+	<version required="true" build="500" name="2.0.0" month="04" day="20" year="12" />
+	<version required="false" build="415" name="1.4.1" month="01" day="23" year="12" />
+	<version required="false" build="414" name="1.4.0" month="01" day="22" year="12" />
+	<version required="false" build="413" name="1.3.4" month="12" day="19" year="11" />
+	<version required="false" build="412" name="1.3.3" month="12" day="14" year="11" />
+	<version required="false" build="411" name="1.3.2" month="12" day="12" year="11" />
+	<version required="false" build="410" name="1.3.1" month="12" day="10" year="11" />
+	<version required="false" build="409" name="1.3.0" month="12" day="09" year="11" />
+	<version required="false" build="408" name="1.2.1" month="10" day="27" year="11" />
+	<version required="false" build="407" name="1.2.0" month="10" day="26" year="11" />
+	<version required="false" build="406" name="1.1.1" month="09" day="13" year="11" />
+	<version required="false" build="405" name="1.1.0" month="09" day="08" year="11" />
+	<version required="false" build="404" name="1.0.4" month="07" day="23" year="11" />
+	<version required="false" build="403" name="1.0.3" month="07" day="21" year="11" />
+	<version required="false" build="402" name="1.0.2" month="06" day="30" year="11" />
+	<version required="false" build="401" name="1.0.1" month="05" day="31" year="11" />
+	<version required="false" build="400" name="1.0.0" month="05" day="18" year="11" />
+	<version required="false" build="399" name="0.9.9" month="05" day="18" year="11" />
+</r>
+[LOG] Action: StencylForge
+[LOG] Visiting: forge://landing/home/
+[LOG] Activated: StencylForge
+[LOG] Download Took 1225ms
+[LOG] Total Took 1264ms
+[LOG] Visiting: forge://listing/my/home/
+[LOG] <resources>
+	<resource id="142453" title="Invincibility Manager" name="navyzil" description="Similar to Sonic or Mario, once your actor collided with an actorType it will trigger invincibility. Please do take note that you need the Health Manager to make this work and also please replace the hussarWings with any actorType that you want.&lt;br&gt;&lt;br&gt;You can also try my REST Framework Engine at https://dzilengine.wordpress.com/about/seraphim/ or you can click the View Documentation for a direct link" downloads="18" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2015-01-03" private="f" featured="0" metadata="actor" license="0" preview="f" url="https://dzilengine.wordpress.com/about/seraphim/" />
+	<resource id="142292" title="EnemyJump" name="navyzil" description="A jumping behavior for enemy character or npc in a 2d sidescroll game.&lt;br&gt;The AI will jump for every number of seconds that you have specified. (e.g. if you set the jump behavior for every 15 seconds, the AI will jump for every 15 seconds) .&lt;br&gt;&lt;br&gt;You can also try my REST Framework at https://dzilengine.wordpress.com/about/seraphim/ or click view documentation for a direct link" downloads="1" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="f" featured="0" metadata="actor" license="0" preview="f" url="https://dzilengine.wordpress.com/about/seraphim/" />
+	<resource id="142291" title="Detect Player" name="navyzil" description="This behavior lets the AI detect another actor based on the range that you will provide and to the target actor. Best suited for 2d platform games, tower defense games or if you had  an enemy character that will detect your character and trigger some behavior like chase or fire at character's direction.&lt;br&gt;&lt;br&gt;You can also try my REST Framework at https://dzilengine.wordpress.com/about/seraphim/ or click view documentation for a direct link" downloads="2" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="f" featured="0" metadata="actor" license="0" preview="f" url="https://dzilengine.wordpress.com/about/seraphim/" />
+	<resource id="142290" title="Enhanced FiringLoop" name="navyzil" description="The Actor will fire a burst of bullets for &quot;X&quot; seconds, at a &quot;Y&quot; rate, and then rest for &quot;Z&quot; seconds (to cooldown his weapon, I guess) before start firing again. This behavior doesn't use time blocks (do after/ do every X seconds)&lt;br&gt;&lt;br&gt;You can also try my REST Framework at https://dzilengine.wordpress.com/about/seraphim/ or click view documentation for a direct link" downloads="1" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="f" featured="0" metadata="actor" license="0" preview="f" url="https://dzilengine.wordpress.com/about/seraphim/" />
+	<resource id="142166" title="EnemyPatrol" name="navyzil" description="An Improved version of Patrol Right Left. Use this if you want your AI's behavior moved back and forth in certain points along the x-axis.&lt;br&gt;&lt;br&gt;You can also try my REST Framework Engine at https://dzilengine.wordpress.com/about/seraphim/ or you can click the View Documentation for a direct link" downloads="290" reviews="1" comments="2" rating="5" depends="" type="snippet" date="2014-12-26" private="f" featured="0" metadata="actor" license="0" preview="f" url=" https://dzilengine.wordpress.com/about/seraphim/" />
+</resources>
+[LOG] Download Took 2605ms
+[LOG] Total Took 2867ms
+[LOG] Download Took 2533ms
+[LOG] Download Took 1578ms
+[LOG] Download Took 1589ms
+[LOG] Download Took 1598ms
+[LOG] Download Took 1132ms
+[LOG] Attempting to quit out of Stencyl.
+[LOG] Destroying extensions.
+[LOG] Destroying Temporary Sandbox.
+[LOG] Performing final close.
+[LOG] Exiting...

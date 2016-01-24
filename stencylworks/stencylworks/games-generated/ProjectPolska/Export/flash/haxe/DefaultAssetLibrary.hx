@@ -118,6 +118,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/data/scene-0.scn", Reflect.field (AssetType, "binary".toUpperCase ()));
 		className.set ("assets/data/scene-0.xml", __ASSET__assets_data_scene_0_xml);
 		type.set ("assets/data/scene-0.xml", Reflect.field (AssetType, "text".toUpperCase ()));
+		className.set ("assets/data/scene-1.scn", __ASSET__assets_data_scene_1_scn);
+		type.set ("assets/data/scene-1.scn", Reflect.field (AssetType, "binary".toUpperCase ()));
+		className.set ("assets/data/scene-1.xml", __ASSET__assets_data_scene_1_xml);
+		type.set ("assets/data/scene-1.xml", Reflect.field (AssetType, "text".toUpperCase ()));
 		className.set ("assets/data/scenes.xml", __ASSET__assets_data_scenes_xml);
 		type.set ("assets/data/scenes.xml", Reflect.field (AssetType, "text".toUpperCase ()));
 		
@@ -206,6 +210,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/data/scene-0.scn", Reflect.field (AssetType, "binary".toUpperCase ()));
 		path.set ("assets/data/scene-0.xml", "assets/data/scene-0.xml");
 		type.set ("assets/data/scene-0.xml", Reflect.field (AssetType, "text".toUpperCase ()));
+		path.set ("assets/data/scene-1.scn", "assets/data/scene-1.scn");
+		type.set ("assets/data/scene-1.scn", Reflect.field (AssetType, "binary".toUpperCase ()));
+		path.set ("assets/data/scene-1.xml", "assets/data/scene-1.xml");
+		type.set ("assets/data/scene-1.xml", Reflect.field (AssetType, "text".toUpperCase ()));
 		path.set ("assets/data/scenes.xml", "assets/data/scenes.xml");
 		type.set ("assets/data/scenes.xml", Reflect.field (AssetType, "text".toUpperCase ()));
 		
@@ -623,10 +631,14 @@ class __ASSET__assets_data_game_xml extends flash.utils.ByteArray { }
 class __ASSET__assets_data_resources_xml extends flash.utils.ByteArray { }
 class __ASSET__assets_data_scene_0_scn extends flash.utils.ByteArray { }
 class __ASSET__assets_data_scene_0_xml extends flash.utils.ByteArray { }
+class __ASSET__assets_data_scene_1_scn extends flash.utils.ByteArray { }
+class __ASSET__assets_data_scene_1_xml extends flash.utils.ByteArray { }
 class __ASSET__assets_data_scenes_xml extends flash.utils.ByteArray { }
 
 
 #elseif html5
+
+
 
 
 

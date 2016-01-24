@@ -1,0 +1,184 @@
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] OS Name: Windows 7
+[LOG] OS Version: 6.1
+[LOG] Current Working Directory: D:\Program Files (x86)\Stencyl
+[LOG] Initializing Stencyl
+[LOG] Loading engine extensions...
+[LOG] Parsing engine extensions...
+[LOG] ads is a core engine extension. Skip.
+[LOG] gamecenter is a core engine extension. Skip.
+[LOG] gestures is a core engine extension. Skip.
+[LOG] hypertouch is a core engine extension. Skip.
+[LOG] joystick is a core engine extension. Skip.
+[LOG] label is an engine extension. Adding.
+[LOG] native is a core engine extension. Skip.
+[LOG] purchases is a core engine extension. Skip.
+[LOG] test is an engine extension. Adding.
+[LOG] test-flash is an engine extension. Adding.
+[LOG] test-native is an engine extension. Adding.
+[LOG] tileapi is an engine extension. Adding.
+[LOG] Using Stencyl b7305
+[LOG] MAXIMIZED FRAME
+[LOG] Activated: Welcome Center
+[LOG] Checking workspace writability and location: D:\Zil Docs\projects\stencylprojects\stencylworks\/temp
+[LOG] Silent Authentication.
+[LOG] Response: user:::plans0
+[LOG] Logged in as: navyzil
+[LOG] Usergroup: Registered
+[LOG] 200
+[LOG] http://www.stencyl.com/sw/updater/getVersions/stencylworksBeta
+[LOG] HTTP/1.1 200 OK
+<r>
+<server status = '200' version = '1beta' time = '1299439687' />	<version required="true" build="502" name="2.2.0" month="06" day="22" year="12" />
+	<version required="true" build="501" name="2.1.0" month="05" day="25" year="12" />
+	<version required="true" build="500" name="2.0.0" month="04" day="20" year="12" />
+	<version required="false" build="415" name="1.4.1" month="01" day="23" year="12" />
+	<version required="false" build="414" name="1.4.0" month="01" day="22" year="12" />
+	<version required="false" build="413" name="1.3.4" month="12" day="19" year="11" />
+	<version required="false" build="412" name="1.3.3" month="12" day="14" year="11" />
+	<version required="false" build="411" name="1.3.2" month="12" day="12" year="11" />
+	<version required="false" build="410" name="1.3.1" month="12" day="10" year="11" />
+	<version required="false" build="409" name="1.3.0" month="12" day="09" year="11" />
+	<version required="false" build="408" name="1.2.1" month="10" day="27" year="11" />
+	<version required="false" build="407" name="1.2.0" month="10" day="26" year="11" />
+	<version required="false" build="406" name="1.1.1" month="09" day="13" year="11" />
+	<version required="false" build="405" name="1.1.0" month="09" day="08" year="11" />
+	<version required="false" build="404" name="1.0.4" month="07" day="23" year="11" />
+	<version required="false" build="403" name="1.0.3" month="07" day="21" year="11" />
+	<version required="false" build="402" name="1.0.2" month="06" day="30" year="11" />
+	<version required="false" build="401" name="1.0.1" month="05" day="31" year="11" />
+	<version required="false" build="400" name="1.0.0" month="05" day="18" year="11" />
+	<version required="false" build="399" name="0.9.9" month="05" day="18" year="11" />
+</r>
+[LOG] Action: StencylForge
+[LOG] Visiting: forge://landing/home/
+[LOG] Activated: StencylForge
+[LOG] Download Took 406ms
+[LOG] Total Took 446ms
+[LOG] Visiting: forge://listing/my/home/
+[LOG] <resources>
+	<resource id="142453" title="Invincibility Manager" name="navyzil" description="Similar to Sonic or Mario, once your actor collided with an actorType it will trigger invincibility. Please do take note that you need the Health Manager to make this work and also please replace the hussarWings with any actorType that you want" downloads="18" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2015-01-03" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142292" title="EnemyJump" name="navyzil" description="" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142291" title="Detect Player" name="navyzil" description="" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142290" title="Enhanced FiringLoop" name="navyzil" description="The Actor will fire a burst of bullets for &quot;X&quot; seconds, at a &quot;Y&quot; rate, and then rest for &quot;Z&quot; seconds (to cooldown his weapon, I guess) before start firing again. This behavior doesn't use time blocks (do after/ do every X seconds)" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142166" title="EnemyPatrol" name="navyzil" description="An Improved version of Patrol Right Left. Use this if you want your AI's behavior moved back and forth in certain points along the x-axis" downloads="251" reviews="1" comments="1" rating="5" depends="" type="snippet" date="2014-12-26" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+</resources>
+[LOG] Download Took 487ms
+[LOG] Total Took 723ms
+[LOG] Download Took 450ms
+[LOG] Download Took 431ms
+[LOG] Download Took 429ms
+[LOG] Download Took 451ms
+[LOG] Download Took 430ms
+[LOG] Action: View Details
+[LOG] Visiting: forge://resource/142453/
+[LOG] Your Rating: 0
+[LOG] Total Took 5107ms
+[LOG] Visiting: forge://listing/snippet/
+[LOG] <resources>
+	<resource id="100600" title="Preloader" name="Justin" description="" downloads="1945" reviews="13" comments="18" rating="3.46154" depends="" type="snippet" date="2013-05-22" private="f" featured="1" metadata="scene" license="1" preview="f" url="" />
+	<resource id="98476" title="CustomFacebookShareButton" name="h1rnz1lla" description="This is a custom Facebook share Button behavior for Stencyl 3.0! &lt;br&gt;&lt;br&gt;You can specify a Title, a Summary, a URL and an Image that you want to attach to the post." downloads="1241" reviews="8" comments="5" rating="4" depends="" type="snippet" date="2013-04-30" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="96107" title="Freehand Scroll" name="losh" description="Scroll without snapping, just move freely without any gridlocks unlike the iOS home screen. Comes in useful when you have a game like 'Where's my Water?'." downloads="560" reviews="2" comments="5" rating="3" depends="" type="snippet" date="2013-04-02" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="93139" title="Text Input" name="colatusso" description="Simple text input behaviour for Stencyl 3.0, just attach it to your actor, set a few parameters and it's done!!&lt;br&gt;Parameters:&lt;br&gt;X border&lt;br&gt;Y border&lt;br&gt;Max chars&lt;br&gt;Font&lt;br&gt;&lt;br&gt;Enter or Esc to stop typing.&lt;br&gt;&lt;br&gt;* Tested on Mac and Flash" downloads="2015" reviews="12" comments="10" rating="3.33333" depends="" type="snippet" date="2013-02-26" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="88102" title="Ride Platforms" name="Max Glockling" description="Uploaded for Stencyl 3.0 So people can use it!" downloads="4329" reviews="19" comments="14" rating="3.94737" depends="" type="snippet" date="2013-01-08" private="f" featured="1" metadata="actor" license="0" preview="f" url="" />
+	<resource id="88105" title="Color From RGB" name="rob1221" description="[3.0] This is a global custom block that allows you to get a color based on RGB values.  It can be used with the &quot;set color to ___&quot; drawing block." downloads="492" reviews="5" comments="2" rating="3.8" depends="" type="snippet" date="2013-01-08" private="f" featured="1" metadata="scene" license="1" preview="f" url="" />
+	<resource id="88081" title="NPC Wander AI" name="pallavsharma91" description="This behaviour makes the NPC wander. It has the following features :&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;br&gt;1) 8-way movement.&lt;br /&gt;&lt;br&gt;2) Waiting time before the NPC wanders (min-max).&lt;br /&gt;&lt;br&gt;3) Movement time for the NPC (min-max).&lt;br /&gt;&lt;br&gt;4) Movement speed for the NPC (min-max).&lt;br /&gt;&lt;br&gt;5) Use 4-way animations or disable animations for this behaviour.&lt;br /&gt;&lt;br /&gt; P.S. This is a very basic behaviour.&lt;br /&gt;&lt;br&gt;P.P.S. Do not rate negatively just because you couldnt get it to work... I have tested it again and again and it works perfectly" downloads="2624" reviews="20" comments="11" rating="3.95" depends="" type="snippet" date="2013-01-07" private="f" featured="1" metadata="actor" license="0" preview="f" url="" />
+	<resource id="85004" title="Zoom Scene" name="coleislazy" description="Provides a single custom block to zoom the entire scene by the given multiplier. Graphic backgrounds will not stretch to fit if the scene is zoomed out, but tiled backgrounds will continue up to the scene bounds and scale appropriately. Color backgrounds will always fill out the screen, but gradient backgrounds will not scale at all. Thanks to user P01 for figuring out the bulk of the method used!" downloads="1181" reviews="3" comments="9" rating="5" depends="" type="snippet" date="2012-12-06" private="f" featured="1" metadata="scene" license="1" preview="f" url="" />
+	<resource id="83988" title="Difficulty Mode" name="Luyren" description="This behavior can change various attributes of other behaviors of this actors when you change the difficulty mode. You can use a global attribute to set a global difficulty setting. Comes with a custom block to change the difficulty mode of individual actors." downloads="1543" reviews="4" comments="1" rating="5" depends="" type="snippet" date="2012-11-26" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="83989" title="Loop Animations from Frame" name="Luyren" description="This behavior will loop any animation to a specified frame. This will allow you to play an animation, and force it to loop from any frame. The animations must NOT be set to loop." downloads="826" reviews="1" comments="2" rating="5" depends="" type="snippet" date="2012-11-26" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="82905" title="Smooth Camera" name="Irock" description="Add this behavior to your main character to make the camera follow it with smoother motion. Originally uploaded by osvaldososa." downloads="2403" reviews="15" comments="3" rating="4.6" depends="" type="snippet" date="2012-11-11" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="82906" title="Anchor to Screen" name="Irock" description="Forces the actor to stick to the screen. Useful for creating a HUD (heads up display)." downloads="683" reviews="2" comments="0" rating="3" depends="" type="snippet" date="2012-11-11" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="82907" title="Fade Out and Die after Time" name="Irock" description="After a speciefied time, this behavior will fade out the actor and kill it.&lt;br&gt;&lt;br&gt;You can also set the fade time to zero and have no fade." downloads="1560" reviews="4" comments="0" rating="3.5" depends="" type="snippet" date="2012-11-11" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="82595" title="Door Behavior" name="rob1221" description="Attach this behavior to an exit door to detect player collisions." downloads="3795" reviews="18" comments="16" rating="4.22222" depends="" type="snippet" date="2012-11-09" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+</resources>
+[LOG] Download Took 652ms
+[LOG] Total Took 696ms
+[LOG] Download Took 442ms
+[LOG] Download Took 457ms
+[LOG] Download Took 456ms
+[LOG] Download Took 441ms
+[LOG] Download Took 721ms
+[LOG] Download Took 764ms
+[LOG] Download Took 801ms
+[LOG] Download Took 844ms
+[LOG] Download Took 1025ms
+[LOG] Visiting: forge://listing/snippet/?sort=popular
+[LOG] <resources>
+	<resource id="128547" title="Jumping" name="ammoniteA" description="This Behavior controls the player's jumping." downloads="5453" reviews="6" comments="6" rating="4.33333" depends="" type="snippet" date="2014-04-06" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="100366" title="4 Way Movement" name="mbuist" description="Allows the player to move in 4 directions: North, South, West,and  East&lt;br&gt;Allows the player to move in 8 directions: North, South, West, East, NorthWest, NorthEast, SouthWest, SouthEast&lt;br&gt;Allows the player to move isometrically.&lt;br&gt;&lt;br&gt;&lt;br&gt;From the example game. Did not made this myself" downloads="4770" reviews="5" comments="3" rating="4" depends="" type="snippet" date="2013-05-18" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="88102" title="Ride Platforms" name="Max Glockling" description="Uploaded for Stencyl 3.0 So people can use it!" downloads="4329" reviews="19" comments="14" rating="3.94737" depends="" type="snippet" date="2013-01-08" private="f" featured="1" metadata="actor" license="0" preview="f" url="" />
+	<resource id="82595" title="Door Behavior" name="rob1221" description="Attach this behavior to an exit door to detect player collisions." downloads="3795" reviews="18" comments="16" rating="4.22222" depends="" type="snippet" date="2012-11-09" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="125026" title="Camera Follow Player" name="Rockguy 91" description="Makes the camera follow this Actor.&lt;br&gt;&lt;br&gt;&lt;br&gt;**A re-upload of the original Camera Follow Player Behavior from Stencyl 2.x**" downloads="3484" reviews="3" comments="2" rating="3.66667" depends="" type="snippet" date="2014-03-02" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="128819" title="Walking" name="ammoniteA" description="This Behavior will handle the player's walking movement while on the ground." downloads="3105" reviews="4" comments="5" rating="2" depends="" type="snippet" date="2014-04-09" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="124654" title="Stomp on Enemies" name="subtledemise" description="" downloads="2688" reviews="3" comments="2" rating="2.66667" depends="" type="snippet" date="2014-02-26" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="88081" title="NPC Wander AI" name="pallavsharma91" description="This behaviour makes the NPC wander. It has the following features :&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;br&gt;1) 8-way movement.&lt;br /&gt;&lt;br&gt;2) Waiting time before the NPC wanders (min-max).&lt;br /&gt;&lt;br&gt;3) Movement time for the NPC (min-max).&lt;br /&gt;&lt;br&gt;4) Movement speed for the NPC (min-max).&lt;br /&gt;&lt;br&gt;5) Use 4-way animations or disable animations for this behaviour.&lt;br /&gt;&lt;br /&gt; P.S. This is a very basic behaviour.&lt;br /&gt;&lt;br&gt;P.P.S. Do not rate negatively just because you couldnt get it to work... I have tested it again and again and it works perfectly" downloads="2624" reviews="20" comments="11" rating="3.95" depends="" type="snippet" date="2013-01-07" private="f" featured="1" metadata="actor" license="0" preview="f" url="" />
+	<resource id="128407" title="Pickup Coin" name="ammoniteA" description="This behavior is attached to pickup items that will be collected like coins, fruit Etc." downloads="2612" reviews="3" comments="0" rating="3.66667" depends="" type="snippet" date="2014-04-05" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="104085" title="Draw Health" name="Max Glockling" description="THIS IS NOT MY BEHAVIOR.&lt;br&gt;Just ported over because I needed it and thought someone else might want it too.&lt;br&gt;&lt;br&gt;" downloads="2597" reviews="2" comments="3" rating="3" depends="" type="snippet" date="2013-06-28" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="82905" title="Smooth Camera" name="Irock" description="Add this behavior to your main character to make the camera follow it with smoother motion. Originally uploaded by osvaldososa." downloads="2403" reviews="15" comments="3" rating="4.6" depends="" type="snippet" date="2012-11-11" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="84183" title="Die on Collision" name="System4Studios" description="Kills the actor when it collides with something else." downloads="2016" reviews="6" comments="2" rating="3" depends="" type="snippet" date="2012-11-28" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="93139" title="Text Input" name="colatusso" description="Simple text input behaviour for Stencyl 3.0, just attach it to your actor, set a few parameters and it's done!!&lt;br&gt;Parameters:&lt;br&gt;X border&lt;br&gt;Y border&lt;br&gt;Max chars&lt;br&gt;Font&lt;br&gt;&lt;br&gt;Enter or Esc to stop typing.&lt;br&gt;&lt;br&gt;* Tested on Mac and Flash" downloads="2015" reviews="12" comments="10" rating="3.33333" depends="" type="snippet" date="2013-02-26" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="100600" title="Preloader" name="Justin" description="" downloads="1945" reviews="13" comments="18" rating="3.46154" depends="" type="snippet" date="2013-05-22" private="f" featured="1" metadata="scene" license="1" preview="f" url="" />
+	<resource id="128821" title="Running" name="ammoniteA" description="This Behavior controls the player's ability to run.  The Walking Behavior must also be attached for this Behavior to work properly." downloads="1860" reviews="1" comments="1" rating="5" depends="" type="snippet" date="2014-04-09" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="134906" title="Cannot Exit Screen" name="juanfranzoni" description="Prevents the actor from going beyond the screen's bounds." downloads="1812" reviews="4" comments="3" rating="5" depends="" type="snippet" date="2014-07-17" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="127071" title="Fire Bullet" name="sam5010" description="Spawn bullets from the actor's position." downloads="1808" reviews="4" comments="0" rating="3.25" depends="" type="snippet" date="2014-03-23" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="132759" title="Score Manager" name="johann gutay" description="Attach this behavior to your scenes to track the score." downloads="1807" reviews="4" comments="3" rating="4" depends="" type="snippet" date="2014-06-05" private="f" featured="0" metadata="scene" license="1" preview="f" url="" />
+	<resource id="126410" title="Die in Pit and Reload" name="austroalex" description="" downloads="1788" reviews="0" comments="1" rating="0" depends="" type="snippet" date="2014-03-14" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="131627" title="Enemy Fire Projectile" name="Supso" description="Fires projectiles at the player from an enemy." downloads="1757" reviews="4" comments="6" rating="4" depends="" type="snippet" date="2014-05-11" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="124655" title="Stompable" name="subtledemise" description="" downloads="1715" reviews="2" comments="1" rating="3" depends="" type="snippet" date="2014-02-26" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="84204" title="Health" name="System4Studios" description="Gives actor the notion of Health." downloads="1702" reviews="2" comments="1" rating="3.5" depends="" type="snippet" date="2012-11-28" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="106351" title="Camera Follow" name="Rcoinb" description="Attach to an actor to make the camera follow it. You can then specify the speed at which the camera should &quot;scroll&quot; towards the actor." downloads="1671" reviews="2" comments="0" rating="5" depends="" type="snippet" date="2013-07-27" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="84356" title="Time Count" name="Luyren" description="Display a timer. You can set the font and position of the timer.&lt;br&gt;&lt;br&gt;This behavior comes with two custom blocks: one for modifying the timer during the game, and other for formating a number to be displayed as a timer.&lt;br&gt;&lt;br&gt;To reference the time in other behaviors, you have to get the attribute &quot;_Time&quot; from this behavior. You can also get the inital time by the attribute &quot;_InitialTime&quot;.&lt;br&gt;Triggers:&lt;br&gt;InterruptTimer: Will stop the timer.&lt;br&gt;ContinueTimer: Will resume the timer.&lt;br&gt;StartDrawingTimer: Will draw the timer on screen.&lt;br&gt;StopDrawingTimer: Will stop drawing the timer on screen.&lt;br&gt;SaveTime: Save the time in a game attribute, according to this behavior's specifications." downloads="1660" reviews="4" comments="6" rating="5" depends="" type="snippet" date="2012-11-30" private="f" featured="0" metadata="scene" license="1" preview="f" url="" />
+	<resource id="82907" title="Fade Out and Die after Time" name="Irock" description="After a speciefied time, this behavior will fade out the actor and kill it.&lt;br&gt;&lt;br&gt;You can also set the fade time to zero and have no fade." downloads="1560" reviews="4" comments="0" rating="3.5" depends="" type="snippet" date="2012-11-11" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="83988" title="Difficulty Mode" name="Luyren" description="This behavior can change various attributes of other behaviors of this actors when you change the difficulty mode. You can use a global attribute to set a global difficulty setting. Comes with a custom block to change the difficulty mode of individual actors." downloads="1543" reviews="4" comments="1" rating="5" depends="" type="snippet" date="2012-11-26" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="136331" title="Enemy Walking AI" name="whatevermedia" description="For platformers - an actor will have movement similar to the Goomba from Super Mario Bros.&lt;br&gt;&lt;br&gt;&lt;br&gt;Place this behavior on an actor and it will walk back and forth horizontally, and change direction when colliding with an object.  &lt;br&gt;&lt;br&gt;Just configure the walking animations &amp; speed." downloads="1363" reviews="1" comments="3" rating="5" depends="" type="snippet" date="2014-08-07" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="125491" title="Air Jumping" name="MiniMacro" description="Also known as Double Jumping.  Allows the player to jump while in the air.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Inputs:&lt;br&gt;&lt;br&gt;   &quot;Is Jumping?&quot; -- Actor Level Attribute&lt;br&gt;&lt;br&gt;Outputs:&lt;br&gt;&lt;br&gt;   &quot;Is Air Jumping?&quot; -- Actor Level Attribute" downloads="1338" reviews="0" comments="8" rating="0" depends="" type="snippet" date="2014-03-04" private="f" featured="0" metadata="actor" license="1" preview="f" url="" />
+	<resource id="129832" title="coin" name="ETOILE123" description="applying to a coin, when the actor touches the coin it disparer (beta)" downloads="1286" reviews="1" comments="1" rating="5" depends="" type="snippet" date="2014-04-17" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="98476" title="CustomFacebookShareButton" name="h1rnz1lla" description="This is a custom Facebook share Button behavior for Stencyl 3.0! &lt;br&gt;&lt;br&gt;You can specify a Title, a Summary, a URL and an Image that you want to attach to the post." downloads="1241" reviews="8" comments="5" rating="4" depends="" type="snippet" date="2013-04-30" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+</resources>
+[LOG] Download Took 1214ms
+[LOG] Total Took 1258ms
+[LOG] Download Took 2ms
+[LOG] Download Took 1ms
+[LOG] Download Took 2362ms
+[LOG] Download Took 2501ms
+[LOG] Download Took 2513ms
+[LOG] Download Took 2535ms
+[LOG] Download Took 2871ms
+[LOG] Download Took 2829ms
+[LOG] Download Took 2832ms
+[LOG] Visiting: forge://listing/addon/
+[LOG] <resources>
+	<resource id="36112" title="Resource Monitor" name="Stencyl" description="Shows current memory usage.&lt;br&gt;&lt;br&gt;Author: Alexin" downloads="6829" reviews="40" comments="13" rating="4.125" depends="" type="addon" date="2011-09-07" private="f" featured="1" metadata="ResourcesMonitor" license="0" preview="f" url="" />
+	<resource id="36113" title="Save Screenshot" name="Stencyl" description="Saves an image of your current screen. Useful for posting bug reports.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Author: Greg" downloads="5324" reviews="20" comments="17" rating="4.35" depends="" type="addon" date="2011-09-07" private="f" featured="1" metadata="SaveScreenshot" license="0" preview="f" url="" />
+</resources>
+[LOG] Download Took 430ms
+[LOG] Total Took 474ms
+[LOG] Download Took 443ms
+[LOG] Download Took 474ms
+[LOG] Visiting: forge://listing/my/home/
+[LOG] <resources>
+	<resource id="142453" title="Invincibility Manager" name="navyzil" description="Similar to Sonic or Mario, once your actor collided with an actorType it will trigger invincibility. Please do take note that you need the Health Manager to make this work and also please replace the hussarWings with any actorType that you want" downloads="18" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2015-01-03" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142292" title="EnemyJump" name="navyzil" description="" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142291" title="Detect Player" name="navyzil" description="" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142290" title="Enhanced FiringLoop" name="navyzil" description="The Actor will fire a burst of bullets for &quot;X&quot; seconds, at a &quot;Y&quot; rate, and then rest for &quot;Z&quot; seconds (to cooldown his weapon, I guess) before start firing again. This behavior doesn't use time blocks (do after/ do every X seconds)" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142166" title="EnemyPatrol" name="navyzil" description="An Improved version of Patrol Right Left. Use this if you want your AI's behavior moved back and forth in certain points along the x-axis" downloads="251" reviews="1" comments="1" rating="5" depends="" type="snippet" date="2014-12-26" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+</resources>
+[LOG] Download Took 473ms
+[LOG] Total Took 516ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 0ms
+[LOG] Action: View Details
+[LOG] Visiting: forge://resource/142166/
+[LOG] Your Rating: 0
+[LOG] Total Took 2687ms
+[LOG] Attempting to quit out of Stencyl.
+[LOG] Destroying extensions.
+[LOG] Destroying Temporary Sandbox.
+[LOG] Performing final close.
+[LOG] Exiting...

@@ -17,6 +17,7 @@
 -D web
 --remap browser:nme
 --remap native:nme
+--no-traces
 -D network-sandbox
 -D as3_native
 -D swf-directblit

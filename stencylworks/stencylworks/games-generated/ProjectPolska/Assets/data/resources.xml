@@ -20,7 +20,7 @@
             <poly data="4,0,0,21,0,21,20,0,20" density="0.1" fric="0.2" gid="-1000" id="0" name="idleL" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="32" fixedrot="true" fric="0.2" gid="4" id="27" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="6Ball1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="28" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="32" fixedrot="true" fric="0.2" gid="4" id="27" ignoreg="false" inertia="1.0" ldamp="0.0" mass="0.1" name="6Ball1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="28" static="false">
         <snippets>
             <s enabled="true" id="51">
                 <prop id="17" list="0" val="10.0"/>
@@ -52,6 +52,23 @@
                 <prop id="7" list="0" val="0"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
+            <s enabled="true" id="13">
+                <prop id="1" list="0" val="idleR"/>
+                <prop id="2" list="0" val="idleL"/>
+                <prop id="3" list="0" val="12"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+            <s enabled="true" id="44">
+                <prop id="1" list="0" val="idleR"/>
+                <prop id="2" list="0" val="idleL"/>
+                <prop id="3" list="0" val="true"/>
+                <prop id="4" list="0" val="15"/>
+                <prop id="5" list="0" val="idleR"/>
+                <prop id="6" list="0" val="idleL"/>
+                <prop id="7" list="0" val="5"/>
+                <prop id="8" list="0" val="25.0"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
         </snippets>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="28" id="30" name="6Ball2" shared="false" width="22">
@@ -75,7 +92,7 @@
                 <prop id="28" list="0" val="0.0"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
-            <s enabled="true" id="40">
+            <s enabled="false" id="40">
                 <prop id="3" list="0" val=""/>
                 <prop id="4" list="0" val="50"/>
                 <prop id="5" list="0" val="30"/>
@@ -92,7 +109,7 @@
                 <prop id="3" list="0" val="2"/>
                 <prop id="4" list="0" val="60.0"/>
                 <prop id="5" list="0" val="25"/>
-                <prop id="6" list="0" val="true"/>
+                <prop id="6" list="0" val="false"/>
                 <prop id="7" list="0" val="3"/>
                 <prop id="8" list="0" val="0"/>
                 <prop id="9" list="0" val="25"/>
@@ -628,7 +645,7 @@
             <poly data="4,0,0,21,0,21,20,0,20" density="0.1" fric="0.2" gid="-1000" id="0" name="attackRight" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="8" fixedrot="true" fric="0.05" gid="0" id="15" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Polska" oid="-1" pausable="true" physicsMode="0" rest="0.02" shared="false" sprite="16" static="false">
+    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="8" fixedrot="true" fric="0.15" gid="0" id="15" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Polska" oid="-1" pausable="true" physicsMode="0" rest="0.05" shared="false" sprite="16" static="false">
         <snippets>
             <s enabled="false" id="0">
                 <prop id="1" list="0" val="4"/>
@@ -644,6 +661,22 @@
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
             <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+            <s enabled="true" id="43">
+                <prop id="34" list="0" val="down"/>
+                <prop id="33" list="0" val="up"/>
+                <prop id="38" list="0" val="true"/>
+                <prop id="39" list="0" val="false"/>
+                <prop id="37" list="0" val="0"/>
+                <prop id="42" list="0" val=""/>
+                <prop id="43" list="0" val=""/>
+                <prop id="40" list="0" val="0.0"/>
+                <prop id="11" list="0" val="30.0"/>
+                <prop id="41" list="0" val=""/>
+                <prop id="46" list="0" val="true"/>
+                <prop id="44" list="0" val=""/>
+                <prop id="45" list="0" val="true"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
             <s enabled="true" id="9">

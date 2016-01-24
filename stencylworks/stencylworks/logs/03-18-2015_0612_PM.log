@@ -1,0 +1,538 @@
+
+
+
+[LOG] Mirroring logs to the standard output...
+[LOG] OS Name: Windows 7
+[LOG] OS Version: 6.1
+[LOG] Current Working Directory: D:\Program Files (x86)\Stencyl
+[LOG] Initializing Stencyl
+[LOG] Loading engine extensions...
+[LOG] Parsing engine extensions...
+[LOG] ads is a core engine extension. Skip.
+[LOG] gamecenter is a core engine extension. Skip.
+[LOG] gestures is a core engine extension. Skip.
+[LOG] hypertouch is a core engine extension. Skip.
+[LOG] joystick is a core engine extension. Skip.
+[LOG] label is an engine extension. Adding.
+[LOG] native is a core engine extension. Skip.
+[LOG] purchases is a core engine extension. Skip.
+[LOG] test is an engine extension. Adding.
+[LOG] test-flash is an engine extension. Adding.
+[LOG] test-native is an engine extension. Adding.
+[LOG] tileapi is an engine extension. Adding.
+[LOG] Using Stencyl b7305
+[LOG] Activated: Welcome Center
+[LOG] Checking workspace writability and location: D:\Zil Docs\projects\stencylprojects\stencylworks\/temp
+[LOG] Silent Authentication.
+[LOG] Response: user:::plans0
+[LOG] Logged in as: navyzil
+[LOG] Usergroup: Registered
+[LOG] 200
+[LOG] http://www.stencyl.com/sw/updater/getVersions/stencylworksBeta
+[LOG] HTTP/1.1 200 OK
+<r>
+<server status = '200' version = '1beta' time = '1299439687' />	<version required="true" build="502" name="2.2.0" month="06" day="22" year="12" />
+	<version required="true" build="501" name="2.1.0" month="05" day="25" year="12" />
+	<version required="true" build="500" name="2.0.0" month="04" day="20" year="12" />
+	<version required="false" build="415" name="1.4.1" month="01" day="23" year="12" />
+	<version required="false" build="414" name="1.4.0" month="01" day="22" year="12" />
+	<version required="false" build="413" name="1.3.4" month="12" day="19" year="11" />
+	<version required="false" build="412" name="1.3.3" month="12" day="14" year="11" />
+	<version required="false" build="411" name="1.3.2" month="12" day="12" year="11" />
+	<version required="false" build="410" name="1.3.1" month="12" day="10" year="11" />
+	<version required="false" build="409" name="1.3.0" month="12" day="09" year="11" />
+	<version required="false" build="408" name="1.2.1" month="10" day="27" year="11" />
+	<version required="false" build="407" name="1.2.0" month="10" day="26" year="11" />
+	<version required="false" build="406" name="1.1.1" month="09" day="13" year="11" />
+	<version required="false" build="405" name="1.1.0" month="09" day="08" year="11" />
+	<version required="false" build="404" name="1.0.4" month="07" day="23" year="11" />
+	<version required="false" build="403" name="1.0.3" month="07" day="21" year="11" />
+	<version required="false" build="402" name="1.0.2" month="06" day="30" year="11" />
+	<version required="false" build="401" name="1.0.1" month="05" day="31" year="11" />
+	<version required="false" build="400" name="1.0.0" month="05" day="18" year="11" />
+	<version required="false" build="399" name="0.9.9" month="05" day="18" year="11" />
+</r>
+[LOG] Action: StencylForge
+[LOG] Visiting: forge://landing/home/
+[LOG] Activated: StencylForge
+[LOG] Download Took 336ms
+[LOG] Total Took 378ms
+[LOG] Visiting: forge://landing/home/
+[LOG] Download Took 36ms
+[LOG] Total Took 78ms
+[LOG] Visiting: forge://listing/snippet/
+[LOG] <resources>
+	<resource id="100600" title="Preloader" name="Justin" description="" downloads="1540" reviews="8" comments="14" rating="3.875" depends="" type="snippet" date="2013-05-22" private="f" featured="1" metadata="scene" license="1" preview="f" url="" />
+	<resource id="98476" title="CustomFacebookShareButton" name="h1rnz1lla" description="This is a custom Facebook share Button behavior for Stencyl 3.0! &lt;br&gt;&lt;br&gt;You can specify a Title, a Summary, a URL and an Image that you want to attach to the post." downloads="1031" reviews="8" comments="5" rating="4" depends="" type="snippet" date="2013-04-30" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="96107" title="Freehand Scroll" name="losh" description="Scroll without snapping, just move freely without any gridlocks unlike the iOS home screen. Comes in useful when you have a game like 'Where's my Water?'." downloads="448" reviews="2" comments="5" rating="3" depends="" type="snippet" date="2013-04-02" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="93139" title="Text Input" name="colatusso" description="Simple text input behaviour for Stencyl 3.0, just attach it to your actor, set a few parameters and it's done!!&lt;br&gt;Parameters:&lt;br&gt;X border&lt;br&gt;Y border&lt;br&gt;Max chars&lt;br&gt;Font&lt;br&gt;&lt;br&gt;Enter or Esc to stop typing.&lt;br&gt;&lt;br&gt;* Tested on Mac and Flash" downloads="1593" reviews="10" comments="7" rating="3.1" depends="" type="snippet" date="2013-02-26" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="88102" title="Ride Platforms" name="Max Glockling" description="Uploaded for Stencyl 3.0 So people can use it!" downloads="3320" reviews="17" comments="10" rating="4.05882" depends="" type="snippet" date="2013-01-08" private="f" featured="1" metadata="actor" license="0" preview="f" url="" />
+	<resource id="88105" title="Color From RGB" name="rob1221" description="[3.0] This is a global custom block that allows you to get a color based on RGB values.  It can be used with the &quot;set color to ___&quot; drawing block." downloads="385" reviews="4" comments="1" rating="4.25" depends="" type="snippet" date="2013-01-08" private="f" featured="1" metadata="scene" license="1" preview="f" url="" />
+	<resource id="88081" title="NPC Wander AI" name="pallavsharma91" description="This behaviour makes the NPC wander. It has the following features :&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;br&gt;1) 8-way movement.&lt;br /&gt;&lt;br&gt;2) Waiting time before the NPC wanders (min-max).&lt;br /&gt;&lt;br&gt;3) Movement time for the NPC (min-max).&lt;br /&gt;&lt;br&gt;4) Movement speed for the NPC (min-max).&lt;br /&gt;&lt;br&gt;5) Use 4-way animations or disable animations for this behaviour.&lt;br /&gt;&lt;br /&gt; P.S. This is a very basic behaviour.&lt;br /&gt;&lt;br&gt;P.P.S. Do not rate negatively just because you couldnt get it to work... I have tested it again and again and it works perfectly" downloads="1982" reviews="13" comments="8" rating="3.92308" depends="" type="snippet" date="2013-01-07" private="f" featured="1" metadata="actor" license="0" preview="f" url="" />
+	<resource id="85004" title="Zoom Scene" name="coleislazy" description="Provides a single custom block to zoom the entire scene by the given multiplier. Graphic backgrounds will not stretch to fit if the scene is zoomed out, but tiled backgrounds will continue up to the scene bounds and scale appropriately. Color backgrounds will always fill out the screen, but gradient backgrounds will not scale at all. Thanks to user P01 for figuring out the bulk of the method used!" downloads="961" reviews="3" comments="8" rating="5" depends="" type="snippet" date="2012-12-06" private="f" featured="1" metadata="scene" license="1" preview="f" url="" />
+	<resource id="83988" title="Difficulty Mode" name="Luyren" description="This behavior can change various attributes of other behaviors of this actors when you change the difficulty mode. You can use a global attribute to set a global difficulty setting. Comes with a custom block to change the difficulty mode of individual actors." downloads="1122" reviews="2" comments="0" rating="5" depends="" type="snippet" date="2012-11-26" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="83989" title="Loop Animations from Frame" name="Luyren" description="This behavior will loop any animation to a specified frame. This will allow you to play an animation, and force it to loop from any frame. The animations must NOT be set to loop." downloads="625" reviews="1" comments="1" rating="5" depends="" type="snippet" date="2012-11-26" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="82905" title="Smooth Camera" name="Irock" description="Add this behavior to your main character to make the camera follow it with smoother motion. Originally uploaded by osvaldososa." downloads="1905" reviews="14" comments="3" rating="4.57143" depends="" type="snippet" date="2012-11-11" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="82906" title="Anchor to Screen" name="Irock" description="Forces the actor to stick to the screen. Useful for creating a HUD (heads up display)." downloads="489" reviews="1" comments="0" rating="1" depends="" type="snippet" date="2012-11-11" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="82907" title="Fade Out and Die after Time" name="Irock" description="After a speciefied time, this behavior will fade out the actor and kill it.&lt;br&gt;&lt;br&gt;You can also set the fade time to zero and have no fade." downloads="1226" reviews="3" comments="0" rating="3.66667" depends="" type="snippet" date="2012-11-11" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="82595" title="Door Behavior" name="rob1221" description="Attach this behavior to an exit door to detect player collisions." downloads="2850" reviews="15" comments="0" rating="4.06667" depends="" type="snippet" date="2012-11-09" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+</resources>
+[LOG] Download Took 550ms
+[LOG] Total Took 627ms
+[LOG] Download Took 385ms
+[LOG] Download Took 386ms
+[LOG] Download Took 394ms
+[LOG] Download Took 443ms
+[LOG] Download Took 532ms
+[LOG] Download Took 568ms
+[LOG] Download Took 613ms
+[LOG] Download Took 644ms
+[LOG] Download Took 803ms
+[LOG] Visiting: forge://listing/my/home/
+[LOG] <resources>
+	<resource id="142453" title="Invincibility Manager" name="navyzil" description="Similar to Sonic or Mario, once your actor collided with an actorType it will trigger invincibility. Please do take note that you need the Health Manager to make this work and also please replace the hussarWings with any actorType that you want" downloads="8" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2015-01-03" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142292" title="EnemyJump" name="navyzil" description="" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142291" title="Detect Player" name="navyzil" description="" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142290" title="Enhanced FiringLoop" name="navyzil" description="The Actor will fire a burst of bullets for &quot;X&quot; seconds, at a &quot;Y&quot; rate, and then rest for &quot;Z&quot; seconds (to cooldown his weapon, I guess) before start firing again. This behavior doesn't use time blocks (do after/ do every X seconds)" downloads="0" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-29" private="t" featured="0" metadata="actor" license="0" preview="f" url="" />
+	<resource id="142166" title="EnemyPatrol" name="navyzil" description="An Improved version of Patrol Right Left. Use this if you want your AI's behavior moved back and forth in certain points along the x-axis" downloads="91" reviews="0" comments="0" rating="0" depends="" type="snippet" date="2014-12-26" private="f" featured="0" metadata="actor" license="0" preview="f" url="" />
+</resources>
+[LOG] Download Took 430ms
+[LOG] Total Took 480ms
+[LOG] Download Took 371ms
+[LOG] Download Took 376ms
+[LOG] Download Took 382ms
+[LOG] Download Took 394ms
+[LOG] Download Took 688ms
+[LOG] Visiting: forge://listing/snippet/
+[LOG] <resources>
+	<resource id="100600" title="Preloader" name="Justin" description="" downloads="1540" reviews="8" comments="14" rating="3.875" depends="" type="snippet" date="2013-05-22" private="f" featured="1" metadata="scene" license="1" preview="f" url="" />
+	<resource id="98476" title="CustomFacebookShareButton" name="h1rnz1lla" description="This is a custom Facebook share Button behavior for Stencyl 3.0! &lt;br&gt;&lt;br&gt;You can specify a Title, a Summary, a URL and an Image that you want to attach to the post." downloads="1031" reviews="8" comments="5" rating="4" depends="" type="snippet" date="2013-04-30" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="96107" title="Freehand Scroll" name="losh" description="Scroll without snapping, just move freely without any gridlocks unlike the iOS home screen. Comes in useful when you have a game like 'Where's my Water?'." downloads="448" reviews="2" comments="5" rating="3" depends="" type="snippet" date="2013-04-02" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="93139" title="Text Input" name="colatusso" description="Simple text input behaviour for Stencyl 3.0, just attach it to your actor, set a few parameters and it's done!!&lt;br&gt;Parameters:&lt;br&gt;X border&lt;br&gt;Y border&lt;br&gt;Max chars&lt;br&gt;Font&lt;br&gt;&lt;br&gt;Enter or Esc to stop typing.&lt;br&gt;&lt;br&gt;* Tested on Mac and Flash" downloads="1593" reviews="10" comments="7" rating="3.1" depends="" type="snippet" date="2013-02-26" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="88102" title="Ride Platforms" name="Max Glockling" description="Uploaded for Stencyl 3.0 So people can use it!" downloads="3320" reviews="17" comments="10" rating="4.05882" depends="" type="snippet" date="2013-01-08" private="f" featured="1" metadata="actor" license="0" preview="f" url="" />
+	<resource id="88105" title="Color From RGB" name="rob1221" description="[3.0] This is a global custom block that allows you to get a color based on RGB values.  It can be used with the &quot;set color to ___&quot; drawing block." downloads="385" reviews="4" comments="1" rating="4.25" depends="" type="snippet" date="2013-01-08" private="f" featured="1" metadata="scene" license="1" preview="f" url="" />
+	<resource id="88081" title="NPC Wander AI" name="pallavsharma91" description="This behaviour makes the NPC wander. It has the following features :&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;br&gt;1) 8-way movement.&lt;br /&gt;&lt;br&gt;2) Waiting time before the NPC wanders (min-max).&lt;br /&gt;&lt;br&gt;3) Movement time for the NPC (min-max).&lt;br /&gt;&lt;br&gt;4) Movement speed for the NPC (min-max).&lt;br /&gt;&lt;br&gt;5) Use 4-way animations or disable animations for this behaviour.&lt;br /&gt;&lt;br /&gt; P.S. This is a very basic behaviour.&lt;br /&gt;&lt;br&gt;P.P.S. Do not rate negatively just because you couldnt get it to work... I have tested it again and again and it works perfectly" downloads="1982" reviews="13" comments="8" rating="3.92308" depends="" type="snippet" date="2013-01-07" private="f" featured="1" metadata="actor" license="0" preview="f" url="" />
+	<resource id="85004" title="Zoom Scene" name="coleislazy" description="Provides a single custom block to zoom the entire scene by the given multiplier. Graphic backgrounds will not stretch to fit if the scene is zoomed out, but tiled backgrounds will continue up to the scene bounds and scale appropriately. Color backgrounds will always fill out the screen, but gradient backgrounds will not scale at all. Thanks to user P01 for figuring out the bulk of the method used!" downloads="961" reviews="3" comments="8" rating="5" depends="" type="snippet" date="2012-12-06" private="f" featured="1" metadata="scene" license="1" preview="f" url="" />
+	<resource id="83988" title="Difficulty Mode" name="Luyren" description="This behavior can change various attributes of other behaviors of this actors when you change the difficulty mode. You can use a global attribute to set a global difficulty setting. Comes with a custom block to change the difficulty mode of individual actors." downloads="1122" reviews="2" comments="0" rating="5" depends="" type="snippet" date="2012-11-26" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="83989" title="Loop Animations from Frame" name="Luyren" description="This behavior will loop any animation to a specified frame. This will allow you to play an animation, and force it to loop from any frame. The animations must NOT be set to loop." downloads="625" reviews="1" comments="1" rating="5" depends="" type="snippet" date="2012-11-26" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="82905" title="Smooth Camera" name="Irock" description="Add this behavior to your main character to make the camera follow it with smoother motion. Originally uploaded by osvaldososa." downloads="1905" reviews="14" comments="3" rating="4.57143" depends="" type="snippet" date="2012-11-11" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="82906" title="Anchor to Screen" name="Irock" description="Forces the actor to stick to the screen. Useful for creating a HUD (heads up display)." downloads="489" reviews="1" comments="0" rating="1" depends="" type="snippet" date="2012-11-11" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="82907" title="Fade Out and Die after Time" name="Irock" description="After a speciefied time, this behavior will fade out the actor and kill it.&lt;br&gt;&lt;br&gt;You can also set the fade time to zero and have no fade." downloads="1226" reviews="3" comments="0" rating="3.66667" depends="" type="snippet" date="2012-11-11" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+	<resource id="82595" title="Door Behavior" name="rob1221" description="Attach this behavior to an exit door to detect player collisions." downloads="2850" reviews="15" comments="0" rating="4.06667" depends="" type="snippet" date="2012-11-09" private="f" featured="1" metadata="actor" license="1" preview="f" url="" />
+</resources>
+[LOG] Download Took 481ms
+[LOG] Total Took 521ms
+[LOG] Download Took 1ms
+[LOG] Download Took 0ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Download Took 1ms
+[LOG] Visiting: forge://listing/actor/
+[LOG] <resources>
+	<resource id="91894" title="Stencyl Book Success" name="Innes" description="" downloads="1558" reviews="6" comments="1" rating="3.5" depends="" type="actor" date="2013-07-02" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.packtpub.com/learning-stencyl-3x-game-development-beginners-guide/book" />
+	<resource id="92155" title="Stencyl Book Title Banner" name="Innes" description="This actor asset was created and uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;Innes Borkwood has released this image into the public domain." downloads="751" reviews="4" comments="0" rating="2.75" depends="" type="actor" date="2013-02-16" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.packtpub.com/learning-stencyl-3x-game-development-beginners-guide/book" />
+	<resource id="92156" title="Stencyl Book Title Credits" name="Innes" description="This actor asset was created and uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;Innes Borkwood has released this image into the public domain.&lt;br&gt;&lt;br&gt;Please click the 'View Documentation' link to learn more about the book." downloads="516" reviews="3" comments="2" rating="4.33333" depends="" type="actor" date="2013-02-16" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.packtpub.com/learning-stencyl-3x-game-development-beginners-guide/book" />
+	<resource id="92158" title="Stencyl Book Start Button" name="Innes" description="This actor asset was created and uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;Innes Borkwood has released this image into the public domain.&lt;br&gt;&lt;br&gt;Please click the 'View Documentation' link to learn more about the book." downloads="3611" reviews="9" comments="9" rating="3.44444" depends="" type="actor" date="2013-02-16" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.packtpub.com/learning-stencyl-3x-game-development-beginners-guide/book" />
+	<resource id="91895" title="Stencyl Book Next Button" name="Innes" description="This actor asset was created and uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;Innes Borkwood has released this image into the public domain.&lt;br&gt;&lt;br&gt;Please click the 'View Documentation' link to learn more about the book." downloads="1199" reviews="5" comments="1" rating="4.6" depends="" type="actor" date="2013-02-12" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.packtpub.com/learning-stencyl-3x-game-development-beginners-guide/book" />
+	<resource id="91896" title="Stencyl Book Menu Button" name="Innes" description="This actor asset was created and uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;Innes Borkwood has released this image into the public domain." downloads="1352" reviews="4" comments="1" rating="3.5" depends="" type="actor" date="2013-02-12" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.packtpub.com/learning-stencyl-3x-game-development-beginners-guide/book" />
+	<resource id="91725" title="Stencyl Book Paused Banner" name="Innes" description="This actor asset was created and uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;Innes Borkwood has released this image into the public domain.&lt;br&gt;&lt;br&gt;Please click the 'View Documentation' link to learn more about the book." downloads="1115" reviews="2" comments="0" rating="4.5" depends="" type="actor" date="2013-02-10" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.packtpub.com/learning-stencyl-3x-game-development-beginners-guide/book" />
+	<resource id="88104" title="Spinning Coin" name="rob1221" description="It's a coin.  It spins." downloads="9046" reviews="13" comments="10" rating="4" depends="" type="actor" date="2013-01-08" private="f" featured="1" metadata="" license="1" preview="f" url="" />
+	<resource id="82856" title="Virtual Mobile Button" name="scubapk01" description="The Virtual Mobile Button is basically from the Maze game with a few changes so I can not take credit for it..&lt;br&gt;This one actor can now be used mutiple times as a virtual button by customizing it. &lt;br&gt;Customaization includes setting the control being pressed and animation being displayed.&lt;br&gt;&lt;br&gt;Example (as per screen shoots) only one actor needs to be created for all buttons.&lt;br&gt;&lt;br&gt;In Blocks / code when the actor is created the control is set and animation is set.&lt;br&gt;When pressed self fade is changed from 50% to 85% to give feedback to user. When released it returns to 50%&lt;br&gt;&lt;br&gt;This is my first post of a Actor and hope you find this usefull for Mobile application.&lt;br&gt;I welcome feedback and suggestions of all types." downloads="1405" reviews="7" comments="5" rating="3.57143" depends="82855" type="actor" date="2012-11-11" private="f" featured="1" metadata="" license="1" preview="f" url="" />
+	<resource id="82760" title="Stencyl Book Statue" name="Innes" description="This actor asset was modified and uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;The original artwork is the work of Vicki Wenderlich, who has released it under a Creative Commons Attribution License.&lt;br&gt;&lt;br&gt;Please click the 'View Documentation' link to visit Vicki's web site, and to read the licensing terms. By downloading this asset, you confirm that you have read and understood the licensing terms." downloads="2270" reviews="9" comments="2" rating="4.77778" depends="" type="actor" date="2012-11-10" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.vickiwenderlich.com/free-art/licensing/" />
+	<resource id="82604" title="Enemy Bullet" name="rob1221" description="It's a glowing red bullet." downloads="4458" reviews="4" comments="0" rating="4" depends="" type="actor" date="2012-11-09" private="f" featured="1" metadata="" license="1" preview="f" url="" />
+	<resource id="82558" title="Stencyl Book Croc" name="Innes" description="This actor asset was uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;The original artwork is the work of Vicki Wenderlich, who has released it under a Creative Commons Attribution License.&lt;br&gt;&lt;br&gt;Please click the 'View Documentation' link to visit Vicki's web site, and to read the licensing terms. By downloading this asset, you confirm that you have read and understood the licensing terms." downloads="5593" reviews="8" comments="11" rating="4.125" depends="" type="actor" date="2012-11-08" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.vickiwenderlich.com/free-art/licensing/" />
+	<resource id="82559" title="Stencyl Book Grapes" name="Innes" description="This actor asset was uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;The original artwork is the work of Vicki Wenderlich, who has released it under a Creative Commons Attribution License.&lt;br&gt;&lt;br&gt;Please click the 'View Documentation' link to visit Vicki's web site, and to read the licensing terms. By downloading this asset, you confirm that you have read and understood the licensing terms." downloads="2067" reviews="6" comments="2" rating="4.66667" depends="" type="actor" date="2012-11-08" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.vickiwenderlich.com/free-art/licensing/" />
+	<resource id="82560" title="Stencyl Book Melon" name="Innes" description="This actor asset was uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;The original artwork is the work of Vicki Wenderlich, who has released it under a Creative Commons Attribution License.&lt;br&gt;&lt;br&gt;Please click the 'View Documentation' link to visit Vicki's web site, and to read the licensing terms. By downloading this asset, you confirm that you have read and understood the licensing terms." downloads="2526" reviews="5" comments="2" rating="4.2" depends="" type="actor" date="2012-11-08" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.vickiwenderlich.com/free-art/licensing/" />
+	<resource id="82563" title="Stencyl Book Bananas" name="Innes" description="This actor asset was uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;The original artwork is the work of Vicki Wenderlich, who has released it under a Creative Commons Attribution License.&lt;br&gt;&lt;br&gt;Please click the 'View Documentation' link to visit Vicki's web site, and to read the licensing terms. By downloading this asset, you confirm that you have read and understood the licensing terms." downloads="3377" reviews="5" comments="1" rating="4.2" depends="" type="actor" date="2012-11-08" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.vickiwenderlich.com/free-art/licensing/" />
+	<resource id="82570" title="Stencyl Book Snake" name="Innes" description="This actor asset was uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;The original artwork is the work of Vicki Wenderlich, who has released it under a Creative Commons Attribution License.&lt;br&gt;&lt;br&gt;Please click the 'View Documentation' link to visit Vicki's web site, and to read the licensing terms. By downloading this asset, you confirm that you have read and understood the licensing terms." downloads="3470" reviews="4" comments="5" rating="4" depends="" type="actor" date="2012-11-08" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.vickiwenderlich.com/free-art/licensing/" />
+	<resource id="82571" title="Stencyl Book Pineapple" name="Innes" description="This actor asset was uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;The original artwork is the work of Vicki Wenderlich, who has released it under a Creative Commons Attribution License.&lt;br&gt;&lt;br&gt;Please click the 'View Documentation' link to visit Vicki's web site, and to read the licensing terms. By downloading this asset, you confirm that you have read and understood the licensing terms." downloads="2537" reviews="2" comments="3" rating="5" depends="" type="actor" date="2012-11-08" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.vickiwenderlich.com/free-art/licensing/" />
+	<resource id="82393" title="Stencyl Book Monkey" name="Innes" description="This actor asset was uploaded by Innes Borkwood for Packt Publishing's book, Learning Stencyl 3.x Game Development: Beginner's Guide.&lt;br&gt;&lt;br&gt;The original artwork is the work of Vicki Wenderlich, who has released it under a Creative Commons Attribution License.&lt;br&gt;&lt;br&gt;Please click the 'View Documentation' link to visit Vicki's web site, and to read the licensing terms. By downloading this asset, you confirm that you have read and understood the licensing terms." downloads="11190" reviews="23" comments="30" rating="3.86957" depends="" type="actor" date="2012-11-07" private="f" featured="1" metadata="" license="0" preview="f" url="http://www.vickiwenderlich.com/free-art/licensing/" />
+</resources>
+[LOG] Download Took 558ms
+[LOG] Total Took 600ms
+[LOG] Download Took 395ms
+[LOG] Download Took 400ms
+[LOG] Download Took 413ms
+[LOG] Download Took 443ms
+[LOG] Download Took 705ms
+[LOG] Download Took 712ms
+[LOG] Download Took 880ms
+[LOG] Download Took 869ms
+[LOG] Download Took 1055ms
+[LOG] Visiting: forge://listing/game/
+[LOG] <resources>
+	<resource id="136872" title="Demo Updated Puzzle" name="Tuo" description="PLEASE NOTE: This demo requires build 7721 or later. If you use an earlier build, it will not work!&lt;br&gt;&lt;br&gt;This demo explains how to use the image API and z-ordering to drastically improve on my earlier jigsaw puzzle. You can now add new puzzle images with minimal effort, and there's now difficulty options. Everything is automated!&lt;br&gt;&lt;br&gt;This demo is also rated at a difficulty level 6 (like the original). The primary difficult areas are the heavy drawing codes (which don't have to be understood to appreciate how the games work), working with a pseudo-2D list, and using the Image API. One of the best features of this demo though is to show you how you can use image instances as basically no-collision actors. Also, the cutting of an actor into pieces is rather cool ;).&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; (or &quot;Demo&quot;) to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="1329" reviews="4" comments="5" rating="4.5" depends="" type="game" date="2014-08-23" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="132220" title="Demo Light Sources with Image API" name="Tuo" description="This demo goes over how to use the Image API to create overlapping light sources. The title scene also shows how to do a basic &quot;scratch off&quot; effect, as well as using images as buttons.&lt;br&gt;&lt;br&gt;There are three types included in this demo:&lt;br&gt;1. Mix of static (non-moving) lights and a moving light&lt;br&gt;2. An interesting method of doing only static images while approximating having a light around the player (hopefully good for non-flash, where method 1 lags)&lt;br&gt;3. Just static light sources.&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; (or &quot;Demo&quot;) to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="1078" reviews="6" comments="7" rating="4.16667" depends="" type="game" date="2014-05-26" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="129744" title="Flappy Bird Arcade" name="ballboff" description="This is just my version of flappy bird.  I used the flappy bird template which you can download from stencyl forge.  I designed it with my arcade machine in mind, so I've tried to give it as much of an arcade feel as possible.  Fly to start/continue.  To fly, press 7,h,9,0,z or x" downloads="11061" reviews="47" comments="27" rating="3.76596" depends="" type="game" date="2014-04-15" private="f" featured="1" metadata="" license="2" preview="t" url="" />
+	<resource id="129318" title="Demo Radial Gravity" name="Tuo" description="This tutorial goes over how to make your own gravity that is centered around a point, like planets in space.&lt;br&gt;&lt;br&gt;There are three types included in this demo:&lt;br&gt;1. &quot;Simple&quot; one-planet gravity&lt;br&gt;2. One-planet with controlled movement around it&lt;br&gt;3. Multiple-planet gravity&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow).&lt;br&gt;&lt;br&gt;For iOS users, the third method may not work properly unless you lower the initial distance (the 9's I put in are too many for the phone to handle). Thanks Sergi for the heads up :)." downloads="1884" reviews="5" comments="5" rating="5" depends="" type="game" date="2014-04-12" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="118488" title="3Dgame" name="NobodyX" description="" downloads="11123" reviews="45" comments="36" rating="4.15556" depends="" type="game" date="2014-01-04" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="104704" title="Demo- Complete Platformer" name="Tuo" description="This tutorial goes over one way to make a platformer from start to finish, including things like wall jumping, various levels, medals, powerups, guns, enemies, adding story elements, swimming levels, boss AI, scrolling credits, fireworks, and yeah, a lot more... it is indeed a complete game&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="6145" reviews="16" comments="16" rating="4.875" depends="" type="game" date="2013-11-30" private="f" featured="1" metadata="" license="2" preview="t" url="" />
+	<resource id="116177" title="Sudoku" name="Justin" description="Play Sudoku, a Japanese number game." downloads="1535" reviews="9" comments="7" rating="4.44444" depends="" type="game" date="2013-11-30" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+	<resource id="103050" title="Demo- Simple Platformer" name="Tuo" description="This short demo goes over the basics of making a platformer. It's very bare-bones, but it should help new Stencylers get used to the ideas of coding.&lt;br&gt;&lt;br&gt;This is a level 1 demo, meaning it is actually intended for those brand new to Stencyl (or for anyone who wants to brush up on the basics). I tried to comment on everything I did, including notes for non-coding changes I made (which I kept to the minimum possible).&lt;br&gt;&lt;br&gt;Primary Features:&lt;br&gt;1. Making a basic platformer movement code.&lt;br&gt;2. Making a basic back-and-forth enemy actor.&lt;br&gt;3. Handling large scenes and reloading upon leaving the screen.&lt;br&gt;4. Basic stomp feature for enemies.&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="7228" reviews="16" comments="9" rating="4.375" depends="" type="game" date="2013-06-13" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="102632" title="Demo- Sonic-Style Running" name="Tuo" description="This is a demo to show how to make a game like Sonic, complete with loops and crazy slopes, even running on the ceiling.&lt;br&gt;&lt;br&gt;This is approximately a level 6 demo. The primary reason for the 6 is that everything in the game needs to be done custom... custom tiles, custom collisions, custom gravity, custom friction, tile API, etc. Everything needs to be work at ANY angle, which makes things a bit more challenging. That said, there are a lot of comments, so if you have some Stencyl experience, the programming should make some sense.&lt;br&gt;&lt;br&gt;Primary Features:&lt;br&gt;1. Using the tile API to change tiles on the fly.&lt;br&gt;2. Using sensor objects to trigger events based on position.&lt;br&gt;3. Creating a custom gravity based on the direction of the player.&lt;br&gt;4. Creating a custom friction based on the location of the player.&lt;br&gt;5. Detecting when a collision is NOT happening.&lt;br&gt;6. Seeing the use of custom collisions (both actor and tile) [I couldn't really comment on HOW to do the custom collision. If you want a demonstration, feel free to come to my stream (livestream.com/stencyl).]&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="3592" reviews="8" comments="5" rating="4.5" depends="" type="game" date="2013-06-11" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="102190" title="Demo- Miner" name="Tuo" description="This demo covers how to use the Tile API Extension in order to make a massive mining game, where you can uncover items beneath the tiles.&lt;br&gt;&lt;br&gt;There are two versions included:&lt;br&gt;The &quot;Simpler Version&quot; is focused on just the tile API. The division parts might be a bit tough, but that's the biggest difficulty I see. That one is level 4.&lt;br&gt;The &quot;Full Version&quot; adds a psuedo 2D list (where the rows wrap around) for much more control over the coins that show up). I estimate that version to be level 6.&lt;br&gt;&lt;br&gt;Primary Features:&lt;br&gt;1. Using the Tile API extension&lt;br&gt;2. Creating a game in which tiles can be used dynamically&lt;br&gt;3. Simple cool coin disappearing effects&lt;br&gt;4. Using a pseudo 2D list via wrapping around&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="3094" reviews="6" comments="4" rating="4.33333" depends="" type="game" date="2013-06-08" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="102056" title="Demo- Infinite Space Shooter" name="Tuo" description="This demo is designed to teach you how to create a seemingly infinite space shooter using some creative warp coding.&lt;br&gt;&lt;br&gt;This is a level 6 demo, meaning it's for intermediate Stencylers. I don't think anything on its own is overly difficult, but there are a lot of concepts to grasp which are not necessarily &quot;normal&quot;, such as warping based on the camera instead of based on the player.&lt;br&gt;&lt;br&gt;Primary Features:&lt;br&gt;1. Almost seamless warping to create an infinite space feeling.&lt;br&gt;2. Creating temporary power-ups (with a bar to show how much time is left).&lt;br&gt;3. Creating an autofire that can be toggled on/off.&lt;br&gt;4. Basic shop &amp; money structure&lt;br&gt;5. Actorless buttons&lt;br&gt;6. Simple coin magnet effect&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="3344" reviews="11" comments="4" rating="4.54545" depends="" type="game" date="2013-06-05" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="101321" title="Demo- Truly Infinite Platformer" name="Tuo" description="This demo goes over how to make a platformer that actually goes on forever, no limits whatsoever.&lt;br&gt;&lt;br&gt;This is a level 6 demo, meaning it's for Stencylers who are already familiar with the basics. The primary challenges come from thinking of movement in reverse and the coding to constantly kill and create actors based on their locations.&lt;br&gt;&lt;br&gt;Primary Features:&lt;br&gt;1. How to move actors around the player instead of the player to simulate movement.&lt;br&gt;2. How to constantly kill and create actors in two dimensions so that there is always more level to play.&lt;br&gt;3. How to make a health system such that the first landing on a platforms heals but does not heal continuously.&lt;br&gt;4. How to make a custom gravity instead of relying on forces.&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="3176" reviews="4" comments="2" rating="4.5" depends="" type="game" date="2013-05-30" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="101030" title="Demo- Dress Up Game" name="Tuo" description="This demo goes over how to make a drag-and-drop dress up game, one in which the player can move around with the clothing. It can be expanded upon for use as an inventory system in a game with removable armor, weapons, etc.&lt;br&gt;&lt;br&gt;This is a level 7 difficulty, meaning it is not for newcomers, but those who have some knowledge of Stencyl should be able to understand (although it might be challenging). Most of the challenge comes from the strong use of lists.&lt;br&gt;&lt;br&gt;Primary Features:&lt;br&gt;1. Using lists to manipulate and store actors.&lt;br&gt;2. Having one actor move other actors with it.&lt;br&gt;3. Drag-and-drop methodology&lt;br&gt;4. Managing multiple animations which change with the direction of the actor&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="2041" reviews="4" comments="9" rating="5" depends="" type="game" date="2013-05-27" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="101059" title="Demo- Infinite Platformer" name="Tuo" description="This demo goes over how to make an infinite platformer that scrolls vertically.&lt;br&gt;&lt;br&gt;It is a level 3 difficulty, meaning that it is even suited for those who are just starting with Stencyl (although it might be a bit challenging if this is the first thing you try to learn).&lt;br&gt;&lt;br&gt;Primary Features:&lt;br&gt;1. Using a game attribute to control several things at once.&lt;br&gt;2. Simulating truly infinite game.&lt;br&gt;3. Scaling difficulty over time.&lt;br&gt;4. Keeping the player in-bounds horizontally while letting it travel further vertically.&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="3745" reviews="9" comments="9" rating="4.33333" depends="" type="game" date="2013-05-27" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="101031" title="Demo- Explosions" name="Tuo" description="This is a short demo to show how to make rather realistic explosions based on where the mouse was pressed.&lt;br&gt;&lt;br&gt;This is a level 3 demo; the only real area I could see being tricky is the mathematics for the forces, but those are well-commented. The coding part is hopefully rather straightforward.&lt;br&gt;&lt;br&gt;Primary Features:&lt;br&gt;1. Making explosions (with a particle effect).&lt;br&gt;2. Having forces cause nearby actors to move away from the impact point.&lt;br&gt;3. Using an actor count attribute (including for killing off screen).&lt;br&gt;4. Having fun blowing crates up :P.&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="2195" reviews="8" comments="6" rating="4.625" depends="" type="game" date="2013-05-26" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="101049" title="Demo- Infinite Climb" name="Tuo" description="This demo goes over how to make an infinite platformer that scrolls vertically.&lt;br&gt;&lt;br&gt;It is a level 3 difficulty, meaning that it is even suited for those who are just starting with Stencyl (although it might be a bit challenging if this is the first thing you try to learn).&lt;br&gt;&lt;br&gt;NOTE: This contains two demos in one. There are multiple ways to make an infinite climbing platformer, and this goes over two of them. The &quot;OldLevel&quot; and &quot;OldPlatform&quot; use my methods from the 2.2 StencylForge demo. I simplified the coding for newcomers in the &quot;NewLevel&quot; and &quot;NewPlatform&quot;. Both demos use the same player actor though.&lt;br&gt;&lt;br&gt;Primary Features:&lt;br&gt;New Method:&lt;br&gt;     1. Using a game attribute to control several things at once.&lt;br&gt;     2. Using an actor attribute to create a simple infinite creation system.&lt;br&gt;Old Method:&lt;br&gt;     1. Using custom blocks to set an attribute.&lt;br&gt;     2. Using custom events as custom time loops.&lt;br&gt;      3. Setting attributes for multiple actors at once.&lt;br&gt;Both Methods:&lt;br&gt;      1. Making a truly infinite game.&lt;br&gt;     2. Scaling difficulty over time.&lt;br&gt;     3. Wrap-around player coding.&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="2981" reviews="3" comments="2" rating="5" depends="" type="game" date="2013-05-26" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="101027" title="Demo- Actorless Card Duel" name="Tuo" description="This demo goes over how to make a card battle game, one that doesn't use any actors.&lt;br&gt;&lt;br&gt;This is a level 9 demo; it is only for those who already have at least moderate skill with Stencyl. There is a heavy emphasis on lists, drawing codes, and manipulations.&lt;br&gt;&lt;br&gt;Primary Features:&lt;br&gt;1. Using drawing codes to their utmost potential (since there are no actors).&lt;br&gt;2. Decent AI system.&lt;br&gt;3. Actorless buttons.&lt;br&gt;4. Using lists.&lt;br&gt;5. Text manipulation coding.&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="2327" reviews="5" comments="2" rating="5" depends="" type="game" date="2013-05-25" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="100578" title="Demo- Upgradable Shooter" name="Tuo" description="This demo goes over how to make a jigsaq puzzle game.&lt;br&gt;&lt;br&gt;This is a level 5 demo, meaning that some parts might be difficult for new Stencylers, but shouldn't be overly difficult to understand at least most of it.&lt;br&gt;&lt;br&gt;Primary Features:&lt;br&gt;1. Three common upgrade button types:&lt;br&gt;   A.) Individual buttons&lt;br&gt;   B.) One button that can be used many times (a constant increase)&lt;br&gt;   C.) Bar style&lt;br&gt;2. Wrap-around movement&lt;br&gt;3. Disappearing coins (and just a money system in general)&lt;br&gt;4. Actors that chase the player&lt;br&gt;5. Countdown loading screen&lt;br&gt;6. Simple use of a game attribute list&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="4424" reviews="7" comments="10" rating="4" depends="" type="game" date="2013-05-21" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="99969" title="Demo- Word Search Game" name="Tuo" description="This demo covers how to make a word search game.&lt;br&gt;&lt;br&gt;This is a level 8 demo, meaning it is going to be more difficult to follow, but I tried to add a lot of comments to make things more clear.&lt;br&gt;&lt;br&gt;Primary Features:&lt;br&gt;1. Using pseudo-2D lists (a wrap-around list)&lt;br&gt;2. Creating actorless buttons&lt;br&gt;3. Learning how to use drawing blocks to their fullest&lt;br&gt;4. Using trigonometry and other math to figure out details.&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="1836" reviews="5" comments="4" rating="4.2" depends="" type="game" date="2013-05-15" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="95609" title="Demo- Jigsaw Puzzle" name="Tuo" description="This demo goes over how to make a jigsaw puzzle game.&lt;br&gt;&lt;br&gt;This is a level 6 demo, meaning that it will be a bit advanced, especially for new Stencyl users.&lt;br&gt;&lt;br&gt;Primary Features:&lt;br&gt;1. Layering actors without using layers (as layers can be laggy).&lt;br&gt;2. Moving actors with the mouse.&lt;br&gt;3. &quot;Snapping&quot; actors into place, and then making them un-clickable.&lt;br&gt;4. Using custom blocks and custom events.&lt;br&gt;5. Center-aligned text&lt;br&gt;&lt;br&gt;Please do not simply use this in your game. My goal in creating it is to show others HOW to make things themselves. God blessed me with a brain for programming, so I am trying to use it to bless others.&lt;br&gt;&lt;br&gt;If you have a question, please visit my livestream (livestream.com/stencyl). If I am on my computer, I am on there, so it's the best way to get your questions answered.&lt;br&gt;&lt;br&gt;Please note that this is just one of many &quot;Demo-&quot; games I have in the Forge. Just search for &quot;Demo-&quot; to find the others too. :)&lt;br&gt;&lt;br&gt;IF THE GAME DOES NOT WORK, try &quot;Run -&gt; Clean Project&quot; (It fixes random download issues somehow)." downloads="1700" reviews="6" comments="6" rating="4.83333" depends="" type="game" date="2013-03-29" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="91363" title="Multiple Light Sources" name="Vektro" description="A demo on how to make Multiple Light Sources on a game.&lt;br&gt;&lt;br&gt;Credit 100% to Rob.&lt;br&gt;&lt;br&gt;If anyone finds out how to negate the additive effect that occurs when multiple light sources overlap, let me know in the comments.&lt;br&gt;&lt;br&gt;Hope this helps someone out there ^^" downloads="2905" reviews="9" comments="9" rating="3.11111" depends="" type="game" date="2013-02-09" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+</resources>
+[LOG] Download Took 759ms
+[LOG] Total Took 820ms
+[LOG] Download Took 405ms
+[LOG] Download Took 432ms
+[LOG] Download Took 445ms
+[LOG] Download Took 543ms
+[LOG] Download Took 719ms
+[LOG] Download Took 765ms
+[LOG] Download Took 889ms
+[LOG] Visiting: forge://listing/kit/
+[LOG] Download Took 1110ms
+[LOG] Download Took 1096ms
+[LOG] <resources>
+	<resource id="88103" title="Basic Match 3 Kit" name="rob1221" description="This is for making a match 3 game similar to Bejeweled.&lt;p&gt;&lt;p&gt;Mar 16, 2014: Updated to OpenFL version.&lt;p&gt;Jan 31, 2013: Matches no longer occur immediately upon starting.&lt;p&gt;Feb 22, 2013: Fixed an animation bug." downloads="3771" reviews="15" comments="8" rating="4.06667" depends="" type="kit" date="2014-03-16" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="80581" title="Snake Kit" name="Sunflower" description="" downloads="6353" reviews="8" comments="19" rating="3.25" depends="" type="kit" date="2012-10-21" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+</resources>
+[LOG] Download Took 409ms
+[LOG] Total Took 457ms
+[LOG] Download Took 363ms
+[LOG] Download Took 358ms
+[LOG] Activated: Welcome Center
+[LOG] Loading scene-specific snippet. SceneID: 0
+[LOG] Initializing... 113 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 98 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 100 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 40 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 36 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 34 : 
+[LOG] Missing: [MISSING]
+[LOG] Initializing... 28 : 6Ball1
+[LOG] Initializing... 27 : 6Ball1
+[LOG] Initializing... 30 : 6Ball2
+[LOG] Initializing... 29 : 6Ball2
+[LOG] Initializing... 31 : AddNode
+[LOG] Missing: add node ( x: %1 y: %2 ) to path for %0
+[LOG] Initializing... 32 : AddNodeWithCustomSpeed
+[LOG] Missing: add node ( x: %1 y: %2 ) with speed %3 to path for %0
+[LOG] Initializing... 96 : ApplyDamage
+[LOG] Missing: Apply %1 Damage to Actor %2
+[LOG] Initializing... 68 : ApplyDamage
+[LOG] Missing: Apply %1 Damage to Actor %2
+[LOG] Initializing... 54 : ApplyDamage
+[LOG] Missing: Apply %1 Damage to Actor %2
+[LOG] Initializing... 26 : Bullet
+[LOG] Initializing... 33 : ClearPath
+[LOG] Missing: clear path for %0
+[LOG] Initializing... 83 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 75 : damage
+[LOG] Missing: inflict %1 damage on %0
+[LOG] Initializing... 55 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 41 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 21 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 11 : Damage
+[LOG] Missing: Damage %0 By %1
+[LOG] Initializing... 93 : DecrementLives
+[LOG] Missing: Remove %1 Lives from %0
+[LOG] Initializing... 65 : DecrementLives
+[LOG] Missing: Remove %1 Lives from %0
+[LOG] Initializing... 51 : DecrementLives
+[LOG] Missing: Remove %1 Lives from %0
+[LOG] Initializing... 25 : Enemy Bullet
+[LOG] Initializing... 39 : eucledianDistance
+[LOG] Missing: eucledianDistance
+[LOG] Initializing... 116 : explosion
+[LOG] Initializing... 117 : explosion
+[LOG] Initializing... 95 : Flicker
+[LOG] Missing: Flicker Image for %0
+[LOG] Initializing... 67 : Flicker
+[LOG] Missing: Flicker Image for %0
+[LOG] Initializing... 53 : Flicker
+[LOG] Missing: Flicker Image for %0
+[LOG] Initializing... 84 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 56 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 42 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 19 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 9 : FullRestore
+[LOG] Missing: Restore %0 To Full Health
+[LOG] Initializing... 91 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 63 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 49 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 24 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 14 : GetCurrentHealth
+[LOG] Missing: Current Health for %0
+[LOG] Initializing... 70 : getHealth
+[LOG] Missing: get health for %0
+[LOG] Initializing... 87 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 59 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 45 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 22 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 12 : GetInvincibility
+[LOG] Missing: %0 Is Invincible?
+[LOG] Initializing... 90 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 62 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 48 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 23 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 13 : GetMaxHealth
+[LOG] Missing: Maximum Health For %0
+[LOG] Initializing... 92 : GetRemainingLives
+[LOG] Missing: Remaining Lives for %0
+[LOG] Initializing... 64 : GetRemainingLives
+[LOG] Missing: Remaining Lives for %0
+[LOG] Initializing... 50 : GetRemainingLives
+[LOG] Missing: Remaining Lives for %0
+[LOG] Initializing... 4 : Grass Land Tileset
+[LOG] Initializing... 85 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 72 : heal
+[LOG] Missing: heal %0 by %1 health
+[LOG] Initializing... 57 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 43 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 20 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 10 : Heal
+[LOG] Missing: Heal %0 By %1
+[LOG] Initializing... 94 : IncrementLives
+[LOG] Missing: Add %1 Lives to %0
+[LOG] Initializing... 66 : IncrementLives
+[LOG] Missing: Add %1 Lives to %0
+[LOG] Initializing... 52 : IncrementLives
+[LOG] Missing: Add %1 Lives to %0
+[LOG] Initializing... 37 : isWithinRange
+[LOG] Missing: withinRange
+[LOG] Initializing... 6 : Jump
+[LOG] Initializing... 71 : makeInvincible
+[LOG] Missing: make %0 invincible
+[LOG] Initializing... 73 : makeVulnerable
+[LOG] Missing: make %0 not invincible
+[LOG] Initializing... 1 : Mambo
+[LOG] Initializing... 0 : Mambo
+[LOG] Initializing... 80 : oneUp
+[LOG] Initializing... 81 : oneUp
+[LOG] Initializing... 108 : PlayerLives
+[LOG] Missing: increment life of %0
+[LOG] Initializing... 97 : PlayerLives
+[LOG] Missing: playerLives
+[LOG] Initializing... 112 : plungerAttack
+[LOG] Initializing... 111 : plungerAttack
+[LOG] Initializing... 16 : Polska
+[LOG] Initializing... 15 : Polska
+[LOG] Initializing... 114 : PolskaDeath
+[LOG] Initializing... 115 : PolskaDeath
+[LOG] Initializing... 3 : Pronger
+[LOG] Initializing... 2 : Pronger
+[LOG] Initializing... 109 : recover
+[LOG] Initializing... 110 : recover
+[LOG] Initializing... 74 : restore
+[LOG] Missing: restore %0 to max health
+[LOG] Initializing... 88 : SetCanDamage
+[LOG] Missing: Set %0 Can Be Damaged to %1
+[LOG] Initializing... 60 : SetCanDamage
+[LOG] Missing: Set %0 Can Be Damaged to %1
+[LOG] Initializing... 46 : SetCanDamage
+[LOG] Missing: Set %0 Can Be Damaged to %1
+[LOG] Initializing... 89 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 69 : setHealth
+[LOG] Missing: set health for %0 to %1
+[LOG] Initializing... 61 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 47 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 18 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 8 : SetHealth
+[LOG] Missing: Set Health For %0 To %1
+[LOG] Initializing... 86 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 58 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 44 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 17 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 7 : SetInvincibility
+[LOG] Missing: Set Invincibility For %0 to %1
+[LOG] Initializing... 5 : Stomp
+[LOG] Loading Sound 5
+[LOG] Loading Sound 6
+[LOG] Activated: StencylForge
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Activated: Dashboard
+[ERR] Could not delete file: C:\Users\dustin\AppData\Local\Temp\stencyl2925279459821230769\sandbox\build\code
+[LOG] Reading header for Scene: 0 ()
+[LOG] From: scenes\0.xml
+[LOG] Took 2742ms
+[LOG] Activated: StencylForge
+[LOG] Visiting: forge://listing/kit/
+[LOG] Activated: Dashboard
+[LOG] Missing: in.joystick.dir
+[LOG] Missing: in.joystick.mag
+[LOG] Missing: sactor.ispaused
+[LOG] Missing: adv.isiphoneipad
+[LOG] Missing: get %0 coordinate of %1 in scene
+[LOG] Missing: set tile at row: %0 col: %1 layerID: %2 using tileID: %4 from tilesetID: %3
+[LOG] Missing: tile exists at row: %0 col: %1 layerID: %2
+[LOG] Missing: ID for tile at row: %0 col: %1 layerID: %2
+[LOG] Missing: tile collision shape found at row: %0 col: %1 layerID: %2
+[LOG] Missing: collision ID for tile at row: %0 col: %1 layerID: %2
+[LOG] Missing: ID for tile's tileset at row: %0 col: %1 layerID: %2
+[LOG] Missing: remove tile at row: %0 col: %1 layerID: %2
+[LOG] <resources>
+	<resource id="88103" title="Basic Match 3 Kit" name="rob1221" description="This is for making a match 3 game similar to Bejeweled.&lt;p&gt;&lt;p&gt;Mar 16, 2014: Updated to OpenFL version.&lt;p&gt;Jan 31, 2013: Matches no longer occur immediately upon starting.&lt;p&gt;Feb 22, 2013: Fixed an animation bug." downloads="3771" reviews="15" comments="8" rating="4.06667" depends="" type="kit" date="2014-03-16" private="f" featured="1" metadata="" license="0" preview="t" url="" />
+	<resource id="80581" title="Snake Kit" name="Sunflower" description="" downloads="6353" reviews="8" comments="19" rating="3.25" depends="" type="kit" date="2012-10-21" private="f" featured="1" metadata="" license="1" preview="t" url="" />
+</resources>
+[LOG] Download Took 402ms
+[LOG] Loading attribute into tree: PlayerLives
+[LOG] Loading attribute into tree: Players
+[LOG] Loading attribute into tree: Tiles
+[LOG] Loading attribute into tree: Doodads
+[LOG] Loading attribute into tree: Actors
+[LOG] Loading attribute into tree: Enemies
+[LOG] Loading attribute into tree: enemyBullets
+[LOG] Loading attribute into tree: powerUps
+[LOG] Loading attribute into tree: enemyBullet
+[LOG] Loading attribute into tree: playerBullets
+[LOG] Loading attribute into tree: Regions
+[LOG] Device OS: 4.3
+[LOG] Simulator OS: 4.3
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\15@1.5x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\15@2x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\15@4x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@1.5x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@2x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\4@4x.png
+[LOG] Could not parse: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml.bak
+[LOG] Total Took 4129ms
+[LOG] Attempting to quit out of Stencyl.
+[LOG] Save in place.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\game.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\game.xml.bak
+[LOG] Writing out local resources.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\resources\data.xml.bak
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark tileset as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[ERR] Not a list. Moving on... (ActorTypeWriter:writeSnippet)
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Mark actor's sprite as clean (disk).
+[LOG] Writing out scenes.
+[LOG] Copying over snippets.
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\list.xml to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\list.xml.bak
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_0_0_StomponEnemies.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_0_0_StomponEnemies.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_1_1_Stompable.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_1_1_Stompable.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_3_3_DieinPitandReload.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_3_3_DieinPitandReload.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_0.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_0.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_2.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_2.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\SceneEvents_0.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\SceneEvents_0.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_15.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_15.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_9_9_SmoothCamera.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_9_9_SmoothCamera.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_10_10_DieOnCollisionWithActorType.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_10_10_DieOnCollisionWithActorType.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_11_11_FollowTarget.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_11_11_FollowTarget.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_12_12_FaceTarget.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_12_12_FaceTarget.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_13_13_EnemyWalkingAI.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_13_13_EnemyWalkingAI.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_14_14_ReloadSceneOnDeath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_14_14_ReloadSceneOnDeath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_15_15_HealthManager.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_15_15_HealthManager.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_17_17_Walking.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_17_17_Walking.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_19_19_Jump.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_19_19_Jump.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_18_18_Jumping.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_18_18_Jumping.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_21_21_SwitchSceneonEnterRegion.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_21_21_SwitchSceneonEnterRegion.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_20_20_JumpandRunMovement.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_20_20_JumpandRunMovement.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_23_23_MoveToNextScene.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_23_23_MoveToNextScene.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_22_22_SwitchScenesWhenActorsareGone.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_22_22_SwitchScenesWhenActorsareGone.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_25_25_AlwaysSimulate.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_25_25_AlwaysSimulate.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_24_24_RandomWalkingAI.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_24_24_RandomWalkingAI.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_25.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_25.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_26_26_enemyShoot.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_26_26_enemyShoot.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_29_29_DieOnCollision.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_29_29_DieOnCollision.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_28_28_FiringLoop.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_28_28_FiringLoop.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_31_31_DieOnLeavingScreen.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_31_31_DieOnLeavingScreen.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_30_30_FireBullet.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_30_30_FireBullet.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_34_34_FollowPath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_34_34_FollowPath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_35_35_BackandForthHorizontally.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_35_35_BackandForthHorizontally.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_27.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_27.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_29.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_29.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_40_40_EnemyPatrol.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_40_40_EnemyPatrol.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_37_37_PatrolRightLeft.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_37_37_PatrolRightLeft.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_42_42_WaveMotion.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_42_42_WaveMotion.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_43_43_2WayVerticalMovement.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_43_43_2WayVerticalMovement.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_40_40_DetectPlayer.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_40_40_DetectPlayer.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_41_41.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_41_41.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_46_46_ShowHealthBar.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_46_46_ShowHealthBar.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_47_47_InflictsDamage.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_47_47_InflictsDamage.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_44_44_EnemyJump.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_44_44_EnemyJump.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_45_45_BounceWithFullSpeed.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_45_45_BounceWithFullSpeed.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_51_51_ExplodeOnDeath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_51_51_ExplodeOnDeath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_50_50_SpawnActoruponDeath.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_50_50_SpawnActoruponDeath.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_49_49_FlickerwhenHit.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_49_49_FlickerwhenHit.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_48_48_Health.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_48_48_Health.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_56_56_InvincibilityManager.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_56_56_InvincibilityManager.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_80.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_80.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_52_52_drawlives.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_52_52_drawlives.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_58_58_ShootAroundtheClock.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_58_58_ShootAroundtheClock.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_111.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_111.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_109.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_109.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_114.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_114.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_63_63_FlickerOnCollisionwithEnemies.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_63_63_FlickerOnCollisionwithEnemies.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_61_61_FlickerOnCollision.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_61_61_FlickerOnCollision.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\Design_60_60_FireBulletV2.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\Design_60_60_FireBulletV2.design
+[LOG] Copy file from: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\snippets\ActorEvents_116.design to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\preview\scripts\ActorEvents_116.design
+[LOG] Saving block favorites.
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\games\ProjectPolska\favorites.xml
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\prefs\favorites.xml
+[LOG] Write String out as file to: D:\Zil Docs\projects\stencylprojects\stencylworks\stencylworks\prefs\picker-favorites.xml
+[LOG] Done writing game.
+[LOG] Destroying extensions.
+[LOG] Destroying Temporary Sandbox.
+[LOG] Performing final close.
+[LOG] Exiting...

@@ -35,7 +35,7 @@ class MyAssets implements AssetLoader
 	public static var newgroundsKey:String = "";
 	
 	//Other
-	public static var releaseMode:Bool = false;
+	public static var releaseMode:Bool = true;
 	public static var showConsole:Bool = false;
 	public static var debugDraw:Bool = false;
 	public static var always1x:Bool = false;
@@ -119,9 +119,12 @@ i++;
 	public function loadScenes(scenesXML:Map<Int,String>):Void
 	{
 		var i = 0;
-		var increment = 10.0 / Math.max(1, 1);
+		var increment = 10.0 / Math.max(1, 2);
 		
 		scenesXML.set(0, "My First Scene");
+
+com.stencyl.Data.instance.updatePreloader(90 + Std.int(increment * i));
+i++;scenesXML.set(1, "Td defense scene");
 
 com.stencyl.Data.instance.updatePreloader(90 + Std.int(increment * i));
 i++;
